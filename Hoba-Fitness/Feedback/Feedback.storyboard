@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="D1I-4r-Btd">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--FeedbackVC-->
+        <scene sceneID="GTM-wx-KmO">
+            <objects>
+                <viewController storyboardIdentifier="Feedback" modalTransitionStyle="crossDissolve" id="D1I-4r-Btd" customClass="FeedbackVC" customModule="Hoba_Fitness" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="LRl-a7-bKC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3uu-08-pBT">
+                                <rect key="frame" x="16" y="496" width="288" height="40"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="CM7-bp-Ee6"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="15"/>
+                                <state key="normal" title="Отправить отзыв">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="4"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="2"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" red="0.21960784310000001" green="0.20784313730000001" blue="0.21176470589999999" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="sendFeedback:" destination="D1I-4r-Btd" eventType="touchUpInside" id="wiC-Jf-OH8"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="iconFeedback" translatesAutoresizingMaskIntoConstraints="NO" id="pnr-2S-yet">
+                                <rect key="frame" x="130" y="52" width="60" height="60"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="60" id="CWx-u0-7N0"/>
+                                    <constraint firstAttribute="height" constant="60" id="gQw-4v-ggq"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Поздравляем с успешным завершением тренировки" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hME-bI-RYk">
+                                <rect key="frame" x="32" y="128" width="256" height="45.5"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="19"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Оцените зал" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HEC-Ye-7Mq">
+                                <rect key="frame" x="32" y="277.5" width="256" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="UfR-wx-s3R" customClass="CosmosView" customModule="Cosmos">
+                                <rect key="frame" x="70" y="306.5" width="180" height="32"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="starSize">
+                                        <real key="value" value="32"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="totalStars">
+                                        <integer key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="rating">
+                                        <real key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="MJX-96-Jmt">
+                                <rect key="frame" x="16" y="346.5" width="288" height="133.5"/>
+                                <color key="backgroundColor" red="0.21960784310000001" green="0.20784313730000001" blue="0.21176470589999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="4"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h4t-2y-B8Z">
+                                <rect key="frame" x="16" y="205.5" width="288" height="40"/>
+                                <color key="backgroundColor" red="0.57378596069999999" green="0.72514015440000001" blue="0.02839136682" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="1Yi-Xr-8PX"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="15"/>
+                                <state key="normal" title="Забронировать следующую">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="4"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="bookNext:" destination="D1I-4r-Btd" eventType="touchUpInside" id="Bhh-SX-Vof"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.094117647060000004" green="0.08235294118" blue="0.086274509799999996" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="Ttq-Zu-8dy" firstAttribute="trailing" secondItem="HEC-Ye-7Mq" secondAttribute="trailing" constant="32" id="2V9-rE-404"/>
+                            <constraint firstItem="3uu-08-pBT" firstAttribute="top" secondItem="MJX-96-Jmt" secondAttribute="bottom" constant="16" id="951-0V-FDK"/>
+                            <constraint firstItem="hME-bI-RYk" firstAttribute="leading" secondItem="Ttq-Zu-8dy" secondAttribute="leading" constant="32" id="AzT-ES-LNK"/>
+                            <constraint firstItem="3uu-08-pBT" firstAttribute="leading" secondItem="Ttq-Zu-8dy" secondAttribute="leading" constant="16" id="MEc-ik-Ihm"/>
+                            <constraint firstItem="UfR-wx-s3R" firstAttribute="centerX" secondItem="LRl-a7-bKC" secondAttribute="centerX" id="Qwv-xV-xgY"/>
+                            <constraint firstItem="MJX-96-Jmt" firstAttribute="top" secondItem="UfR-wx-s3R" secondAttribute="bottom" constant="8" id="UfZ-Si-O9c"/>
+                            <constraint firstItem="pnr-2S-yet" firstAttribute="centerX" secondItem="LRl-a7-bKC" secondAttribute="centerX" id="bsO-tu-D8X"/>
+                            <constraint firstItem="h4t-2y-B8Z" firstAttribute="top" secondItem="hME-bI-RYk" secondAttribute="bottom" constant="32" id="d0C-sW-Hgi"/>
+                            <constraint firstItem="Ttq-Zu-8dy" firstAttribute="bottom" secondItem="3uu-08-pBT" secondAttribute="bottom" constant="32" id="eSf-1k-kqN"/>
+                            <constraint firstAttribute="trailing" secondItem="3uu-08-pBT" secondAttribute="trailing" constant="16" id="gBb-dt-cKI"/>
+                            <constraint firstItem="Ttq-Zu-8dy" firstAttribute="trailing" secondItem="MJX-96-Jmt" secondAttribute="trailing" constant="16" id="gaa-vn-vDU"/>
+                            <constraint firstItem="HEC-Ye-7Mq" firstAttribute="leading" secondItem="Ttq-Zu-8dy" secondAttribute="leading" constant="32" id="jFo-Ac-rg5"/>
+                            <constraint firstItem="HEC-Ye-7Mq" firstAttribute="top" secondItem="h4t-2y-B8Z" secondAttribute="bottom" constant="32" id="jTA-IR-uP2"/>
+                            <constraint firstItem="pnr-2S-yet" firstAttribute="top" secondItem="Ttq-Zu-8dy" secondAttribute="top" constant="32" id="l0A-wL-5SD"/>
+                            <constraint firstItem="h4t-2y-B8Z" firstAttribute="leading" secondItem="Ttq-Zu-8dy" secondAttribute="leading" constant="16" id="sMH-4L-aOa"/>
+                            <constraint firstItem="Ttq-Zu-8dy" firstAttribute="trailing" secondItem="hME-bI-RYk" secondAttribute="trailing" constant="32" id="tAT-R3-hJO"/>
+                            <constraint firstItem="MJX-96-Jmt" firstAttribute="leading" secondItem="Ttq-Zu-8dy" secondAttribute="leading" constant="16" id="v4o-Ih-UzM"/>
+                            <constraint firstItem="UfR-wx-s3R" firstAttribute="top" secondItem="HEC-Ye-7Mq" secondAttribute="bottom" constant="8" id="yhp-KI-igg"/>
+                            <constraint firstItem="hME-bI-RYk" firstAttribute="top" secondItem="pnr-2S-yet" secondAttribute="bottom" constant="16" id="ylN-To-sV2"/>
+                            <constraint firstItem="Ttq-Zu-8dy" firstAttribute="trailing" secondItem="h4t-2y-B8Z" secondAttribute="trailing" constant="16" id="zAm-nF-2MF"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Ttq-Zu-8dy"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Yac-AC-YE2"/>
+                    <connections>
+                        <outlet property="review" destination="MJX-96-Jmt" id="MAj-tO-nt4"/>
+                        <outlet property="stars" destination="UfR-wx-s3R" id="Gw3-YR-Bea"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2AW-zd-qUR" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1340.625" y="-1.056338028169014"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="iconFeedback" width="80" height="80"/>
+    </resources>
+</document>

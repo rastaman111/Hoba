@@ -1,0 +1,573 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.3 (swiftlang-1200.0.29.2 clang-1200.0.30.1)
+// swift-module-flags: -target i386-apple-ios10.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name MoneyAuth
+import AdSupport
+import CommonCrypto
+import Compression
+import CoreGraphics
+import Darwin
+import Dispatch
+import Foundation
+import FunctionalSwift
+@_exported import MoneyAuth
+import UIKit.NSLayoutConstraint
+import QuartzCore
+import SafariServices
+import Swift
+import ThreatMetrixAdapter
+import UIKit.UIColor
+import UIKit.UIImage
+import UIKit
+import UIKit.UIPresentationController
+import UIKit.UIResponder
+import UIKit.UITableView
+import UIKit.UITableViewCell
+import UIKit.UITableViewHeaderFooterView
+import UIKit.UIView
+import UIKit.UIViewController
+import WebKit.WKNavigationDelegate
+import WebKit.WKUIDelegate
+import WebKit.WKWebView
+import WebKit
+import YooMoneyCoreApi
+import os
+public enum UnauthorizedError {
+  case invalidCredentials
+  case invalidSignature
+  case invalidToken
+  public static func == (a: MoneyAuth.UnauthorizedError, b: MoneyAuth.UnauthorizedError) -> Swift.Bool
+  public var hashValue: Swift.Int {
+    get
+  }
+  public func hash(into hasher: inout Swift.Hasher)
+}
+extension UnauthorizedError {
+  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: Swift.Encoder) throws
+}
+extension UIButton {
+  @objc override dynamic open func traitCollectionDidChange(_ previousTraitCollection: UIKit.UITraitCollection?)
+}
+extension UIButton {
+  @objc override dynamic open var intrinsicContentSize: CoreGraphics.CGSize {
+    @objc get
+  }
+}
+public enum SigninQrAssembly {
+  public static func makeModule(inputData: MoneyAuth.SigninQrModuleInputData, output: MoneyAuth.SigninQrModuleOutput?) -> UIKit.UIViewController
+}
+public enum InstallationIdServiceFactory {
+  public static func makeService(config: MoneyAuth.Config) -> MoneyAuth.InstallationIdService
+}
+public typealias AuthenticationChallengeHandler = ((Foundation.URLAuthenticationChallenge, @escaping (Foundation.URLSession.AuthChallengeDisposition, Foundation.URLCredential?) -> Swift.Void) -> Swift.Void)
+public struct Config {
+  public init(origin: MoneyAuth.Origin, clientId: Swift.String, clientSecret: Foundation.Data? = nil, host: Swift.String, isDevHost: Swift.Bool = false, applicationUserAgent: Swift.String? = nil, loggingEnabled: Swift.Bool = false, authenticationChallengeHandler: MoneyAuth.AuthenticationChallengeHandler? = nil, yxOauthClientId: Swift.String? = nil, supportEmail: Swift.String, supportPhone: Swift.String, supportHelpUrl: Foundation.URL, prefilledParameters: MoneyAuth.Config.PrefilledParameters? = nil, eventTracker: MoneyAuth.EventTracker? = nil, isSignInWithAppleAllowed: Swift.Bool = false, isSignInWithSberAllowed: Swift.Bool = false, requestEmailIfAbsent: Swift.Bool = false, urlScheme: Swift.String? = nil)
+}
+extension Config {
+  public struct PrefilledParameters {
+    public let email: Swift.String?
+    public let phone: MoneyAuth.Config.PrefilledPhone?
+    public init(email: Swift.String?, phone: MoneyAuth.Config.PrefilledPhone?)
+  }
+}
+extension Config {
+  public struct PrefilledPhone {
+    public let number: Swift.String
+    public let countryCode: Swift.String
+    public let editable: Swift.Bool
+    public init(number: Swift.String, countryCode: Swift.String, editable: Swift.Bool)
+  }
+}
+public protocol ChangePhoneCoordinatorDelegate : AnyObject {
+  func changePhoneCoordinatorDidCancel(_ coordinator: MoneyAuth.ChangePhoneCoordinator)
+  func changePhoneCoordinatorDidPrepareProcess(_ coordinator: MoneyAuth.ChangePhoneCoordinator)
+  func changePhoneCoordinator(_ coordinator: MoneyAuth.ChangePhoneCoordinator, didFailPrepareProcessWithError error: Swift.Error)
+  func changePhoneCoordinator(_ coordinator: MoneyAuth.ChangePhoneCoordinator, didFailureWith error: Swift.Error)
+  func changePhoneCoordinator(_ coordinator: MoneyAuth.ChangePhoneCoordinator, didSuccessWith account: MoneyAuth.UserAccount)
+}
+final public class ChangePhoneCoordinator {
+  @objc deinit
+  final public var delegate: MoneyAuth.ChangePhoneCoordinatorDelegate?
+  public init(config: MoneyAuth.Config, oauthToken: Swift.String, customization: MoneyAuth.Customization, rootController: UIKit.UIViewController)
+  final public func start()
+  final public func prepareProcess()
+}
+public protocol AuxAuthorizationService {
+  func getAuxToken(oauthToken: Swift.String, clientId: Swift.String?, scopes: [Swift.String], completion: @escaping (FunctionalSwift.Result<(accessToken: Swift.String, expireAt: Foundation.Date)>) -> Swift.Void)
+  func getIssueInfo(oauthToken: Swift.String, clientId: Swift.String, scopes: [Swift.String], completion: @escaping (FunctionalSwift.Result<(title: Swift.String, scopes: [MoneyAuth.Scope])>) -> Swift.Void)
+}
+infix operator ?< : DefaultPrecedence
+public enum DeeplinkHandler {
+  public static func application(_ application: UIKit.UIApplication, open url: Foundation.URL, options: [UIKit.UIApplication.OpenURLOptionsKey : Any]) -> Swift.Bool
+}
+public enum CryptogramServiceFactory {
+  public static func makeService(config: MoneyAuth.Config) -> MoneyAuth.CryptogramService
+}
+public enum Origin : Swift.String {
+  case wallet
+  case checkout
+  case corporateBanking
+  public typealias RawValue = Swift.String
+  public init?(rawValue: Swift.String)
+  public var rawValue: Swift.String {
+    get
+  }
+}
+extension Origin : Swift.Codable {
+}
+public struct ProfileModuleInputData {
+  public let config: MoneyAuth.Config
+  public let oauthToken: Swift.String
+  public let customization: MoneyAuth.Customization
+  public init(config: MoneyAuth.Config, oauthToken: Swift.String, customization: MoneyAuth.Customization)
+}
+public protocol ProfileModuleInput : AnyObject {
+}
+public protocol ProfileModuleOutput : AnyObject {
+  func profileModule(_ module: MoneyAuth.ProfileModuleInput, didPressCloseWithAccount account: MoneyAuth.UserAccount?)
+  func profileModule(_ module: MoneyAuth.ProfileModuleInput, didDismissWithAccount account: MoneyAuth.UserAccount?)
+  func profileModule(_ module: MoneyAuth.ProfileModuleInput, didSuccessChangeEmailWithOldEmailWasEmpty oldEmailWasEmpty: Swift.Bool)
+  func profileModuleDidSuccessChangePassword(_ module: MoneyAuth.ProfileModuleInput)
+  func profileModuleDidSuccessChangeName(_ module: MoneyAuth.ProfileModuleInput)
+  func profileModule(_ module: MoneyAuth.ProfileModuleInput, didRequestAppleIdAuthorizationCode handler: @escaping (FunctionalSwift.Result<Swift.String>) -> Swift.Void)
+  func profileModule(_ module: MoneyAuth.ProfileModuleInput, requestSberAuthForClient id: Swift.String, nonce: Swift.String, scope: Swift.String, state: Swift.String, completion: @escaping (Swift.Bool) -> Swift.Void)
+  func profileModuleDidReceiveAuthorizationError(_ module: MoneyAuth.ProfileModuleInput)
+}
+extension ProfileModuleOutput {
+  public func profileModule(_ module: MoneyAuth.ProfileModuleInput, didRequestAppleIdAuthorizationCode handler: @escaping (FunctionalSwift.Result<Swift.String>) -> Swift.Void)
+  public func profileModuleDidReceiveAuthorizationError(_ module: MoneyAuth.ProfileModuleInput)
+  public func profileModule(_ module: MoneyAuth.ProfileModuleInput, requestSberAuthForClient id: Swift.String, nonce: Swift.String, scope: Swift.String, state: Swift.String, completion: @escaping (Swift.Bool) -> Swift.Void)
+}
+public protocol AppDataTransferMediator {
+  func fetchSessionTicket(completion: @escaping (FunctionalSwift.Result<Swift.String>) -> Swift.Void)
+  func encryptData(_ data: Swift.String, sessionTicket: Swift.String, completion: @escaping (FunctionalSwift.Result<Swift.String>) -> Swift.Void)
+  func decryptData(_ cryptogram: Swift.String, completion: @escaping (FunctionalSwift.Result<Swift.String>) -> Swift.Void)
+}
+public protocol ChangePasswordCoordinatorDelegate : AnyObject {
+  func changePasswordCoordinatorDidCancel(_ coordinator: MoneyAuth.ChangePasswordCoordinator)
+  func changePasswordCoordinatorDidPrepareProcess(_ coordinator: MoneyAuth.ChangePasswordCoordinator)
+  func changePasswordCoordinator(_ coordinator: MoneyAuth.ChangePasswordCoordinator, didFailPrepareProcessWith error: Swift.Error)
+  func changePasswordCoordinator(_ coordinator: MoneyAuth.ChangePasswordCoordinator, didFailureWith error: Swift.Error)
+  func changePasswordCoordinator(_ coordinator: MoneyAuth.ChangePasswordCoordinator, didSuccessWith account: MoneyAuth.UserAccount)
+  func changePasswordCoordinatorDidRequirePasswordRecovery(_ coordinator: MoneyAuth.ChangePasswordCoordinator)
+}
+final public class ChangePasswordCoordinator {
+  public init(config: MoneyAuth.Config, oauthToken: Swift.String, customization: MoneyAuth.Customization)
+  @objc deinit
+  weak final public var delegate: MoneyAuth.ChangePasswordCoordinatorDelegate?
+  final public func makeInitialViewController() throws -> UIKit.UIViewController
+  final public func prepareProcess()
+}
+public struct ConfirmAuxScopeModuleInputData {
+  public let config: MoneyAuth.Config
+  public let oauthToken: Swift.String
+  public let clientId: Swift.String
+  public let scopes: [Swift.String]
+  public init(config: MoneyAuth.Config, oauthToken: Swift.String, clientId: Swift.String, scopes: [Swift.String])
+}
+public protocol ConfirmAuxScopeModuleInput : AnyObject {
+}
+public protocol ConfirmAuxScopeModuleOutput : AnyObject {
+  func confirmAuxScope(_ module: MoneyAuth.ConfirmAuxScopeModuleInput, didSuccesshWith token: Swift.String)
+  func confirmAuxScopeDidPressClose(_ module: MoneyAuth.ConfirmAuxScopeModuleInput)
+  func confirmAuxScopeDidPressForbid(_ module: MoneyAuth.ConfirmAuxScopeModuleInput)
+}
+public enum ProcessType {
+  case enrollment
+  case login
+  case migration
+  case changeEmail
+  case changePassword
+  case changePhone
+  case passwordRecovery
+  case connectSocialAccount
+  public static func == (a: MoneyAuth.ProcessType, b: MoneyAuth.ProcessType) -> Swift.Bool
+  public var hashValue: Swift.Int {
+    get
+  }
+  public func hash(into hasher: inout Swift.Hasher)
+}
+public enum AppDataTransferMediatorFactory {
+  public static func makeMediator(config: MoneyAuth.Config) -> MoneyAuth.AppDataTransferMediator
+}
+public enum ProfileAssembly {
+  public static func makeModule(inputData: MoneyAuth.ProfileModuleInputData, output: MoneyAuth.ProfileModuleOutput?) -> UIKit.UIViewController
+}
+public protocol EventTracker {
+  func trackEvent(name: Swift.String, parameters: [Swift.String : Swift.String])
+}
+public enum MoneyAuthError : Swift.Error {
+  case authorizationRevoked
+  case invalidToken
+  case invalidAccessCode
+  public static func == (a: MoneyAuth.MoneyAuthError, b: MoneyAuth.MoneyAuthError) -> Swift.Bool
+  public var hashValue: Swift.Int {
+    get
+  }
+  public func hash(into hasher: inout Swift.Hasher)
+}
+public enum SessionTicketMediatorFactory {
+  public static func makeMediator(config: MoneyAuth.Config) -> MoneyAuth.SessionTicketMediator
+}
+public enum ConfirmAuxScopeAssembly {
+  public static func makeModule(inputData: MoneyAuth.ConfirmAuxScopeModuleInputData, moduleOutput: MoneyAuth.ConfirmAuxScopeModuleOutput? = nil) -> UIKit.UIViewController
+}
+public protocol AuthorizationCoordinatorDelegate : AnyObject {
+  func authorizationCoordinatorDidCancel(_ coordinator: MoneyAuth.AuthorizationCoordinator)
+  func authorizationCoordinatorDidPrepareProcess(_ coordinator: MoneyAuth.AuthorizationCoordinator)
+  func authorizationCoordinator(_ coordinator: MoneyAuth.AuthorizationCoordinator, didFailPrepareProcessWithError error: Swift.Error)
+  func authorizationCoordinator(_ coordinator: MoneyAuth.AuthorizationCoordinator, didFailureWith error: Swift.Error)
+  func authorizationCoordinator(_ coordinator: MoneyAuth.AuthorizationCoordinator, didAcquireAuthorizationToken token: Swift.String, account: MoneyAuth.UserAccount?, authorizationProcess: MoneyAuth.AuthorizationProcess?, tmxSessionId: Swift.String?, phoneOffersAccepted: Swift.Bool, emailOffersAccepted: Swift.Bool, userAgreementAccepted: Swift.Bool, bindSocialAccountResult: MoneyAuth.BindSocialAccountResult?)
+  func authorizationCoordinator(_ coordinator: MoneyAuth.AuthorizationCoordinator, requestSberAuthForClient id: Swift.String, nonce: Swift.String, scope: Swift.String, state: Swift.String, completion: @escaping (Swift.Bool) -> Swift.Void)
+  func authorizationCoordinatorDidRecoverPassword(_ coordinator: MoneyAuth.AuthorizationCoordinator)
+}
+extension AuthorizationCoordinatorDelegate {
+  public func authorizationCoordinator(_ coordinator: MoneyAuth.AuthorizationCoordinator, requestSberAuthForClient id: Swift.String, nonce: Swift.String, scope: Swift.String, state: Swift.String, completion: @escaping (Swift.Bool) -> Swift.Void)
+}
+final public class AuthorizationCoordinator {
+  final public func restartThirdPartyAuthorization()
+  public init(processType: MoneyAuth.AuthorizationProcessType, config: MoneyAuth.Config, customization: MoneyAuth.Customization)
+  @objc deinit
+  weak final public var delegate: MoneyAuth.AuthorizationCoordinatorDelegate?
+  final public func makeInitialViewController() throws -> UIKit.UIViewController
+  final public func showActivity()
+  final public func hideActivity()
+  final public func prepareProcess()
+}
+extension AuthorizationCoordinator : MoneyAuth.PasswordRecoveryCoordinatorDelegate {
+  final public func passwordRecoveryCoordinatorDidSuccessProcess(_ coordinator: MoneyAuth.PasswordRecoveryCoordinator)
+  final public func passwordRecoveryCoordinatorDidCancel(_ coordinator: MoneyAuth.PasswordRecoveryCoordinator)
+  final public func passwordRecoveryCoordinatorDidPrepareProcess(_ coordinator: MoneyAuth.PasswordRecoveryCoordinator)
+  final public func passwordRecoveryCoordinator(_ coordinator: MoneyAuth.PasswordRecoveryCoordinator, didFailPrepareProcessWithError error: Swift.Error)
+  final public func passwordRecoveryCoordinator(_ coordinator: MoneyAuth.PasswordRecoveryCoordinator, didFailureWith error: Swift.Error)
+  final public func passwordRecoveryCoordinatorDidRequireEnrollment(_ coordinator: MoneyAuth.PasswordRecoveryCoordinator)
+}
+extension AuthorizationCoordinator : MoneyAuth.ChangeEmailCoordinatorDelegate {
+  final public func changeEmailCoordinatorDidCancel(_ coordinator: MoneyAuth.ChangeEmailCoordinator)
+  final public func changeEmailCoordinatorDidPrepareProcess(_ coordinator: MoneyAuth.ChangeEmailCoordinator)
+  final public func changeEmailCoordinator(_ coordinator: MoneyAuth.ChangeEmailCoordinator, didFailPrepareProcessWithError error: Swift.Error)
+  final public func changeEmailCoordinator(_ coordinator: MoneyAuth.ChangeEmailCoordinator, didFailureWith error: Swift.Error)
+  final public func changeEmailCoordinator(_ coordinator: MoneyAuth.ChangeEmailCoordinator, didSuccessWith account: MoneyAuth.UserAccount)
+  final public func changeEmailCoordinatorDidRecoverPassword(_ coordinator: MoneyAuth.ChangeEmailCoordinator)
+}
+public struct UserAccount {
+  public let uid: Swift.String
+  public let email: MoneyAuth.UserAccount.EmailInfo
+  public let phone: MoneyAuth.UserAccount.PhoneInfo
+  public let displayName: MoneyAuth.UserAccount.DisplayNameInfo
+  public let password: MoneyAuth.UserAccount.PasswordInfo
+  public let avatar: MoneyAuth.UserAccount.AvatarInfo
+  public let language: MoneyAuth.UserAccount.LanguageInfo
+  public let services: [MoneyAuth.Service]
+  public let socialAccounts: [MoneyAuth.UserAccount.SocialAccount]?
+  public struct EmailInfo {
+    public let title: Swift.String?
+    public let modifiable: Swift.Bool
+  }
+  public struct PhoneInfo {
+    public let title: Swift.String?
+    public let modifiable: Swift.Bool
+  }
+  public struct DisplayNameInfo {
+    public let title: Swift.String?
+    public let modifiable: Swift.Bool
+  }
+  public struct PasswordInfo {
+    public let modifiable: Swift.Bool
+  }
+  public struct AvatarInfo {
+    public let url: Foundation.URL?
+  }
+  public struct LanguageInfo {
+    public let value: Swift.String?
+    public let modifiable: Swift.Bool
+  }
+  public struct SocialAccount {
+    public let title: Swift.String?
+    public let service: MoneyAuth.OauthServiceProvider
+  }
+}
+extension UserAccount : Swift.Decodable {
+  public init(from decoder: Swift.Decoder) throws
+}
+extension UserAccount.EmailInfo : Swift.Decodable {
+  public init(from decoder: Swift.Decoder) throws
+}
+extension UserAccount.PhoneInfo : Swift.Decodable {
+  public init(from decoder: Swift.Decoder) throws
+}
+extension UserAccount.DisplayNameInfo : Swift.Decodable {
+  public init(from decoder: Swift.Decoder) throws
+}
+extension UserAccount.PasswordInfo : Swift.Decodable {
+  public init(from decoder: Swift.Decoder) throws
+}
+extension UserAccount.AvatarInfo : Swift.Decodable {
+  public init(from decoder: Swift.Decoder) throws
+}
+extension UserAccount.LanguageInfo : Swift.Decodable {
+  public init(from decoder: Swift.Decoder) throws
+}
+extension UserAccount.SocialAccount : Swift.Decodable {
+  public init(from decoder: Swift.Decoder) throws
+}
+public struct Service {
+  public let type: MoneyAuth.Origin?
+  public let title: Swift.String
+  public let logoUrl: Foundation.URL?
+}
+extension Service : Swift.Decodable {
+  public init(from decoder: Swift.Decoder) throws
+}
+public protocol SessionTicketMediator {
+  func fetchTicket(completion: @escaping (FunctionalSwift.Result<Swift.String>) -> Swift.Void)
+  func verifyTicket(_ ticket: Swift.String, completion: @escaping (FunctionalSwift.Result<Swift.String>) -> Swift.Void)
+}
+public enum BindSocialAccountResult {
+  case success(MoneyAuth.UserAccount.SocialAccount)
+  case fail(service: MoneyAuth.OauthServiceProvider, reason: MoneyAuth.BindSocialAccountResult.FailReason)
+  public enum FailReason : Swift.String, Swift.Codable {
+    case alreadyBound
+    case technicalError
+    public typealias RawValue = Swift.String
+    public init?(rawValue: Swift.String)
+    public var rawValue: Swift.String {
+      get
+    }
+  }
+}
+extension BindSocialAccountResult : Swift.Decodable {
+  public init(from decoder: Swift.Decoder) throws
+}
+public enum AuxAuthorizationServiceFactory {
+  public static func makeService(config: MoneyAuth.Config) -> MoneyAuth.AuxAuthorizationService
+}
+public protocol InstallationIdService {
+  func getInstallationId(completion: @escaping (FunctionalSwift.Result<Swift.String>) -> Swift.Void)
+}
+public struct SigninQrModuleInputData {
+  public let config: MoneyAuth.Config
+  public let oauthToken: Swift.String
+  public let signinQrProcessId: Swift.String
+  public init(config: MoneyAuth.Config, oauthToken: Swift.String, signinQrProcessId: Swift.String)
+}
+public protocol SigninQrModuleOutput : AnyObject {
+  func signinQrModuleDidAcceptSignin(_ module: MoneyAuth.SigninQrModuleInput)
+  func signinQrModuleDidDeclineSignin(_ module: MoneyAuth.SigninQrModuleInput)
+  func signinQrModuleDidExpireSignin(_ module: MoneyAuth.SigninQrModuleInput)
+  func signinQrModuleDidClose(_ module: MoneyAuth.SigninQrModuleInput)
+}
+public protocol SigninQrModuleInput : AnyObject {
+}
+public protocol AccountService {
+  func fetchAccount(oauthToken: Swift.String, completion: @escaping (FunctionalSwift.Result<MoneyAuth.UserAccount>) -> Swift.Void)
+  func changeDisplayName(oauthToken: Swift.String, displayName: Swift.String, completion: @escaping (FunctionalSwift.Result<MoneyAuth.UserAccount>) -> Swift.Void)
+  func changeLanguage(oauthToken: Swift.String, language: Swift.String, completion: @escaping (FunctionalSwift.Result<MoneyAuth.UserAccount>) -> Swift.Void)
+}
+public enum AuthorizationProcess {
+  case login
+  case enrollment
+  case migration
+  public static func == (a: MoneyAuth.AuthorizationProcess, b: MoneyAuth.AuthorizationProcess) -> Swift.Bool
+  public var hashValue: Swift.Int {
+    get
+  }
+  public func hash(into hasher: inout Swift.Hasher)
+}
+public enum AccountServiceFactory {
+  public static func makeService(config: MoneyAuth.Config) -> MoneyAuth.AccountService
+}
+public protocol ChangeEmailCoordinatorDelegate : AnyObject {
+  func changeEmailCoordinatorDidCancel(_ coordinator: MoneyAuth.ChangeEmailCoordinator)
+  func changeEmailCoordinatorDidPrepareProcess(_ coordinator: MoneyAuth.ChangeEmailCoordinator)
+  func changeEmailCoordinator(_ coordinator: MoneyAuth.ChangeEmailCoordinator, didFailPrepareProcessWithError error: Swift.Error)
+  func changeEmailCoordinator(_ coordinator: MoneyAuth.ChangeEmailCoordinator, didFailureWith error: Swift.Error)
+  func changeEmailCoordinator(_ coordinator: MoneyAuth.ChangeEmailCoordinator, didSuccessWith account: MoneyAuth.UserAccount)
+  func changeEmailCoordinatorDidRecoverPassword(_ coordinator: MoneyAuth.ChangeEmailCoordinator)
+}
+final public class ChangeEmailCoordinator {
+  public init(config: MoneyAuth.Config, oauthToken: Swift.String, oldEmailIsEmpty: Swift.Bool, customization: MoneyAuth.Customization)
+  @objc deinit
+  weak final public var delegate: MoneyAuth.ChangeEmailCoordinatorDelegate?
+  final public func makeInitialViewController() throws -> UIKit.UIViewController
+  final public func prepareProcess()
+}
+extension ChangeEmailCoordinator : MoneyAuth.PasswordRecoveryCoordinatorDelegate {
+  final public func passwordRecoveryCoordinatorDidSuccessProcess(_ coordinator: MoneyAuth.PasswordRecoveryCoordinator)
+  final public func passwordRecoveryCoordinatorDidCancel(_ coordinator: MoneyAuth.PasswordRecoveryCoordinator)
+  final public func passwordRecoveryCoordinatorDidPrepareProcess(_ coordinator: MoneyAuth.PasswordRecoveryCoordinator)
+  final public func passwordRecoveryCoordinator(_ coordinator: MoneyAuth.PasswordRecoveryCoordinator, didFailPrepareProcessWithError error: Swift.Error)
+  final public func passwordRecoveryCoordinator(_ coordinator: MoneyAuth.PasswordRecoveryCoordinator, didFailureWith error: Swift.Error)
+  final public func passwordRecoveryCoordinatorDidRequireEnrollment(_ coordinator: MoneyAuth.PasswordRecoveryCoordinator)
+}
+public enum AuthorizationProcessType {
+  case enrollment
+  case login
+  case loginWithSocialAccount(MoneyAuth.AuthorizationProcessType.SocialAccount)
+  case migration(yandexToken: Swift.String?)
+  public enum SocialAccount {
+    case appleId(code: Swift.String)
+    case sberId
+  }
+}
+public enum ProcessCoordinatorError : Swift.Error {
+  case `internal`
+  case alreadyStarted
+  case unsupportedStep
+  public static func == (a: MoneyAuth.ProcessCoordinatorError, b: MoneyAuth.ProcessCoordinatorError) -> Swift.Bool
+  public var hashValue: Swift.Int {
+    get
+  }
+  public func hash(into hasher: inout Swift.Hasher)
+}
+public enum RevokeTokenResult {
+  case success
+  case error(Swift.Error)
+}
+public protocol RevokeTokenService {
+  func revoke(oauthToken: Swift.String, completion: @escaping (MoneyAuth.RevokeTokenResult) -> Swift.Void)
+  func revoke(all: Swift.Bool, oauthToken: Swift.String, completion: @escaping (MoneyAuth.RevokeTokenResult) -> Swift.Void)
+}
+public enum RevokeTokenServiceFactory {
+  public static func makeService(config: MoneyAuth.Config) -> MoneyAuth.RevokeTokenService
+}
+public protocol PasswordRecoveryCoordinatorDelegate : AnyObject {
+  func passwordRecoveryCoordinatorDidCancel(_ coordinator: MoneyAuth.PasswordRecoveryCoordinator)
+  func passwordRecoveryCoordinatorDidPrepareProcess(_ coordinator: MoneyAuth.PasswordRecoveryCoordinator)
+  func passwordRecoveryCoordinator(_ coordinator: MoneyAuth.PasswordRecoveryCoordinator, didFailPrepareProcessWithError error: Swift.Error)
+  func passwordRecoveryCoordinator(_ coordinator: MoneyAuth.PasswordRecoveryCoordinator, didFailureWith error: Swift.Error)
+  func passwordRecoveryCoordinatorDidSuccessProcess(_ coordinator: MoneyAuth.PasswordRecoveryCoordinator)
+  func passwordRecoveryCoordinatorDidRequireEnrollment(_ coordinator: MoneyAuth.PasswordRecoveryCoordinator)
+}
+final public class PasswordRecoveryCoordinator {
+  public init(config: MoneyAuth.Config, customization: MoneyAuth.Customization, isAccountAuthorized: Swift.Bool)
+  @objc deinit
+  weak final public var delegate: MoneyAuth.PasswordRecoveryCoordinatorDelegate?
+  final public func makeInitialViewController() throws -> UIKit.UIViewController
+  final public func prepareProcess()
+}
+public protocol CryptogramService {
+  func getCryptogram(hash: Swift.String, salt: Swift.String, accessToken: Swift.String, completion: @escaping (FunctionalSwift.Result<Swift.String>) -> Swift.Void)
+  func validateCryptogram(hash: Swift.String, salt: Swift.String, authCryptogram: Swift.String, completion: @escaping (FunctionalSwift.Result<Swift.String>) -> Swift.Void)
+}
+public enum AuthorizationReferer {
+  case banner
+  public static func == (a: MoneyAuth.AuthorizationReferer, b: MoneyAuth.AuthorizationReferer) -> Swift.Bool
+  public var hashValue: Swift.Int {
+    get
+  }
+  public func hash(into hasher: inout Swift.Hasher)
+}
+public struct Scope : Swift.Codable, Swift.Equatable {
+  public let id: Swift.String
+  public let titles: [Swift.String]
+  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: Swift.Encoder) throws
+  public static func == (a: MoneyAuth.Scope, b: MoneyAuth.Scope) -> Swift.Bool
+}
+public enum OauthServiceProvider : Swift.String, Swift.CaseIterable {
+  case apple
+  case sber
+  case unknown
+  public typealias AllCases = [MoneyAuth.OauthServiceProvider]
+  public static var allCases: [MoneyAuth.OauthServiceProvider] {
+    get
+  }
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+  public init?(rawValue: Swift.String)
+}
+extension OauthServiceProvider : Swift.Codable {
+  public init(from decoder: Swift.Decoder) throws
+}
+public enum MigrationInformationAssembly {
+  public static func makeModule(inputData: MoneyAuth.MigrationInformationModuleInputData, moduleOutput: MoneyAuth.MigrationInformationModuleOutput? = nil) -> UIKit.UIViewController
+}
+public struct MigrationInformationModuleInputData {
+  public let title: Swift.String
+  public let text: Swift.String
+  public let buttonTitle: Swift.String?
+  public let conditionsText: Swift.String
+  public init(title: Swift.String, text: Swift.String, buttonTitle: Swift.String?, conditionsText: Swift.String)
+}
+public protocol MigrationInformationModuleInput : AnyObject {
+}
+public protocol MigrationInformationModuleOutput : AnyObject {
+  func migrationInformationModuleDidPressClose(_ module: MoneyAuth.MigrationInformationModuleInput)
+  func migrationInformationModuleDidPressSubmit(_ module: MoneyAuth.MigrationInformationModuleInput)
+}
+public struct Customization {
+  public let restorePasswordEnabled: Swift.Bool
+  public let userAgreementTitle: Swift.String?
+  public let userWithEmailAgreementTitle: Swift.String?
+  public let emailCheckboxVisible: Swift.Bool
+  public let emailCheckboxTitle: Swift.String?
+  public let addEmailTitle: Swift.String?
+  public let migrationScreenTitle: Swift.String?
+  public let migrationScreenSubtitle: Swift.String?
+  public let migrationScreenButtonSubtitle: Swift.String?
+  public let hardMigrationScreenTitle: Swift.String?
+  public let hardMigrationScreenSubtitle: Swift.String?
+  public let hardMigrationScreenButtonSubtitle: Swift.String?
+  public let migrationBannerVisible: Swift.Bool
+  public let migrationBannerText: Swift.String?
+  public let migrationBannerTextColor: Swift.String?
+  public let migrationBannerButtonText: Swift.String?
+  public let migrationBannerImageUrl: Foundation.URL?
+  public let setUpPhone: MoneyAuth.Customization.SetUpPhone?
+  public let connectAppleIdText: Swift.String?
+  public let connectSberIdText: Swift.String?
+  public let appleAlreadyBoundText: Swift.String?
+  public let sberAlreadyBoundText: Swift.String?
+  public let disconnectAppleIdTitle: Swift.String?
+  public let disconnectSberIdTitle: Swift.String?
+  public let appleAccounNotConnectedScreenTitle: Swift.String?
+  public let sberAccounNotConnectedScreenTitle: Swift.String?
+  public let appleAccounNotConnectedText: Swift.String?
+  public let sberAccounNotConnectedText: Swift.String?
+  public let sberAccounNotConnectedEnrollButtonTitle: Swift.String?
+  public let sberAccounNotConnectedLoginButtonTitle: Swift.String?
+  public let appleAccounNotConnectedEnrollButtonTitle: Swift.String?
+  public let appleAccounNotConnectedLoginButtonTitle: Swift.String?
+  public init(restorePasswordEnabled: Swift.Bool = false, userAgreementTitle: Swift.String? = nil, userWithEmailAgreementTitle: Swift.String? = nil, emailCheckboxVisible: Swift.Bool = false, emailCheckboxTitle: Swift.String? = nil, addEmailTitle: Swift.String? = nil, migrationScreenTitle: Swift.String? = nil, migrationScreenSubtitle: Swift.String? = nil, migrationScreenButtonSubtitle: Swift.String? = nil, hardMigrationScreenTitle: Swift.String? = nil, hardMigrationScreenSubtitle: Swift.String? = nil, hardMigrationScreenButtonSubtitle: Swift.String? = nil, migrationBannerVisible: Swift.Bool = false, migrationBannerText: Swift.String? = nil, migrationBannerTextColor: Swift.String? = nil, migrationBannerButtonText: Swift.String? = nil, migrationBannerImageUrl: Foundation.URL? = nil, showPasswordRecoverySucess: Swift.Bool = true, setUpPhone: MoneyAuth.Customization.SetUpPhone? = nil, connectAppleIdText: Swift.String? = nil, connectSberIdText: Swift.String? = nil, appleAlreadyBoundText: Swift.String? = nil, sberAlreadyBoundText: Swift.String? = nil, disconnectAppleIdTitle: Swift.String? = nil, disconnectSberIdTitle: Swift.String? = nil, appleAccounNotConnectedScreenTitle: Swift.String? = nil, sberAccounNotConnectedScreenTitle: Swift.String? = nil, appleAccounNotConnectedText: Swift.String? = nil, sberAccounNotConnectedText: Swift.String? = nil, sberAccounNotConnectedEnrollButtonTitle: Swift.String? = nil, sberAccounNotConnectedLoginButtonTitle: Swift.String? = nil, appleAccounNotConnectedEnrollButtonTitle: Swift.String? = nil, appleAccounNotConnectedLoginButtonTitle: Swift.String? = nil)
+}
+extension Customization {
+  public struct SetUpPhone {
+    public let title: Swift.String
+    public let description: Swift.String?
+    public let infoButtonTitle: Swift.String?
+    public init(title: Swift.String, description: Swift.String? = nil, infoButtonTitle: Swift.String? = nil)
+  }
+}
+public protocol WebAuthorizationService {
+  func fetchAuthorizedUrl(targetUrl: Foundation.URL, authToken: Swift.String, completion: @escaping (FunctionalSwift.Result<Foundation.URL>) -> Swift.Void)
+}
+public enum WebAuthorizationServiceFactory {
+  public static func makeService(config: MoneyAuth.Config) -> MoneyAuth.WebAuthorizationService
+}
+extension MoneyAuth.UnauthorizedError : Swift.Encodable {}
+extension MoneyAuth.UnauthorizedError : Swift.Decodable {}
+extension MoneyAuth.UnauthorizedError : Swift.Error {}
+extension MoneyAuth.UnauthorizedError : Swift.Equatable {}
+extension MoneyAuth.UnauthorizedError : Swift.Hashable {}
+extension MoneyAuth.Origin : Swift.Equatable {}
+extension MoneyAuth.Origin : Swift.Hashable {}
+extension MoneyAuth.Origin : Swift.RawRepresentable {}
+extension MoneyAuth.ProcessType : Swift.Equatable {}
+extension MoneyAuth.ProcessType : Swift.Hashable {}
+extension MoneyAuth.MoneyAuthError : Swift.Equatable {}
+extension MoneyAuth.MoneyAuthError : Swift.Hashable {}
+extension MoneyAuth.BindSocialAccountResult.FailReason : Swift.Equatable {}
+extension MoneyAuth.BindSocialAccountResult.FailReason : Swift.Hashable {}
+extension MoneyAuth.BindSocialAccountResult.FailReason : Swift.RawRepresentable {}
+extension MoneyAuth.AuthorizationProcess : Swift.Equatable {}
+extension MoneyAuth.AuthorizationProcess : Swift.Hashable {}
+extension MoneyAuth.OauthServiceProvider : Swift.Equatable {}
+extension MoneyAuth.OauthServiceProvider : Swift.Hashable {}
+extension MoneyAuth.OauthServiceProvider : Swift.RawRepresentable {}
+extension MoneyAuth.ProcessCoordinatorError : Swift.Equatable {}
+extension MoneyAuth.ProcessCoordinatorError : Swift.Hashable {}
+extension MoneyAuth.AuthorizationReferer : Swift.Equatable {}
+extension MoneyAuth.AuthorizationReferer : Swift.Hashable {}

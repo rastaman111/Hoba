@@ -1,0 +1,250 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.5.2 (swiftlang-1300.0.47.5 clang-1300.0.29.30)
+// swift-module-flags: -target arm64-apple-ios10.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name YooMoneyCoreApi
+import Foundation
+import FunctionalSwift
+import Swift
+@_exported import YooMoneyCoreApi
+import _Concurrency
+public enum HTTPMethod : Swift.String {
+  case options
+  case get
+  case head
+  case post
+  case put
+  case patch
+  case delete
+  case trace
+  case connect
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public protocol ParametersEncoding {
+  var dateEncodingStrategy: Foundation.JSONEncoder.DateEncodingStrategy { get set }
+  var dataEncodingStrategy: Foundation.JSONEncoder.DataEncodingStrategy { get set }
+  func encode<T>(_ value: T) throws where T : Swift.Encodable
+  func passParameters(to urlRequest: inout Foundation.URLRequest) throws
+}
+public enum URLInfo {
+  case url(Foundation.URL)
+  case components(host: Swift.String, path: Swift.String)
+}
+public protocol ApiMethod : Swift.Encodable {
+  associatedtype Response : YooMoneyCoreApi.ApiResponse
+  var hostProviderKey: Swift.String { get }
+  var httpMethod: YooMoneyCoreApi.HTTPMethod { get }
+  var parametersEncoding: YooMoneyCoreApi.ParametersEncoding { get }
+  var headers: YooMoneyCoreApi.Headers { get }
+  var cachePolicy: Foundation.URLRequest.CachePolicy { get }
+  func urlInfo(from hostProvider: YooMoneyCoreApi.HostProvider) throws -> YooMoneyCoreApi.URLInfo
+}
+extension YooMoneyCoreApi.ApiMethod {
+  public var headers: YooMoneyCoreApi.Headers {
+    get
+  }
+}
+extension YooMoneyCoreApi.ApiMethod {
+  public var cachePolicy: Foundation.URLRequest.CachePolicy {
+    get
+  }
+}
+extension Swift.KeyedDecodingContainer {
+  public func decode(_ type: [Swift.String : Any].Type, forKey key: K) throws -> [Swift.String : Any]
+  public func decodeIfPresent(_ type: [Swift.String : Any].Type, forKey key: K) throws -> [Swift.String : Any]?
+  public func decode(_ type: [Swift.String : Any].Type) throws -> [Swift.String : Any]
+  public func decode(_ type: [Any].Type, forKey key: K) throws -> [Any]
+  public func decodeIfPresent(_ type: [Any].Type, forKey key: K) throws -> [Any]?
+}
+extension Swift.UnkeyedDecodingContainer {
+  public mutating func decode(_ type: [Any].Type) throws -> [Any]
+  public mutating func decode(_ type: [Swift.String : Any].Type) throws -> [Swift.String : Any]
+}
+final public class QueryParametersEncoder : YooMoneyCoreApi.ParametersEncoding {
+  public enum ArrayEncoding {
+    case brackets
+    case noBrackets
+    public static func == (a: YooMoneyCoreApi.QueryParametersEncoder.ArrayEncoding, b: YooMoneyCoreApi.QueryParametersEncoder.ArrayEncoding) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+  final public var dateEncodingStrategy: Foundation.JSONEncoder.DateEncodingStrategy
+  final public var dataEncodingStrategy: Foundation.JSONEncoder.DataEncodingStrategy
+  final public let arrayEncoding: YooMoneyCoreApi.QueryParametersEncoder.ArrayEncoding
+  public init(arrayEncoding: YooMoneyCoreApi.QueryParametersEncoder.ArrayEncoding = .brackets)
+  final public func encode<T>(_ value: T) throws where T : Swift.Encodable
+  final public func passParameters(to urlRequest: inout Foundation.URLRequest) throws
+  @objc deinit
+}
+public class ApiSession {
+  public var taskDidReceiveChallengeWithCompletion: ((_ session: Foundation.URLSession, _ challenge: Foundation.URLAuthenticationChallenge, _ completionHandler: @escaping (Foundation.URLSession.AuthChallengeDisposition, Foundation.URLCredential?) -> Swift.Void) -> Swift.Void)? {
+    get
+    set
+  }
+  public init(hostProvider: YooMoneyCoreApi.HostProvider, configuration: Foundation.URLSessionConfiguration = .default, logger: YooMoneyCoreApi.Logger? = nil)
+  @objc deinit
+  public func perform<M>(apiMethod: M) -> YooMoneyCoreApi.Task<M.Response> where M : YooMoneyCoreApi.ApiMethod
+  @available(iOS 9.0, *)
+  public func cancelAllTasks()
+  public enum ErrorApiSession : Swift.Error {
+    case illegalUrl(Swift.String)
+    case host(YooMoneyCoreApi.HostProviderError)
+  }
+  @available(*, deprecated, message: "Use DefaultHeadersFactory instead")
+  public static let defaultHTTPHeaders: YooMoneyCoreApi.Headers
+}
+extension YooMoneyCoreApi.ApiSession.ErrorApiSession : Foundation.LocalizedError {
+  public var errorDescription: Swift.String? {
+    get
+  }
+}
+public protocol OAuthTokenProvider {
+  var token: Swift.String? { get }
+}
+@_hasMissingDesignatedInitializers public class Task<R> where R : YooMoneyCoreApi.ApiResponse {
+  public func cancel()
+  public func resume()
+  public func suspend()
+  @discardableResult
+  public func response(queue: Dispatch.DispatchQueue? = nil, completionHandler: @escaping (Foundation.URLRequest?, Foundation.HTTPURLResponse?, Foundation.Data?, Swift.Error?) -> Swift.Void) -> Self
+  @discardableResult
+  public func responseApi(queue: Dispatch.DispatchQueue? = nil, completion: @escaping (FunctionalSwift.Result<R>) -> Swift.Void) -> Self
+  public enum Error : Swift.Error {
+    case serializationFailed(text: Swift.String)
+  }
+  @objc deinit
+}
+extension YooMoneyCoreApi.Task.Error : Foundation.LocalizedError {
+  public var errorDescription: Swift.String? {
+    get
+  }
+}
+public enum HostProviderError : Swift.Error {
+  case unknownKey(Swift.String)
+}
+extension YooMoneyCoreApi.HostProviderError : Foundation.LocalizedError {
+  public var errorDescription: Swift.String? {
+    get
+  }
+}
+public protocol HostProvider {
+  func host(for key: Swift.String) throws -> Swift.String
+}
+public protocol DataApiResponse : YooMoneyCoreApi.ApiResponse {
+  init?(data: Foundation.Data, mimeType: Swift.String?)
+}
+extension YooMoneyCoreApi.DataApiResponse {
+  public static func makeResponse(response: Foundation.HTTPURLResponse, data: Foundation.Data) -> Self?
+}
+public protocol ErrorApiResponse : Swift.Error, YooMoneyCoreApi.ApiResponse {
+}
+public struct Headers {
+  public let value: [Swift.String : Swift.String]
+  public init(_ value: [Swift.String : Swift.String])
+}
+extension YooMoneyCoreApi.Headers : FunctionalSwift.Monoid {
+  public static var mempty: YooMoneyCoreApi.Headers {
+    get
+  }
+  public func mappend(_ monoid: YooMoneyCoreApi.Headers) -> YooMoneyCoreApi.Headers
+}
+public protocol HeadersFactory {
+  func makeHeaders() -> YooMoneyCoreApi.Headers
+}
+public struct DefaultHeadersFactory : YooMoneyCoreApi.HeadersFactory {
+  public init(userAgent: Swift.String? = nil)
+  public func makeHeaders() -> YooMoneyCoreApi.Headers
+}
+public protocol ApiResponse {
+  static var dateDecodingStrategy: Foundation.JSONDecoder.DateDecodingStrategy { get }
+  static var dataDecodingStrategy: Foundation.JSONDecoder.DataDecodingStrategy { get }
+  static func makeResponse(response: Foundation.HTTPURLResponse, data: Foundation.Data) -> Self?
+  static func process(response: Foundation.HTTPURLResponse?, data: Foundation.Data?, error: Swift.Error?) -> FunctionalSwift.Result<Self>
+  static func makeSpecificError(response: Foundation.HTTPURLResponse, data: Foundation.Data) -> Swift.Error?
+}
+extension YooMoneyCoreApi.ApiResponse {
+  public static func makeSpecificError(response: Foundation.HTTPURLResponse, data: Foundation.Data) -> Swift.Error?
+  public static var dateDecodingStrategy: Foundation.JSONDecoder.DateDecodingStrategy {
+    get
+  }
+  public static var dataDecodingStrategy: Foundation.JSONDecoder.DataDecodingStrategy {
+    get
+  }
+}
+public struct LossyArray<Element> : Swift.Decodable where Element : Swift.Decodable {
+  public let elements: [Element]
+  public init(from decoder: Swift.Decoder) throws
+}
+public protocol JsonApiResponse : Swift.Decodable, YooMoneyCoreApi.ApiResponse {
+}
+extension YooMoneyCoreApi.JsonApiResponse {
+  public static func makeResponse(response: Foundation.HTTPURLResponse, data: Foundation.Data) -> Self?
+}
+public protocol TextApiResponse : YooMoneyCoreApi.ApiResponse {
+  init?(text: Swift.String)
+}
+extension YooMoneyCoreApi.TextApiResponse {
+  public static func makeResponse(response: Foundation.HTTPURLResponse, data: Foundation.Data) -> Self?
+}
+public enum StringEncoder {
+  public static func data(fromBase64String string: Swift.String) -> Foundation.Data?
+}
+final public class JsonParametersEncoder : YooMoneyCoreApi.ParametersEncoding {
+  public static var `default`: YooMoneyCoreApi.JsonParametersEncoder {
+    get
+  }
+  public static var prettyPrinted: YooMoneyCoreApi.JsonParametersEncoder {
+    get
+  }
+  final public let encoder: Foundation.JSONEncoder
+  final public var dateEncodingStrategy: Foundation.JSONEncoder.DateEncodingStrategy
+  final public var dataEncodingStrategy: Foundation.JSONEncoder.DataEncodingStrategy
+  public init(options: Foundation.JSONEncoder.OutputFormatting = [])
+  final public func encode<T>(_ value: T) throws where T : Swift.Encodable
+  final public func passParameters(to urlRequest: inout Foundation.URLRequest) throws
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers final public class ApiSessionDelegate : ObjectiveC.NSObject {
+  final public var taskDidReceiveChallengeWithCompletion: ((Foundation.URLSession, Foundation.URLAuthenticationChallenge, @escaping (Foundation.URLSession.AuthChallengeDisposition, Foundation.URLCredential?) -> Swift.Void) -> Swift.Void)?
+  @objc override dynamic public init()
+  @objc deinit
+}
+extension YooMoneyCoreApi.ApiSessionDelegate : Foundation.URLSessionDelegate {
+  @objc final public func urlSession(_ session: Foundation.URLSession, didReceive challenge: Foundation.URLAuthenticationChallenge, completionHandler: @escaping (Foundation.URLSession.AuthChallengeDisposition, Foundation.URLCredential?) -> Swift.Void)
+}
+extension Foundation.URLRequest {
+  public init(url: Foundation.URL, cachePolicy: Foundation.URLRequest.CachePolicy, method: YooMoneyCoreApi.HTTPMethod, headers: YooMoneyCoreApi.Headers? = nil)
+}
+public class RequestData {
+  final public let queue: Foundation.OperationQueue
+  public var task: Foundation.URLSessionTask?
+  public var response: Foundation.URLResponse?
+  public var data: Foundation.Data?
+  public var error: Swift.Error?
+  final public let request: Foundation.URLRequest
+  public init(request: Foundation.URLRequest)
+  public func response(completion: @escaping (Foundation.Data?, Foundation.URLResponse?, Swift.Error?) -> Swift.Void)
+  @objc deinit
+}
+public enum CoreApiError : Swift.Error {
+  case urlEncodingMissingUrl
+  case jsonEncodingFailed(error: Swift.Error)
+}
+public protocol Logger {
+  func log(message: Swift.String)
+}
+public struct ConsoleLogger {
+  public init()
+}
+extension YooMoneyCoreApi.ConsoleLogger : YooMoneyCoreApi.Logger {
+  public func log(message: Swift.String)
+}
+extension YooMoneyCoreApi.HTTPMethod : Swift.Equatable {}
+extension YooMoneyCoreApi.HTTPMethod : Swift.Hashable {}
+extension YooMoneyCoreApi.HTTPMethod : Swift.RawRepresentable {}
+extension YooMoneyCoreApi.QueryParametersEncoder.ArrayEncoding : Swift.Equatable {}
+extension YooMoneyCoreApi.QueryParametersEncoder.ArrayEncoding : Swift.Hashable {}

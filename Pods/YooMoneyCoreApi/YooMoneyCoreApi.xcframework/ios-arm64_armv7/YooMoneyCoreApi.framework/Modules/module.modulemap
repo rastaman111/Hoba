@@ -1,0 +1,11 @@
+framework module YooMoneyCoreApi {
+  umbrella header "YooMoneyCoreApi.h"
+
+  export *
+  module * { export * }
+}
+
+module YooMoneyCoreApi.Swift {
+    header "YooMoneyCoreApi-Swift.h"
+    requires objc
+}

@@ -1,0 +1,322 @@
+PODS:
+  - Alamofire (4.7.3)
+  - APESuperHUD (2.0.1)
+  - ASDKCore (1.5.6)
+  - ASDKUI (1.5.6):
+    - ASDKCore
+  - BEMCheckBox (1.4.1)
+  - CardIO (5.4.1)
+  - Cosmos (18.0.1)
+  - DSGradientProgressView (1.0.1)
+  - Firebase/Analytics (10.10.0):
+    - Firebase/Core
+  - Firebase/Core (10.10.0):
+    - Firebase/CoreOnly
+    - FirebaseAnalytics (~> 10.10.0)
+  - Firebase/CoreOnly (10.10.0):
+    - FirebaseCore (= 10.10.0)
+  - Firebase/Messaging (10.10.0):
+    - Firebase/CoreOnly
+    - FirebaseMessaging (~> 10.10.0)
+  - FirebaseAnalytics (10.10.0):
+    - FirebaseAnalytics/AdIdSupport (= 10.10.0)
+    - FirebaseCore (~> 10.0)
+    - FirebaseInstallations (~> 10.0)
+    - GoogleUtilities/AppDelegateSwizzler (~> 7.11)
+    - GoogleUtilities/MethodSwizzler (~> 7.11)
+    - GoogleUtilities/Network (~> 7.11)
+    - "GoogleUtilities/NSData+zlib (~> 7.11)"
+    - nanopb (< 2.30910.0, >= 2.30908.0)
+  - FirebaseAnalytics/AdIdSupport (10.10.0):
+    - FirebaseCore (~> 10.0)
+    - FirebaseInstallations (~> 10.0)
+    - GoogleAppMeasurement (= 10.10.0)
+    - GoogleUtilities/AppDelegateSwizzler (~> 7.11)
+    - GoogleUtilities/MethodSwizzler (~> 7.11)
+    - GoogleUtilities/Network (~> 7.11)
+    - "GoogleUtilities/NSData+zlib (~> 7.11)"
+    - nanopb (< 2.30910.0, >= 2.30908.0)
+  - FirebaseCore (10.10.0):
+    - FirebaseCoreInternal (~> 10.0)
+    - GoogleUtilities/Environment (~> 7.8)
+    - GoogleUtilities/Logger (~> 7.8)
+  - FirebaseCoreInternal (10.10.0):
+    - "GoogleUtilities/NSData+zlib (~> 7.8)"
+  - FirebaseInstallations (10.10.0):
+    - FirebaseCore (~> 10.0)
+    - GoogleUtilities/Environment (~> 7.8)
+    - GoogleUtilities/UserDefaults (~> 7.8)
+    - PromisesObjC (~> 2.1)
+  - FirebaseMessaging (10.10.0):
+    - FirebaseCore (~> 10.0)
+    - FirebaseInstallations (~> 10.0)
+    - GoogleDataTransport (~> 9.2)
+    - GoogleUtilities/AppDelegateSwizzler (~> 7.8)
+    - GoogleUtilities/Environment (~> 7.8)
+    - GoogleUtilities/Reachability (~> 7.8)
+    - GoogleUtilities/UserDefaults (~> 7.8)
+    - nanopb (< 2.30910.0, >= 2.30908.0)
+  - FunctionalSwift (1.8.0)
+  - GoogleAppMeasurement (10.10.0):
+    - GoogleAppMeasurement/AdIdSupport (= 10.10.0)
+    - GoogleUtilities/AppDelegateSwizzler (~> 7.11)
+    - GoogleUtilities/MethodSwizzler (~> 7.11)
+    - GoogleUtilities/Network (~> 7.11)
+    - "GoogleUtilities/NSData+zlib (~> 7.11)"
+    - nanopb (< 2.30910.0, >= 2.30908.0)
+  - GoogleAppMeasurement/AdIdSupport (10.10.0):
+    - GoogleAppMeasurement/WithoutAdIdSupport (= 10.10.0)
+    - GoogleUtilities/AppDelegateSwizzler (~> 7.11)
+    - GoogleUtilities/MethodSwizzler (~> 7.11)
+    - GoogleUtilities/Network (~> 7.11)
+    - "GoogleUtilities/NSData+zlib (~> 7.11)"
+    - nanopb (< 2.30910.0, >= 2.30908.0)
+  - GoogleAppMeasurement/WithoutAdIdSupport (10.10.0):
+    - GoogleUtilities/AppDelegateSwizzler (~> 7.11)
+    - GoogleUtilities/MethodSwizzler (~> 7.11)
+    - GoogleUtilities/Network (~> 7.11)
+    - "GoogleUtilities/NSData+zlib (~> 7.11)"
+    - nanopb (< 2.30910.0, >= 2.30908.0)
+  - GoogleDataTransport (9.2.3):
+    - GoogleUtilities/Environment (~> 7.7)
+    - nanopb (< 2.30910.0, >= 2.30908.0)
+    - PromisesObjC (< 3.0, >= 1.2)
+  - GoogleMaps (6.2.1):
+    - GoogleMaps/Maps (= 6.2.1)
+  - GoogleMaps/Base (6.2.1)
+  - GoogleMaps/Maps (6.2.1):
+    - GoogleMaps/Base
+  - GooglePlaces (6.2.1)
+  - GoogleUtilities/AppDelegateSwizzler (7.11.1):
+    - GoogleUtilities/Environment
+    - GoogleUtilities/Logger
+    - GoogleUtilities/Network
+  - GoogleUtilities/Environment (7.11.1):
+    - PromisesObjC (< 3.0, >= 1.2)
+  - GoogleUtilities/ISASwizzler (7.11.1)
+  - GoogleUtilities/Logger (7.11.1):
+    - GoogleUtilities/Environment
+  - GoogleUtilities/MethodSwizzler (7.11.1):
+    - GoogleUtilities/Logger
+  - GoogleUtilities/Network (7.11.1):
+    - GoogleUtilities/Logger
+    - "GoogleUtilities/NSData+zlib"
+    - GoogleUtilities/Reachability
+  - "GoogleUtilities/NSData+zlib (7.11.1)"
+  - GoogleUtilities/Reachability (7.11.1):
+    - GoogleUtilities/Logger
+  - GoogleUtilities/UserDefaults (7.11.1):
+    - GoogleUtilities/Logger
+  - GTMSessionFetcher (3.1.1):
+    - GTMSessionFetcher/Full (= 3.1.1)
+  - GTMSessionFetcher/Core (3.1.1)
+  - GTMSessionFetcher/Full (3.1.1):
+    - GTMSessionFetcher/Core
+  - INSNibLoading (1.0.2)
+  - INSPhotoGallery (1.2.8)
+  - IQKeyboardManager (6.5.6)
+  - JWTDecode (2.6.3)
+  - MoneyAuth (3.4.0):
+    - FunctionalSwift
+    - ThreatMetrixAdapter
+    - YooMoneyCoreApi
+  - nanopb (2.30909.0):
+    - nanopb/decode (= 2.30909.0)
+    - nanopb/encode (= 2.30909.0)
+  - nanopb/decode (2.30909.0)
+  - nanopb/encode (2.30909.0)
+  - PASImageView (2.0.0)
+  - PhoneNumberKit (3.5.10):
+    - PhoneNumberKit/PhoneNumberKitCore (= 3.5.10)
+    - PhoneNumberKit/UIKit (= 3.5.10)
+  - PhoneNumberKit/PhoneNumberKitCore (3.5.10)
+  - PhoneNumberKit/UIKit (3.5.10):
+    - PhoneNumberKit/PhoneNumberKitCore
+  - Polyline (4.2.1)
+  - PromisesObjC (2.2.0)
+  - SDWebImage (5.15.8):
+    - SDWebImage/Core (= 5.15.8)
+  - SDWebImage/Core (5.15.8)
+  - Siren (5.7.1)
+  - SwiftyJSON (5.0.1)
+  - ThreatMetrixAdapter (3.3.6)
+  - TMXProfiling (1.0.1)
+  - TMXProfilingConnections (1.0.1)
+  - Toast-Swift (5.0.1)
+  - YandexMobileMetrica/Dynamic (3.12.0):
+    - YandexMobileMetrica/Dynamic/Core (= 3.12.0)
+    - YandexMobileMetrica/Dynamic/Crashes (= 3.12.0)
+  - YandexMobileMetrica/Dynamic/Core (3.12.0)
+  - YandexMobileMetrica/Dynamic/Crashes (3.12.0):
+    - YandexMobileMetrica/Dynamic/Core
+  - YandexMobileMetricaPush/Dynamic (0.8.0):
+    - YandexMobileMetrica/Dynamic/Core (~> 3.4)
+  - YooKassaPayments (6.8.0):
+    - MoneyAuth (~> 3.4.0)
+    - ThreatMetrixAdapter (~> 3.3.3)
+    - TMXProfiling (= 1.0.1)
+    - TMXProfilingConnections (= 1.0.1)
+    - YandexMobileMetrica/Dynamic (>= 3.0)
+    - YooKassaPaymentsApi (~> 2.11.0)
+    - YooKassaWalletApi (~> 2.3.1)
+    - YooMoneyCoreApi (~> 2.1.0)
+  - YooKassaPaymentsApi (2.11.0):
+    - FunctionalSwift
+    - YooMoneyCoreApi
+  - YooKassaWalletApi (2.3.2):
+    - FunctionalSwift
+    - YooMoneyCoreApi
+  - YooMoneyCoreApi (2.1.0):
+    - FunctionalSwift (~> 1.8.0)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.7.2)
+  - APESuperHUD
+  - ASDKCore
+  - ASDKUI
+  - BEMCheckBox
+  - CardIO
+  - Cosmos (~> 18.0)
+  - DSGradientProgressView
+  - Firebase/Analytics
+  - Firebase/Core
+  - Firebase/Messaging
+  - GoogleMaps
+  - GooglePlaces
+  - GoogleUtilities/AppDelegateSwizzler
+  - GoogleUtilities/Environment
+  - GoogleUtilities/ISASwizzler
+  - GoogleUtilities/Logger
+  - GoogleUtilities/MethodSwizzler
+  - GoogleUtilities/Network
+  - "GoogleUtilities/NSData+zlib"
+  - GoogleUtilities/Reachability
+  - GoogleUtilities/UserDefaults
+  - GTMSessionFetcher
+  - INSNibLoading
+  - INSPhotoGallery
+  - IQKeyboardManager (= 6.5.6)
+  - JWTDecode (~> 2.1)
+  - MoneyAuth
+  - PASImageView
+  - PhoneNumberKit (from `https://github.com/marmelroy/PhoneNumberKit`)
+  - Polyline (~> 4.0)
+  - SDWebImage
+  - Siren
+  - SwiftyJSON
+  - Toast-Swift (~> 5.0.0)
+  - YandexMobileMetrica/Dynamic (~> 3.12.0)
+  - YandexMobileMetricaPush/Dynamic (= 0.8.0)
+  - YooKassaPayments (from `https://git.yoomoney.ru/scm/sdk/yookassa-payments-swift.git`, tag `6.8.0`)
+  - YooMoneyCoreApi (~> 2.1.0)
+
+SPEC REPOS:
+  https://git.yoomoney.ru/scm/sdk/cocoa-pod-specs.git:
+    - FunctionalSwift
+    - MoneyAuth
+    - ThreatMetrixAdapter
+    - TMXProfiling
+    - TMXProfilingConnections
+    - YooKassaPaymentsApi
+    - YooKassaWalletApi
+    - YooMoneyCoreApi
+  https://github.com/CocoaPods/Specs.git:
+    - Alamofire
+    - APESuperHUD
+    - ASDKCore
+    - ASDKUI
+    - BEMCheckBox
+    - CardIO
+    - Cosmos
+    - DSGradientProgressView
+    - Firebase
+    - FirebaseAnalytics
+    - FirebaseCore
+    - FirebaseCoreInternal
+    - FirebaseInstallations
+    - FirebaseMessaging
+    - GoogleAppMeasurement
+    - GoogleDataTransport
+    - GoogleMaps
+    - GooglePlaces
+    - GoogleUtilities
+    - GTMSessionFetcher
+    - INSNibLoading
+    - INSPhotoGallery
+    - IQKeyboardManager
+    - JWTDecode
+    - nanopb
+    - PASImageView
+    - Polyline
+    - PromisesObjC
+    - SDWebImage
+    - Siren
+    - SwiftyJSON
+    - Toast-Swift
+    - YandexMobileMetrica
+    - YandexMobileMetricaPush
+
+EXTERNAL SOURCES:
+  PhoneNumberKit:
+    :git: https://github.com/marmelroy/PhoneNumberKit
+  YooKassaPayments:
+    :git: https://git.yoomoney.ru/scm/sdk/yookassa-payments-swift.git
+    :tag: 6.8.0
+
+CHECKOUT OPTIONS:
+  PhoneNumberKit:
+    :commit: 684408a1151e833ab3432cf5fa2ed715adf47d30
+    :git: https://github.com/marmelroy/PhoneNumberKit
+  YooKassaPayments:
+    :git: https://git.yoomoney.ru/scm/sdk/yookassa-payments-swift.git
+    :tag: 6.8.0
+
+SPEC CHECKSUMS:
+  Alamofire: c7287b6e5d7da964a70935e5db17046b7fde6568
+  APESuperHUD: 18ce2f9f114dd38d8fef5a6831e71ae9634cfc26
+  ASDKCore: 053c9eca43243178bb08edc1ec0a374592309aab
+  ASDKUI: ada3c6f6923527ae2f9e5b960855d8d0fff2ac64
+  BEMCheckBox: 5ba6e37ade3d3657b36caecc35c8b75c6c2b1a4e
+  CardIO: 56983b39b62f495fc6dae9ad7cf875143df06443
+  Cosmos: 7dfaa3f52584ca5f94ab74b5c2e264019cc9f7f5
+  DSGradientProgressView: 256d85dc3a92b429ace38617ceb459faec42bb41
+  Firebase: facd334e557a979bd03a0b58d90fd56b52b8aba0
+  FirebaseAnalytics: 7bc7de519111dae802f5bc0c9c083918f8b8870d
+  FirebaseCore: d027ff503d37edb78db98429b11f580a24a7df2a
+  FirebaseCoreInternal: 971029061d326000d65bfdc21f5502c75c8b0893
+  FirebaseInstallations: 52153982b057d3afcb4e1fbb3eb0b6d00611e681
+  FirebaseMessaging: 8a3b9a8b98ce72a42d22e69865cf662e38d2d6f5
+  FunctionalSwift: b65b0a7ddde7f11a11e794f79a1e8009724ed0bd
+  GoogleAppMeasurement: bbbfd4bcb2b40ae9b772c3b0823a58c1e3d618f9
+  GoogleDataTransport: f0308f5905a745f94fb91fea9c6cbaf3831cb1bd
+  GoogleMaps: 20d7b12be49a14287f797e88e0e31bc4156aaeb4
+  GooglePlaces: 94974aa119573d5acc2a35a699948dac838abd73
+  GoogleUtilities: 9aa0ad5a7bc171f8bae016300bfcfa3fb8425749
+  GTMSessionFetcher: e8647203b65cee28c5f73d0f473d096653945e72
+  INSNibLoading: 0244d5b9c30d4642c77b31469cbfd905e8b1efb3
+  INSPhotoGallery: ad317cb9a59c7a5f08550e4155b49622c24dcab3
+  IQKeyboardManager: 2a6e97afdafc7becf0cb17a9a8d795e3a980717f
+  JWTDecode: 33e5e26e5ddbd21b2065820894c08fef0cad9509
+  MoneyAuth: 8f2e4968132e0d187c1f33b6a99f998220c22135
+  nanopb: b552cce312b6c8484180ef47159bc0f65a1f0431
+  PASImageView: 108b12731982fcc6ed1bd118f25f0bc1902b9cc8
+  PhoneNumberKit: 0e34a6e8a50e4624e96a4710bc4a7211464a934e
+  Polyline: 0e9890790292741c8186201a536b6bb6a78d02dd
+  PromisesObjC: 09985d6d70fbe7878040aa746d78236e6946d2ef
+  SDWebImage: cb032eba469c54e0000e78bcb0a13cdde0a52798
+  Siren: 76ac728f4f2f4a3576c322272e94a0e37955664f
+  SwiftyJSON: 2f33a42c6fbc52764d96f13368585094bfd8aa5e
+  ThreatMetrixAdapter: 769204f7c69e23bff0c324a3c61767127bcbe3d6
+  TMXProfiling: a3b9808d62abf72227a366f2cbdca414ee38a023
+  TMXProfilingConnections: e3984a86c3c338f13af682bb77a6d18474289b79
+  Toast-Swift: 9b6a70f28b3bf0b96c40d46c0c4b9d6639846711
+  YandexMobileMetrica: 7ba67267e1ef841f77d5db17a5091b8e9eba911f
+  YandexMobileMetricaPush: ff5d6fc46d3987f44e9fac8b9cb2f776b638cd04
+  YooKassaPayments: 8b9bceae32eb764c70c85d342171a38200becee2
+  YooKassaPaymentsApi: 1b2ea9cadc898717f6216dd0e84dbabd5294dfb4
+  YooKassaWalletApi: cbb352525bfe89fd2ad52635062f79f8bbbc23ec
+  YooMoneyCoreApi: ddf9ea035b9a3f8d0563b4da8e55652fa07040d3
+
+PODFILE CHECKSUM: f600e1b9a9f8e49fa256807e109e55565d4c4289
+
+COCOAPODS: 1.12.1

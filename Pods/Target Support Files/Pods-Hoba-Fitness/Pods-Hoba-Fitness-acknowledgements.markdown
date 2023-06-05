@@ -1,0 +1,3197 @@
+# Acknowledgements
+This application makes use of the following third party libraries:
+
+## APESuperHUD
+
+The MIT License (MIT)
+
+Copyright (c) 2016 apegroup
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+
+## ASDKCore
+
+{\rtf1\ansi\ansicpg1251\cocoartf1404\cocoasubrtf110
+{\fonttbl\f0\fswiss\fcharset0 ArialMT;}
+{\colortbl;\red255\green255\blue255;\red38\green38\blue38;}
+{\*\listtable{\list\listtemplateid1\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid1\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid1}
+{\list\listtemplateid2\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid101\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid2}
+{\list\listtemplateid3\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid201\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid3}
+{\list\listtemplateid4\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid301\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid4}}
+{\*\listoverridetable{\listoverride\listid1\listoverridecount0\ls1}{\listoverride\listid2\listoverridecount0\ls2}{\listoverride\listid3\listoverridecount0\ls3}{\listoverride\listid4\listoverridecount0\ls4}}
+\paperw11900\paperh16840\margl1440\margr1440\vieww25020\viewh18200\viewkind0
+\deftab720
+\pard\pardeftab720\partightenfactor0
+
+\f0\fs28 \cf2 \expnd0\expndtw0\kerning0
+TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION\
+1. Definitions.\
+"License" shall mean the terms and conditions for use, reproduction, and distribution as defined by Sections 1 through 9 of this document.\
+"Licensor" shall mean the copyright owner or entity authorized by the copyright owner that is granting the License.\
+"Legal Entity" shall mean the union of the acting entity and all other entities that control, are controlled by, or are under common control with that entity. For the purposes of this definition, "control" means (i) the power, direct or indirect, to cause the direction or management of such entity, whether by contract or otherwise, or (ii) ownership of fifty percent (50%) or more of the outstanding shares, or (iii) beneficial ownership of such entity.\
+"You" (or "Your") shall mean an individual or Legal Entity exercising permissions granted by this License.\
+"Source" form shall mean the preferred form for making modifications, including but not limited to software source code, documentation source, and configuration files.\
+"Object" form shall mean any form resulting from mechanical transformation or translation of a Source form, including but not limited to compiled object code, generated documentation, and conversions to other media types.\
+"Work" shall mean the work of authorship, whether in Source or Object form, made available under the License, as indicated by a copyright notice that is included in or attached to the work (an example is provided in the Appendix below).\
+"Derivative Works" shall mean any work, whether in Source or Object form, that is based on (or derived from) the Work and for which the editorial revisions, annotations, elaborations, or other modifications represent, as a whole, an original work of authorship. For the purposes of this License, Derivative Works shall not include works that remain separable from, or merely link (or bind by name) to the interfaces of, the Work and Derivative Works thereof.\
+"Contribution" shall mean any work of authorship, including the original version of the Work and any modifications or additions to that Work or Derivative Works thereof, that is intentionally submitted to Licensor for inclusion in the Work by the copyright owner or by an individual or Legal Entity authorized to submit on behalf of the copyright owner. For the purposes of this definition, "submitted" means any form of electronic, verbal, or written communication sent to the Licensor or its representatives, including but not limited to communication on electronic mailing lists, source code control systems, and issue tracking systems that are managed by, or on behalf of, the Licensor for the purpose of discussing and improving the Work, but excluding communication that is conspicuously marked or otherwise designated in writing by the copyright owner as "Not a Contribution."\
+"Contributor" shall mean Licensor and any individual or Legal Entity on behalf of whom a Contribution has been received by Licensor and subsequently incorporated within the Work.\
+2. Grant of Copyright License. Subject to the terms and conditions of this License, each Contributor hereby grants to You a perpetual, worldwide, non-exclusive, no-charge, royalty-free, irrevocable copyright license to reproduce, prepare Derivative Works of, publicly display, publicly perform, sublicense, and distribute the Work and such Derivative Works in Source or Object form.\
+3. Grant of Patent License. Subject to the terms and conditions of this License, each Contributor hereby grants to You a perpetual, worldwide, non-exclusive, no-charge, royalty-free, irrevocable (except as stated in this section) patent license to make, have made, use, offer to sell, sell, import, and otherwise transfer the Work, where such license applies only to those patent claims licensable by such Contributor that are necessarily infringed by their Contribution(s) alone or by combination of their Contribution(s) with the Work to which such Contribution(s) was submitted. If You institute patent litigation against any entity (including a cross-claim or counterclaim in a lawsuit) alleging that the Work or a Contribution incorporated within the Work constitutes direct or contributory patent infringement, then any patent licenses granted to You under this License for that Work shall terminate as of the date such litigation is filed.\
+4. Redistribution. You may reproduce and distribute copies of the Work or Derivative Works thereof in any medium, with or without modifications, and in Source or Object form, provided that You meet the following conditions: You must give any other recipients of the Work or Derivative Works a copy of this License; and\
+You must cause any modified files to carry prominent notices stating that You changed the files; and\
+You must retain, in the Source form of any Derivative Works that You distribute, all copyright, patent, trademark, and attribution notices from the Source form of the Work, excluding those notices that do not pertain to any part of the Derivative Works; and\
+If the Work includes a "NOTICE" text file as part of its distribution, then any Derivative Works that You distribute must include a readable copy of the attribution notices contained within such NOTICE file, excluding those notices that do not pertain to any part of the Derivative Works, in at least one of the following places: within a NOTICE text file distributed as part of the Derivative Works; within the Source form or documentation, if provided along with the Derivative Works; or, within a display generated by the Derivative Works, if and wherever such third-party notices normally appear. The contents of the NOTICE file are for informational purposes only and do not modify the License. You may add Your own attribution notices within Derivative Works that You distribute, alongside or as an addendum to the NOTICE text from the Work, provided that such additional attribution notices cannot be construed as modifying the License. You may add Your own copyright statement to Your modifications and may provide additional or different license terms and conditions for use, reproduction, or distribution of Your modifications, or for any such Derivative Works as a whole, provided Your use, reproduction, and distribution of the Work otherwise complies with the conditions stated in this License.\
+5. Submission of Contributions. Unless You explicitly state otherwise, any Contribution intentionally submitted for inclusion in the Work by You to the Licensor shall be under the terms and conditions of this License, without any additional terms or conditions. Notwithstanding the above, nothing herein shall supersede or modify the terms of any separate license agreement you may have executed with Licensor regarding such Contributions.\
+6. Trademarks. This License does not grant permission to use the trade names, trademarks, service marks, or product names of the Licensor, except as required for reasonable and customary use in describing the origin of the Work and reproducing the content of the NOTICE file.\
+7. Disclaimer of Warranty. Unless required by applicable law or agreed to in writing, Licensor provides the Work (and each Contributor provides its Contributions) on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied, including, without limitation, any warranties or conditions of TITLE, NON-INFRINGEMENT, MERCHANTABILITY, or FITNESS FOR A PARTICULAR PURPOSE. You are solely responsible for determining the appropriateness of using or redistributing the Work and assume any risks associated with Your exercise of permissions under this License.\
+8. Limitation of Liability. In no event and under no legal theory, whether in tort (including negligence), contract, or otherwise, unless required by applicable law (such as deliberate and grossly negligent acts) or agreed to in writing, shall any Contributor be liable to You for damages, including any direct, indirect, special, incidental, or consequential damages of any character arising as a result of this License or out of the use or inability to use the Work (including but not limited to damages for loss of goodwill, work stoppage, computer failure or malfunction, or any and all other commercial damages or losses), even if such Contributor has been advised of the possibility of such damages.\
+9. Accepting Warranty or Additional Liability. While redistributing the Work or Derivative Works thereof, You may choose to offer, and charge a fee for, acceptance of support, warranty, indemnity, or other liability obligations and/or rights consistent with this License. However, in accepting such obligations, You may act only on Your own behalf and on Your sole responsibility, not on behalf of any other Contributor, and only if You agree to indemnify, defend, and hold each Contributor harmless for any liability incurred by, or claims asserted against, such Contributor by reason of your accepting any such warranty or additional liability.\
+\
+\
+\uc0\u1059 \u1057 \u1051 \u1054 \u1042 \u1048 \u1071  \u1048 \u1057 \u1055 \u1054 \u1051 \u1068 \u1047 \u1054 \u1042 \u1040 \u1053 \u1048 \u1071 , \u1042 \u1054 \u1057 \u1055 \u1056 \u1054 \u1048 \u1047 \u1042 \u1045 \u1044 \u1045 \u1053 \u1048 \u1071  \u1048  \u1056 \u1040 \u1057 \u1055 \u1056 \u1054 \u1057 \u1058 \u1056 \u1040 \u1053 \u1045 \u1053 \u1048 \u1071 \
+1. \uc0\u1058 \u1077 \u1088 \u1084 \u1080 \u1085 \u1099  \u1080  \u1086 \u1087 \u1088 \u1077 \u1076 \u1077 \u1083 \u1077 \u1085 \u1080 \u1103 .\
+\uc0\u1058 \u1077 \u1088 \u1084 \u1080 \u1085  \'ab\u1051 \u1080 \u1094 \u1077 \u1085 \u1079 \u1080 \u1103 \'bb \u1086 \u1079 \u1085 \u1072 \u1095 \u1072 \u1077 \u1090  \u1091 \u1089 \u1083 \u1086 \u1074 \u1080 \u1103  \u1080 \u1089 \u1087 \u1086 \u1083 \u1100 \u1079 \u1086 \u1074 \u1072 \u1085 \u1080 \u1103 , \u1082 \u1086 \u1087 \u1080 \u1088 \u1086 \u1074 \u1072 \u1085 \u1080 \u1103  \u1080  \u1088 \u1072 \u1089 \u1087 \u1088 \u1086 \u1089 \u1090 \u1088 \u1072 \u1085 \u1077 \u1085 \u1080 \u1103 , \u1080 \u1079 \u1083 \u1086 \u1078 \u1077 \u1085 \u1085 \u1099 \u1077  \u1074  \u1056 \u1072 \u1079 \u1076 \u1077 \u1083 \u1072 \u1093  1-9 \u1085 \u1072 \u1089 \u1090 \u1086 \u1103 \u1097 \u1077 \u1075 \u1086  \u1076 \u1086 \u1082 \u1091 \u1084 \u1077 \u1085 \u1090 \u1072 .\
+\uc0\u1058 \u1077 \u1088 \u1084 \u1080 \u1085  \'ab\u1051 \u1080 \u1094 \u1077 \u1085 \u1079 \u1080 \u1072 \u1088 \'bb \u1086 \u1090 \u1085 \u1086 \u1089 \u1080 \u1090 \u1089 \u1103  \u1082  \u1074 \u1083 \u1072 \u1076 \u1077 \u1083 \u1100 \u1094 \u1091  \u1072 \u1074 \u1090 \u1086 \u1088 \u1089 \u1082 \u1080 \u1093  \u1087 \u1088 \u1072 \u1074  \u1080 \u1083 \u1080  \u1102 \u1088 \u1080 \u1076 \u1080 \u1095 \u1077 \u1089 \u1082 \u1086 \u1084 \u1091  \u1083 \u1080 \u1094 \u1091 , \u1082 \u1086 \u1090 \u1086 \u1088 \u1086 \u1077  \u1091 \u1087 \u1086 \u1083 \u1085 \u1086 \u1084 \u1086 \u1095 \u1077 \u1085 \u1086  \u1074 \u1083 \u1072 \u1076 \u1077 \u1083 \u1100 \u1094 \u1077 \u1084  \u1072 \u1074 \u1090 \u1086 \u1088 \u1089 \u1082 \u1080 \u1093  \u1087 \u1088 \u1072 \u1074  \u1076 \u1083 \u1103  \u1087 \u1088 \u1077 \u1076 \u1086 \u1089 \u1090 \u1072 \u1074 \u1083 \u1077 \u1085 \u1080 \u1103  \u1051 \u1080 \u1094 \u1077 \u1085 \u1079 \u1080 \u1080 .\
+\uc0\u1058 \u1077 \u1088 \u1084 \u1080 \u1085  \'ab\u1070 \u1088 \u1080 \u1076 \u1080 \u1095 \u1077 \u1089 \u1082 \u1086 \u1077  \u1083 \u1080 \u1094 \u1086 \'bb \u1086 \u1079 \u1085 \u1072 \u1095 \u1072 \u1077 \u1090  \u1086 \u1073 \u1098 \u1077 \u1076 \u1080 \u1085 \u1077 \u1085 \u1080 \u1077  \u1076 \u1077 \u1081 \u1089 \u1090 \u1074 \u1091 \u1102 \u1097 \u1077 \u1081  \u1086 \u1088 \u1075 \u1072 \u1085 \u1080 \u1079 \u1072 \u1094 \u1080 \u1080  \u1080  \u1074 \u1089 \u1077 \u1093  \u1087 \u1088 \u1086 \u1095 \u1080 \u1093  \u1086 \u1088 \u1075 \u1072 \u1085 \u1080 \u1079 \u1072 \u1094 \u1080 \u1081 , \u1082 \u1086 \u1090 \u1086 \u1088 \u1099 \u1077  \u1091 \u1087 \u1088 \u1072 \u1074 \u1083 \u1103 \u1102 \u1090 , \u1091 \u1087 \u1088 \u1072 \u1074 \u1083 \u1103 \u1102 \u1090 \u1089 \u1103 , \u1080 \u1083 \u1080  \u1085 \u1072 \u1093 \u1086 \u1076 \u1103 \u1090 \u1089 \u1103  \u1087 \u1086 \u1076  \u1086 \u1073 \u1097 \u1080 \u1084  \u1091 \u1087 \u1088 \u1072 \u1074 \u1083 \u1077 \u1085 \u1080 \u1077 \u1084  \u1076 \u1072 \u1085 \u1085 \u1086 \u1075 \u1086  \u1083 \u1080 \u1094 \u1072 . \u1042  \u1087 \u1088 \u1080 \u1084 \u1077 \u1085 \u1077 \u1085 \u1080 \u1080  \u1082  \u1076 \u1072 \u1085 \u1085 \u1086 \u1084 \u1091  \u1090 \u1077 \u1088 \u1084 \u1080 \u1085 \u1091 , \'ab\u1091 \u1087 \u1088 \u1072 \u1074 \u1083 \u1077 \u1085 \u1080 \u1077 \'bb \u1086 \u1079 \u1085 \u1072 \u1095 \u1072 \u1077 \u1090  (i) \u1087 \u1088 \u1072 \u1074 \u1086  \u1085 \u1072 \u1087 \u1088 \u1103 \u1084 \u1091 \u1102  \u1080 \u1083 \u1080  \u1082 \u1086 \u1089 \u1074 \u1077 \u1085 \u1085 \u1086  \u1086 \u1089 \u1091 \u1097 \u1077 \u1089 \u1090 \u1074 \u1083 \u1103 \u1090 \u1100  \u1091 \u1087 \u1088 \u1072 \u1074 \u1083 \u1077 \u1085 \u1080 \u1077  \u1090 \u1072 \u1082 \u1086 \u1081  \u1086 \u1088 \u1075 \u1072 \u1085 \u1080 \u1079 \u1072 \u1094 \u1080 \u1077 \u1081  \u1085 \u1072  \u1086 \u1089 \u1085 \u1086 \u1074 \u1072 \u1085 \u1080 \u1080  \u1082 \u1086 \u1085 \u1090 \u1088 \u1072 \u1082 \u1090 \u1072  \u1080 \u1083 \u1080  \u1080 \u1085 \u1099 \u1084  \u1086 \u1073 \u1088 \u1072 \u1079 \u1086 \u1084 , \u1083 \u1080 \u1073 \u1086  (ii) \u1087 \u1088 \u1072 \u1074 \u1086  \u1089 \u1086 \u1073 \u1089 \u1090 \u1074 \u1077 \u1085 \u1085 \u1086 \u1089 \u1090 \u1080  \u1085 \u1072  \u1087 \u1103 \u1090 \u1100 \u1076 \u1077 \u1089 \u1103 \u1090  \u1087 \u1088 \u1086 \u1094 \u1077 \u1085 \u1090 \u1086 \u1074  (50%) \u1080 \u1083 \u1080  \u1073 \u1086 \u1083 \u1077 \u1077  \u1072 \u1082 \u1094 \u1080 \u1081 , \u1074 \u1099 \u1087 \u1091 \u1097 \u1077 \u1085 \u1085 \u1099 \u1093  \u1074  \u1086 \u1073 \u1088 \u1072 \u1097 \u1077 \u1085 \u1080 \u1077 , \u1083 \u1080 \u1073 \u1086  (iii) \u1073 \u1077 \u1085 \u1077 \u1092 \u1080 \u1094 \u1080 \u1072 \u1088 \u1085 \u1086 \u1077  \u1074 \u1083 \u1072 \u1076 \u1077 \u1085 \u1080 \u1077  \u1090 \u1072 \u1082 \u1086 \u1081  \u1086 \u1088 \u1075 \u1072 \u1085 \u1080 \u1079 \u1072 \u1094 \u1080 \u1077 \u1081 .\
+\uc0\u1058 \u1077 \u1088 \u1084 \u1080 \u1085  \'ab\u1042 \u1099 \'bb \u1080 \u1083 \u1080  \'ab\u1042 \u1072 \u1096 \'bb \u1086 \u1079 \u1085 \u1072 \u1095 \u1072 \u1077 \u1090  \u1095 \u1072 \u1089 \u1090 \u1085 \u1086 \u1077  \u1080 \u1083 \u1080  \u1102 \u1088 \u1080 \u1076 \u1080 \u1095 \u1077 \u1089 \u1082 \u1086 \u1077  \u1083 \u1080 \u1094 \u1086 , \u1082 \u1086 \u1090 \u1086 \u1088 \u1086 \u1077  \u1087 \u1086 \u1083 \u1100 \u1079 \u1091 \u1077 \u1090 \u1089 \u1103  \u1087 \u1088 \u1072 \u1074 \u1072 \u1084 \u1080  \u1074  \u1089 \u1086 \u1086 \u1090 \u1074 \u1077 \u1090 \u1089 \u1090 \u1074 \u1080 \u1080  \u1089  \u1076 \u1072 \u1085 \u1085 \u1086 \u1081  \u1051 \u1080 \u1094 \u1077 \u1085 \u1079 \u1080 \u1077 \u1081 .\
+\uc0\u1060 \u1086 \u1088 \u1084 \u1072  \'ab\u1048 \u1089 \u1090 \u1086 \u1095 \u1085 \u1080 \u1082 \'bb \u1086 \u1079 \u1085 \u1072 \u1095 \u1072 \u1077 \u1090  \u1087 \u1088 \u1077 \u1076 \u1087 \u1086 \u1095 \u1090 \u1080 \u1090 \u1077 \u1083 \u1100 \u1085 \u1091 \u1102  \u1092 \u1086 \u1088 \u1084 \u1091  \u1074 \u1085 \u1077 \u1089 \u1077 \u1085 \u1080 \u1103  \u1080 \u1079 \u1084 \u1077 \u1085 \u1077 \u1085 \u1080 \u1081 , \u1074 \u1082 \u1083 \u1102 \u1095 \u1072 \u1103 , \u1085 \u1086  \u1085 \u1077  \u1086 \u1075 \u1088 \u1072 \u1085 \u1080 \u1095 \u1080 \u1074 \u1072 \u1103 \u1089 \u1100  \u1080 \u1089 \u1093 \u1086 \u1076 \u1085 \u1099 \u1084  \u1087 \u1088 \u1086 \u1075 \u1088 \u1072 \u1084 \u1084 \u1085 \u1099 \u1084  \u1082 \u1086 \u1076 \u1086 \u1084 , \u1080 \u1089 \u1090 \u1086 \u1095 \u1085 \u1080 \u1082 \u1086 \u1084  \u1076 \u1086 \u1082 \u1091 \u1084 \u1077 \u1085 \u1090 \u1072 \u1094 \u1080 \u1080  \u1080  \u1082 \u1086 \u1085 \u1092 \u1080 \u1075 \u1091 \u1088 \u1072 \u1094 \u1080 \u1086 \u1085 \u1085 \u1099 \u1084 \u1080  \u1092 \u1072 \u1081 \u1083 \u1072 \u1084 \u1080 .\
+\uc0\u1060 \u1086 \u1088 \u1084 \u1072  \'ab\u1054 \u1073 \u1098 \u1077 \u1082 \u1090 \'bb \u1086 \u1079 \u1085 \u1072 \u1095 \u1072 \u1077 \u1090  \u1074 \u1089 \u1103 \u1082 \u1091 \u1102  \u1092 \u1086 \u1088 \u1084 \u1091 , \u1103 \u1074 \u1083 \u1103 \u1102 \u1097 \u1091 \u1102 \u1089 \u1103  \u1088 \u1077 \u1079 \u1091 \u1083 \u1100 \u1090 \u1072 \u1090 \u1086 \u1084  \u1072 \u1074 \u1090 \u1086 \u1084 \u1072 \u1090 \u1080 \u1095 \u1077 \u1089 \u1082 \u1086 \u1075 \u1086  \u1087 \u1088 \u1077 \u1086 \u1073 \u1088 \u1072 \u1079 \u1086 \u1074 \u1072 \u1085 \u1080 \u1103  \u1080 \u1083 \u1080  \u1090 \u1088 \u1072 \u1085 \u1089 \u1083 \u1103 \u1094 \u1080 \u1080  \u1092 \u1086 \u1088 \u1084 \u1099  \u1080 \u1089 \u1090 \u1086 \u1095 \u1085 \u1080 \u1082 \u1072 , \u1074 \u1082 \u1083 \u1102 \u1095 \u1072 \u1103 , \u1085 \u1086  \u1085 \u1077  \u1086 \u1075 \u1088 \u1072 \u1085 \u1080 \u1095 \u1080 \u1074 \u1072 \u1103 \u1089 \u1100  \u1086 \u1073 \u1098 \u1077 \u1082 \u1090 \u1085 \u1099 \u1084  \u1082 \u1086 \u1076 \u1086 \u1084 , \u1089 \u1075 \u1077 \u1085 \u1077 \u1088 \u1080 \u1088 \u1086 \u1074 \u1072 \u1085 \u1085 \u1086 \u1081  \u1076 \u1086 \u1082 \u1091 \u1084 \u1077 \u1085 \u1090 \u1072 \u1094 \u1080 \u1077 \u1081  \u1080 \u1083 \u1080  \u1082 \u1086 \u1085 \u1074 \u1077 \u1088 \u1090 \u1072 \u1094 \u1080 \u1077 \u1081  \u1074  \u1087 \u1088 \u1086 \u1095 \u1080 \u1077  \u1074 \u1080 \u1076 \u1099  \u1085 \u1086 \u1089 \u1080 \u1090 \u1077 \u1083 \u1077 \u1081  \u1080 \u1085 \u1092 \u1086 \u1088 \u1084 \u1072 \u1094 \u1080 \u1080 .\
+\'ab\uc0\u1055 \u1088 \u1086 \u1080 \u1079 \u1074 \u1077 \u1076 \u1077 \u1085 \u1080 \u1077 \'bb \u1086 \u1079 \u1085 \u1072 \u1095 \u1072 \u1077 \u1090  \u1072 \u1074 \u1090 \u1086 \u1088 \u1089 \u1082 \u1086 \u1077  \u1087 \u1088 \u1086 \u1080 \u1079 \u1074 \u1077 \u1076 \u1077 \u1085 \u1080 \u1077 , \u1074  \u1092 \u1086 \u1088 \u1084 \u1077  \u1080 \u1089 \u1090 \u1086 \u1095 \u1085 \u1080 \u1082 \u1072  \u1080 \u1083 \u1080  \u1086 \u1073 \u1098 \u1077 \u1082 \u1090 \u1072 , \u1087 \u1088 \u1077 \u1076 \u1086 \u1089 \u1090 \u1072 \u1074 \u1083 \u1077 \u1085 \u1085 \u1086 \u1077  \u1089 \u1086 \u1075 \u1083 \u1072 \u1089 \u1085 \u1086  \u1051 \u1080 \u1094 \u1077 \u1085 \u1079 \u1080 \u1080 , \u1082 \u1072 \u1082  \u1086 \u1073 \u1086 \u1079 \u1085 \u1072 \u1095 \u1077 \u1085 \u1086  \u1074  \u1091 \u1074 \u1077 \u1076 \u1086 \u1084 \u1083 \u1077 \u1085 \u1080 \u1080  \u1086 \u1073  \u1072 \u1074 \u1090 \u1086 \u1088 \u1089 \u1082 \u1080 \u1093  \u1087 \u1088 \u1072 \u1074 \u1072 \u1093 , \u1082 \u1086 \u1090 \u1086 \u1088 \u1086 \u1077  \u1074 \u1082 \u1083 \u1102 \u1095 \u1077 \u1085 \u1086  \u1080 \u1083 \u1080  \u1087 \u1088 \u1080 \u1082 \u1088 \u1077 \u1087 \u1083 \u1077 \u1085 \u1086  \u1082  \u1087 \u1088 \u1086 \u1080 \u1079 \u1074 \u1077 \u1076 \u1077 \u1085 \u1080 \u1102  (\u1087 \u1088 \u1080 \u1084 \u1077 \u1088  \u1087 \u1088 \u1080 \u1074 \u1086 \u1076 \u1080 \u1090 \u1089 \u1103  \u1085 \u1080 \u1078 \u1077  \u1074  \u1055 \u1088 \u1080 \u1083 \u1086 \u1078 \u1077 \u1085 \u1080 \u1080 ).\
+\uc0\u1058 \u1077 \u1088 \u1084 \u1080 \u1085  \'ab\u1055 \u1088 \u1086 \u1080 \u1079 \u1074 \u1086 \u1076 \u1085 \u1099 \u1077  \u1087 \u1088 \u1086 \u1080 \u1079 \u1074 \u1077 \u1076 \u1077 \u1085 \u1080 \u1103 \'bb \u1086 \u1079 \u1085 \u1072 \u1095 \u1072 \u1077 \u1090  \u1087 \u1088 \u1086 \u1080 \u1079 \u1074 \u1077 \u1076 \u1077 \u1085 \u1080 \u1077 , \u1074  \u1092 \u1086 \u1088 \u1084 \u1077  \u1080 \u1089 \u1090 \u1086 \u1095 \u1085 \u1080 \u1082 \u1072  \u1080 \u1083 \u1080  \u1086 \u1073 \u1098 \u1077 \u1082 \u1090 \u1072 , \u1082 \u1086 \u1090 \u1086 \u1088 \u1086 \u1077  \u1086 \u1089 \u1085 \u1086 \u1074 \u1072 \u1085 \u1086  \u1085 \u1072  (\u1080 \u1083 \u1080  \u1087 \u1086 \u1083 \u1091 \u1095 \u1077 \u1085 \u1086  \u1080 \u1079 ) \u1087 \u1088 \u1086 \u1080 \u1079 \u1074 \u1077 \u1076 \u1077 \u1085 \u1080 \u1080  \u1080  \u1087 \u1086  \u1086 \u1090 \u1085 \u1086 \u1096 \u1077 \u1085 \u1080 \u1102  \u1082  \u1082 \u1086 \u1090 \u1086 \u1088 \u1086 \u1084 \u1091  \u1074 \u1089 \u1077  \u1088 \u1077 \u1076 \u1072 \u1082 \u1090 \u1086 \u1088 \u1089 \u1082 \u1080 \u1077  \u1087 \u1088 \u1072 \u1074 \u1082 \u1080 , \u1087 \u1088 \u1080 \u1084 \u1077 \u1095 \u1072 \u1085 \u1080 \u1103 , \u1091 \u1090 \u1086 \u1095 \u1085 \u1077 \u1085 \u1080 \u1103 , \u1080 \u1083 \u1080  \u1076 \u1088 \u1091 \u1075 \u1080 \u1077  \u1080 \u1079 \u1084 \u1077 \u1085 \u1077 \u1085 \u1080 \u1103 , \u1087 \u1088 \u1077 \u1076 \u1089 \u1090 \u1072 \u1074 \u1083 \u1103 \u1102 \u1090  \u1074  \u1094 \u1077 \u1083 \u1086 \u1084  \u1072 \u1074 \u1090 \u1086 \u1088 \u1089 \u1082 \u1086 \u1077  \u1087 \u1088 \u1086 \u1080 \u1079 \u1074 \u1077 \u1076 \u1077 \u1085 \u1080 \u1077 . \u1055 \u1086 \u1085 \u1103 \u1090 \u1080 \u1077  \u1055 \u1088 \u1086 \u1080 \u1079 \u1074 \u1086 \u1076 \u1085 \u1099 \u1077  \u1087 \u1088 \u1086 \u1080 \u1079 \u1074 \u1077 \u1076 \u1077 \u1085 \u1080 \u1103  \u1085 \u1077  \u1074 \u1082 \u1083 \u1102 \u1095 \u1072 \u1077 \u1090  \u1074  \u1089 \u1077 \u1073 \u1103  \u1087 \u1088 \u1086 \u1080 \u1079 \u1074 \u1077 \u1076 \u1077 \u1085 \u1080 \u1103 , \u1082 \u1086 \u1090 \u1086 \u1088 \u1099 \u1077  \u1086 \u1073 \u1086 \u1089 \u1086 \u1073 \u1083 \u1077 \u1085 \u1099  \u1086 \u1090 , \u1080 \u1083 \u1080  \u1090 \u1086 \u1083 \u1100 \u1082 \u1086  \u1089 \u1074 \u1103 \u1079 \u1072 \u1085 \u1099  (\u1080 \u1083 \u1080  \u1089 \u1074 \u1103 \u1079 \u1072 \u1085 \u1099  \u1087 \u1086  \u1085 \u1072 \u1080 \u1084 \u1077 \u1085 \u1086 \u1074 \u1072 \u1085 \u1080 \u1102 ) \u1089  \u1080 \u1085 \u1090 \u1077 \u1088 \u1092 \u1077 \u1081 \u1089 \u1072 \u1084 \u1080  \u1055 \u1088 \u1086 \u1080 \u1079 \u1074 \u1077 \u1076 \u1077 \u1085 \u1080 \u1103  \u1080 \u1083 \u1080  \u1077 \u1075 \u1086  \u1055 \u1088 \u1086 \u1080 \u1079 \u1074 \u1086 \u1076 \u1085 \u1099 \u1093  \u1087 \u1088 \u1086 \u1080 \u1079 \u1074 \u1077 \u1076 \u1077 \u1085 \u1080 \u1081 .\
+\'ab\uc0\u1055 \u1086 \u1089 \u1083 \u1077 \u1076 \u1091 \u1102 \u1097 \u1072 \u1103  \u1088 \u1072 \u1079 \u1088 \u1072 \u1073 \u1086 \u1090 \u1082 \u1072 \'bb \u1086 \u1079 \u1085 \u1072 \u1095 \u1072 \u1077 \u1090  \u1083 \u1102 \u1073 \u1086 \u1077  \u1072 \u1074 \u1090 \u1086 \u1088 \u1089 \u1082 \u1086 \u1077  \u1087 \u1088 \u1086 \u1080 \u1079 \u1074 \u1077 \u1076 \u1077 \u1085 \u1080 \u1077 , \u1074 \u1082 \u1083 \u1102 \u1095 \u1072 \u1103  \u1080 \u1089 \u1093 \u1086 \u1076 \u1085 \u1091 \u1102  \u1074 \u1077 \u1088 \u1089 \u1080 \u1102  \u1055 \u1088 \u1086 \u1080 \u1079 \u1074 \u1077 \u1076 \u1077 \u1085 \u1080 \u1103  \u1080  \u1083 \u1102 \u1073 \u1099 \u1077  \u1080 \u1079 \u1084 \u1077 \u1085 \u1077 \u1085 \u1080 \u1103  \u1080 \u1083 \u1080  \u1076 \u1086 \u1087 \u1086 \u1083 \u1085 \u1077 \u1085 \u1080 \u1103  \u1082  \u1076 \u1072 \u1085 \u1085 \u1086 \u1084 \u1091  \u1055 \u1088 \u1086 \u1080 \u1079 \u1074 \u1077 \u1076 \u1077 \u1085 \u1080 \u1102  \u1080 \u1083 \u1080  \u1077 \u1075 \u1086  \u1055 \u1088 \u1086 \u1080 \u1079 \u1074 \u1086 \u1076 \u1085 \u1099 \u1084  \u1087 \u1088 \u1086 \u1080 \u1079 \u1074 \u1077 \u1076 \u1077 \u1085 \u1080 \u1103 \u1084 , \u1082 \u1086 \u1090 \u1086 \u1088 \u1099 \u1077  \u1073 \u1099 \u1083 \u1080  \u1085 \u1072 \u1084 \u1077 \u1088 \u1077 \u1085 \u1086  \u1087 \u1088 \u1077 \u1076 \u1089 \u1090 \u1072 \u1074 \u1083 \u1077 \u1085 \u1099  \u1051 \u1080 \u1094 \u1077 \u1085 \u1079 \u1080 \u1072 \u1088 \u1091  \u1076 \u1083 \u1103  \u1074 \u1082 \u1083 \u1102 \u1095 \u1077 \u1085 \u1080 \u1103  \u1074  \u1055 \u1088 \u1086 \u1080 \u1079 \u1074 \u1077 \u1076 \u1077 \u1085 \u1080 \u1077  \u1074 \u1083 \u1072 \u1076 \u1077 \u1083 \u1100 \u1094 \u1077 \u1084  \u1072 \u1074 \u1090 \u1086 \u1088 \u1089 \u1082 \u1086 \u1075 \u1086  \u1087 \u1088 \u1072 \u1074 \u1072  \u1080 \u1083 \u1080  \u1092 \u1080 \u1079 \u1080 \u1095 \u1077 \u1089 \u1082 \u1080 \u1084  \u1080 \u1083 \u1080  \u1102 \u1088 \u1080 \u1076 \u1080 \u1095 \u1077 \u1089 \u1082 \u1080 \u1084  \u1083 \u1080 \u1094 \u1086 \u1084 , \u1091 \u1087 \u1086 \u1083 \u1085 \u1086 \u1084 \u1086 \u1095 \u1077 \u1085 \u1085 \u1099 \u1084  \u1087 \u1088 \u1077 \u1076 \u1089 \u1090 \u1072 \u1074 \u1083 \u1103 \u1090 \u1100  \u1080 \u1079 \u1084 \u1077 \u1085 \u1077 \u1085 \u1080 \u1103  \u1085 \u1072  \u1087 \u1088 \u1072 \u1074 \u1072 \u1093  \u1074 \u1083 \u1072 \u1076 \u1077 \u1083 \u1100 \u1094 \u1072  \u1072 \u1074 \u1090 \u1086 \u1088 \u1089 \u1082 \u1080 \u1093  \u1087 \u1088 \u1072 \u1074 . \u1042  \u1088 \u1072 \u1084 \u1082 \u1072 \u1093  \u1076 \u1072 \u1085 \u1085 \u1086 \u1075 \u1086  \u1086 \u1087 \u1088 \u1077 \u1076 \u1077 \u1083 \u1077 \u1085 \u1080 \u1103  \'ab\u1087 \u1088 \u1077 \u1076 \u1089 \u1090 \u1072 \u1074 \u1083 \u1077 \u1085 \u1080 \u1077 \'bb \u1086 \u1079 \u1085 \u1072 \u1095 \u1072 \u1077 \u1090  \u1080 \u1085 \u1092 \u1086 \u1088 \u1084 \u1072 \u1094 \u1080 \u1102  \u1074  \u1101 \u1083 \u1077 \u1082 \u1090 \u1088 \u1086 \u1085 \u1085 \u1086 \u1084 , \u1091 \u1089 \u1090 \u1085 \u1086 \u1084  \u1080 \u1083 \u1080  \u1087 \u1080 \u1089 \u1100 \u1084 \u1077 \u1085 \u1085 \u1086 \u1084  \u1074 \u1080 \u1076 \u1077 , \u1086 \u1090 \u1087 \u1088 \u1072 \u1074 \u1083 \u1077 \u1085 \u1085 \u1091 \u1102  \u1051 \u1080 \u1094 \u1077 \u1085 \u1079 \u1080 \u1072 \u1088 \u1091  \u1080 \u1083 \u1080  \u1077 \u1075 \u1086  \u1087 \u1088 \u1077 \u1076 \u1089 \u1090 \u1072 \u1074 \u1080 \u1090 \u1077 \u1083 \u1103 \u1084 , \u1074 \u1082 \u1083 \u1102 \u1095 \u1072 \u1103 , \u1085 \u1086  \u1085 \u1077  \u1086 \u1075 \u1088 \u1072 \u1085 \u1080 \u1095 \u1080 \u1074 \u1072 \u1103 \u1089 \u1100  \u1087 \u1077 \u1088 \u1077 \u1076 \u1072 \u1095 \u1077 \u1081  \u1080 \u1085 \u1092 \u1086 \u1088 \u1084 \u1072 \u1094 \u1080 \u1080  \u1087 \u1086  \u1101 \u1083 \u1077 \u1082 \u1090 \u1088 \u1086 \u1085 \u1085 \u1086 \u1081  \u1087 \u1086 \u1095 \u1090 \u1077 , \u1095 \u1077 \u1088 \u1077 \u1079  \u1089 \u1080 \u1089 \u1090 \u1077 \u1084 \u1091  \u1082 \u1086 \u1085 \u1090 \u1088 \u1086 \u1083 \u1103  \u1080 \u1089 \u1093 \u1086 \u1076 \u1085 \u1086 \u1075 \u1086  \u1082 \u1086 \u1076 \u1072  \u1080  \u1089 \u1080 \u1089 \u1090 \u1077 \u1084 \u1091  \u1082 \u1086 \u1085 \u1090 \u1088 \u1086 \u1083 \u1103  \u1074 \u1077 \u1088 \u1089 \u1080 \u1081 , \u1087 \u1086 \u1076  \u1091 \u1087 \u1088 \u1072 \u1074 \u1083 \u1077 \u1085 \u1080 \u1077 \u1084  \u1080 \u1083 \u1080  \u1085 \u1072  \u1087 \u1088 \u1072 \u1074 \u1072 \u1093  \u1051 \u1080 \u1094 \u1077 \u1085 \u1079 \u1080 \u1072 \u1088 \u1072  \u1089  \u1094 \u1077 \u1083 \u1100 \u1102  \u1086 \u1073 \u1089 \u1091 \u1078 \u1076 \u1077 \u1085 \u1080 \u1103  \u1080  \u1091 \u1083 \u1091 \u1095 \u1096 \u1077 \u1085 \u1080 \u1103  \u1055 \u1088 \u1086 \u1080 \u1079 \u1074 \u1077 \u1076 \u1077 \u1085 \u1080 \u1103 , \u1085 \u1086  \u1080 \u1089 \u1082 \u1083 \u1102 \u1095 \u1072 \u1103  \u1080 \u1085 \u1092 \u1086 \u1088 \u1084 \u1072 \u1094 \u1080 \u1102 , \u1082 \u1086 \u1090 \u1086 \u1088 \u1072 \u1103  \u1074 \u1099 \u1076 \u1077 \u1083 \u1077 \u1085 \u1072  \u1080 \u1083 \u1080  \u1087 \u1080 \u1089 \u1100 \u1084 \u1077 \u1085 \u1085 \u1086  \u1086 \u1073 \u1086 \u1079 \u1085 \u1072 \u1095 \u1077 \u1085 \u1072  \u1074 \u1083 \u1072 \u1076 \u1077 \u1083 \u1100 \u1094 \u1077 \u1084  \u1072 \u1074 \u1090 \u1086 \u1088 \u1089 \u1082 \u1086 \u1075 \u1086  \u1087 \u1088 \u1072 \u1074 \u1072  \u1082 \u1072 \u1082  \'ab\u1053 \u1077  \u1103 \u1074 \u1083 \u1103 \u1102 \u1097 \u1072 \u1103 \u1089 \u1103  \u1055 \u1086 \u1089 \u1083 \u1077 \u1076 \u1091 \u1102 \u1097 \u1077 \u1081  \u1088 \u1072 \u1079 \u1088 \u1072 \u1073 \u1086 \u1090 \u1082 \u1086 \u1081 \'bb.\
+\uc0\u1055 \u1086 \u1076  \u1055 \u1086 \u1089 \u1083 \u1077 \u1076 \u1091 \u1102 \u1097 \u1080 \u1084  \u1088 \u1072 \u1079 \u1088 \u1072 \u1073 \u1086 \u1090 \u1095 \u1080 \u1082 \u1086 \u1084  \u1087 \u1086 \u1076 \u1088 \u1072 \u1079 \u1091 \u1084 \u1077 \u1074 \u1072 \u1077 \u1090 \u1089 \u1103  \u1051 \u1080 \u1094 \u1077 \u1085 \u1079 \u1080 \u1072 \u1088  \u1080 \u1083 \u1080  \u1092 \u1080 \u1079 \u1080 \u1095 \u1077 \u1089 \u1082 \u1086 \u1077  \u1080 \u1083 \u1080  \u1102 \u1088 \u1080 \u1076 \u1080 \u1095 \u1077 \u1089 \u1082 \u1086 \u1077  \u1083 \u1080 \u1094 \u1086  \u1086 \u1090  \u1080 \u1084 \u1077 \u1085 \u1080  \u1082 \u1086 \u1090 \u1086 \u1088 \u1086 \u1075 \u1086  \u1051 \u1080 \u1094 \u1077 \u1085 \u1079 \u1080 \u1072 \u1088 \u1086 \u1084  \u1073 \u1099 \u1083 \u1072  \u1087 \u1086 \u1083 \u1091 \u1095 \u1077 \u1085 \u1072  \u1055 \u1086 \u1089 \u1083 \u1077 \u1076 \u1091 \u1102 \u1097 \u1072 \u1103  \u1088 \u1072 \u1079 \u1088 \u1072 \u1073 \u1086 \u1090 \u1082 \u1072  \u1080  \u1074 \u1087 \u1086 \u1089 \u1083 \u1077 \u1076 \u1089 \u1090 \u1074 \u1080 \u1080  \u1074 \u1082 \u1083 \u1102 \u1095 \u1077 \u1085 \u1072  \u1074  \u1055 \u1088 \u1086 \u1080 \u1079 \u1074 \u1077 \u1076 \u1077 \u1085 \u1080 \u1077 .\
+2. \uc0\u1055 \u1088 \u1077 \u1076 \u1086 \u1089 \u1090 \u1072 \u1074 \u1083 \u1077 \u1085 \u1080 \u1077  \u1083 \u1080 \u1094 \u1077 \u1085 \u1079 \u1080 \u1080  \u1085 \u1072  \u1072 \u1074 \u1090 \u1086 \u1088 \u1089 \u1082 \u1086 \u1077  \u1087 \u1088 \u1072 \u1074 \u1086 . \u1042  \u1088 \u1072 \u1084 \u1082 \u1072 \u1093  \u1076 \u1072 \u1085 \u1085 \u1086 \u1081  \u1051 \u1080 \u1094 \u1077 \u1085 \u1079 \u1080 \u1080 , \u1082 \u1072 \u1078 \u1076 \u1099 \u1081  \u1055 \u1086 \u1089 \u1083 \u1077 \u1076 \u1091 \u1102 \u1097 \u1080 \u1081  \u1088 \u1072 \u1079 \u1088 \u1072 \u1073 \u1086 \u1090 \u1095 \u1080 \u1082  \u1087 \u1088 \u1077 \u1076 \u1086 \u1089 \u1090 \u1072 \u1074 \u1083 \u1103 \u1077 \u1090  \u1042 \u1072 \u1084  \u1073 \u1077 \u1089 \u1089 \u1088 \u1086 \u1095 \u1085 \u1091 \u1102 , \u1091 \u1085 \u1080 \u1074 \u1077 \u1088 \u1089 \u1072 \u1083 \u1100 \u1085 \u1091 \u1102 , \u1085 \u1077 \u1080 \u1089 \u1082 \u1083 \u1102 \u1095 \u1080 \u1090 \u1077 \u1083 \u1100 \u1085 \u1091 \u1102 , \u1089 \u1074 \u1086 \u1073 \u1086 \u1076 \u1085 \u1091 \u1102 , \u1085 \u1077 \u1086 \u1090 \u1079 \u1099 \u1074 \u1072 \u1077 \u1084 \u1091 \u1102  \u1083 \u1080 \u1094 \u1077 \u1085 \u1079 \u1080 \u1102  \u1085 \u1072  \u1074 \u1086 \u1089 \u1087 \u1088 \u1086 \u1080 \u1079 \u1074 \u1077 \u1076 \u1077 \u1085 \u1080 \u1077 , \u1086 \u1090 \u1082 \u1088 \u1099 \u1090 \u1091 \u1102  \u1076 \u1077 \u1084 \u1086 \u1085 \u1089 \u1090 \u1088 \u1072 \u1094 \u1080 \u1102 , \u1086 \u1090 \u1082 \u1088 \u1099 \u1090 \u1086 \u1077  \u1080 \u1089 \u1087 \u1086 \u1083 \u1100 \u1079 \u1086 \u1074 \u1072 \u1085 \u1080 \u1077 , \u1089 \u1091 \u1073 \u1083 \u1080 \u1094 \u1077 \u1085 \u1079 \u1080 \u1088 \u1086 \u1074 \u1072 \u1085 \u1080 \u1077  \u1080  \u1088 \u1072 \u1089 \u1087 \u1088 \u1086 \u1089 \u1090 \u1088 \u1072 \u1085 \u1077 \u1085 \u1080 \u1077  \u1055 \u1088 \u1086 \u1080 \u1079 \u1074 \u1077 \u1076 \u1077 \u1085 \u1080 \u1103  \u1080  \u1055 \u1088 \u1086 \u1080 \u1079 \u1074 \u1086 \u1076 \u1085 \u1099 \u1093  \u1087 \u1088 \u1086 \u1080 \u1079 \u1074 \u1077 \u1076 \u1077 \u1085 \u1080 \u1081  \u1074  \u1092 \u1086 \u1088 \u1084 \u1077  \u1080 \u1089 \u1090 \u1086 \u1095 \u1085 \u1080 \u1082 \u1072  \u1080 \u1083 \u1080  \u1086 \u1073 \u1098 \u1077 \u1082 \u1090 \u1072 .\
+3. \uc0\u1055 \u1088 \u1077 \u1076 \u1086 \u1089 \u1090 \u1072 \u1074 \u1083 \u1077 \u1085 \u1080 \u1077  \u1087 \u1072 \u1090 \u1077 \u1085 \u1090 \u1085 \u1086 \u1081  \u1083 \u1080 \u1094 \u1077 \u1085 \u1079 \u1080 \u1080 . \u1042  \u1088 \u1072 \u1084 \u1082 \u1072 \u1093  \u1076 \u1072 \u1085 \u1085 \u1086 \u1081  \u1051 \u1080 \u1094 \u1077 \u1085 \u1079 \u1080 \u1080 , \u1082 \u1072 \u1078 \u1076 \u1099 \u1081  \u1055 \u1086 \u1089 \u1083 \u1077 \u1076 \u1091 \u1102 \u1097 \u1080 \u1081  \u1088 \u1072 \u1079 \u1088 \u1072 \u1073 \u1086 \u1090 \u1095 \u1080 \u1082  \u1087 \u1088 \u1077 \u1076 \u1086 \u1089 \u1090 \u1072 \u1074 \u1083 \u1103 \u1077 \u1090  \u1042 \u1072 \u1084  \u1073 \u1077 \u1089 \u1089 \u1088 \u1086 \u1095 \u1085 \u1091 \u1102 , \u1091 \u1085 \u1080 \u1074 \u1077 \u1088 \u1089 \u1072 \u1083 \u1100 \u1085 \u1091 \u1102 , \u1085 \u1077 \u1080 \u1089 \u1082 \u1083 \u1102 \u1095 \u1080 \u1090 \u1077 \u1083 \u1100 \u1085 \u1091 \u1102 , \u1089 \u1074 \u1086 \u1073 \u1086 \u1076 \u1085 \u1091 \u1102 , \u1085 \u1077 \u1086 \u1090 \u1079 \u1099 \u1074 \u1072 \u1077 \u1084 \u1091 \u1102  (\u1079 \u1072  \u1080 \u1089 \u1082 \u1083 \u1102 \u1095 \u1077 \u1085 \u1080 \u1077 \u1084  \u1087 \u1086 \u1083 \u1086 \u1078 \u1077 \u1085 \u1080 \u1081 , \u1087 \u1088 \u1080 \u1074 \u1077 \u1076 \u1077 \u1085 \u1085 \u1099 \u1093  \u1074  \u1076 \u1072 \u1085 \u1085 \u1086 \u1084  \u1086 \u1090 \u1076 \u1077 \u1083 \u1077 ) \u1087 \u1072 \u1090 \u1077 \u1085 \u1090 \u1085 \u1091 \u1102  \u1083 \u1080 \u1094 \u1077 \u1085 \u1079 \u1080 \u1102  \u1085 \u1072  \u1080 \u1079 \u1075 \u1086 \u1090 \u1086 \u1074 \u1083 \u1077 \u1085 \u1080 \u1077 , \u1079 \u1072 \u1082 \u1072 \u1079  \u1085 \u1072  \u1080 \u1079 \u1075 \u1086 \u1090 \u1086 \u1074 \u1083 \u1077 \u1085 \u1080 \u1077 , \u1080 \u1089 \u1087 \u1086 \u1083 \u1100 \u1079 \u1086 \u1074 \u1072 \u1085 \u1080 \u1077 , \u1087 \u1088 \u1077 \u1076 \u1083 \u1086 \u1078 \u1077 \u1085 \u1080 \u1077  \u1086  \u1087 \u1088 \u1086 \u1076 \u1072 \u1078 \u1077 , \u1087 \u1088 \u1086 \u1076 \u1072 \u1078 \u1091 , \u1080 \u1084 \u1087 \u1086 \u1088 \u1090  \u1080 \u1083 \u1080  \u1087 \u1077 \u1088 \u1077 \u1076 \u1072 \u1095 \u1091  \u1055 \u1088 \u1086 \u1080 \u1079 \u1074 \u1077 \u1076 \u1077 \u1085 \u1080 \u1103 , \u1074  \u1090 \u1077 \u1093  \u1089 \u1083 \u1091 \u1095 \u1072 \u1103 \u1093 , \u1082 \u1086 \u1075 \u1076 \u1072  \u1083 \u1080 \u1094 \u1077 \u1085 \u1079 \u1080 \u1103  \u1086 \u1090 \u1085 \u1086 \u1089 \u1080 \u1090 \u1089 \u1103  \u1090 \u1086 \u1083 \u1100 \u1082 \u1086  \u1082  \u1087 \u1072 \u1090 \u1077 \u1085 \u1090 \u1085 \u1099 \u1084  \u1087 \u1088 \u1080 \u1090 \u1103 \u1079 \u1072 \u1085 \u1080 \u1103 \u1084 , \u1083 \u1080 \u1094 \u1077 \u1085 \u1079 \u1080 \u1088 \u1091 \u1077 \u1084 \u1099 \u1084 \u1080  \u1055 \u1086 \u1089 \u1083 \u1077 \u1076 \u1091 \u1102 \u1097 \u1080 \u1084  \u1088 \u1072 \u1079 \u1088 \u1072 \u1073 \u1086 \u1090 \u1095 \u1080 \u1082 \u1086 \u1084 , \u1080  \u1082 \u1086 \u1090 \u1086 \u1088 \u1099 \u1077  \u1085 \u1072 \u1088 \u1091 \u1096 \u1072 \u1102 \u1090  \u1087 \u1088 \u1072 \u1074 \u1072  \u1089 \u1074 \u1086 \u1080 \u1084 \u1080  \u1055 \u1086 \u1089 \u1083 \u1077 \u1076 \u1091 \u1102 \u1097 \u1080 \u1084 \u1080  \u1088 \u1072 \u1079 \u1088 \u1072 \u1073 \u1086 \u1090 \u1082 \u1072 \u1084 \u1080  \u1080 \u1083 \u1080  \u1089 \u1086 \u1095 \u1077 \u1090 \u1072 \u1085 \u1080 \u1077 \u1084  \u1080 \u1079  \u1055 \u1086 \u1089 \u1083 \u1077 \u1076 \u1091 \u1102 \u1097 \u1080 \u1093  \u1088 \u1072 \u1079 \u1088 \u1072 \u1073 \u1086 \u1090 \u1086 \u1082  \u1080  \u1055 \u1088 \u1086 \u1080 \u1079 \u1074 \u1077 \u1076 \u1077 \u1085 \u1080 \u1103  \u1082  \u1082 \u1086 \u1090 \u1086 \u1088 \u1086 \u1084 \u1091  \u1101 \u1090 \u1080  \u1055 \u1086 \u1089 \u1083 \u1077 \u1076 \u1091 \u1102 \u1097 \u1080 \u1077  \u1088 \u1072 \u1079 \u1088 \u1072 \u1073 \u1086 \u1090 \u1082 \u1080  \u1073 \u1099 \u1083 \u1080  \u1087 \u1088 \u1077 \u1076 \u1089 \u1090 \u1072 \u1074 \u1083 \u1077 \u1085 \u1099 . \u1045 \u1089 \u1083 \u1080  \u1074 \u1099  \u1085 \u1072 \u1095 \u1080 \u1085 \u1072 \u1077 \u1090 \u1077  \u1087 \u1072 \u1090 \u1077 \u1085 \u1090 \u1085 \u1099 \u1081  \u1089 \u1087 \u1086 \u1088  \u1087 \u1088 \u1086 \u1090 \u1080 \u1074  \u1083 \u1102 \u1073 \u1086 \u1081  \u1086 \u1088 \u1075 \u1072 \u1085 \u1080 \u1079 \u1072 \u1094 \u1080 \u1080  (\u1074 \u1082 \u1083 \u1102 \u1095 \u1072 \u1103  \u1074 \u1089 \u1090 \u1088 \u1077 \u1095 \u1085 \u1099 \u1081  \u1080 \u1083 \u1080  \u1087 \u1077 \u1088 \u1077 \u1082 \u1088 \u1077 \u1089 \u1090 \u1085 \u1099 \u1081  \u1080 \u1089 \u1082  \u1074  \u1089 \u1091 \u1076 \u1077 \u1073 \u1085 \u1086 \u1084  \u1087 \u1088 \u1086 \u1094 \u1077 \u1089 \u1089 \u1077 ) \u1091 \u1090 \u1074 \u1077 \u1088 \u1078 \u1076 \u1072 \u1103 , \u1095 \u1090 \u1086  \u1055 \u1088 \u1086 \u1080 \u1079 \u1074 \u1077 \u1076 \u1077 \u1085 \u1080 \u1077  \u1080 \u1083 \u1080  \u1055 \u1086 \u1089 \u1083 \u1077 \u1076 \u1091 \u1102 \u1097 \u1072 \u1103  \u1088 \u1072 \u1079 \u1088 \u1072 \u1073 \u1086 \u1090 \u1082 \u1072  \u1089 \u1086 \u1076 \u1077 \u1088 \u1078 \u1080 \u1090  \u1087 \u1088 \u1103 \u1084 \u1086 \u1077  \u1080 \u1083 \u1080  \u1082 \u1086 \u1089 \u1074 \u1077 \u1085 \u1085 \u1086 \u1077  \u1085 \u1072 \u1088 \u1091 \u1096 \u1077 \u1085 \u1080 \u1077  \u1087 \u1072 \u1090 \u1077 \u1085 \u1090 \u1085 \u1086 \u1075 \u1086  \u1087 \u1088 \u1072 \u1074 \u1072 , \u1090 \u1086  \u1083 \u1102 \u1073 \u1072 \u1103  \u1087 \u1072 \u1090 \u1077 \u1085 \u1090 \u1085 \u1072 \u1103  \u1083 \u1080 \u1094 \u1077 \u1085 \u1079 \u1080 \u1103  \u1087 \u1077 \u1088 \u1077 \u1076 \u1072 \u1085 \u1085 \u1072 \u1103  \u1042 \u1072 \u1084  \u1089 \u1086 \u1075 \u1083 \u1072 \u1089 \u1085 \u1086  \u1076 \u1072 \u1085 \u1085 \u1086 \u1081  \u1051 \u1080 \u1094 \u1077 \u1085 \u1079 \u1080 \u1080  \u1085 \u1072  \u1101 \u1090 \u1086  \u1055 \u1088 \u1086 \u1080 \u1079 \u1074 \u1077 \u1076 \u1077 \u1085 \u1080 \u1077  \u1087 \u1088 \u1077 \u1082 \u1088 \u1072 \u1097 \u1072 \u1077 \u1090  \u1076 \u1077 \u1081 \u1089 \u1090 \u1074 \u1086 \u1074 \u1072 \u1090 \u1100  \u1089  \u1084 \u1086 \u1084 \u1077 \u1085 \u1090 \u1072  \u1087 \u1086 \u1076 \u1072 \u1095 \u1080  \u1076 \u1086 \u1082 \u1091 \u1084 \u1077 \u1085 \u1090 \u1086 \u1074  \u1086  \u1087 \u1072 \u1090 \u1077 \u1085 \u1090 \u1085 \u1086 \u1084  \u1089 \u1087 \u1086 \u1088 \u1077 .\
+4. \uc0\u1056 \u1072 \u1089 \u1087 \u1088 \u1086 \u1089 \u1090 \u1088 \u1072 \u1085 \u1077 \u1085 \u1080 \u1077 . \u1042 \u1099  \u1084 \u1086 \u1078 \u1077 \u1090 \u1077  \u1074 \u1086 \u1089 \u1087 \u1088 \u1086 \u1080 \u1079 \u1074 \u1086 \u1076 \u1080 \u1090 \u1100  \u1080  \u1088 \u1072 \u1089 \u1087 \u1088 \u1086 \u1089 \u1090 \u1088 \u1072 \u1085 \u1103 \u1090 \u1100  \u1082 \u1086 \u1087 \u1080 \u1080  \u1055 \u1088 \u1086 \u1080 \u1079 \u1074 \u1077 \u1076 \u1077 \u1085 \u1080 \u1103  \u1080  \u1077 \u1075 \u1086  \u1055 \u1088 \u1086 \u1080 \u1079 \u1074 \u1086 \u1076 \u1085 \u1099 \u1093  \u1087 \u1088 \u1086 \u1080 \u1079 \u1074 \u1077 \u1076 \u1077 \u1085 \u1080 \u1081  \u1089  \u1080 \u1079 \u1084 \u1077 \u1085 \u1077 \u1085 \u1080 \u1103 \u1084 \u1080  \u1080 \u1083 \u1080  \u1073 \u1077 \u1079 , \u1074  \u1092 \u1086 \u1088 \u1084 \u1077  \u1080 \u1089 \u1090 \u1086 \u1095 \u1085 \u1080 \u1082 \u1072  \u1080 \u1083 \u1080  \u1086 \u1073 \u1098 \u1077 \u1082 \u1090 \u1072 , \u1087 \u1088 \u1080 \u1085 \u1080 \u1084 \u1072 \u1103  \u1074 \u1086  \u1074 \u1085 \u1080 \u1084 \u1072 \u1085 \u1080 \u1077  \u1090 \u1086 , \u1095 \u1090 \u1086  \u1042 \u1099  \u1076 \u1077 \u1081 \u1089 \u1090 \u1074 \u1091 \u1077 \u1090 \u1077  \u1089 \u1086 \u1075 \u1083 \u1072 \u1089 \u1085 \u1086  \u1089 \u1083 \u1077 \u1076 \u1091 \u1102 \u1097 \u1080 \u1084  \u1091 \u1089 \u1083 \u1086 \u1074 \u1080 \u1103 \u1084 :\
+\pard\tx220\tx720\pardeftab720\li720\fi-720\partightenfactor0
+\ls1\ilvl0\cf2 \kerning1\expnd0\expndtw0 {\listtext	\'95	}\expnd0\expndtw0\kerning0
+\uc0\u1042 \u1099  \u1076 \u1086 \u1083 \u1078 \u1085 \u1099  \u1087 \u1088 \u1077 \u1076 \u1086 \u1089 \u1090 \u1072 \u1074 \u1080 \u1090 \u1100  \u1082 \u1086 \u1087 \u1080 \u1102  \u1076 \u1072 \u1085 \u1085 \u1086 \u1081  \u1051 \u1080 \u1094 \u1077 \u1085 \u1079 \u1080 \u1080  \u1083 \u1102 \u1073 \u1086 \u1084 \u1091  \u1087 \u1086 \u1083 \u1091 \u1095 \u1080 \u1074 \u1096 \u1077 \u1084 \u1091  \u1055 \u1088 \u1086 \u1080 \u1079 \u1074 \u1077 \u1076 \u1077 \u1085 \u1080 \u1077  \u1080 \u1083 \u1080  \u1055 \u1088 \u1086 \u1080 \u1079 \u1074 \u1086 \u1076 \u1085 \u1099 \u1077  \u1087 \u1088 \u1086 \u1080 \u1079 \u1074 \u1077 \u1076 \u1077 \u1085 \u1080 \u1103 , \u1080 \
+\pard\tx220\tx720\pardeftab720\li720\fi-720\partightenfactor0
+\ls2\ilvl0\cf2 \kerning1\expnd0\expndtw0 {\listtext	\'95	}\expnd0\expndtw0\kerning0
+\uc0\u1051 \u1102 \u1073 \u1099 \u1077  \u1080 \u1079 \u1084 \u1077 \u1085 \u1077 \u1085 \u1085 \u1099 \u1077  \u1042 \u1072 \u1084 \u1080  \u1092 \u1072 \u1081 \u1083 \u1099  \u1076 \u1086 \u1083 \u1078 \u1085 \u1099  \u1089 \u1086 \u1076 \u1077 \u1088 \u1078 \u1072 \u1090 \u1100  \u1093 \u1086 \u1088 \u1086 \u1096 \u1086  \u1079 \u1072 \u1084 \u1077 \u1090 \u1085 \u1091 \u1102  \u1087 \u1086 \u1084 \u1077 \u1090 \u1082 \u1091 , \u1095 \u1090 \u1086  \u1086 \u1085 \u1080  \u1073 \u1099 \u1083 \u1080  \u1080 \u1079 \u1084 \u1077 \u1085 \u1077 \u1085 \u1099 , \u1072  \u1090 \u1072 \u1082 \u1078 \u1077 \
+\pard\tx220\tx720\pardeftab720\li720\fi-720\partightenfactor0
+\ls3\ilvl0\cf2 \kerning1\expnd0\expndtw0 {\listtext	\'95	}\expnd0\expndtw0\kerning0
+\uc0\u1055 \u1088 \u1080  \u1076 \u1072 \u1083 \u1100 \u1085 \u1077 \u1081 \u1096 \u1077 \u1084  \u1088 \u1072 \u1089 \u1087 \u1088 \u1086 \u1089 \u1090 \u1088 \u1072 \u1085 \u1077 \u1085 \u1080 \u1080  \u1092 \u1086 \u1088 \u1084 \u1099  \u1080 \u1089 \u1090 \u1086 \u1095 \u1085 \u1080 \u1082 \u1072  \u1083 \u1102 \u1073 \u1099 \u1093  \u1055 \u1088 \u1086 \u1080 \u1079 \u1074 \u1086 \u1076 \u1085 \u1099 \u1093  \u1087 \u1088 \u1086 \u1080 \u1079 \u1074 \u1077 \u1076 \u1077 \u1085 \u1080 \u1081  \u1076 \u1086 \u1083 \u1078 \u1085 \u1099  \u1089 \u1086 \u1093 \u1088 \u1072 \u1085 \u1103 \u1090 \u1100 \u1089 \u1103  \u1074 \u1089 \u1077  \u1079 \u1072 \u1103 \u1074 \u1083 \u1077 \u1085 \u1080 \u1103  \u1086 \u1073  \u1072 \u1074 \u1090 \u1086 \u1088 \u1089 \u1082 \u1080 \u1093  \u1087 \u1088 \u1072 \u1074 \u1072 \u1093 , \u1087 \u1072 \u1090 \u1077 \u1085 \u1090 \u1072 \u1093 , \u1090 \u1086 \u1074 \u1072 \u1088 \u1085 \u1099 \u1093  \u1079 \u1085 \u1072 \u1082 \u1072 \u1093  \u1080  \u1091 \u1087 \u1086 \u1084 \u1080 \u1085 \u1072 \u1085 \u1080 \u1103 \u1093 , \u1087 \u1088 \u1080 \u1089 \u1091 \u1090 \u1089 \u1090 \u1074 \u1091 \u1102 \u1097 \u1080 \u1077  \u1074  \u1092 \u1086 \u1088 \u1084 \u1077  \u1080 \u1089 \u1090 \u1086 \u1095 \u1085 \u1080 \u1082 \u1072  \u1055 \u1088 \u1086 \u1080 \u1079 \u1074 \u1077 \u1076 \u1077 \u1085 \u1080 \u1103 , \u1079 \u1072  \u1080 \u1089 \u1082 \u1083 \u1102 \u1095 \u1077 \u1085 \u1080 \u1077 \u1084  \u1090 \u1077 \u1093  \u1079 \u1072 \u1103 \u1074 \u1083 \u1077 \u1085 \u1080 \u1081 , \u1082 \u1086 \u1090 \u1086 \u1088 \u1099 \u1077  \u1085 \u1077  \u1082 \u1072 \u1089 \u1072 \u1102 \u1090 \u1089 \u1103  \u1083 \u1102 \u1073 \u1086 \u1081  \u1095 \u1072 \u1089 \u1090 \u1080  \u1055 \u1088 \u1086 \u1080 \u1079 \u1074 \u1086 \u1076 \u1085 \u1099 \u1093  \u1087 \u1088 \u1086 \u1080 \u1079 \u1074 \u1077 \u1076 \u1077 \u1085 \u1080 \u1081 , \u1080 \
+\pard\tx220\tx720\pardeftab720\li720\fi-720\partightenfactor0
+\ls4\ilvl0\cf2 \kerning1\expnd0\expndtw0 {\listtext	\'95	}\expnd0\expndtw0\kerning0
+\uc0\u1045 \u1089 \u1083 \u1080  \u1055 \u1088 \u1086 \u1080 \u1079 \u1074 \u1077 \u1076 \u1077 \u1085 \u1080 \u1077  \u1089 \u1086 \u1076 \u1077 \u1088 \u1078 \u1080 \u1090  \u1090 \u1077 \u1082 \u1089 \u1090 \u1086 \u1074 \u1099 \u1081  \u1092 \u1072 \u1081 \u1083  \'ab\u1059 \u1074 \u1077 \u1076 \u1086 \u1084 \u1083 \u1077 \u1085 \u1080 \u1077 \'bb, \u1090 \u1086  \u1083 \u1102 \u1073 \u1099 \u1077  \u1055 \u1088 \u1086 \u1080 \u1079 \u1074 \u1086 \u1076 \u1085 \u1099 \u1077  \u1087 \u1088 \u1086 \u1080 \u1079 \u1074 \u1077 \u1076 \u1077 \u1085 \u1080 \u1103 , \u1082 \u1086 \u1090 \u1086 \u1088 \u1099 \u1077  \u1042 \u1099  \u1088 \u1072 \u1089 \u1087 \u1088 \u1086 \u1089 \u1090 \u1088 \u1072 \u1085 \u1103 \u1077 \u1090 \u1077 , \u1076 \u1086 \u1083 \u1078 \u1085 \u1099  \u1074 \u1082 \u1083 \u1102 \u1095 \u1072 \u1090 \u1100  \u1077 \u1075 \u1086  \u1091 \u1076 \u1086 \u1073 \u1086 \u1095 \u1080 \u1090 \u1072 \u1077 \u1084 \u1091 \u1102  \u1082 \u1086 \u1087 \u1080 \u1102 , \u1079 \u1072  \u1080 \u1089 \u1082 \u1083 \u1102 \u1095 \u1077 \u1085 \u1080 \u1077 \u1084  \u1090 \u1077 \u1093  \u1079 \u1072 \u1103 \u1074 \u1083 \u1077 \u1085 \u1080 \u1081 , \u1082 \u1086 \u1090 \u1086 \u1088 \u1099 \u1077  \u1085 \u1077  \u1082 \u1072 \u1089 \u1072 \u1102 \u1090 \u1089 \u1103  \u1083 \u1102 \u1073 \u1086 \u1081  \u1095 \u1072 \u1089 \u1090 \u1080  \u1055 \u1088 \u1086 \u1080 \u1079 \u1074 \u1086 \u1076 \u1085 \u1099 \u1093  \u1087 \u1088 \u1086 \u1080 \u1079 \u1074 \u1077 \u1076 \u1077 \u1085 \u1080 \u1081 , \u1087 \u1086  \u1082 \u1088 \u1072 \u1081 \u1085 \u1077 \u1081  \u1084 \u1077 \u1088 \u1077 , \u1082 \u1086 \u1087 \u1080 \u1103  \u1076 \u1086 \u1083 \u1078 \u1085 \u1072  \u1085 \u1072 \u1093 \u1086 \u1076 \u1080 \u1090 \u1100 \u1089 \u1103  \u1074  \u1086 \u1076 \u1085 \u1086 \u1084  \u1080 \u1079  \u1089 \u1083 \u1077 \u1076 \u1091 \u1102 \u1097 \u1080 \u1093  \u1084 \u1077 \u1089 \u1090 : \u1074  \u1090 \u1077 \u1082 \u1089 \u1090 \u1086 \u1074 \u1086 \u1084  \u1092 \u1072 \u1081 \u1083 \u1077  \'abNotice\'bb, \u1088 \u1072 \u1089 \u1087 \u1088 \u1086 \u1089 \u1090 \u1088 \u1072 \u1085 \u1103 \u1077 \u1084 \u1086 \u1084  \u1082 \u1072 \u1082  \u1095 \u1072 \u1089 \u1090 \u1100  \u1055 \u1088 \u1086 \u1080 \u1079 \u1074 \u1086 \u1076 \u1085 \u1099 \u1093  \u1087 \u1088 \u1086 \u1080 \u1079 \u1074 \u1077 \u1076 \u1077 \u1085 \u1080 \u1081 ; \u1074  \u1092 \u1086 \u1088 \u1084 \u1077  \u1080 \u1089 \u1090 \u1086 \u1095 \u1085 \u1080 \u1082 \u1072  \u1080 \u1083 \u1080  \u1076 \u1086 \u1082 \u1091 \u1084 \u1077 \u1085 \u1090 \u1072 \u1094 \u1080 \u1080 , \u1077 \u1089 \u1083 \u1080  \u1090 \u1072 \u1082 \u1086 \u1074 \u1072 \u1103  \u1087 \u1088 \u1077 \u1076 \u1086 \u1089 \u1090 \u1072 \u1074 \u1083 \u1103 \u1077 \u1090 \u1089 \u1103  \u1085 \u1072 \u1088 \u1103 \u1076 \u1091  \u1089  \u1055 \u1088 \u1086 \u1080 \u1079 \u1074 \u1086 \u1076 \u1085 \u1099 \u1084 \u1080  \u1087 \u1088 \u1086 \u1080 \u1079 \u1074 \u1077 \u1076 \u1077 \u1085 \u1080 \u1103 \u1084 \u1080 ; \u1080 \u1083 \u1080  \u1074  \u1087 \u1088 \u1086 \u1094 \u1077 \u1089 \u1089 \u1077  \u1086 \u1090 \u1086 \u1073 \u1088 \u1072 \u1078 \u1077 \u1085 \u1080 \u1103 , \u1089 \u1086 \u1079 \u1076 \u1072 \u1074 \u1072 \u1077 \u1084 \u1086 \u1075 \u1086 , \u1074  \u1089 \u1083 \u1091 \u1095 \u1072 \u1077  \u1077 \u1089 \u1083 \u1080  \u1080  \u1075 \u1076 \u1077  \u1073 \u1099  \u1101 \u1090 \u1080  \u1089 \u1090 \u1086 \u1088 \u1086 \u1085 \u1085 \u1080 \u1077  \u1079 \u1072 \u1103 \u1074 \u1083 \u1077 \u1085 \u1080 \u1103  \u1085 \u1077  \u1087 \u1086 \u1103 \u1074 \u1080 \u1083 \u1080 \u1089 \u1100 . \u1057 \u1086 \u1076 \u1077 \u1088 \u1078 \u1080 \u1084 \u1086 \u1077  \u1092 \u1072 \u1081 \u1083 \u1072  \'abNotice\'bb \u1087 \u1088 \u1077 \u1076 \u1086 \u1089 \u1090 \u1072 \u1074 \u1083 \u1103 \u1077 \u1090 \u1089 \u1103  \u1090 \u1086 \u1083 \u1100 \u1082 \u1086  \u1076 \u1083 \u1103  \u1080 \u1085 \u1092 \u1086 \u1088 \u1084 \u1072 \u1094 \u1080 \u1086 \u1085 \u1085 \u1099 \u1093  \u1094 \u1077 \u1083 \u1077 \u1081  \u1080  \u1085 \u1077  \u1080 \u1079 \u1084 \u1077 \u1085 \u1103 \u1077 \u1090  \u1051 \u1080 \u1094 \u1077 \u1085 \u1079 \u1080 \u1102 . \u1042 \u1099  \u1084 \u1086 \u1078 \u1077 \u1090 \u1077  \u1076 \u1086 \u1073 \u1072 \u1074 \u1080 \u1090 \u1100  \u1042 \u1072 \u1096 \u1080  \u1089 \u1086 \u1073 \u1089 \u1090 \u1074 \u1077 \u1085 \u1085 \u1099 \u1077  \u1091 \u1074 \u1077 \u1076 \u1086 \u1084 \u1083 \u1077 \u1085 \u1080 \u1103  \u1086 \u1073  \u1080 \u1089 \u1087 \u1086 \u1083 \u1100 \u1079 \u1086 \u1074 \u1072 \u1085 \u1080 \u1080  \u1090 \u1086 \u1088 \u1075 \u1086 \u1074 \u1086 \u1075 \u1086  \u1079 \u1085 \u1072 \u1082 \u1072  \u1074  \u1055 \u1088 \u1086 \u1080 \u1079 \u1074 \u1086 \u1076 \u1085 \u1099 \u1077  \u1087 \u1088 \u1086 \u1080 \u1079 \u1074 \u1077 \u1076 \u1077 \u1085 \u1080 \u1103 , \u1082 \u1086 \u1090 \u1086 \u1088 \u1099 \u1077  \u1042 \u1099  \u1088 \u1072 \u1089 \u1087 \u1088 \u1086 \u1089 \u1090 \u1088 \u1072 \u1085 \u1103 \u1077 \u1090 \u1077 , \u1085 \u1072 \u1088 \u1103 \u1076 \u1091  \u1089  \u1080 \u1083 \u1080  \u1082 \u1072 \u1082  \u1087 \u1088 \u1080 \u1083 \u1086 \u1078 \u1077 \u1085 \u1080 \u1077  \u1082  \u1090 \u1077 \u1082 \u1089 \u1090 \u1091  Notice, \u1087 \u1088 \u1080 \u1085 \u1080 \u1084 \u1072 \u1103  \u1074 \u1086  \u1074 \u1085 \u1080 \u1084 \u1072 \u1085 \u1080 \u1077 , \u1095 \u1090 \u1086  \u1087 \u1086 \u1076 \u1086 \u1073 \u1085 \u1099 \u1077  \u1076 \u1086 \u1087 \u1086 \u1083 \u1085 \u1080 \u1090 \u1077 \u1083 \u1100 \u1085 \u1099 \u1077  \u1091 \u1074 \u1077 \u1076 \u1086 \u1084 \u1083 \u1077 \u1085 \u1080 \u1103  \u1085 \u1077  \u1084 \u1086 \u1075 \u1091 \u1090  \u1073 \u1099 \u1090 \u1100  \u1080 \u1089 \u1090 \u1086 \u1083 \u1082 \u1086 \u1074 \u1072 \u1085 \u1099  \u1082 \u1072 \u1082  \u1080 \u1079 \u1084 \u1077 \u1085 \u1077 \u1085 \u1080 \u1077  \u1051 \u1080 \u1094 \u1077 \u1085 \u1079 \u1080 \u1080 .\
+\pard\pardeftab720\partightenfactor0
+\cf2 \uc0\u1042 \u1099  \u1084 \u1086 \u1078 \u1077 \u1090 \u1077  \u1076 \u1086 \u1073 \u1072 \u1074 \u1080 \u1090 \u1100  \u1082  \u1080 \u1079 \u1084 \u1077 \u1085 \u1077 \u1085 \u1080 \u1103 \u1084  \u1042 \u1072 \u1096 \u1077  \u1089 \u1086 \u1073 \u1089 \u1090 \u1074 \u1077 \u1085 \u1085 \u1086 \u1077  \u1079 \u1072 \u1103 \u1074 \u1083 \u1077 \u1085 \u1080 \u1077  \u1086 \u1073  \u1072 \u1074 \u1090 \u1086 \u1088 \u1089 \u1082 \u1080 \u1093  \u1087 \u1088 \u1072 \u1074 \u1072 \u1093  \u1080  \u1084 \u1086 \u1078 \u1077 \u1090 \u1077  \u1087 \u1088 \u1077 \u1076 \u1086 \u1089 \u1090 \u1072 \u1074 \u1080 \u1090 \u1100  \u1076 \u1086 \u1087 \u1086 \u1083 \u1085 \u1080 \u1090 \u1077 \u1083 \u1100 \u1085 \u1099 \u1077  \u1080 \u1083 \u1080  \u1076 \u1088 \u1091 \u1075 \u1080 \u1077  \u1083 \u1080 \u1094 \u1077 \u1085 \u1079 \u1080 \u1086 \u1085 \u1085 \u1099 \u1077  \u1091 \u1089 \u1083 \u1086 \u1074 \u1080 \u1103  \u1076 \u1083 \u1103  \u1080 \u1089 \u1087 \u1086 \u1083 \u1100 \u1079 \u1086 \u1074 \u1072 \u1085 \u1080 \u1103 , \u1082 \u1086 \u1087 \u1080 \u1088 \u1086 \u1074 \u1072 \u1085 \u1080 \u1103  \u1080 \u1083 \u1080  \u1088 \u1072 \u1089 \u1087 \u1088 \u1086 \u1089 \u1090 \u1088 \u1072 \u1085 \u1077 \u1085 \u1080 \u1103  \u1042 \u1072 \u1096 \u1080 \u1093  \u1084 \u1086 \u1076 \u1080 \u1092 \u1080 \u1082 \u1072 \u1094 \u1080 \u1081 , \u1080 \u1083 \u1080  \u1076 \u1083 \u1103  \u1080 \u1089 \u1087 \u1086 \u1083 \u1100 \u1079 \u1086 \u1074 \u1072 \u1085 \u1080 \u1103  \u1055 \u1088 \u1086 \u1080 \u1079 \u1074 \u1086 \u1076 \u1085 \u1099 \u1093  \u1087 \u1088 \u1086 \u1080 \u1079 \u1074 \u1077 \u1076 \u1077 \u1085 \u1080 \u1081  \u1074  \u1094 \u1077 \u1083 \u1086 \u1084 , \u1087 \u1088 \u1080  \u1091 \u1089 \u1083 \u1086 \u1074 \u1080 \u1080 , \u1095 \u1090 \u1086  \u1042 \u1099  \u1080 \u1089 \u1087 \u1086 \u1083 \u1100 \u1079 \u1091 \u1077 \u1090 \u1077 , \u1082 \u1086 \u1087 \u1080 \u1088 \u1091 \u1077 \u1090 \u1077  \u1080  \u1088 \u1072 \u1089 \u1087 \u1088 \u1086 \u1089 \u1090 \u1088 \u1072 \u1085 \u1103 \u1077 \u1090 \u1077  \u1055 \u1088 \u1086 \u1080 \u1079 \u1074 \u1077 \u1076 \u1077 \u1085 \u1080 \u1077  \u1074  \u1089 \u1086 \u1086 \u1090 \u1074 \u1077 \u1090 \u1089 \u1090 \u1074 \u1080 \u1080  \u1089  \u1091 \u1089 \u1083 \u1086 \u1074 \u1080 \u1103 \u1084 \u1080 , \u1080 \u1079 \u1083 \u1086 \u1078 \u1077 \u1085 \u1085 \u1099 \u1084 \u1080  \u1074  \u1076 \u1072 \u1085 \u1085 \u1086 \u1081  \u1051 \u1080 \u1094 \u1077 \u1085 \u1079 \u1080 \u1080 .\
+5. \uc0\u1055 \u1088 \u1077 \u1076 \u1089 \u1090 \u1072 \u1074 \u1083 \u1077 \u1085 \u1080 \u1077  \u1055 \u1086 \u1089 \u1083 \u1077 \u1076 \u1091 \u1102 \u1097 \u1080 \u1093  \u1088 \u1072 \u1079 \u1088 \u1072 \u1073 \u1086 \u1090 \u1086 \u1082 . \u1045 \u1089 \u1083 \u1080  \u1042 \u1099  \u1103 \u1074 \u1085 \u1086  \u1085 \u1077  \u1091 \u1090 \u1074 \u1077 \u1088 \u1078 \u1076 \u1072 \u1077 \u1090 \u1077  \u1076 \u1088 \u1091 \u1075 \u1086 \u1075 \u1086 , \u1083 \u1102 \u1073 \u1072 \u1103  \u1055 \u1086 \u1089 \u1083 \u1077 \u1076 \u1091 \u1102 \u1097 \u1072 \u1103  \u1088 \u1072 \u1079 \u1088 \u1072 \u1073 \u1086 \u1090 \u1082 \u1072 , \u1085 \u1072 \u1084 \u1077 \u1088 \u1077 \u1085 \u1085 \u1086  \u1087 \u1088 \u1077 \u1076 \u1089 \u1090 \u1072 \u1074 \u1083 \u1077 \u1085 \u1085 \u1072 \u1103  \u1042 \u1072 \u1084 \u1080  \u1051 \u1080 \u1094 \u1077 \u1085 \u1079 \u1080 \u1072 \u1088 \u1091  \u1076 \u1083 \u1103  \u1074 \u1082 \u1083 \u1102 \u1095 \u1077 \u1085 \u1080 \u1103  \u1074  \u1055 \u1088 \u1086 \u1080 \u1079 \u1074 \u1077 \u1076 \u1077 \u1085 \u1080 \u1077 , \u1076 \u1086 \u1083 \u1078 \u1085 \u1072  \u1089 \u1086 \u1086 \u1090 \u1074 \u1077 \u1090 \u1089 \u1090 \u1074 \u1086 \u1074 \u1072 \u1090 \u1100  \u1091 \u1089 \u1083 \u1086 \u1074 \u1080 \u1103 \u1084  \u1076 \u1072 \u1085 \u1085 \u1086 \u1081  \u1051 \u1080 \u1094 \u1077 \u1085 \u1079 \u1080 \u1080 , \u1080 \u1089 \u1082 \u1083 \u1102 \u1095 \u1072 \u1103  \u1083 \u1102 \u1073 \u1099 \u1077  \u1076 \u1086 \u1087 \u1086 \u1083 \u1085 \u1080 \u1090 \u1077 \u1083 \u1100 \u1085 \u1099 \u1077  \u1091 \u1089 \u1083 \u1086 \u1074 \u1080 \u1103 . \u1053 \u1077 \u1089 \u1084 \u1086 \u1090 \u1088 \u1103  \u1085 \u1072  \u1074 \u1099 \u1096 \u1077 \u1080 \u1079 \u1083 \u1086 \u1078 \u1077 \u1085 \u1085 \u1086 \u1077 , \u1085 \u1080 \u1095 \u1090 \u1086  \u1074  \u1076 \u1072 \u1085 \u1085 \u1086 \u1084  \u1076 \u1086 \u1082 \u1091 \u1084 \u1077 \u1085 \u1090 \u1077  \u1085 \u1077  \u1084 \u1086 \u1078 \u1077 \u1090  \u1079 \u1072 \u1084 \u1077 \u1089 \u1090 \u1080 \u1090 \u1100  \u1080 \u1083 \u1080  \u1080 \u1079 \u1084 \u1077 \u1085 \u1080 \u1090 \u1100  \u1091 \u1089 \u1083 \u1086 \u1074 \u1080 \u1103  \u1086 \u1090 \u1076 \u1077 \u1083 \u1100 \u1085 \u1086 \u1075 \u1086  \u1083 \u1080 \u1094 \u1077 \u1085 \u1079 \u1080 \u1086 \u1085 \u1085 \u1086 \u1075 \u1086  \u1089 \u1086 \u1075 \u1083 \u1072 \u1096 \u1077 \u1085 \u1080 \u1103 , \u1082 \u1086 \u1090 \u1086 \u1088 \u1086 \u1077  \u1074 \u1099  \u1084 \u1086 \u1075 \u1083 \u1080  \u1079 \u1072 \u1082 \u1083 \u1102 \u1095 \u1080 \u1090 \u1100  \u1089  \u1051 \u1080 \u1094 \u1077 \u1085 \u1079 \u1080 \u1072 \u1088 \u1086 \u1084  \u1086 \u1090 \u1085 \u1086 \u1089 \u1080 \u1090 \u1077 \u1083 \u1100 \u1085 \u1086  \u1055 \u1086 \u1089 \u1083 \u1077 \u1076 \u1091 \u1102 \u1097 \u1080 \u1093  \u1088 \u1072 \u1079 \u1088 \u1072 \u1073 \u1086 \u1090 \u1086 \u1082 .\
+6. \uc0\u1058 \u1086 \u1074 \u1072 \u1088 \u1085 \u1099 \u1077  \u1079 \u1085 \u1072 \u1082 \u1080 . \u1044 \u1072 \u1085 \u1085 \u1072 \u1103  \u1051 \u1080 \u1094 \u1077 \u1085 \u1079 \u1080 \u1103  \u1085 \u1077  \u1076 \u1072 \u1077 \u1090  \u1088 \u1072 \u1079 \u1088 \u1077 \u1096 \u1077 \u1085 \u1080 \u1103  \u1085 \u1072  \u1080 \u1089 \u1087 \u1086 \u1083 \u1100 \u1079 \u1086 \u1074 \u1072 \u1085 \u1080 \u1077  \u1090 \u1086 \u1088 \u1075 \u1086 \u1074 \u1099 \u1093  \u1085 \u1072 \u1080 \u1084 \u1077 \u1085 \u1086 \u1074 \u1072 \u1085 \u1080 \u1081 , \u1090 \u1086 \u1074 \u1072 \u1088 \u1085 \u1099 \u1093  \u1079 \u1085 \u1072 \u1082 \u1086 \u1074 , \u1079 \u1085 \u1072 \u1082 \u1086 \u1074  \u1091 \u1089 \u1083 \u1091 \u1075  \u1080 \u1083 \u1080  \u1085 \u1072 \u1079 \u1074 \u1072 \u1085 \u1080 \u1081  \u1087 \u1088 \u1086 \u1076 \u1091 \u1082 \u1090 \u1086 \u1074 , \u1087 \u1088 \u1080 \u1085 \u1072 \u1076 \u1083 \u1077 \u1078 \u1072 \u1097 \u1080 \u1093  \u1051 \u1080 \u1094 \u1077 \u1085 \u1079 \u1080 \u1072 \u1088 \u1091 , \u1080 \u1089 \u1082 \u1083 \u1102 \u1095 \u1072 \u1103  \u1089 \u1080 \u1090 \u1091 \u1072 \u1094 \u1080 \u1102 , \u1082 \u1086 \u1075 \u1076 \u1072  \u1086 \u1085 \u1080  \u1084 \u1086 \u1075 \u1091 \u1090  \u1087 \u1086 \u1090 \u1088 \u1077 \u1073 \u1086 \u1074 \u1072 \u1090 \u1100 \u1089 \u1103  \u1076 \u1083 \u1103  \u1086 \u1073 \u1086 \u1089 \u1085 \u1086 \u1074 \u1072 \u1085 \u1085 \u1086 \u1075 \u1086  \u1080  \u1086 \u1073 \u1099 \u1095 \u1085 \u1086 \u1075 \u1086  \u1080 \u1089 \u1087 \u1086 \u1083 \u1100 \u1079 \u1086 \u1074 \u1072 \u1085 \u1080 \u1103  \u1087 \u1088 \u1080  \u1086 \u1087 \u1080 \u1089 \u1072 \u1085 \u1080 \u1080  \u1080 \u1089 \u1090 \u1086 \u1095 \u1085 \u1080 \u1082 \u1072  \u1055 \u1088 \u1086 \u1080 \u1079 \u1074 \u1077 \u1076 \u1077 \u1085 \u1080 \u1103  \u1080  \u1074 \u1086 \u1089 \u1087 \u1088 \u1086 \u1080 \u1079 \u1074 \u1077 \u1076 \u1077 \u1085 \u1080 \u1080  \u1089 \u1086 \u1076 \u1077 \u1088 \u1078 \u1080 \u1084 \u1086 \u1075 \u1086  \u1092 \u1072 \u1081 \u1083 \u1072  Notice.\
+7. \uc0\u1054 \u1090 \u1082 \u1072 \u1079  \u1086 \u1090  \u1075 \u1072 \u1088 \u1072 \u1085 \u1090 \u1080 \u1081 \u1085 \u1099 \u1093  \u1086 \u1073 \u1103 \u1079 \u1072 \u1090 \u1077 \u1083 \u1100 \u1089 \u1090 \u1074 . \u1051 \u1080 \u1094 \u1077 \u1085 \u1079 \u1080 \u1072 \u1088  \u1087 \u1088 \u1077 \u1076 \u1086 \u1089 \u1090 \u1072 \u1074 \u1083 \u1103 \u1077 \u1090  \u1055 \u1088 \u1086 \u1080 \u1079 \u1074 \u1077 \u1076 \u1077 \u1085 \u1080 \u1077  (\u1080  \u1082 \u1072 \u1078 \u1076 \u1099 \u1081  \u1055 \u1086 \u1089 \u1083 \u1077 \u1076 \u1091 \u1102 \u1097 \u1080 \u1081  \u1088 \u1072 \u1079 \u1088 \u1072 \u1073 \u1086 \u1090 \u1095 \u1080 \u1082  \u1087 \u1088 \u1077 \u1076 \u1086 \u1089 \u1090 \u1072 \u1074 \u1083 \u1103 \u1077 \u1090  \u1055 \u1086 \u1089 \u1083 \u1077 \u1076 \u1091 \u1102 \u1097 \u1080 \u1077  \u1088 \u1072 \u1079 \u1088 \u1072 \u1073 \u1086 \u1090 \u1082 \u1080 ) "\u1050 \u1040 \u1050  \u1045 \u1057 \u1058 \u1068 " \u1080  \u1083 \u1102 \u1073 \u1099 \u1077  \u1103 \u1074 \u1085 \u1099 \u1077  \u1080 \u1083 \u1080  \u1085 \u1077 \u1103 \u1074 \u1085 \u1099 \u1077  \u1075 \u1072 \u1088 \u1072 \u1085 \u1090 \u1080 \u1080 , \u1074 \u1082 \u1083 \u1102 \u1095 \u1072 \u1103 , \u1073 \u1077 \u1079  \u1086 \u1075 \u1088 \u1072 \u1085 \u1080 \u1095 \u1077 \u1085 \u1080 \u1081 , \u1075 \u1072 \u1088 \u1072 \u1085 \u1090 \u1080 \u1080  \u1055 \u1056 \u1040 \u1042  \u1057 \u1054 \u1041 \u1057 \u1058 \u1042 \u1045 \u1053 \u1053 \u1054 \u1057 \u1058 \u1048 , \u1053 \u1045 \u1053 \u1040 \u1056 \u1059 \u1064 \u1045 \u1053 \u1048 \u1045  \u1055 \u1056 \u1040 \u1042 , \u1050 \u1054 \u1052 \u1052 \u1045 \u1056 \u1063 \u1045 \u1057 \u1050 \u1054 \u1049  \u1055 \u1056 \u1048 \u1043 \u1054 \u1044 \u1053 \u1054 \u1057 \u1058 \u1048  \u1048  \u1055 \u1056 \u1048 \u1043 \u1054 \u1044 \u1053 \u1054 \u1057 \u1058 \u1048  \u1044 \u1051 \u1071  \u1054 \u1055 \u1056 \u1045 \u1044 \u1045 \u1051 \u1045 \u1053 \u1053 \u1054 \u1049  \u1062 \u1045 \u1051 \u1048 , \u1054 \u1058 \u1042 \u1045 \u1056 \u1043 \u1040 \u1070 \u1058 \u1057 \u1071 . \u1042 \u1099  \u1085 \u1077 \u1089 \u1077 \u1090 \u1077  \u1086 \u1090 \u1074 \u1077 \u1090 \u1089 \u1090 \u1074 \u1077 \u1085 \u1085 \u1086 \u1089 \u1090 \u1100  \u1080 \u1089 \u1082 \u1083 \u1102 \u1095 \u1080 \u1090 \u1077 \u1083 \u1100 \u1085 \u1086  \u1079 \u1072  \u1086 \u1087 \u1088 \u1077 \u1076 \u1077 \u1083 \u1077 \u1085 \u1080 \u1077  \u1087 \u1088 \u1080 \u1075 \u1086 \u1076 \u1085 \u1086 \u1089 \u1090 \u1080  \u1080 \u1089 \u1087 \u1086 \u1083 \u1100 \u1079 \u1086 \u1074 \u1072 \u1085 \u1080 \u1103  \u1080 \u1083 \u1080  \u1088 \u1072 \u1089 \u1087 \u1088 \u1077 \u1076 \u1077 \u1083 \u1077 \u1085 \u1080 \u1103  \u1055 \u1088 \u1086 \u1080 \u1079 \u1074 \u1077 \u1076 \u1077 \u1085 \u1080 \u1103  \u1080  \u1087 \u1088 \u1080 \u1085 \u1080 \u1084 \u1072 \u1077 \u1090 \u1077  \u1083 \u1102 \u1073 \u1099 \u1077  \u1088 \u1080 \u1089 \u1082 \u1080  \u1089 \u1074 \u1103 \u1079 \u1072 \u1085 \u1085 \u1099 \u1077  \u1089  \u1086 \u1089 \u1091 \u1097 \u1077 \u1089 \u1090 \u1074 \u1083 \u1077 \u1085 \u1080 \u1077 \u1084  \u1087 \u1086 \u1083 \u1085 \u1086 \u1084 \u1086 \u1095 \u1080 \u1081  \u1087 \u1086  \u1076 \u1072 \u1085 \u1085 \u1086 \u1084 \u1091  \u1051 \u1080 \u1094 \u1077 \u1085 \u1079 \u1080 \u1086 \u1085 \u1085 \u1086 \u1084 \u1091  \u1089 \u1086 \u1075 \u1083 \u1072 \u1096 \u1077 \u1085 \u1080 \u1102 .\
+8. \uc0\u1054 \u1075 \u1088 \u1072 \u1085 \u1080 \u1095 \u1077 \u1085 \u1080 \u1077  \u1086 \u1090 \u1074 \u1077 \u1090 \u1089 \u1090 \u1074 \u1077 \u1085 \u1085 \u1086 \u1089 \u1090 \u1080 . \u1053 \u1080  \u1087 \u1088 \u1080  \u1082 \u1072 \u1082 \u1080 \u1093  \u1091 \u1089 \u1083 \u1086 \u1074 \u1080 \u1103 \u1093  \u1055 \u1086 \u1089 \u1083 \u1077 \u1076 \u1091 \u1102 \u1097 \u1080 \u1081  \u1088 \u1072 \u1079 \u1088 \u1072 \u1073 \u1086 \u1090 \u1095 \u1080 \u1082  \u1085 \u1077  \u1085 \u1077 \u1089 \u1077 \u1090  \u1086 \u1090 \u1074 \u1077 \u1090 \u1089 \u1090 \u1074 \u1077 \u1085 \u1085 \u1086 \u1089 \u1090 \u1080  \u1087 \u1077 \u1088 \u1077 \u1076  \u1042 \u1072 \u1084 \u1080  \u1079 \u1072  \u1091 \u1073 \u1099 \u1090 \u1082 \u1080 , \u1074 \u1082 \u1083 \u1102 \u1095 \u1072 \u1103  \u1083 \u1102 \u1073 \u1099 \u1077  \u1087 \u1088 \u1103 \u1084 \u1099 \u1077 , \u1082 \u1086 \u1089 \u1074 \u1077 \u1085 \u1085 \u1099 \u1077 , \u1091 \u1084 \u1099 \u1096 \u1083 \u1077 \u1085 \u1085 \u1099 \u1077 , \u1089 \u1083 \u1091 \u1095 \u1072 \u1081 \u1085 \u1099 \u1077  \u1080 \u1083 \u1080  \u1087 \u1086 \u1089 \u1083 \u1077 \u1076 \u1091 \u1102 \u1097 \u1080 \u1077  \u1091 \u1073 \u1099 \u1090 \u1082 \u1080  \u1083 \u1102 \u1073 \u1086 \u1075 \u1086  \u1093 \u1072 \u1088 \u1072 \u1082 \u1090 \u1077 \u1088 \u1072  \u1087 \u1088 \u1086 \u1080 \u1089 \u1090 \u1077 \u1082 \u1072 \u1102 \u1097 \u1080 \u1077  \u1080 \u1079  \u1076 \u1072 \u1085 \u1085 \u1086 \u1075 \u1086  \u1051 \u1080 \u1094 \u1077 \u1085 \u1079 \u1080 \u1086 \u1085 \u1085 \u1086 \u1075 \u1086  \u1089 \u1086 \u1075 \u1083 \u1072 \u1096 \u1077 \u1085 \u1080 \u1103  \u1080 \u1083 \u1080  \u1080 \u1079  \u1080 \u1089 \u1087 \u1086 \u1083 \u1100 \u1079 \u1086 \u1074 \u1072 \u1085 \u1080 \u1103  \u1080 \u1083 \u1080  \u1085 \u1077 \u1074 \u1086 \u1079 \u1084 \u1086 \u1078 \u1085 \u1086 \u1089 \u1090 \u1080  \u1080 \u1089 \u1087 \u1086 \u1083 \u1100 \u1079 \u1086 \u1074 \u1072 \u1085 \u1080 \u1103  \u1055 \u1088 \u1086 \u1080 \u1079 \u1074 \u1077 \u1076 \u1077 \u1085 \u1080 \u1103  (\u1074 \u1082 \u1083 \u1102 \u1095 \u1072 \u1103 , \u1085 \u1086  \u1085 \u1077  \u1086 \u1075 \u1088 \u1072 \u1085 \u1080 \u1095 \u1080 \u1074 \u1072 \u1103 \u1089 \u1100 , \u1091 \u1073 \u1099 \u1090 \u1082 \u1072 \u1084 \u1080 , \u1074 \u1086 \u1079 \u1085 \u1080 \u1082 \u1096 \u1080 \u1084 \u1080  \u1074  \u1088 \u1077 \u1079 \u1091 \u1083 \u1100 \u1090 \u1072 \u1090 \u1077  \u1087 \u1086 \u1090 \u1077 \u1088 \u1080  \u1076 \u1077 \u1083 \u1086 \u1074 \u1086 \u1081  \u1088 \u1077 \u1087 \u1091 \u1090 \u1072 \u1094 \u1080 \u1080 , \u1087 \u1088 \u1077 \u1082 \u1088 \u1072 \u1097 \u1077 \u1085 \u1080 \u1080  \u1088 \u1072 \u1073 \u1086 \u1090 \u1099 , \u1072 \u1074 \u1072 \u1088 \u1080 \u1080  \u1080 \u1083 \u1080  \u1085 \u1077 \u1080 \u1089 \u1087 \u1088 \u1072 \u1074 \u1085 \u1086 \u1089 \u1090 \u1080  \u1080 \u1083 \u1080  \u1083 \u1102 \u1073 \u1099 \u1093  \u1082 \u1086 \u1084 \u1084 \u1077 \u1088 \u1095 \u1077 \u1089 \u1082 \u1080 \u1093  \u1091 \u1073 \u1099 \u1090 \u1082 \u1086 \u1074  \u1080 \u1083 \u1080  \u1087 \u1086 \u1090 \u1077 \u1088 \u1100 ) \u1076 \u1072 \u1078 \u1077  \u1077 \u1089 \u1083 \u1080  \u1055 \u1086 \u1089 \u1083 \u1077 \u1076 \u1091 \u1102 \u1097 \u1080 \u1081  \u1088 \u1072 \u1079 \u1088 \u1072 \u1073 \u1086 \u1090 \u1095 \u1080 \u1082  \u1073 \u1099 \u1083  \u1087 \u1088 \u1077 \u1076 \u1091 \u1087 \u1088 \u1077 \u1078 \u1076 \u1077 \u1085  \u1086  \u1074 \u1086 \u1079 \u1084 \u1086 \u1078 \u1085 \u1086 \u1089 \u1090 \u1080  \u1090 \u1072 \u1082 \u1086 \u1075 \u1086  \u1091 \u1097 \u1077 \u1088 \u1073 \u1072 .\
+9. \uc0\u1055 \u1088 \u1080 \u1085 \u1103 \u1090 \u1080 \u1077  \u1075 \u1072 \u1088 \u1072 \u1085 \u1090 \u1080 \u1081 \u1085 \u1099 \u1093  \u1086 \u1073 \u1103 \u1079 \u1072 \u1090 \u1077 \u1083 \u1100 \u1089 \u1090 \u1074  \u1080 \u1083 \u1080  \u1044 \u1086 \u1087 \u1086 \u1083 \u1085 \u1080 \u1090 \u1077 \u1083 \u1100 \u1085 \u1099 \u1077  \u1086 \u1073 \u1103 \u1079 \u1072 \u1090 \u1077 \u1083 \u1100 \u1089 \u1090 \u1074 \u1072 . \u1042  \u1087 \u1088 \u1086 \u1094 \u1077 \u1089 \u1089 \u1077  \u1088 \u1072 \u1089 \u1087 \u1088 \u1086 \u1089 \u1090 \u1088 \u1072 \u1085 \u1077 \u1085 \u1080 \u1103  \u1082 \u1086 \u1087 \u1080 \u1081  \u1055 \u1088 \u1086 \u1080 \u1079 \u1074 \u1077 \u1076 \u1077 \u1085 \u1080 \u1103  \u1080  \u1077 \u1075 \u1086  \u1055 \u1088 \u1086 \u1080 \u1079 \u1074 \u1086 \u1076 \u1085 \u1099 \u1093  \u1087 \u1088 \u1086 \u1080 \u1079 \u1074 \u1077 \u1076 \u1077 \u1085 \u1080 \u1081 , \u1042 \u1099  \u1084 \u1086 \u1078 \u1077 \u1090 \u1077  \u1087 \u1088 \u1077 \u1076 \u1083 \u1086 \u1078 \u1080 \u1090 \u1100  \u1080  \u1074 \u1079 \u1080 \u1084 \u1072 \u1090 \u1100  \u1087 \u1083 \u1072 \u1090 \u1091  \u1079 \u1072  \u1087 \u1088 \u1080 \u1085 \u1103 \u1090 \u1080 \u1077  \u1086 \u1073 \u1103 \u1079 \u1072 \u1090 \u1077 \u1083 \u1100 \u1089 \u1090 \u1074  \u1087 \u1086  \u1087 \u1088 \u1077 \u1076 \u1086 \u1089 \u1090 \u1072 \u1074 \u1083 \u1077 \u1085 \u1080 \u1102  \u1087 \u1086 \u1076 \u1076 \u1077 \u1088 \u1078 \u1082 \u1080 , \u1075 \u1072 \u1088 \u1072 \u1085 \u1090 \u1080 \u1081 \u1085 \u1099 \u1093  \u1086 \u1073 \u1103 \u1079 \u1072 \u1090 \u1077 \u1083 \u1100 \u1089 \u1090 \u1074 , \u1075 \u1072 \u1088 \u1072 \u1085 \u1090 \u1080 \u1080  \u1086 \u1090  \u1091 \u1073 \u1099 \u1090 \u1082 \u1086 \u1074  \u1080  \u1076 \u1088 \u1091 \u1075 \u1080 \u1093  \u1086 \u1073 \u1103 \u1079 \u1072 \u1090 \u1077 \u1083 \u1100 \u1089 \u1090 \u1074  \u1087 \u1086  \u1086 \u1090 \u1074 \u1077 \u1090 \u1089 \u1090 \u1074 \u1077 \u1085 \u1085 \u1086 \u1089 \u1090 \u1080  \u1080 /\u1080 \u1083 \u1080  \u1087 \u1088 \u1072 \u1074  \u1074  \u1089 \u1086 \u1086 \u1090 \u1074 \u1077 \u1090 \u1089 \u1090 \u1074 \u1080 \u1080  \u1089  \u1076 \u1072 \u1085 \u1085 \u1086 \u1081  \u1051 \u1080 \u1094 \u1077 \u1085 \u1079 \u1080 \u1077 \u1081 . \u1058 \u1077 \u1084  \u1085 \u1077  \u1084 \u1077 \u1085 \u1077 \u1077 , \u1087 \u1088 \u1080 \u1085 \u1080 \u1084 \u1072 \u1103  \u1085 \u1072  \u1089 \u1077 \u1073 \u1103  \u1087 \u1086 \u1076 \u1086 \u1073 \u1085 \u1099 \u1077  \u1086 \u1073 \u1103 \u1079 \u1072 \u1090 \u1077 \u1083 \u1100 \u1089 \u1090 \u1074 \u1072 , \u1042 \u1099  \u1084 \u1086 \u1078 \u1077 \u1090 \u1077  \u1076 \u1077 \u1081 \u1089 \u1090 \u1074 \u1086 \u1074 \u1072 \u1090 \u1100  \u1090 \u1086 \u1083 \u1100 \u1082 \u1086  \u1086 \u1090  \u1089 \u1074 \u1086 \u1077 \u1075 \u1086  \u1089 \u1086 \u1073 \u1089 \u1090 \u1074 \u1077 \u1085 \u1085 \u1086 \u1075 \u1086  \u1080 \u1084 \u1077 \u1085 \u1080  \u1080  \u1085 \u1072  \u1089 \u1074 \u1086 \u1102  \u1080 \u1089 \u1082 \u1083 \u1102 \u1095 \u1080 \u1090 \u1077 \u1083 \u1100 \u1085 \u1091 \u1102  \u1086 \u1090 \u1074 \u1077 \u1090 \u1089 \u1090 \u1074 \u1077 \u1085 \u1085 \u1086 \u1089 \u1090 \u1100 , \u1085 \u1077  \u1086 \u1090  \u1080 \u1084 \u1077 \u1085 \u1080  \u1083 \u1102 \u1073 \u1086 \u1075 \u1086  \u1076 \u1088 \u1091 \u1075 \u1086 \u1075 \u1086  \u1055 \u1086 \u1089 \u1083 \u1077 \u1076 \u1091 \u1102 \u1097 \u1077 \u1075 \u1086  \u1088 \u1072 \u1079 \u1088 \u1072 \u1073 \u1086 \u1090 \u1095 \u1080 \u1082 \u1072 , \u1080  \u1090 \u1086 \u1083 \u1100 \u1082 \u1086  \u1074  \u1089 \u1083 \u1091 \u1095 \u1072 \u1077 , \u1077 \u1089 \u1083 \u1080  \u1074 \u1099  \u1089 \u1086 \u1075 \u1083 \u1072 \u1089 \u1085 \u1099  \u1091 \u1088 \u1077 \u1075 \u1091 \u1083 \u1080 \u1088 \u1086 \u1074 \u1072 \u1090 \u1100 , \u1074 \u1086 \u1079 \u1084 \u1077 \u1089 \u1090 \u1080 \u1090 \u1100  \u1091 \u1073 \u1099 \u1090 \u1082 \u1080  \u1080  \u1079 \u1072 \u1097 \u1080 \u1090 \u1080 \u1090 \u1100  \u1082 \u1072 \u1078 \u1076 \u1086 \u1075 \u1086  \u1055 \u1086 \u1089 \u1083 \u1077 \u1076 \u1091 \u1102 \u1097 \u1077 \u1075 \u1086  \u1088 \u1072 \u1079 \u1088 \u1072 \u1073 \u1086 \u1090 \u1095 \u1080 \u1082 \u1072  \u1086 \u1090  \u1085 \u1072 \u1074 \u1083 \u1077 \u1095 \u1077 \u1085 \u1085 \u1086 \u1081  \u1086 \u1090 \u1074 \u1077 \u1090 \u1089 \u1090 \u1074 \u1077 \u1085 \u1085 \u1086 \u1089 \u1090 \u1080  \u1080  \u1087 \u1088 \u1077 \u1090 \u1077 \u1085 \u1079 \u1080 \u1081 , \u1087 \u1088 \u1077 \u1076 \u1098 \u1103 \u1074 \u1083 \u1077 \u1085 \u1085 \u1099 \u1093  \u1055 \u1086 \u1089 \u1083 \u1077 \u1076 \u1091 \u1102 \u1097 \u1077 \u1084 \u1091  \u1088 \u1072 \u1079 \u1088 \u1072 \u1073 \u1086 \u1090 \u1095 \u1080 \u1082 \u1091 , \u1085 \u1072  \u1086 \u1089 \u1085 \u1086 \u1074 \u1072 \u1085 \u1080 \u1080  \u1087 \u1088 \u1080 \u1085 \u1103 \u1090 \u1080 \u1103  \u1074 \u1072 \u1084 \u1080  \u1075 \u1072 \u1088 \u1072 \u1085 \u1090 \u1080 \u1081 \u1085 \u1099 \u1093  \u1086 \u1073 \u1103 \u1079 \u1072 \u1090 \u1077 \u1083 \u1100 \u1089 \u1090 \u1074  \u1080 \u1083 \u1080  \u1076 \u1086 \u1087 \u1086 \u1083 \u1085 \u1080 \u1090 \u1077 \u1083 \u1100 \u1085 \u1086 \u1081  \u1086 \u1090 \u1074 \u1077 \u1090 \u1089 \u1090 \u1074 \u1077 \u1085 \u1085 \u1086 \u1089 \u1090 \u1080 .}
+
+## ASDKUI
+
+{\rtf1\ansi\ansicpg1251\cocoartf1404\cocoasubrtf110
+{\fonttbl\f0\fswiss\fcharset0 ArialMT;}
+{\colortbl;\red255\green255\blue255;\red38\green38\blue38;}
+{\*\listtable{\list\listtemplateid1\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid1\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid1}
+{\list\listtemplateid2\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid101\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid2}
+{\list\listtemplateid3\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid201\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid3}
+{\list\listtemplateid4\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid301\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid4}}
+{\*\listoverridetable{\listoverride\listid1\listoverridecount0\ls1}{\listoverride\listid2\listoverridecount0\ls2}{\listoverride\listid3\listoverridecount0\ls3}{\listoverride\listid4\listoverridecount0\ls4}}
+\paperw11900\paperh16840\margl1440\margr1440\vieww25020\viewh18200\viewkind0
+\deftab720
+\pard\pardeftab720\partightenfactor0
+
+\f0\fs28 \cf2 \expnd0\expndtw0\kerning0
+TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION\
+1. Definitions.\
+"License" shall mean the terms and conditions for use, reproduction, and distribution as defined by Sections 1 through 9 of this document.\
+"Licensor" shall mean the copyright owner or entity authorized by the copyright owner that is granting the License.\
+"Legal Entity" shall mean the union of the acting entity and all other entities that control, are controlled by, or are under common control with that entity. For the purposes of this definition, "control" means (i) the power, direct or indirect, to cause the direction or management of such entity, whether by contract or otherwise, or (ii) ownership of fifty percent (50%) or more of the outstanding shares, or (iii) beneficial ownership of such entity.\
+"You" (or "Your") shall mean an individual or Legal Entity exercising permissions granted by this License.\
+"Source" form shall mean the preferred form for making modifications, including but not limited to software source code, documentation source, and configuration files.\
+"Object" form shall mean any form resulting from mechanical transformation or translation of a Source form, including but not limited to compiled object code, generated documentation, and conversions to other media types.\
+"Work" shall mean the work of authorship, whether in Source or Object form, made available under the License, as indicated by a copyright notice that is included in or attached to the work (an example is provided in the Appendix below).\
+"Derivative Works" shall mean any work, whether in Source or Object form, that is based on (or derived from) the Work and for which the editorial revisions, annotations, elaborations, or other modifications represent, as a whole, an original work of authorship. For the purposes of this License, Derivative Works shall not include works that remain separable from, or merely link (or bind by name) to the interfaces of, the Work and Derivative Works thereof.\
+"Contribution" shall mean any work of authorship, including the original version of the Work and any modifications or additions to that Work or Derivative Works thereof, that is intentionally submitted to Licensor for inclusion in the Work by the copyright owner or by an individual or Legal Entity authorized to submit on behalf of the copyright owner. For the purposes of this definition, "submitted" means any form of electronic, verbal, or written communication sent to the Licensor or its representatives, including but not limited to communication on electronic mailing lists, source code control systems, and issue tracking systems that are managed by, or on behalf of, the Licensor for the purpose of discussing and improving the Work, but excluding communication that is conspicuously marked or otherwise designated in writing by the copyright owner as "Not a Contribution."\
+"Contributor" shall mean Licensor and any individual or Legal Entity on behalf of whom a Contribution has been received by Licensor and subsequently incorporated within the Work.\
+2. Grant of Copyright License. Subject to the terms and conditions of this License, each Contributor hereby grants to You a perpetual, worldwide, non-exclusive, no-charge, royalty-free, irrevocable copyright license to reproduce, prepare Derivative Works of, publicly display, publicly perform, sublicense, and distribute the Work and such Derivative Works in Source or Object form.\
+3. Grant of Patent License. Subject to the terms and conditions of this License, each Contributor hereby grants to You a perpetual, worldwide, non-exclusive, no-charge, royalty-free, irrevocable (except as stated in this section) patent license to make, have made, use, offer to sell, sell, import, and otherwise transfer the Work, where such license applies only to those patent claims licensable by such Contributor that are necessarily infringed by their Contribution(s) alone or by combination of their Contribution(s) with the Work to which such Contribution(s) was submitted. If You institute patent litigation against any entity (including a cross-claim or counterclaim in a lawsuit) alleging that the Work or a Contribution incorporated within the Work constitutes direct or contributory patent infringement, then any patent licenses granted to You under this License for that Work shall terminate as of the date such litigation is filed.\
+4. Redistribution. You may reproduce and distribute copies of the Work or Derivative Works thereof in any medium, with or without modifications, and in Source or Object form, provided that You meet the following conditions: You must give any other recipients of the Work or Derivative Works a copy of this License; and\
+You must cause any modified files to carry prominent notices stating that You changed the files; and\
+You must retain, in the Source form of any Derivative Works that You distribute, all copyright, patent, trademark, and attribution notices from the Source form of the Work, excluding those notices that do not pertain to any part of the Derivative Works; and\
+If the Work includes a "NOTICE" text file as part of its distribution, then any Derivative Works that You distribute must include a readable copy of the attribution notices contained within such NOTICE file, excluding those notices that do not pertain to any part of the Derivative Works, in at least one of the following places: within a NOTICE text file distributed as part of the Derivative Works; within the Source form or documentation, if provided along with the Derivative Works; or, within a display generated by the Derivative Works, if and wherever such third-party notices normally appear. The contents of the NOTICE file are for informational purposes only and do not modify the License. You may add Your own attribution notices within Derivative Works that You distribute, alongside or as an addendum to the NOTICE text from the Work, provided that such additional attribution notices cannot be construed as modifying the License. You may add Your own copyright statement to Your modifications and may provide additional or different license terms and conditions for use, reproduction, or distribution of Your modifications, or for any such Derivative Works as a whole, provided Your use, reproduction, and distribution of the Work otherwise complies with the conditions stated in this License.\
+5. Submission of Contributions. Unless You explicitly state otherwise, any Contribution intentionally submitted for inclusion in the Work by You to the Licensor shall be under the terms and conditions of this License, without any additional terms or conditions. Notwithstanding the above, nothing herein shall supersede or modify the terms of any separate license agreement you may have executed with Licensor regarding such Contributions.\
+6. Trademarks. This License does not grant permission to use the trade names, trademarks, service marks, or product names of the Licensor, except as required for reasonable and customary use in describing the origin of the Work and reproducing the content of the NOTICE file.\
+7. Disclaimer of Warranty. Unless required by applicable law or agreed to in writing, Licensor provides the Work (and each Contributor provides its Contributions) on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied, including, without limitation, any warranties or conditions of TITLE, NON-INFRINGEMENT, MERCHANTABILITY, or FITNESS FOR A PARTICULAR PURPOSE. You are solely responsible for determining the appropriateness of using or redistributing the Work and assume any risks associated with Your exercise of permissions under this License.\
+8. Limitation of Liability. In no event and under no legal theory, whether in tort (including negligence), contract, or otherwise, unless required by applicable law (such as deliberate and grossly negligent acts) or agreed to in writing, shall any Contributor be liable to You for damages, including any direct, indirect, special, incidental, or consequential damages of any character arising as a result of this License or out of the use or inability to use the Work (including but not limited to damages for loss of goodwill, work stoppage, computer failure or malfunction, or any and all other commercial damages or losses), even if such Contributor has been advised of the possibility of such damages.\
+9. Accepting Warranty or Additional Liability. While redistributing the Work or Derivative Works thereof, You may choose to offer, and charge a fee for, acceptance of support, warranty, indemnity, or other liability obligations and/or rights consistent with this License. However, in accepting such obligations, You may act only on Your own behalf and on Your sole responsibility, not on behalf of any other Contributor, and only if You agree to indemnify, defend, and hold each Contributor harmless for any liability incurred by, or claims asserted against, such Contributor by reason of your accepting any such warranty or additional liability.\
+\
+\
+\uc0\u1059 \u1057 \u1051 \u1054 \u1042 \u1048 \u1071  \u1048 \u1057 \u1055 \u1054 \u1051 \u1068 \u1047 \u1054 \u1042 \u1040 \u1053 \u1048 \u1071 , \u1042 \u1054 \u1057 \u1055 \u1056 \u1054 \u1048 \u1047 \u1042 \u1045 \u1044 \u1045 \u1053 \u1048 \u1071  \u1048  \u1056 \u1040 \u1057 \u1055 \u1056 \u1054 \u1057 \u1058 \u1056 \u1040 \u1053 \u1045 \u1053 \u1048 \u1071 \
+1. \uc0\u1058 \u1077 \u1088 \u1084 \u1080 \u1085 \u1099  \u1080  \u1086 \u1087 \u1088 \u1077 \u1076 \u1077 \u1083 \u1077 \u1085 \u1080 \u1103 .\
+\uc0\u1058 \u1077 \u1088 \u1084 \u1080 \u1085  \'ab\u1051 \u1080 \u1094 \u1077 \u1085 \u1079 \u1080 \u1103 \'bb \u1086 \u1079 \u1085 \u1072 \u1095 \u1072 \u1077 \u1090  \u1091 \u1089 \u1083 \u1086 \u1074 \u1080 \u1103  \u1080 \u1089 \u1087 \u1086 \u1083 \u1100 \u1079 \u1086 \u1074 \u1072 \u1085 \u1080 \u1103 , \u1082 \u1086 \u1087 \u1080 \u1088 \u1086 \u1074 \u1072 \u1085 \u1080 \u1103  \u1080  \u1088 \u1072 \u1089 \u1087 \u1088 \u1086 \u1089 \u1090 \u1088 \u1072 \u1085 \u1077 \u1085 \u1080 \u1103 , \u1080 \u1079 \u1083 \u1086 \u1078 \u1077 \u1085 \u1085 \u1099 \u1077  \u1074  \u1056 \u1072 \u1079 \u1076 \u1077 \u1083 \u1072 \u1093  1-9 \u1085 \u1072 \u1089 \u1090 \u1086 \u1103 \u1097 \u1077 \u1075 \u1086  \u1076 \u1086 \u1082 \u1091 \u1084 \u1077 \u1085 \u1090 \u1072 .\
+\uc0\u1058 \u1077 \u1088 \u1084 \u1080 \u1085  \'ab\u1051 \u1080 \u1094 \u1077 \u1085 \u1079 \u1080 \u1072 \u1088 \'bb \u1086 \u1090 \u1085 \u1086 \u1089 \u1080 \u1090 \u1089 \u1103  \u1082  \u1074 \u1083 \u1072 \u1076 \u1077 \u1083 \u1100 \u1094 \u1091  \u1072 \u1074 \u1090 \u1086 \u1088 \u1089 \u1082 \u1080 \u1093  \u1087 \u1088 \u1072 \u1074  \u1080 \u1083 \u1080  \u1102 \u1088 \u1080 \u1076 \u1080 \u1095 \u1077 \u1089 \u1082 \u1086 \u1084 \u1091  \u1083 \u1080 \u1094 \u1091 , \u1082 \u1086 \u1090 \u1086 \u1088 \u1086 \u1077  \u1091 \u1087 \u1086 \u1083 \u1085 \u1086 \u1084 \u1086 \u1095 \u1077 \u1085 \u1086  \u1074 \u1083 \u1072 \u1076 \u1077 \u1083 \u1100 \u1094 \u1077 \u1084  \u1072 \u1074 \u1090 \u1086 \u1088 \u1089 \u1082 \u1080 \u1093  \u1087 \u1088 \u1072 \u1074  \u1076 \u1083 \u1103  \u1087 \u1088 \u1077 \u1076 \u1086 \u1089 \u1090 \u1072 \u1074 \u1083 \u1077 \u1085 \u1080 \u1103  \u1051 \u1080 \u1094 \u1077 \u1085 \u1079 \u1080 \u1080 .\
+\uc0\u1058 \u1077 \u1088 \u1084 \u1080 \u1085  \'ab\u1070 \u1088 \u1080 \u1076 \u1080 \u1095 \u1077 \u1089 \u1082 \u1086 \u1077  \u1083 \u1080 \u1094 \u1086 \'bb \u1086 \u1079 \u1085 \u1072 \u1095 \u1072 \u1077 \u1090  \u1086 \u1073 \u1098 \u1077 \u1076 \u1080 \u1085 \u1077 \u1085 \u1080 \u1077  \u1076 \u1077 \u1081 \u1089 \u1090 \u1074 \u1091 \u1102 \u1097 \u1077 \u1081  \u1086 \u1088 \u1075 \u1072 \u1085 \u1080 \u1079 \u1072 \u1094 \u1080 \u1080  \u1080  \u1074 \u1089 \u1077 \u1093  \u1087 \u1088 \u1086 \u1095 \u1080 \u1093  \u1086 \u1088 \u1075 \u1072 \u1085 \u1080 \u1079 \u1072 \u1094 \u1080 \u1081 , \u1082 \u1086 \u1090 \u1086 \u1088 \u1099 \u1077  \u1091 \u1087 \u1088 \u1072 \u1074 \u1083 \u1103 \u1102 \u1090 , \u1091 \u1087 \u1088 \u1072 \u1074 \u1083 \u1103 \u1102 \u1090 \u1089 \u1103 , \u1080 \u1083 \u1080  \u1085 \u1072 \u1093 \u1086 \u1076 \u1103 \u1090 \u1089 \u1103  \u1087 \u1086 \u1076  \u1086 \u1073 \u1097 \u1080 \u1084  \u1091 \u1087 \u1088 \u1072 \u1074 \u1083 \u1077 \u1085 \u1080 \u1077 \u1084  \u1076 \u1072 \u1085 \u1085 \u1086 \u1075 \u1086  \u1083 \u1080 \u1094 \u1072 . \u1042  \u1087 \u1088 \u1080 \u1084 \u1077 \u1085 \u1077 \u1085 \u1080 \u1080  \u1082  \u1076 \u1072 \u1085 \u1085 \u1086 \u1084 \u1091  \u1090 \u1077 \u1088 \u1084 \u1080 \u1085 \u1091 , \'ab\u1091 \u1087 \u1088 \u1072 \u1074 \u1083 \u1077 \u1085 \u1080 \u1077 \'bb \u1086 \u1079 \u1085 \u1072 \u1095 \u1072 \u1077 \u1090  (i) \u1087 \u1088 \u1072 \u1074 \u1086  \u1085 \u1072 \u1087 \u1088 \u1103 \u1084 \u1091 \u1102  \u1080 \u1083 \u1080  \u1082 \u1086 \u1089 \u1074 \u1077 \u1085 \u1085 \u1086  \u1086 \u1089 \u1091 \u1097 \u1077 \u1089 \u1090 \u1074 \u1083 \u1103 \u1090 \u1100  \u1091 \u1087 \u1088 \u1072 \u1074 \u1083 \u1077 \u1085 \u1080 \u1077  \u1090 \u1072 \u1082 \u1086 \u1081  \u1086 \u1088 \u1075 \u1072 \u1085 \u1080 \u1079 \u1072 \u1094 \u1080 \u1077 \u1081  \u1085 \u1072  \u1086 \u1089 \u1085 \u1086 \u1074 \u1072 \u1085 \u1080 \u1080  \u1082 \u1086 \u1085 \u1090 \u1088 \u1072 \u1082 \u1090 \u1072  \u1080 \u1083 \u1080  \u1080 \u1085 \u1099 \u1084  \u1086 \u1073 \u1088 \u1072 \u1079 \u1086 \u1084 , \u1083 \u1080 \u1073 \u1086  (ii) \u1087 \u1088 \u1072 \u1074 \u1086  \u1089 \u1086 \u1073 \u1089 \u1090 \u1074 \u1077 \u1085 \u1085 \u1086 \u1089 \u1090 \u1080  \u1085 \u1072  \u1087 \u1103 \u1090 \u1100 \u1076 \u1077 \u1089 \u1103 \u1090  \u1087 \u1088 \u1086 \u1094 \u1077 \u1085 \u1090 \u1086 \u1074  (50%) \u1080 \u1083 \u1080  \u1073 \u1086 \u1083 \u1077 \u1077  \u1072 \u1082 \u1094 \u1080 \u1081 , \u1074 \u1099 \u1087 \u1091 \u1097 \u1077 \u1085 \u1085 \u1099 \u1093  \u1074  \u1086 \u1073 \u1088 \u1072 \u1097 \u1077 \u1085 \u1080 \u1077 , \u1083 \u1080 \u1073 \u1086  (iii) \u1073 \u1077 \u1085 \u1077 \u1092 \u1080 \u1094 \u1080 \u1072 \u1088 \u1085 \u1086 \u1077  \u1074 \u1083 \u1072 \u1076 \u1077 \u1085 \u1080 \u1077  \u1090 \u1072 \u1082 \u1086 \u1081  \u1086 \u1088 \u1075 \u1072 \u1085 \u1080 \u1079 \u1072 \u1094 \u1080 \u1077 \u1081 .\
+\uc0\u1058 \u1077 \u1088 \u1084 \u1080 \u1085  \'ab\u1042 \u1099 \'bb \u1080 \u1083 \u1080  \'ab\u1042 \u1072 \u1096 \'bb \u1086 \u1079 \u1085 \u1072 \u1095 \u1072 \u1077 \u1090  \u1095 \u1072 \u1089 \u1090 \u1085 \u1086 \u1077  \u1080 \u1083 \u1080  \u1102 \u1088 \u1080 \u1076 \u1080 \u1095 \u1077 \u1089 \u1082 \u1086 \u1077  \u1083 \u1080 \u1094 \u1086 , \u1082 \u1086 \u1090 \u1086 \u1088 \u1086 \u1077  \u1087 \u1086 \u1083 \u1100 \u1079 \u1091 \u1077 \u1090 \u1089 \u1103  \u1087 \u1088 \u1072 \u1074 \u1072 \u1084 \u1080  \u1074  \u1089 \u1086 \u1086 \u1090 \u1074 \u1077 \u1090 \u1089 \u1090 \u1074 \u1080 \u1080  \u1089  \u1076 \u1072 \u1085 \u1085 \u1086 \u1081  \u1051 \u1080 \u1094 \u1077 \u1085 \u1079 \u1080 \u1077 \u1081 .\
+\uc0\u1060 \u1086 \u1088 \u1084 \u1072  \'ab\u1048 \u1089 \u1090 \u1086 \u1095 \u1085 \u1080 \u1082 \'bb \u1086 \u1079 \u1085 \u1072 \u1095 \u1072 \u1077 \u1090  \u1087 \u1088 \u1077 \u1076 \u1087 \u1086 \u1095 \u1090 \u1080 \u1090 \u1077 \u1083 \u1100 \u1085 \u1091 \u1102  \u1092 \u1086 \u1088 \u1084 \u1091  \u1074 \u1085 \u1077 \u1089 \u1077 \u1085 \u1080 \u1103  \u1080 \u1079 \u1084 \u1077 \u1085 \u1077 \u1085 \u1080 \u1081 , \u1074 \u1082 \u1083 \u1102 \u1095 \u1072 \u1103 , \u1085 \u1086  \u1085 \u1077  \u1086 \u1075 \u1088 \u1072 \u1085 \u1080 \u1095 \u1080 \u1074 \u1072 \u1103 \u1089 \u1100  \u1080 \u1089 \u1093 \u1086 \u1076 \u1085 \u1099 \u1084  \u1087 \u1088 \u1086 \u1075 \u1088 \u1072 \u1084 \u1084 \u1085 \u1099 \u1084  \u1082 \u1086 \u1076 \u1086 \u1084 , \u1080 \u1089 \u1090 \u1086 \u1095 \u1085 \u1080 \u1082 \u1086 \u1084  \u1076 \u1086 \u1082 \u1091 \u1084 \u1077 \u1085 \u1090 \u1072 \u1094 \u1080 \u1080  \u1080  \u1082 \u1086 \u1085 \u1092 \u1080 \u1075 \u1091 \u1088 \u1072 \u1094 \u1080 \u1086 \u1085 \u1085 \u1099 \u1084 \u1080  \u1092 \u1072 \u1081 \u1083 \u1072 \u1084 \u1080 .\
+\uc0\u1060 \u1086 \u1088 \u1084 \u1072  \'ab\u1054 \u1073 \u1098 \u1077 \u1082 \u1090 \'bb \u1086 \u1079 \u1085 \u1072 \u1095 \u1072 \u1077 \u1090  \u1074 \u1089 \u1103 \u1082 \u1091 \u1102  \u1092 \u1086 \u1088 \u1084 \u1091 , \u1103 \u1074 \u1083 \u1103 \u1102 \u1097 \u1091 \u1102 \u1089 \u1103  \u1088 \u1077 \u1079 \u1091 \u1083 \u1100 \u1090 \u1072 \u1090 \u1086 \u1084  \u1072 \u1074 \u1090 \u1086 \u1084 \u1072 \u1090 \u1080 \u1095 \u1077 \u1089 \u1082 \u1086 \u1075 \u1086  \u1087 \u1088 \u1077 \u1086 \u1073 \u1088 \u1072 \u1079 \u1086 \u1074 \u1072 \u1085 \u1080 \u1103  \u1080 \u1083 \u1080  \u1090 \u1088 \u1072 \u1085 \u1089 \u1083 \u1103 \u1094 \u1080 \u1080  \u1092 \u1086 \u1088 \u1084 \u1099  \u1080 \u1089 \u1090 \u1086 \u1095 \u1085 \u1080 \u1082 \u1072 , \u1074 \u1082 \u1083 \u1102 \u1095 \u1072 \u1103 , \u1085 \u1086  \u1085 \u1077  \u1086 \u1075 \u1088 \u1072 \u1085 \u1080 \u1095 \u1080 \u1074 \u1072 \u1103 \u1089 \u1100  \u1086 \u1073 \u1098 \u1077 \u1082 \u1090 \u1085 \u1099 \u1084  \u1082 \u1086 \u1076 \u1086 \u1084 , \u1089 \u1075 \u1077 \u1085 \u1077 \u1088 \u1080 \u1088 \u1086 \u1074 \u1072 \u1085 \u1085 \u1086 \u1081  \u1076 \u1086 \u1082 \u1091 \u1084 \u1077 \u1085 \u1090 \u1072 \u1094 \u1080 \u1077 \u1081  \u1080 \u1083 \u1080  \u1082 \u1086 \u1085 \u1074 \u1077 \u1088 \u1090 \u1072 \u1094 \u1080 \u1077 \u1081  \u1074  \u1087 \u1088 \u1086 \u1095 \u1080 \u1077  \u1074 \u1080 \u1076 \u1099  \u1085 \u1086 \u1089 \u1080 \u1090 \u1077 \u1083 \u1077 \u1081  \u1080 \u1085 \u1092 \u1086 \u1088 \u1084 \u1072 \u1094 \u1080 \u1080 .\
+\'ab\uc0\u1055 \u1088 \u1086 \u1080 \u1079 \u1074 \u1077 \u1076 \u1077 \u1085 \u1080 \u1077 \'bb \u1086 \u1079 \u1085 \u1072 \u1095 \u1072 \u1077 \u1090  \u1072 \u1074 \u1090 \u1086 \u1088 \u1089 \u1082 \u1086 \u1077  \u1087 \u1088 \u1086 \u1080 \u1079 \u1074 \u1077 \u1076 \u1077 \u1085 \u1080 \u1077 , \u1074  \u1092 \u1086 \u1088 \u1084 \u1077  \u1080 \u1089 \u1090 \u1086 \u1095 \u1085 \u1080 \u1082 \u1072  \u1080 \u1083 \u1080  \u1086 \u1073 \u1098 \u1077 \u1082 \u1090 \u1072 , \u1087 \u1088 \u1077 \u1076 \u1086 \u1089 \u1090 \u1072 \u1074 \u1083 \u1077 \u1085 \u1085 \u1086 \u1077  \u1089 \u1086 \u1075 \u1083 \u1072 \u1089 \u1085 \u1086  \u1051 \u1080 \u1094 \u1077 \u1085 \u1079 \u1080 \u1080 , \u1082 \u1072 \u1082  \u1086 \u1073 \u1086 \u1079 \u1085 \u1072 \u1095 \u1077 \u1085 \u1086  \u1074  \u1091 \u1074 \u1077 \u1076 \u1086 \u1084 \u1083 \u1077 \u1085 \u1080 \u1080  \u1086 \u1073  \u1072 \u1074 \u1090 \u1086 \u1088 \u1089 \u1082 \u1080 \u1093  \u1087 \u1088 \u1072 \u1074 \u1072 \u1093 , \u1082 \u1086 \u1090 \u1086 \u1088 \u1086 \u1077  \u1074 \u1082 \u1083 \u1102 \u1095 \u1077 \u1085 \u1086  \u1080 \u1083 \u1080  \u1087 \u1088 \u1080 \u1082 \u1088 \u1077 \u1087 \u1083 \u1077 \u1085 \u1086  \u1082  \u1087 \u1088 \u1086 \u1080 \u1079 \u1074 \u1077 \u1076 \u1077 \u1085 \u1080 \u1102  (\u1087 \u1088 \u1080 \u1084 \u1077 \u1088  \u1087 \u1088 \u1080 \u1074 \u1086 \u1076 \u1080 \u1090 \u1089 \u1103  \u1085 \u1080 \u1078 \u1077  \u1074  \u1055 \u1088 \u1080 \u1083 \u1086 \u1078 \u1077 \u1085 \u1080 \u1080 ).\
+\uc0\u1058 \u1077 \u1088 \u1084 \u1080 \u1085  \'ab\u1055 \u1088 \u1086 \u1080 \u1079 \u1074 \u1086 \u1076 \u1085 \u1099 \u1077  \u1087 \u1088 \u1086 \u1080 \u1079 \u1074 \u1077 \u1076 \u1077 \u1085 \u1080 \u1103 \'bb \u1086 \u1079 \u1085 \u1072 \u1095 \u1072 \u1077 \u1090  \u1087 \u1088 \u1086 \u1080 \u1079 \u1074 \u1077 \u1076 \u1077 \u1085 \u1080 \u1077 , \u1074  \u1092 \u1086 \u1088 \u1084 \u1077  \u1080 \u1089 \u1090 \u1086 \u1095 \u1085 \u1080 \u1082 \u1072  \u1080 \u1083 \u1080  \u1086 \u1073 \u1098 \u1077 \u1082 \u1090 \u1072 , \u1082 \u1086 \u1090 \u1086 \u1088 \u1086 \u1077  \u1086 \u1089 \u1085 \u1086 \u1074 \u1072 \u1085 \u1086  \u1085 \u1072  (\u1080 \u1083 \u1080  \u1087 \u1086 \u1083 \u1091 \u1095 \u1077 \u1085 \u1086  \u1080 \u1079 ) \u1087 \u1088 \u1086 \u1080 \u1079 \u1074 \u1077 \u1076 \u1077 \u1085 \u1080 \u1080  \u1080  \u1087 \u1086  \u1086 \u1090 \u1085 \u1086 \u1096 \u1077 \u1085 \u1080 \u1102  \u1082  \u1082 \u1086 \u1090 \u1086 \u1088 \u1086 \u1084 \u1091  \u1074 \u1089 \u1077  \u1088 \u1077 \u1076 \u1072 \u1082 \u1090 \u1086 \u1088 \u1089 \u1082 \u1080 \u1077  \u1087 \u1088 \u1072 \u1074 \u1082 \u1080 , \u1087 \u1088 \u1080 \u1084 \u1077 \u1095 \u1072 \u1085 \u1080 \u1103 , \u1091 \u1090 \u1086 \u1095 \u1085 \u1077 \u1085 \u1080 \u1103 , \u1080 \u1083 \u1080  \u1076 \u1088 \u1091 \u1075 \u1080 \u1077  \u1080 \u1079 \u1084 \u1077 \u1085 \u1077 \u1085 \u1080 \u1103 , \u1087 \u1088 \u1077 \u1076 \u1089 \u1090 \u1072 \u1074 \u1083 \u1103 \u1102 \u1090  \u1074  \u1094 \u1077 \u1083 \u1086 \u1084  \u1072 \u1074 \u1090 \u1086 \u1088 \u1089 \u1082 \u1086 \u1077  \u1087 \u1088 \u1086 \u1080 \u1079 \u1074 \u1077 \u1076 \u1077 \u1085 \u1080 \u1077 . \u1055 \u1086 \u1085 \u1103 \u1090 \u1080 \u1077  \u1055 \u1088 \u1086 \u1080 \u1079 \u1074 \u1086 \u1076 \u1085 \u1099 \u1077  \u1087 \u1088 \u1086 \u1080 \u1079 \u1074 \u1077 \u1076 \u1077 \u1085 \u1080 \u1103  \u1085 \u1077  \u1074 \u1082 \u1083 \u1102 \u1095 \u1072 \u1077 \u1090  \u1074  \u1089 \u1077 \u1073 \u1103  \u1087 \u1088 \u1086 \u1080 \u1079 \u1074 \u1077 \u1076 \u1077 \u1085 \u1080 \u1103 , \u1082 \u1086 \u1090 \u1086 \u1088 \u1099 \u1077  \u1086 \u1073 \u1086 \u1089 \u1086 \u1073 \u1083 \u1077 \u1085 \u1099  \u1086 \u1090 , \u1080 \u1083 \u1080  \u1090 \u1086 \u1083 \u1100 \u1082 \u1086  \u1089 \u1074 \u1103 \u1079 \u1072 \u1085 \u1099  (\u1080 \u1083 \u1080  \u1089 \u1074 \u1103 \u1079 \u1072 \u1085 \u1099  \u1087 \u1086  \u1085 \u1072 \u1080 \u1084 \u1077 \u1085 \u1086 \u1074 \u1072 \u1085 \u1080 \u1102 ) \u1089  \u1080 \u1085 \u1090 \u1077 \u1088 \u1092 \u1077 \u1081 \u1089 \u1072 \u1084 \u1080  \u1055 \u1088 \u1086 \u1080 \u1079 \u1074 \u1077 \u1076 \u1077 \u1085 \u1080 \u1103  \u1080 \u1083 \u1080  \u1077 \u1075 \u1086  \u1055 \u1088 \u1086 \u1080 \u1079 \u1074 \u1086 \u1076 \u1085 \u1099 \u1093  \u1087 \u1088 \u1086 \u1080 \u1079 \u1074 \u1077 \u1076 \u1077 \u1085 \u1080 \u1081 .\
+\'ab\uc0\u1055 \u1086 \u1089 \u1083 \u1077 \u1076 \u1091 \u1102 \u1097 \u1072 \u1103  \u1088 \u1072 \u1079 \u1088 \u1072 \u1073 \u1086 \u1090 \u1082 \u1072 \'bb \u1086 \u1079 \u1085 \u1072 \u1095 \u1072 \u1077 \u1090  \u1083 \u1102 \u1073 \u1086 \u1077  \u1072 \u1074 \u1090 \u1086 \u1088 \u1089 \u1082 \u1086 \u1077  \u1087 \u1088 \u1086 \u1080 \u1079 \u1074 \u1077 \u1076 \u1077 \u1085 \u1080 \u1077 , \u1074 \u1082 \u1083 \u1102 \u1095 \u1072 \u1103  \u1080 \u1089 \u1093 \u1086 \u1076 \u1085 \u1091 \u1102  \u1074 \u1077 \u1088 \u1089 \u1080 \u1102  \u1055 \u1088 \u1086 \u1080 \u1079 \u1074 \u1077 \u1076 \u1077 \u1085 \u1080 \u1103  \u1080  \u1083 \u1102 \u1073 \u1099 \u1077  \u1080 \u1079 \u1084 \u1077 \u1085 \u1077 \u1085 \u1080 \u1103  \u1080 \u1083 \u1080  \u1076 \u1086 \u1087 \u1086 \u1083 \u1085 \u1077 \u1085 \u1080 \u1103  \u1082  \u1076 \u1072 \u1085 \u1085 \u1086 \u1084 \u1091  \u1055 \u1088 \u1086 \u1080 \u1079 \u1074 \u1077 \u1076 \u1077 \u1085 \u1080 \u1102  \u1080 \u1083 \u1080  \u1077 \u1075 \u1086  \u1055 \u1088 \u1086 \u1080 \u1079 \u1074 \u1086 \u1076 \u1085 \u1099 \u1084  \u1087 \u1088 \u1086 \u1080 \u1079 \u1074 \u1077 \u1076 \u1077 \u1085 \u1080 \u1103 \u1084 , \u1082 \u1086 \u1090 \u1086 \u1088 \u1099 \u1077  \u1073 \u1099 \u1083 \u1080  \u1085 \u1072 \u1084 \u1077 \u1088 \u1077 \u1085 \u1086  \u1087 \u1088 \u1077 \u1076 \u1089 \u1090 \u1072 \u1074 \u1083 \u1077 \u1085 \u1099  \u1051 \u1080 \u1094 \u1077 \u1085 \u1079 \u1080 \u1072 \u1088 \u1091  \u1076 \u1083 \u1103  \u1074 \u1082 \u1083 \u1102 \u1095 \u1077 \u1085 \u1080 \u1103  \u1074  \u1055 \u1088 \u1086 \u1080 \u1079 \u1074 \u1077 \u1076 \u1077 \u1085 \u1080 \u1077  \u1074 \u1083 \u1072 \u1076 \u1077 \u1083 \u1100 \u1094 \u1077 \u1084  \u1072 \u1074 \u1090 \u1086 \u1088 \u1089 \u1082 \u1086 \u1075 \u1086  \u1087 \u1088 \u1072 \u1074 \u1072  \u1080 \u1083 \u1080  \u1092 \u1080 \u1079 \u1080 \u1095 \u1077 \u1089 \u1082 \u1080 \u1084  \u1080 \u1083 \u1080  \u1102 \u1088 \u1080 \u1076 \u1080 \u1095 \u1077 \u1089 \u1082 \u1080 \u1084  \u1083 \u1080 \u1094 \u1086 \u1084 , \u1091 \u1087 \u1086 \u1083 \u1085 \u1086 \u1084 \u1086 \u1095 \u1077 \u1085 \u1085 \u1099 \u1084  \u1087 \u1088 \u1077 \u1076 \u1089 \u1090 \u1072 \u1074 \u1083 \u1103 \u1090 \u1100  \u1080 \u1079 \u1084 \u1077 \u1085 \u1077 \u1085 \u1080 \u1103  \u1085 \u1072  \u1087 \u1088 \u1072 \u1074 \u1072 \u1093  \u1074 \u1083 \u1072 \u1076 \u1077 \u1083 \u1100 \u1094 \u1072  \u1072 \u1074 \u1090 \u1086 \u1088 \u1089 \u1082 \u1080 \u1093  \u1087 \u1088 \u1072 \u1074 . \u1042  \u1088 \u1072 \u1084 \u1082 \u1072 \u1093  \u1076 \u1072 \u1085 \u1085 \u1086 \u1075 \u1086  \u1086 \u1087 \u1088 \u1077 \u1076 \u1077 \u1083 \u1077 \u1085 \u1080 \u1103  \'ab\u1087 \u1088 \u1077 \u1076 \u1089 \u1090 \u1072 \u1074 \u1083 \u1077 \u1085 \u1080 \u1077 \'bb \u1086 \u1079 \u1085 \u1072 \u1095 \u1072 \u1077 \u1090  \u1080 \u1085 \u1092 \u1086 \u1088 \u1084 \u1072 \u1094 \u1080 \u1102  \u1074  \u1101 \u1083 \u1077 \u1082 \u1090 \u1088 \u1086 \u1085 \u1085 \u1086 \u1084 , \u1091 \u1089 \u1090 \u1085 \u1086 \u1084  \u1080 \u1083 \u1080  \u1087 \u1080 \u1089 \u1100 \u1084 \u1077 \u1085 \u1085 \u1086 \u1084  \u1074 \u1080 \u1076 \u1077 , \u1086 \u1090 \u1087 \u1088 \u1072 \u1074 \u1083 \u1077 \u1085 \u1085 \u1091 \u1102  \u1051 \u1080 \u1094 \u1077 \u1085 \u1079 \u1080 \u1072 \u1088 \u1091  \u1080 \u1083 \u1080  \u1077 \u1075 \u1086  \u1087 \u1088 \u1077 \u1076 \u1089 \u1090 \u1072 \u1074 \u1080 \u1090 \u1077 \u1083 \u1103 \u1084 , \u1074 \u1082 \u1083 \u1102 \u1095 \u1072 \u1103 , \u1085 \u1086  \u1085 \u1077  \u1086 \u1075 \u1088 \u1072 \u1085 \u1080 \u1095 \u1080 \u1074 \u1072 \u1103 \u1089 \u1100  \u1087 \u1077 \u1088 \u1077 \u1076 \u1072 \u1095 \u1077 \u1081  \u1080 \u1085 \u1092 \u1086 \u1088 \u1084 \u1072 \u1094 \u1080 \u1080  \u1087 \u1086  \u1101 \u1083 \u1077 \u1082 \u1090 \u1088 \u1086 \u1085 \u1085 \u1086 \u1081  \u1087 \u1086 \u1095 \u1090 \u1077 , \u1095 \u1077 \u1088 \u1077 \u1079  \u1089 \u1080 \u1089 \u1090 \u1077 \u1084 \u1091  \u1082 \u1086 \u1085 \u1090 \u1088 \u1086 \u1083 \u1103  \u1080 \u1089 \u1093 \u1086 \u1076 \u1085 \u1086 \u1075 \u1086  \u1082 \u1086 \u1076 \u1072  \u1080  \u1089 \u1080 \u1089 \u1090 \u1077 \u1084 \u1091  \u1082 \u1086 \u1085 \u1090 \u1088 \u1086 \u1083 \u1103  \u1074 \u1077 \u1088 \u1089 \u1080 \u1081 , \u1087 \u1086 \u1076  \u1091 \u1087 \u1088 \u1072 \u1074 \u1083 \u1077 \u1085 \u1080 \u1077 \u1084  \u1080 \u1083 \u1080  \u1085 \u1072  \u1087 \u1088 \u1072 \u1074 \u1072 \u1093  \u1051 \u1080 \u1094 \u1077 \u1085 \u1079 \u1080 \u1072 \u1088 \u1072  \u1089  \u1094 \u1077 \u1083 \u1100 \u1102  \u1086 \u1073 \u1089 \u1091 \u1078 \u1076 \u1077 \u1085 \u1080 \u1103  \u1080  \u1091 \u1083 \u1091 \u1095 \u1096 \u1077 \u1085 \u1080 \u1103  \u1055 \u1088 \u1086 \u1080 \u1079 \u1074 \u1077 \u1076 \u1077 \u1085 \u1080 \u1103 , \u1085 \u1086  \u1080 \u1089 \u1082 \u1083 \u1102 \u1095 \u1072 \u1103  \u1080 \u1085 \u1092 \u1086 \u1088 \u1084 \u1072 \u1094 \u1080 \u1102 , \u1082 \u1086 \u1090 \u1086 \u1088 \u1072 \u1103  \u1074 \u1099 \u1076 \u1077 \u1083 \u1077 \u1085 \u1072  \u1080 \u1083 \u1080  \u1087 \u1080 \u1089 \u1100 \u1084 \u1077 \u1085 \u1085 \u1086  \u1086 \u1073 \u1086 \u1079 \u1085 \u1072 \u1095 \u1077 \u1085 \u1072  \u1074 \u1083 \u1072 \u1076 \u1077 \u1083 \u1100 \u1094 \u1077 \u1084  \u1072 \u1074 \u1090 \u1086 \u1088 \u1089 \u1082 \u1086 \u1075 \u1086  \u1087 \u1088 \u1072 \u1074 \u1072  \u1082 \u1072 \u1082  \'ab\u1053 \u1077  \u1103 \u1074 \u1083 \u1103 \u1102 \u1097 \u1072 \u1103 \u1089 \u1103  \u1055 \u1086 \u1089 \u1083 \u1077 \u1076 \u1091 \u1102 \u1097 \u1077 \u1081  \u1088 \u1072 \u1079 \u1088 \u1072 \u1073 \u1086 \u1090 \u1082 \u1086 \u1081 \'bb.\
+\uc0\u1055 \u1086 \u1076  \u1055 \u1086 \u1089 \u1083 \u1077 \u1076 \u1091 \u1102 \u1097 \u1080 \u1084  \u1088 \u1072 \u1079 \u1088 \u1072 \u1073 \u1086 \u1090 \u1095 \u1080 \u1082 \u1086 \u1084  \u1087 \u1086 \u1076 \u1088 \u1072 \u1079 \u1091 \u1084 \u1077 \u1074 \u1072 \u1077 \u1090 \u1089 \u1103  \u1051 \u1080 \u1094 \u1077 \u1085 \u1079 \u1080 \u1072 \u1088  \u1080 \u1083 \u1080  \u1092 \u1080 \u1079 \u1080 \u1095 \u1077 \u1089 \u1082 \u1086 \u1077  \u1080 \u1083 \u1080  \u1102 \u1088 \u1080 \u1076 \u1080 \u1095 \u1077 \u1089 \u1082 \u1086 \u1077  \u1083 \u1080 \u1094 \u1086  \u1086 \u1090  \u1080 \u1084 \u1077 \u1085 \u1080  \u1082 \u1086 \u1090 \u1086 \u1088 \u1086 \u1075 \u1086  \u1051 \u1080 \u1094 \u1077 \u1085 \u1079 \u1080 \u1072 \u1088 \u1086 \u1084  \u1073 \u1099 \u1083 \u1072  \u1087 \u1086 \u1083 \u1091 \u1095 \u1077 \u1085 \u1072  \u1055 \u1086 \u1089 \u1083 \u1077 \u1076 \u1091 \u1102 \u1097 \u1072 \u1103  \u1088 \u1072 \u1079 \u1088 \u1072 \u1073 \u1086 \u1090 \u1082 \u1072  \u1080  \u1074 \u1087 \u1086 \u1089 \u1083 \u1077 \u1076 \u1089 \u1090 \u1074 \u1080 \u1080  \u1074 \u1082 \u1083 \u1102 \u1095 \u1077 \u1085 \u1072  \u1074  \u1055 \u1088 \u1086 \u1080 \u1079 \u1074 \u1077 \u1076 \u1077 \u1085 \u1080 \u1077 .\
+2. \uc0\u1055 \u1088 \u1077 \u1076 \u1086 \u1089 \u1090 \u1072 \u1074 \u1083 \u1077 \u1085 \u1080 \u1077  \u1083 \u1080 \u1094 \u1077 \u1085 \u1079 \u1080 \u1080  \u1085 \u1072  \u1072 \u1074 \u1090 \u1086 \u1088 \u1089 \u1082 \u1086 \u1077  \u1087 \u1088 \u1072 \u1074 \u1086 . \u1042  \u1088 \u1072 \u1084 \u1082 \u1072 \u1093  \u1076 \u1072 \u1085 \u1085 \u1086 \u1081  \u1051 \u1080 \u1094 \u1077 \u1085 \u1079 \u1080 \u1080 , \u1082 \u1072 \u1078 \u1076 \u1099 \u1081  \u1055 \u1086 \u1089 \u1083 \u1077 \u1076 \u1091 \u1102 \u1097 \u1080 \u1081  \u1088 \u1072 \u1079 \u1088 \u1072 \u1073 \u1086 \u1090 \u1095 \u1080 \u1082  \u1087 \u1088 \u1077 \u1076 \u1086 \u1089 \u1090 \u1072 \u1074 \u1083 \u1103 \u1077 \u1090  \u1042 \u1072 \u1084  \u1073 \u1077 \u1089 \u1089 \u1088 \u1086 \u1095 \u1085 \u1091 \u1102 , \u1091 \u1085 \u1080 \u1074 \u1077 \u1088 \u1089 \u1072 \u1083 \u1100 \u1085 \u1091 \u1102 , \u1085 \u1077 \u1080 \u1089 \u1082 \u1083 \u1102 \u1095 \u1080 \u1090 \u1077 \u1083 \u1100 \u1085 \u1091 \u1102 , \u1089 \u1074 \u1086 \u1073 \u1086 \u1076 \u1085 \u1091 \u1102 , \u1085 \u1077 \u1086 \u1090 \u1079 \u1099 \u1074 \u1072 \u1077 \u1084 \u1091 \u1102  \u1083 \u1080 \u1094 \u1077 \u1085 \u1079 \u1080 \u1102  \u1085 \u1072  \u1074 \u1086 \u1089 \u1087 \u1088 \u1086 \u1080 \u1079 \u1074 \u1077 \u1076 \u1077 \u1085 \u1080 \u1077 , \u1086 \u1090 \u1082 \u1088 \u1099 \u1090 \u1091 \u1102  \u1076 \u1077 \u1084 \u1086 \u1085 \u1089 \u1090 \u1088 \u1072 \u1094 \u1080 \u1102 , \u1086 \u1090 \u1082 \u1088 \u1099 \u1090 \u1086 \u1077  \u1080 \u1089 \u1087 \u1086 \u1083 \u1100 \u1079 \u1086 \u1074 \u1072 \u1085 \u1080 \u1077 , \u1089 \u1091 \u1073 \u1083 \u1080 \u1094 \u1077 \u1085 \u1079 \u1080 \u1088 \u1086 \u1074 \u1072 \u1085 \u1080 \u1077  \u1080  \u1088 \u1072 \u1089 \u1087 \u1088 \u1086 \u1089 \u1090 \u1088 \u1072 \u1085 \u1077 \u1085 \u1080 \u1077  \u1055 \u1088 \u1086 \u1080 \u1079 \u1074 \u1077 \u1076 \u1077 \u1085 \u1080 \u1103  \u1080  \u1055 \u1088 \u1086 \u1080 \u1079 \u1074 \u1086 \u1076 \u1085 \u1099 \u1093  \u1087 \u1088 \u1086 \u1080 \u1079 \u1074 \u1077 \u1076 \u1077 \u1085 \u1080 \u1081  \u1074  \u1092 \u1086 \u1088 \u1084 \u1077  \u1080 \u1089 \u1090 \u1086 \u1095 \u1085 \u1080 \u1082 \u1072  \u1080 \u1083 \u1080  \u1086 \u1073 \u1098 \u1077 \u1082 \u1090 \u1072 .\
+3. \uc0\u1055 \u1088 \u1077 \u1076 \u1086 \u1089 \u1090 \u1072 \u1074 \u1083 \u1077 \u1085 \u1080 \u1077  \u1087 \u1072 \u1090 \u1077 \u1085 \u1090 \u1085 \u1086 \u1081  \u1083 \u1080 \u1094 \u1077 \u1085 \u1079 \u1080 \u1080 . \u1042  \u1088 \u1072 \u1084 \u1082 \u1072 \u1093  \u1076 \u1072 \u1085 \u1085 \u1086 \u1081  \u1051 \u1080 \u1094 \u1077 \u1085 \u1079 \u1080 \u1080 , \u1082 \u1072 \u1078 \u1076 \u1099 \u1081  \u1055 \u1086 \u1089 \u1083 \u1077 \u1076 \u1091 \u1102 \u1097 \u1080 \u1081  \u1088 \u1072 \u1079 \u1088 \u1072 \u1073 \u1086 \u1090 \u1095 \u1080 \u1082  \u1087 \u1088 \u1077 \u1076 \u1086 \u1089 \u1090 \u1072 \u1074 \u1083 \u1103 \u1077 \u1090  \u1042 \u1072 \u1084  \u1073 \u1077 \u1089 \u1089 \u1088 \u1086 \u1095 \u1085 \u1091 \u1102 , \u1091 \u1085 \u1080 \u1074 \u1077 \u1088 \u1089 \u1072 \u1083 \u1100 \u1085 \u1091 \u1102 , \u1085 \u1077 \u1080 \u1089 \u1082 \u1083 \u1102 \u1095 \u1080 \u1090 \u1077 \u1083 \u1100 \u1085 \u1091 \u1102 , \u1089 \u1074 \u1086 \u1073 \u1086 \u1076 \u1085 \u1091 \u1102 , \u1085 \u1077 \u1086 \u1090 \u1079 \u1099 \u1074 \u1072 \u1077 \u1084 \u1091 \u1102  (\u1079 \u1072  \u1080 \u1089 \u1082 \u1083 \u1102 \u1095 \u1077 \u1085 \u1080 \u1077 \u1084  \u1087 \u1086 \u1083 \u1086 \u1078 \u1077 \u1085 \u1080 \u1081 , \u1087 \u1088 \u1080 \u1074 \u1077 \u1076 \u1077 \u1085 \u1085 \u1099 \u1093  \u1074  \u1076 \u1072 \u1085 \u1085 \u1086 \u1084  \u1086 \u1090 \u1076 \u1077 \u1083 \u1077 ) \u1087 \u1072 \u1090 \u1077 \u1085 \u1090 \u1085 \u1091 \u1102  \u1083 \u1080 \u1094 \u1077 \u1085 \u1079 \u1080 \u1102  \u1085 \u1072  \u1080 \u1079 \u1075 \u1086 \u1090 \u1086 \u1074 \u1083 \u1077 \u1085 \u1080 \u1077 , \u1079 \u1072 \u1082 \u1072 \u1079  \u1085 \u1072  \u1080 \u1079 \u1075 \u1086 \u1090 \u1086 \u1074 \u1083 \u1077 \u1085 \u1080 \u1077 , \u1080 \u1089 \u1087 \u1086 \u1083 \u1100 \u1079 \u1086 \u1074 \u1072 \u1085 \u1080 \u1077 , \u1087 \u1088 \u1077 \u1076 \u1083 \u1086 \u1078 \u1077 \u1085 \u1080 \u1077  \u1086  \u1087 \u1088 \u1086 \u1076 \u1072 \u1078 \u1077 , \u1087 \u1088 \u1086 \u1076 \u1072 \u1078 \u1091 , \u1080 \u1084 \u1087 \u1086 \u1088 \u1090  \u1080 \u1083 \u1080  \u1087 \u1077 \u1088 \u1077 \u1076 \u1072 \u1095 \u1091  \u1055 \u1088 \u1086 \u1080 \u1079 \u1074 \u1077 \u1076 \u1077 \u1085 \u1080 \u1103 , \u1074  \u1090 \u1077 \u1093  \u1089 \u1083 \u1091 \u1095 \u1072 \u1103 \u1093 , \u1082 \u1086 \u1075 \u1076 \u1072  \u1083 \u1080 \u1094 \u1077 \u1085 \u1079 \u1080 \u1103  \u1086 \u1090 \u1085 \u1086 \u1089 \u1080 \u1090 \u1089 \u1103  \u1090 \u1086 \u1083 \u1100 \u1082 \u1086  \u1082  \u1087 \u1072 \u1090 \u1077 \u1085 \u1090 \u1085 \u1099 \u1084  \u1087 \u1088 \u1080 \u1090 \u1103 \u1079 \u1072 \u1085 \u1080 \u1103 \u1084 , \u1083 \u1080 \u1094 \u1077 \u1085 \u1079 \u1080 \u1088 \u1091 \u1077 \u1084 \u1099 \u1084 \u1080  \u1055 \u1086 \u1089 \u1083 \u1077 \u1076 \u1091 \u1102 \u1097 \u1080 \u1084  \u1088 \u1072 \u1079 \u1088 \u1072 \u1073 \u1086 \u1090 \u1095 \u1080 \u1082 \u1086 \u1084 , \u1080  \u1082 \u1086 \u1090 \u1086 \u1088 \u1099 \u1077  \u1085 \u1072 \u1088 \u1091 \u1096 \u1072 \u1102 \u1090  \u1087 \u1088 \u1072 \u1074 \u1072  \u1089 \u1074 \u1086 \u1080 \u1084 \u1080  \u1055 \u1086 \u1089 \u1083 \u1077 \u1076 \u1091 \u1102 \u1097 \u1080 \u1084 \u1080  \u1088 \u1072 \u1079 \u1088 \u1072 \u1073 \u1086 \u1090 \u1082 \u1072 \u1084 \u1080  \u1080 \u1083 \u1080  \u1089 \u1086 \u1095 \u1077 \u1090 \u1072 \u1085 \u1080 \u1077 \u1084  \u1080 \u1079  \u1055 \u1086 \u1089 \u1083 \u1077 \u1076 \u1091 \u1102 \u1097 \u1080 \u1093  \u1088 \u1072 \u1079 \u1088 \u1072 \u1073 \u1086 \u1090 \u1086 \u1082  \u1080  \u1055 \u1088 \u1086 \u1080 \u1079 \u1074 \u1077 \u1076 \u1077 \u1085 \u1080 \u1103  \u1082  \u1082 \u1086 \u1090 \u1086 \u1088 \u1086 \u1084 \u1091  \u1101 \u1090 \u1080  \u1055 \u1086 \u1089 \u1083 \u1077 \u1076 \u1091 \u1102 \u1097 \u1080 \u1077  \u1088 \u1072 \u1079 \u1088 \u1072 \u1073 \u1086 \u1090 \u1082 \u1080  \u1073 \u1099 \u1083 \u1080  \u1087 \u1088 \u1077 \u1076 \u1089 \u1090 \u1072 \u1074 \u1083 \u1077 \u1085 \u1099 . \u1045 \u1089 \u1083 \u1080  \u1074 \u1099  \u1085 \u1072 \u1095 \u1080 \u1085 \u1072 \u1077 \u1090 \u1077  \u1087 \u1072 \u1090 \u1077 \u1085 \u1090 \u1085 \u1099 \u1081  \u1089 \u1087 \u1086 \u1088  \u1087 \u1088 \u1086 \u1090 \u1080 \u1074  \u1083 \u1102 \u1073 \u1086 \u1081  \u1086 \u1088 \u1075 \u1072 \u1085 \u1080 \u1079 \u1072 \u1094 \u1080 \u1080  (\u1074 \u1082 \u1083 \u1102 \u1095 \u1072 \u1103  \u1074 \u1089 \u1090 \u1088 \u1077 \u1095 \u1085 \u1099 \u1081  \u1080 \u1083 \u1080  \u1087 \u1077 \u1088 \u1077 \u1082 \u1088 \u1077 \u1089 \u1090 \u1085 \u1099 \u1081  \u1080 \u1089 \u1082  \u1074  \u1089 \u1091 \u1076 \u1077 \u1073 \u1085 \u1086 \u1084  \u1087 \u1088 \u1086 \u1094 \u1077 \u1089 \u1089 \u1077 ) \u1091 \u1090 \u1074 \u1077 \u1088 \u1078 \u1076 \u1072 \u1103 , \u1095 \u1090 \u1086  \u1055 \u1088 \u1086 \u1080 \u1079 \u1074 \u1077 \u1076 \u1077 \u1085 \u1080 \u1077  \u1080 \u1083 \u1080  \u1055 \u1086 \u1089 \u1083 \u1077 \u1076 \u1091 \u1102 \u1097 \u1072 \u1103  \u1088 \u1072 \u1079 \u1088 \u1072 \u1073 \u1086 \u1090 \u1082 \u1072  \u1089 \u1086 \u1076 \u1077 \u1088 \u1078 \u1080 \u1090  \u1087 \u1088 \u1103 \u1084 \u1086 \u1077  \u1080 \u1083 \u1080  \u1082 \u1086 \u1089 \u1074 \u1077 \u1085 \u1085 \u1086 \u1077  \u1085 \u1072 \u1088 \u1091 \u1096 \u1077 \u1085 \u1080 \u1077  \u1087 \u1072 \u1090 \u1077 \u1085 \u1090 \u1085 \u1086 \u1075 \u1086  \u1087 \u1088 \u1072 \u1074 \u1072 , \u1090 \u1086  \u1083 \u1102 \u1073 \u1072 \u1103  \u1087 \u1072 \u1090 \u1077 \u1085 \u1090 \u1085 \u1072 \u1103  \u1083 \u1080 \u1094 \u1077 \u1085 \u1079 \u1080 \u1103  \u1087 \u1077 \u1088 \u1077 \u1076 \u1072 \u1085 \u1085 \u1072 \u1103  \u1042 \u1072 \u1084  \u1089 \u1086 \u1075 \u1083 \u1072 \u1089 \u1085 \u1086  \u1076 \u1072 \u1085 \u1085 \u1086 \u1081  \u1051 \u1080 \u1094 \u1077 \u1085 \u1079 \u1080 \u1080  \u1085 \u1072  \u1101 \u1090 \u1086  \u1055 \u1088 \u1086 \u1080 \u1079 \u1074 \u1077 \u1076 \u1077 \u1085 \u1080 \u1077  \u1087 \u1088 \u1077 \u1082 \u1088 \u1072 \u1097 \u1072 \u1077 \u1090  \u1076 \u1077 \u1081 \u1089 \u1090 \u1074 \u1086 \u1074 \u1072 \u1090 \u1100  \u1089  \u1084 \u1086 \u1084 \u1077 \u1085 \u1090 \u1072  \u1087 \u1086 \u1076 \u1072 \u1095 \u1080  \u1076 \u1086 \u1082 \u1091 \u1084 \u1077 \u1085 \u1090 \u1086 \u1074  \u1086  \u1087 \u1072 \u1090 \u1077 \u1085 \u1090 \u1085 \u1086 \u1084  \u1089 \u1087 \u1086 \u1088 \u1077 .\
+4. \uc0\u1056 \u1072 \u1089 \u1087 \u1088 \u1086 \u1089 \u1090 \u1088 \u1072 \u1085 \u1077 \u1085 \u1080 \u1077 . \u1042 \u1099  \u1084 \u1086 \u1078 \u1077 \u1090 \u1077  \u1074 \u1086 \u1089 \u1087 \u1088 \u1086 \u1080 \u1079 \u1074 \u1086 \u1076 \u1080 \u1090 \u1100  \u1080  \u1088 \u1072 \u1089 \u1087 \u1088 \u1086 \u1089 \u1090 \u1088 \u1072 \u1085 \u1103 \u1090 \u1100  \u1082 \u1086 \u1087 \u1080 \u1080  \u1055 \u1088 \u1086 \u1080 \u1079 \u1074 \u1077 \u1076 \u1077 \u1085 \u1080 \u1103  \u1080  \u1077 \u1075 \u1086  \u1055 \u1088 \u1086 \u1080 \u1079 \u1074 \u1086 \u1076 \u1085 \u1099 \u1093  \u1087 \u1088 \u1086 \u1080 \u1079 \u1074 \u1077 \u1076 \u1077 \u1085 \u1080 \u1081  \u1089  \u1080 \u1079 \u1084 \u1077 \u1085 \u1077 \u1085 \u1080 \u1103 \u1084 \u1080  \u1080 \u1083 \u1080  \u1073 \u1077 \u1079 , \u1074  \u1092 \u1086 \u1088 \u1084 \u1077  \u1080 \u1089 \u1090 \u1086 \u1095 \u1085 \u1080 \u1082 \u1072  \u1080 \u1083 \u1080  \u1086 \u1073 \u1098 \u1077 \u1082 \u1090 \u1072 , \u1087 \u1088 \u1080 \u1085 \u1080 \u1084 \u1072 \u1103  \u1074 \u1086  \u1074 \u1085 \u1080 \u1084 \u1072 \u1085 \u1080 \u1077  \u1090 \u1086 , \u1095 \u1090 \u1086  \u1042 \u1099  \u1076 \u1077 \u1081 \u1089 \u1090 \u1074 \u1091 \u1077 \u1090 \u1077  \u1089 \u1086 \u1075 \u1083 \u1072 \u1089 \u1085 \u1086  \u1089 \u1083 \u1077 \u1076 \u1091 \u1102 \u1097 \u1080 \u1084  \u1091 \u1089 \u1083 \u1086 \u1074 \u1080 \u1103 \u1084 :\
+\pard\tx220\tx720\pardeftab720\li720\fi-720\partightenfactor0
+\ls1\ilvl0\cf2 \kerning1\expnd0\expndtw0 {\listtext	\'95	}\expnd0\expndtw0\kerning0
+\uc0\u1042 \u1099  \u1076 \u1086 \u1083 \u1078 \u1085 \u1099  \u1087 \u1088 \u1077 \u1076 \u1086 \u1089 \u1090 \u1072 \u1074 \u1080 \u1090 \u1100  \u1082 \u1086 \u1087 \u1080 \u1102  \u1076 \u1072 \u1085 \u1085 \u1086 \u1081  \u1051 \u1080 \u1094 \u1077 \u1085 \u1079 \u1080 \u1080  \u1083 \u1102 \u1073 \u1086 \u1084 \u1091  \u1087 \u1086 \u1083 \u1091 \u1095 \u1080 \u1074 \u1096 \u1077 \u1084 \u1091  \u1055 \u1088 \u1086 \u1080 \u1079 \u1074 \u1077 \u1076 \u1077 \u1085 \u1080 \u1077  \u1080 \u1083 \u1080  \u1055 \u1088 \u1086 \u1080 \u1079 \u1074 \u1086 \u1076 \u1085 \u1099 \u1077  \u1087 \u1088 \u1086 \u1080 \u1079 \u1074 \u1077 \u1076 \u1077 \u1085 \u1080 \u1103 , \u1080 \
+\pard\tx220\tx720\pardeftab720\li720\fi-720\partightenfactor0
+\ls2\ilvl0\cf2 \kerning1\expnd0\expndtw0 {\listtext	\'95	}\expnd0\expndtw0\kerning0
+\uc0\u1051 \u1102 \u1073 \u1099 \u1077  \u1080 \u1079 \u1084 \u1077 \u1085 \u1077 \u1085 \u1085 \u1099 \u1077  \u1042 \u1072 \u1084 \u1080  \u1092 \u1072 \u1081 \u1083 \u1099  \u1076 \u1086 \u1083 \u1078 \u1085 \u1099  \u1089 \u1086 \u1076 \u1077 \u1088 \u1078 \u1072 \u1090 \u1100  \u1093 \u1086 \u1088 \u1086 \u1096 \u1086  \u1079 \u1072 \u1084 \u1077 \u1090 \u1085 \u1091 \u1102  \u1087 \u1086 \u1084 \u1077 \u1090 \u1082 \u1091 , \u1095 \u1090 \u1086  \u1086 \u1085 \u1080  \u1073 \u1099 \u1083 \u1080  \u1080 \u1079 \u1084 \u1077 \u1085 \u1077 \u1085 \u1099 , \u1072  \u1090 \u1072 \u1082 \u1078 \u1077 \
+\pard\tx220\tx720\pardeftab720\li720\fi-720\partightenfactor0
+\ls3\ilvl0\cf2 \kerning1\expnd0\expndtw0 {\listtext	\'95	}\expnd0\expndtw0\kerning0
+\uc0\u1055 \u1088 \u1080  \u1076 \u1072 \u1083 \u1100 \u1085 \u1077 \u1081 \u1096 \u1077 \u1084  \u1088 \u1072 \u1089 \u1087 \u1088 \u1086 \u1089 \u1090 \u1088 \u1072 \u1085 \u1077 \u1085 \u1080 \u1080  \u1092 \u1086 \u1088 \u1084 \u1099  \u1080 \u1089 \u1090 \u1086 \u1095 \u1085 \u1080 \u1082 \u1072  \u1083 \u1102 \u1073 \u1099 \u1093  \u1055 \u1088 \u1086 \u1080 \u1079 \u1074 \u1086 \u1076 \u1085 \u1099 \u1093  \u1087 \u1088 \u1086 \u1080 \u1079 \u1074 \u1077 \u1076 \u1077 \u1085 \u1080 \u1081  \u1076 \u1086 \u1083 \u1078 \u1085 \u1099  \u1089 \u1086 \u1093 \u1088 \u1072 \u1085 \u1103 \u1090 \u1100 \u1089 \u1103  \u1074 \u1089 \u1077  \u1079 \u1072 \u1103 \u1074 \u1083 \u1077 \u1085 \u1080 \u1103  \u1086 \u1073  \u1072 \u1074 \u1090 \u1086 \u1088 \u1089 \u1082 \u1080 \u1093  \u1087 \u1088 \u1072 \u1074 \u1072 \u1093 , \u1087 \u1072 \u1090 \u1077 \u1085 \u1090 \u1072 \u1093 , \u1090 \u1086 \u1074 \u1072 \u1088 \u1085 \u1099 \u1093  \u1079 \u1085 \u1072 \u1082 \u1072 \u1093  \u1080  \u1091 \u1087 \u1086 \u1084 \u1080 \u1085 \u1072 \u1085 \u1080 \u1103 \u1093 , \u1087 \u1088 \u1080 \u1089 \u1091 \u1090 \u1089 \u1090 \u1074 \u1091 \u1102 \u1097 \u1080 \u1077  \u1074  \u1092 \u1086 \u1088 \u1084 \u1077  \u1080 \u1089 \u1090 \u1086 \u1095 \u1085 \u1080 \u1082 \u1072  \u1055 \u1088 \u1086 \u1080 \u1079 \u1074 \u1077 \u1076 \u1077 \u1085 \u1080 \u1103 , \u1079 \u1072  \u1080 \u1089 \u1082 \u1083 \u1102 \u1095 \u1077 \u1085 \u1080 \u1077 \u1084  \u1090 \u1077 \u1093  \u1079 \u1072 \u1103 \u1074 \u1083 \u1077 \u1085 \u1080 \u1081 , \u1082 \u1086 \u1090 \u1086 \u1088 \u1099 \u1077  \u1085 \u1077  \u1082 \u1072 \u1089 \u1072 \u1102 \u1090 \u1089 \u1103  \u1083 \u1102 \u1073 \u1086 \u1081  \u1095 \u1072 \u1089 \u1090 \u1080  \u1055 \u1088 \u1086 \u1080 \u1079 \u1074 \u1086 \u1076 \u1085 \u1099 \u1093  \u1087 \u1088 \u1086 \u1080 \u1079 \u1074 \u1077 \u1076 \u1077 \u1085 \u1080 \u1081 , \u1080 \
+\pard\tx220\tx720\pardeftab720\li720\fi-720\partightenfactor0
+\ls4\ilvl0\cf2 \kerning1\expnd0\expndtw0 {\listtext	\'95	}\expnd0\expndtw0\kerning0
+\uc0\u1045 \u1089 \u1083 \u1080  \u1055 \u1088 \u1086 \u1080 \u1079 \u1074 \u1077 \u1076 \u1077 \u1085 \u1080 \u1077  \u1089 \u1086 \u1076 \u1077 \u1088 \u1078 \u1080 \u1090  \u1090 \u1077 \u1082 \u1089 \u1090 \u1086 \u1074 \u1099 \u1081  \u1092 \u1072 \u1081 \u1083  \'ab\u1059 \u1074 \u1077 \u1076 \u1086 \u1084 \u1083 \u1077 \u1085 \u1080 \u1077 \'bb, \u1090 \u1086  \u1083 \u1102 \u1073 \u1099 \u1077  \u1055 \u1088 \u1086 \u1080 \u1079 \u1074 \u1086 \u1076 \u1085 \u1099 \u1077  \u1087 \u1088 \u1086 \u1080 \u1079 \u1074 \u1077 \u1076 \u1077 \u1085 \u1080 \u1103 , \u1082 \u1086 \u1090 \u1086 \u1088 \u1099 \u1077  \u1042 \u1099  \u1088 \u1072 \u1089 \u1087 \u1088 \u1086 \u1089 \u1090 \u1088 \u1072 \u1085 \u1103 \u1077 \u1090 \u1077 , \u1076 \u1086 \u1083 \u1078 \u1085 \u1099  \u1074 \u1082 \u1083 \u1102 \u1095 \u1072 \u1090 \u1100  \u1077 \u1075 \u1086  \u1091 \u1076 \u1086 \u1073 \u1086 \u1095 \u1080 \u1090 \u1072 \u1077 \u1084 \u1091 \u1102  \u1082 \u1086 \u1087 \u1080 \u1102 , \u1079 \u1072  \u1080 \u1089 \u1082 \u1083 \u1102 \u1095 \u1077 \u1085 \u1080 \u1077 \u1084  \u1090 \u1077 \u1093  \u1079 \u1072 \u1103 \u1074 \u1083 \u1077 \u1085 \u1080 \u1081 , \u1082 \u1086 \u1090 \u1086 \u1088 \u1099 \u1077  \u1085 \u1077  \u1082 \u1072 \u1089 \u1072 \u1102 \u1090 \u1089 \u1103  \u1083 \u1102 \u1073 \u1086 \u1081  \u1095 \u1072 \u1089 \u1090 \u1080  \u1055 \u1088 \u1086 \u1080 \u1079 \u1074 \u1086 \u1076 \u1085 \u1099 \u1093  \u1087 \u1088 \u1086 \u1080 \u1079 \u1074 \u1077 \u1076 \u1077 \u1085 \u1080 \u1081 , \u1087 \u1086  \u1082 \u1088 \u1072 \u1081 \u1085 \u1077 \u1081  \u1084 \u1077 \u1088 \u1077 , \u1082 \u1086 \u1087 \u1080 \u1103  \u1076 \u1086 \u1083 \u1078 \u1085 \u1072  \u1085 \u1072 \u1093 \u1086 \u1076 \u1080 \u1090 \u1100 \u1089 \u1103  \u1074  \u1086 \u1076 \u1085 \u1086 \u1084  \u1080 \u1079  \u1089 \u1083 \u1077 \u1076 \u1091 \u1102 \u1097 \u1080 \u1093  \u1084 \u1077 \u1089 \u1090 : \u1074  \u1090 \u1077 \u1082 \u1089 \u1090 \u1086 \u1074 \u1086 \u1084  \u1092 \u1072 \u1081 \u1083 \u1077  \'abNotice\'bb, \u1088 \u1072 \u1089 \u1087 \u1088 \u1086 \u1089 \u1090 \u1088 \u1072 \u1085 \u1103 \u1077 \u1084 \u1086 \u1084  \u1082 \u1072 \u1082  \u1095 \u1072 \u1089 \u1090 \u1100  \u1055 \u1088 \u1086 \u1080 \u1079 \u1074 \u1086 \u1076 \u1085 \u1099 \u1093  \u1087 \u1088 \u1086 \u1080 \u1079 \u1074 \u1077 \u1076 \u1077 \u1085 \u1080 \u1081 ; \u1074  \u1092 \u1086 \u1088 \u1084 \u1077  \u1080 \u1089 \u1090 \u1086 \u1095 \u1085 \u1080 \u1082 \u1072  \u1080 \u1083 \u1080  \u1076 \u1086 \u1082 \u1091 \u1084 \u1077 \u1085 \u1090 \u1072 \u1094 \u1080 \u1080 , \u1077 \u1089 \u1083 \u1080  \u1090 \u1072 \u1082 \u1086 \u1074 \u1072 \u1103  \u1087 \u1088 \u1077 \u1076 \u1086 \u1089 \u1090 \u1072 \u1074 \u1083 \u1103 \u1077 \u1090 \u1089 \u1103  \u1085 \u1072 \u1088 \u1103 \u1076 \u1091  \u1089  \u1055 \u1088 \u1086 \u1080 \u1079 \u1074 \u1086 \u1076 \u1085 \u1099 \u1084 \u1080  \u1087 \u1088 \u1086 \u1080 \u1079 \u1074 \u1077 \u1076 \u1077 \u1085 \u1080 \u1103 \u1084 \u1080 ; \u1080 \u1083 \u1080  \u1074  \u1087 \u1088 \u1086 \u1094 \u1077 \u1089 \u1089 \u1077  \u1086 \u1090 \u1086 \u1073 \u1088 \u1072 \u1078 \u1077 \u1085 \u1080 \u1103 , \u1089 \u1086 \u1079 \u1076 \u1072 \u1074 \u1072 \u1077 \u1084 \u1086 \u1075 \u1086 , \u1074  \u1089 \u1083 \u1091 \u1095 \u1072 \u1077  \u1077 \u1089 \u1083 \u1080  \u1080  \u1075 \u1076 \u1077  \u1073 \u1099  \u1101 \u1090 \u1080  \u1089 \u1090 \u1086 \u1088 \u1086 \u1085 \u1085 \u1080 \u1077  \u1079 \u1072 \u1103 \u1074 \u1083 \u1077 \u1085 \u1080 \u1103  \u1085 \u1077  \u1087 \u1086 \u1103 \u1074 \u1080 \u1083 \u1080 \u1089 \u1100 . \u1057 \u1086 \u1076 \u1077 \u1088 \u1078 \u1080 \u1084 \u1086 \u1077  \u1092 \u1072 \u1081 \u1083 \u1072  \'abNotice\'bb \u1087 \u1088 \u1077 \u1076 \u1086 \u1089 \u1090 \u1072 \u1074 \u1083 \u1103 \u1077 \u1090 \u1089 \u1103  \u1090 \u1086 \u1083 \u1100 \u1082 \u1086  \u1076 \u1083 \u1103  \u1080 \u1085 \u1092 \u1086 \u1088 \u1084 \u1072 \u1094 \u1080 \u1086 \u1085 \u1085 \u1099 \u1093  \u1094 \u1077 \u1083 \u1077 \u1081  \u1080  \u1085 \u1077  \u1080 \u1079 \u1084 \u1077 \u1085 \u1103 \u1077 \u1090  \u1051 \u1080 \u1094 \u1077 \u1085 \u1079 \u1080 \u1102 . \u1042 \u1099  \u1084 \u1086 \u1078 \u1077 \u1090 \u1077  \u1076 \u1086 \u1073 \u1072 \u1074 \u1080 \u1090 \u1100  \u1042 \u1072 \u1096 \u1080  \u1089 \u1086 \u1073 \u1089 \u1090 \u1074 \u1077 \u1085 \u1085 \u1099 \u1077  \u1091 \u1074 \u1077 \u1076 \u1086 \u1084 \u1083 \u1077 \u1085 \u1080 \u1103  \u1086 \u1073  \u1080 \u1089 \u1087 \u1086 \u1083 \u1100 \u1079 \u1086 \u1074 \u1072 \u1085 \u1080 \u1080  \u1090 \u1086 \u1088 \u1075 \u1086 \u1074 \u1086 \u1075 \u1086  \u1079 \u1085 \u1072 \u1082 \u1072  \u1074  \u1055 \u1088 \u1086 \u1080 \u1079 \u1074 \u1086 \u1076 \u1085 \u1099 \u1077  \u1087 \u1088 \u1086 \u1080 \u1079 \u1074 \u1077 \u1076 \u1077 \u1085 \u1080 \u1103 , \u1082 \u1086 \u1090 \u1086 \u1088 \u1099 \u1077  \u1042 \u1099  \u1088 \u1072 \u1089 \u1087 \u1088 \u1086 \u1089 \u1090 \u1088 \u1072 \u1085 \u1103 \u1077 \u1090 \u1077 , \u1085 \u1072 \u1088 \u1103 \u1076 \u1091  \u1089  \u1080 \u1083 \u1080  \u1082 \u1072 \u1082  \u1087 \u1088 \u1080 \u1083 \u1086 \u1078 \u1077 \u1085 \u1080 \u1077  \u1082  \u1090 \u1077 \u1082 \u1089 \u1090 \u1091  Notice, \u1087 \u1088 \u1080 \u1085 \u1080 \u1084 \u1072 \u1103  \u1074 \u1086  \u1074 \u1085 \u1080 \u1084 \u1072 \u1085 \u1080 \u1077 , \u1095 \u1090 \u1086  \u1087 \u1086 \u1076 \u1086 \u1073 \u1085 \u1099 \u1077  \u1076 \u1086 \u1087 \u1086 \u1083 \u1085 \u1080 \u1090 \u1077 \u1083 \u1100 \u1085 \u1099 \u1077  \u1091 \u1074 \u1077 \u1076 \u1086 \u1084 \u1083 \u1077 \u1085 \u1080 \u1103  \u1085 \u1077  \u1084 \u1086 \u1075 \u1091 \u1090  \u1073 \u1099 \u1090 \u1100  \u1080 \u1089 \u1090 \u1086 \u1083 \u1082 \u1086 \u1074 \u1072 \u1085 \u1099  \u1082 \u1072 \u1082  \u1080 \u1079 \u1084 \u1077 \u1085 \u1077 \u1085 \u1080 \u1077  \u1051 \u1080 \u1094 \u1077 \u1085 \u1079 \u1080 \u1080 .\
+\pard\pardeftab720\partightenfactor0
+\cf2 \uc0\u1042 \u1099  \u1084 \u1086 \u1078 \u1077 \u1090 \u1077  \u1076 \u1086 \u1073 \u1072 \u1074 \u1080 \u1090 \u1100  \u1082  \u1080 \u1079 \u1084 \u1077 \u1085 \u1077 \u1085 \u1080 \u1103 \u1084  \u1042 \u1072 \u1096 \u1077  \u1089 \u1086 \u1073 \u1089 \u1090 \u1074 \u1077 \u1085 \u1085 \u1086 \u1077  \u1079 \u1072 \u1103 \u1074 \u1083 \u1077 \u1085 \u1080 \u1077  \u1086 \u1073  \u1072 \u1074 \u1090 \u1086 \u1088 \u1089 \u1082 \u1080 \u1093  \u1087 \u1088 \u1072 \u1074 \u1072 \u1093  \u1080  \u1084 \u1086 \u1078 \u1077 \u1090 \u1077  \u1087 \u1088 \u1077 \u1076 \u1086 \u1089 \u1090 \u1072 \u1074 \u1080 \u1090 \u1100  \u1076 \u1086 \u1087 \u1086 \u1083 \u1085 \u1080 \u1090 \u1077 \u1083 \u1100 \u1085 \u1099 \u1077  \u1080 \u1083 \u1080  \u1076 \u1088 \u1091 \u1075 \u1080 \u1077  \u1083 \u1080 \u1094 \u1077 \u1085 \u1079 \u1080 \u1086 \u1085 \u1085 \u1099 \u1077  \u1091 \u1089 \u1083 \u1086 \u1074 \u1080 \u1103  \u1076 \u1083 \u1103  \u1080 \u1089 \u1087 \u1086 \u1083 \u1100 \u1079 \u1086 \u1074 \u1072 \u1085 \u1080 \u1103 , \u1082 \u1086 \u1087 \u1080 \u1088 \u1086 \u1074 \u1072 \u1085 \u1080 \u1103  \u1080 \u1083 \u1080  \u1088 \u1072 \u1089 \u1087 \u1088 \u1086 \u1089 \u1090 \u1088 \u1072 \u1085 \u1077 \u1085 \u1080 \u1103  \u1042 \u1072 \u1096 \u1080 \u1093  \u1084 \u1086 \u1076 \u1080 \u1092 \u1080 \u1082 \u1072 \u1094 \u1080 \u1081 , \u1080 \u1083 \u1080  \u1076 \u1083 \u1103  \u1080 \u1089 \u1087 \u1086 \u1083 \u1100 \u1079 \u1086 \u1074 \u1072 \u1085 \u1080 \u1103  \u1055 \u1088 \u1086 \u1080 \u1079 \u1074 \u1086 \u1076 \u1085 \u1099 \u1093  \u1087 \u1088 \u1086 \u1080 \u1079 \u1074 \u1077 \u1076 \u1077 \u1085 \u1080 \u1081  \u1074  \u1094 \u1077 \u1083 \u1086 \u1084 , \u1087 \u1088 \u1080  \u1091 \u1089 \u1083 \u1086 \u1074 \u1080 \u1080 , \u1095 \u1090 \u1086  \u1042 \u1099  \u1080 \u1089 \u1087 \u1086 \u1083 \u1100 \u1079 \u1091 \u1077 \u1090 \u1077 , \u1082 \u1086 \u1087 \u1080 \u1088 \u1091 \u1077 \u1090 \u1077  \u1080  \u1088 \u1072 \u1089 \u1087 \u1088 \u1086 \u1089 \u1090 \u1088 \u1072 \u1085 \u1103 \u1077 \u1090 \u1077  \u1055 \u1088 \u1086 \u1080 \u1079 \u1074 \u1077 \u1076 \u1077 \u1085 \u1080 \u1077  \u1074  \u1089 \u1086 \u1086 \u1090 \u1074 \u1077 \u1090 \u1089 \u1090 \u1074 \u1080 \u1080  \u1089  \u1091 \u1089 \u1083 \u1086 \u1074 \u1080 \u1103 \u1084 \u1080 , \u1080 \u1079 \u1083 \u1086 \u1078 \u1077 \u1085 \u1085 \u1099 \u1084 \u1080  \u1074  \u1076 \u1072 \u1085 \u1085 \u1086 \u1081  \u1051 \u1080 \u1094 \u1077 \u1085 \u1079 \u1080 \u1080 .\
+5. \uc0\u1055 \u1088 \u1077 \u1076 \u1089 \u1090 \u1072 \u1074 \u1083 \u1077 \u1085 \u1080 \u1077  \u1055 \u1086 \u1089 \u1083 \u1077 \u1076 \u1091 \u1102 \u1097 \u1080 \u1093  \u1088 \u1072 \u1079 \u1088 \u1072 \u1073 \u1086 \u1090 \u1086 \u1082 . \u1045 \u1089 \u1083 \u1080  \u1042 \u1099  \u1103 \u1074 \u1085 \u1086  \u1085 \u1077  \u1091 \u1090 \u1074 \u1077 \u1088 \u1078 \u1076 \u1072 \u1077 \u1090 \u1077  \u1076 \u1088 \u1091 \u1075 \u1086 \u1075 \u1086 , \u1083 \u1102 \u1073 \u1072 \u1103  \u1055 \u1086 \u1089 \u1083 \u1077 \u1076 \u1091 \u1102 \u1097 \u1072 \u1103  \u1088 \u1072 \u1079 \u1088 \u1072 \u1073 \u1086 \u1090 \u1082 \u1072 , \u1085 \u1072 \u1084 \u1077 \u1088 \u1077 \u1085 \u1085 \u1086  \u1087 \u1088 \u1077 \u1076 \u1089 \u1090 \u1072 \u1074 \u1083 \u1077 \u1085 \u1085 \u1072 \u1103  \u1042 \u1072 \u1084 \u1080  \u1051 \u1080 \u1094 \u1077 \u1085 \u1079 \u1080 \u1072 \u1088 \u1091  \u1076 \u1083 \u1103  \u1074 \u1082 \u1083 \u1102 \u1095 \u1077 \u1085 \u1080 \u1103  \u1074  \u1055 \u1088 \u1086 \u1080 \u1079 \u1074 \u1077 \u1076 \u1077 \u1085 \u1080 \u1077 , \u1076 \u1086 \u1083 \u1078 \u1085 \u1072  \u1089 \u1086 \u1086 \u1090 \u1074 \u1077 \u1090 \u1089 \u1090 \u1074 \u1086 \u1074 \u1072 \u1090 \u1100  \u1091 \u1089 \u1083 \u1086 \u1074 \u1080 \u1103 \u1084  \u1076 \u1072 \u1085 \u1085 \u1086 \u1081  \u1051 \u1080 \u1094 \u1077 \u1085 \u1079 \u1080 \u1080 , \u1080 \u1089 \u1082 \u1083 \u1102 \u1095 \u1072 \u1103  \u1083 \u1102 \u1073 \u1099 \u1077  \u1076 \u1086 \u1087 \u1086 \u1083 \u1085 \u1080 \u1090 \u1077 \u1083 \u1100 \u1085 \u1099 \u1077  \u1091 \u1089 \u1083 \u1086 \u1074 \u1080 \u1103 . \u1053 \u1077 \u1089 \u1084 \u1086 \u1090 \u1088 \u1103  \u1085 \u1072  \u1074 \u1099 \u1096 \u1077 \u1080 \u1079 \u1083 \u1086 \u1078 \u1077 \u1085 \u1085 \u1086 \u1077 , \u1085 \u1080 \u1095 \u1090 \u1086  \u1074  \u1076 \u1072 \u1085 \u1085 \u1086 \u1084  \u1076 \u1086 \u1082 \u1091 \u1084 \u1077 \u1085 \u1090 \u1077  \u1085 \u1077  \u1084 \u1086 \u1078 \u1077 \u1090  \u1079 \u1072 \u1084 \u1077 \u1089 \u1090 \u1080 \u1090 \u1100  \u1080 \u1083 \u1080  \u1080 \u1079 \u1084 \u1077 \u1085 \u1080 \u1090 \u1100  \u1091 \u1089 \u1083 \u1086 \u1074 \u1080 \u1103  \u1086 \u1090 \u1076 \u1077 \u1083 \u1100 \u1085 \u1086 \u1075 \u1086  \u1083 \u1080 \u1094 \u1077 \u1085 \u1079 \u1080 \u1086 \u1085 \u1085 \u1086 \u1075 \u1086  \u1089 \u1086 \u1075 \u1083 \u1072 \u1096 \u1077 \u1085 \u1080 \u1103 , \u1082 \u1086 \u1090 \u1086 \u1088 \u1086 \u1077  \u1074 \u1099  \u1084 \u1086 \u1075 \u1083 \u1080  \u1079 \u1072 \u1082 \u1083 \u1102 \u1095 \u1080 \u1090 \u1100  \u1089  \u1051 \u1080 \u1094 \u1077 \u1085 \u1079 \u1080 \u1072 \u1088 \u1086 \u1084  \u1086 \u1090 \u1085 \u1086 \u1089 \u1080 \u1090 \u1077 \u1083 \u1100 \u1085 \u1086  \u1055 \u1086 \u1089 \u1083 \u1077 \u1076 \u1091 \u1102 \u1097 \u1080 \u1093  \u1088 \u1072 \u1079 \u1088 \u1072 \u1073 \u1086 \u1090 \u1086 \u1082 .\
+6. \uc0\u1058 \u1086 \u1074 \u1072 \u1088 \u1085 \u1099 \u1077  \u1079 \u1085 \u1072 \u1082 \u1080 . \u1044 \u1072 \u1085 \u1085 \u1072 \u1103  \u1051 \u1080 \u1094 \u1077 \u1085 \u1079 \u1080 \u1103  \u1085 \u1077  \u1076 \u1072 \u1077 \u1090  \u1088 \u1072 \u1079 \u1088 \u1077 \u1096 \u1077 \u1085 \u1080 \u1103  \u1085 \u1072  \u1080 \u1089 \u1087 \u1086 \u1083 \u1100 \u1079 \u1086 \u1074 \u1072 \u1085 \u1080 \u1077  \u1090 \u1086 \u1088 \u1075 \u1086 \u1074 \u1099 \u1093  \u1085 \u1072 \u1080 \u1084 \u1077 \u1085 \u1086 \u1074 \u1072 \u1085 \u1080 \u1081 , \u1090 \u1086 \u1074 \u1072 \u1088 \u1085 \u1099 \u1093  \u1079 \u1085 \u1072 \u1082 \u1086 \u1074 , \u1079 \u1085 \u1072 \u1082 \u1086 \u1074  \u1091 \u1089 \u1083 \u1091 \u1075  \u1080 \u1083 \u1080  \u1085 \u1072 \u1079 \u1074 \u1072 \u1085 \u1080 \u1081  \u1087 \u1088 \u1086 \u1076 \u1091 \u1082 \u1090 \u1086 \u1074 , \u1087 \u1088 \u1080 \u1085 \u1072 \u1076 \u1083 \u1077 \u1078 \u1072 \u1097 \u1080 \u1093  \u1051 \u1080 \u1094 \u1077 \u1085 \u1079 \u1080 \u1072 \u1088 \u1091 , \u1080 \u1089 \u1082 \u1083 \u1102 \u1095 \u1072 \u1103  \u1089 \u1080 \u1090 \u1091 \u1072 \u1094 \u1080 \u1102 , \u1082 \u1086 \u1075 \u1076 \u1072  \u1086 \u1085 \u1080  \u1084 \u1086 \u1075 \u1091 \u1090  \u1087 \u1086 \u1090 \u1088 \u1077 \u1073 \u1086 \u1074 \u1072 \u1090 \u1100 \u1089 \u1103  \u1076 \u1083 \u1103  \u1086 \u1073 \u1086 \u1089 \u1085 \u1086 \u1074 \u1072 \u1085 \u1085 \u1086 \u1075 \u1086  \u1080  \u1086 \u1073 \u1099 \u1095 \u1085 \u1086 \u1075 \u1086  \u1080 \u1089 \u1087 \u1086 \u1083 \u1100 \u1079 \u1086 \u1074 \u1072 \u1085 \u1080 \u1103  \u1087 \u1088 \u1080  \u1086 \u1087 \u1080 \u1089 \u1072 \u1085 \u1080 \u1080  \u1080 \u1089 \u1090 \u1086 \u1095 \u1085 \u1080 \u1082 \u1072  \u1055 \u1088 \u1086 \u1080 \u1079 \u1074 \u1077 \u1076 \u1077 \u1085 \u1080 \u1103  \u1080  \u1074 \u1086 \u1089 \u1087 \u1088 \u1086 \u1080 \u1079 \u1074 \u1077 \u1076 \u1077 \u1085 \u1080 \u1080  \u1089 \u1086 \u1076 \u1077 \u1088 \u1078 \u1080 \u1084 \u1086 \u1075 \u1086  \u1092 \u1072 \u1081 \u1083 \u1072  Notice.\
+7. \uc0\u1054 \u1090 \u1082 \u1072 \u1079  \u1086 \u1090  \u1075 \u1072 \u1088 \u1072 \u1085 \u1090 \u1080 \u1081 \u1085 \u1099 \u1093  \u1086 \u1073 \u1103 \u1079 \u1072 \u1090 \u1077 \u1083 \u1100 \u1089 \u1090 \u1074 . \u1051 \u1080 \u1094 \u1077 \u1085 \u1079 \u1080 \u1072 \u1088  \u1087 \u1088 \u1077 \u1076 \u1086 \u1089 \u1090 \u1072 \u1074 \u1083 \u1103 \u1077 \u1090  \u1055 \u1088 \u1086 \u1080 \u1079 \u1074 \u1077 \u1076 \u1077 \u1085 \u1080 \u1077  (\u1080  \u1082 \u1072 \u1078 \u1076 \u1099 \u1081  \u1055 \u1086 \u1089 \u1083 \u1077 \u1076 \u1091 \u1102 \u1097 \u1080 \u1081  \u1088 \u1072 \u1079 \u1088 \u1072 \u1073 \u1086 \u1090 \u1095 \u1080 \u1082  \u1087 \u1088 \u1077 \u1076 \u1086 \u1089 \u1090 \u1072 \u1074 \u1083 \u1103 \u1077 \u1090  \u1055 \u1086 \u1089 \u1083 \u1077 \u1076 \u1091 \u1102 \u1097 \u1080 \u1077  \u1088 \u1072 \u1079 \u1088 \u1072 \u1073 \u1086 \u1090 \u1082 \u1080 ) "\u1050 \u1040 \u1050  \u1045 \u1057 \u1058 \u1068 " \u1080  \u1083 \u1102 \u1073 \u1099 \u1077  \u1103 \u1074 \u1085 \u1099 \u1077  \u1080 \u1083 \u1080  \u1085 \u1077 \u1103 \u1074 \u1085 \u1099 \u1077  \u1075 \u1072 \u1088 \u1072 \u1085 \u1090 \u1080 \u1080 , \u1074 \u1082 \u1083 \u1102 \u1095 \u1072 \u1103 , \u1073 \u1077 \u1079  \u1086 \u1075 \u1088 \u1072 \u1085 \u1080 \u1095 \u1077 \u1085 \u1080 \u1081 , \u1075 \u1072 \u1088 \u1072 \u1085 \u1090 \u1080 \u1080  \u1055 \u1056 \u1040 \u1042  \u1057 \u1054 \u1041 \u1057 \u1058 \u1042 \u1045 \u1053 \u1053 \u1054 \u1057 \u1058 \u1048 , \u1053 \u1045 \u1053 \u1040 \u1056 \u1059 \u1064 \u1045 \u1053 \u1048 \u1045  \u1055 \u1056 \u1040 \u1042 , \u1050 \u1054 \u1052 \u1052 \u1045 \u1056 \u1063 \u1045 \u1057 \u1050 \u1054 \u1049  \u1055 \u1056 \u1048 \u1043 \u1054 \u1044 \u1053 \u1054 \u1057 \u1058 \u1048  \u1048  \u1055 \u1056 \u1048 \u1043 \u1054 \u1044 \u1053 \u1054 \u1057 \u1058 \u1048  \u1044 \u1051 \u1071  \u1054 \u1055 \u1056 \u1045 \u1044 \u1045 \u1051 \u1045 \u1053 \u1053 \u1054 \u1049  \u1062 \u1045 \u1051 \u1048 , \u1054 \u1058 \u1042 \u1045 \u1056 \u1043 \u1040 \u1070 \u1058 \u1057 \u1071 . \u1042 \u1099  \u1085 \u1077 \u1089 \u1077 \u1090 \u1077  \u1086 \u1090 \u1074 \u1077 \u1090 \u1089 \u1090 \u1074 \u1077 \u1085 \u1085 \u1086 \u1089 \u1090 \u1100  \u1080 \u1089 \u1082 \u1083 \u1102 \u1095 \u1080 \u1090 \u1077 \u1083 \u1100 \u1085 \u1086  \u1079 \u1072  \u1086 \u1087 \u1088 \u1077 \u1076 \u1077 \u1083 \u1077 \u1085 \u1080 \u1077  \u1087 \u1088 \u1080 \u1075 \u1086 \u1076 \u1085 \u1086 \u1089 \u1090 \u1080  \u1080 \u1089 \u1087 \u1086 \u1083 \u1100 \u1079 \u1086 \u1074 \u1072 \u1085 \u1080 \u1103  \u1080 \u1083 \u1080  \u1088 \u1072 \u1089 \u1087 \u1088 \u1077 \u1076 \u1077 \u1083 \u1077 \u1085 \u1080 \u1103  \u1055 \u1088 \u1086 \u1080 \u1079 \u1074 \u1077 \u1076 \u1077 \u1085 \u1080 \u1103  \u1080  \u1087 \u1088 \u1080 \u1085 \u1080 \u1084 \u1072 \u1077 \u1090 \u1077  \u1083 \u1102 \u1073 \u1099 \u1077  \u1088 \u1080 \u1089 \u1082 \u1080  \u1089 \u1074 \u1103 \u1079 \u1072 \u1085 \u1085 \u1099 \u1077  \u1089  \u1086 \u1089 \u1091 \u1097 \u1077 \u1089 \u1090 \u1074 \u1083 \u1077 \u1085 \u1080 \u1077 \u1084  \u1087 \u1086 \u1083 \u1085 \u1086 \u1084 \u1086 \u1095 \u1080 \u1081  \u1087 \u1086  \u1076 \u1072 \u1085 \u1085 \u1086 \u1084 \u1091  \u1051 \u1080 \u1094 \u1077 \u1085 \u1079 \u1080 \u1086 \u1085 \u1085 \u1086 \u1084 \u1091  \u1089 \u1086 \u1075 \u1083 \u1072 \u1096 \u1077 \u1085 \u1080 \u1102 .\
+8. \uc0\u1054 \u1075 \u1088 \u1072 \u1085 \u1080 \u1095 \u1077 \u1085 \u1080 \u1077  \u1086 \u1090 \u1074 \u1077 \u1090 \u1089 \u1090 \u1074 \u1077 \u1085 \u1085 \u1086 \u1089 \u1090 \u1080 . \u1053 \u1080  \u1087 \u1088 \u1080  \u1082 \u1072 \u1082 \u1080 \u1093  \u1091 \u1089 \u1083 \u1086 \u1074 \u1080 \u1103 \u1093  \u1055 \u1086 \u1089 \u1083 \u1077 \u1076 \u1091 \u1102 \u1097 \u1080 \u1081  \u1088 \u1072 \u1079 \u1088 \u1072 \u1073 \u1086 \u1090 \u1095 \u1080 \u1082  \u1085 \u1077  \u1085 \u1077 \u1089 \u1077 \u1090  \u1086 \u1090 \u1074 \u1077 \u1090 \u1089 \u1090 \u1074 \u1077 \u1085 \u1085 \u1086 \u1089 \u1090 \u1080  \u1087 \u1077 \u1088 \u1077 \u1076  \u1042 \u1072 \u1084 \u1080  \u1079 \u1072  \u1091 \u1073 \u1099 \u1090 \u1082 \u1080 , \u1074 \u1082 \u1083 \u1102 \u1095 \u1072 \u1103  \u1083 \u1102 \u1073 \u1099 \u1077  \u1087 \u1088 \u1103 \u1084 \u1099 \u1077 , \u1082 \u1086 \u1089 \u1074 \u1077 \u1085 \u1085 \u1099 \u1077 , \u1091 \u1084 \u1099 \u1096 \u1083 \u1077 \u1085 \u1085 \u1099 \u1077 , \u1089 \u1083 \u1091 \u1095 \u1072 \u1081 \u1085 \u1099 \u1077  \u1080 \u1083 \u1080  \u1087 \u1086 \u1089 \u1083 \u1077 \u1076 \u1091 \u1102 \u1097 \u1080 \u1077  \u1091 \u1073 \u1099 \u1090 \u1082 \u1080  \u1083 \u1102 \u1073 \u1086 \u1075 \u1086  \u1093 \u1072 \u1088 \u1072 \u1082 \u1090 \u1077 \u1088 \u1072  \u1087 \u1088 \u1086 \u1080 \u1089 \u1090 \u1077 \u1082 \u1072 \u1102 \u1097 \u1080 \u1077  \u1080 \u1079  \u1076 \u1072 \u1085 \u1085 \u1086 \u1075 \u1086  \u1051 \u1080 \u1094 \u1077 \u1085 \u1079 \u1080 \u1086 \u1085 \u1085 \u1086 \u1075 \u1086  \u1089 \u1086 \u1075 \u1083 \u1072 \u1096 \u1077 \u1085 \u1080 \u1103  \u1080 \u1083 \u1080  \u1080 \u1079  \u1080 \u1089 \u1087 \u1086 \u1083 \u1100 \u1079 \u1086 \u1074 \u1072 \u1085 \u1080 \u1103  \u1080 \u1083 \u1080  \u1085 \u1077 \u1074 \u1086 \u1079 \u1084 \u1086 \u1078 \u1085 \u1086 \u1089 \u1090 \u1080  \u1080 \u1089 \u1087 \u1086 \u1083 \u1100 \u1079 \u1086 \u1074 \u1072 \u1085 \u1080 \u1103  \u1055 \u1088 \u1086 \u1080 \u1079 \u1074 \u1077 \u1076 \u1077 \u1085 \u1080 \u1103  (\u1074 \u1082 \u1083 \u1102 \u1095 \u1072 \u1103 , \u1085 \u1086  \u1085 \u1077  \u1086 \u1075 \u1088 \u1072 \u1085 \u1080 \u1095 \u1080 \u1074 \u1072 \u1103 \u1089 \u1100 , \u1091 \u1073 \u1099 \u1090 \u1082 \u1072 \u1084 \u1080 , \u1074 \u1086 \u1079 \u1085 \u1080 \u1082 \u1096 \u1080 \u1084 \u1080  \u1074  \u1088 \u1077 \u1079 \u1091 \u1083 \u1100 \u1090 \u1072 \u1090 \u1077  \u1087 \u1086 \u1090 \u1077 \u1088 \u1080  \u1076 \u1077 \u1083 \u1086 \u1074 \u1086 \u1081  \u1088 \u1077 \u1087 \u1091 \u1090 \u1072 \u1094 \u1080 \u1080 , \u1087 \u1088 \u1077 \u1082 \u1088 \u1072 \u1097 \u1077 \u1085 \u1080 \u1080  \u1088 \u1072 \u1073 \u1086 \u1090 \u1099 , \u1072 \u1074 \u1072 \u1088 \u1080 \u1080  \u1080 \u1083 \u1080  \u1085 \u1077 \u1080 \u1089 \u1087 \u1088 \u1072 \u1074 \u1085 \u1086 \u1089 \u1090 \u1080  \u1080 \u1083 \u1080  \u1083 \u1102 \u1073 \u1099 \u1093  \u1082 \u1086 \u1084 \u1084 \u1077 \u1088 \u1095 \u1077 \u1089 \u1082 \u1080 \u1093  \u1091 \u1073 \u1099 \u1090 \u1082 \u1086 \u1074  \u1080 \u1083 \u1080  \u1087 \u1086 \u1090 \u1077 \u1088 \u1100 ) \u1076 \u1072 \u1078 \u1077  \u1077 \u1089 \u1083 \u1080  \u1055 \u1086 \u1089 \u1083 \u1077 \u1076 \u1091 \u1102 \u1097 \u1080 \u1081  \u1088 \u1072 \u1079 \u1088 \u1072 \u1073 \u1086 \u1090 \u1095 \u1080 \u1082  \u1073 \u1099 \u1083  \u1087 \u1088 \u1077 \u1076 \u1091 \u1087 \u1088 \u1077 \u1078 \u1076 \u1077 \u1085  \u1086  \u1074 \u1086 \u1079 \u1084 \u1086 \u1078 \u1085 \u1086 \u1089 \u1090 \u1080  \u1090 \u1072 \u1082 \u1086 \u1075 \u1086  \u1091 \u1097 \u1077 \u1088 \u1073 \u1072 .\
+9. \uc0\u1055 \u1088 \u1080 \u1085 \u1103 \u1090 \u1080 \u1077  \u1075 \u1072 \u1088 \u1072 \u1085 \u1090 \u1080 \u1081 \u1085 \u1099 \u1093  \u1086 \u1073 \u1103 \u1079 \u1072 \u1090 \u1077 \u1083 \u1100 \u1089 \u1090 \u1074  \u1080 \u1083 \u1080  \u1044 \u1086 \u1087 \u1086 \u1083 \u1085 \u1080 \u1090 \u1077 \u1083 \u1100 \u1085 \u1099 \u1077  \u1086 \u1073 \u1103 \u1079 \u1072 \u1090 \u1077 \u1083 \u1100 \u1089 \u1090 \u1074 \u1072 . \u1042  \u1087 \u1088 \u1086 \u1094 \u1077 \u1089 \u1089 \u1077  \u1088 \u1072 \u1089 \u1087 \u1088 \u1086 \u1089 \u1090 \u1088 \u1072 \u1085 \u1077 \u1085 \u1080 \u1103  \u1082 \u1086 \u1087 \u1080 \u1081  \u1055 \u1088 \u1086 \u1080 \u1079 \u1074 \u1077 \u1076 \u1077 \u1085 \u1080 \u1103  \u1080  \u1077 \u1075 \u1086  \u1055 \u1088 \u1086 \u1080 \u1079 \u1074 \u1086 \u1076 \u1085 \u1099 \u1093  \u1087 \u1088 \u1086 \u1080 \u1079 \u1074 \u1077 \u1076 \u1077 \u1085 \u1080 \u1081 , \u1042 \u1099  \u1084 \u1086 \u1078 \u1077 \u1090 \u1077  \u1087 \u1088 \u1077 \u1076 \u1083 \u1086 \u1078 \u1080 \u1090 \u1100  \u1080  \u1074 \u1079 \u1080 \u1084 \u1072 \u1090 \u1100  \u1087 \u1083 \u1072 \u1090 \u1091  \u1079 \u1072  \u1087 \u1088 \u1080 \u1085 \u1103 \u1090 \u1080 \u1077  \u1086 \u1073 \u1103 \u1079 \u1072 \u1090 \u1077 \u1083 \u1100 \u1089 \u1090 \u1074  \u1087 \u1086  \u1087 \u1088 \u1077 \u1076 \u1086 \u1089 \u1090 \u1072 \u1074 \u1083 \u1077 \u1085 \u1080 \u1102  \u1087 \u1086 \u1076 \u1076 \u1077 \u1088 \u1078 \u1082 \u1080 , \u1075 \u1072 \u1088 \u1072 \u1085 \u1090 \u1080 \u1081 \u1085 \u1099 \u1093  \u1086 \u1073 \u1103 \u1079 \u1072 \u1090 \u1077 \u1083 \u1100 \u1089 \u1090 \u1074 , \u1075 \u1072 \u1088 \u1072 \u1085 \u1090 \u1080 \u1080  \u1086 \u1090  \u1091 \u1073 \u1099 \u1090 \u1082 \u1086 \u1074  \u1080  \u1076 \u1088 \u1091 \u1075 \u1080 \u1093  \u1086 \u1073 \u1103 \u1079 \u1072 \u1090 \u1077 \u1083 \u1100 \u1089 \u1090 \u1074  \u1087 \u1086  \u1086 \u1090 \u1074 \u1077 \u1090 \u1089 \u1090 \u1074 \u1077 \u1085 \u1085 \u1086 \u1089 \u1090 \u1080  \u1080 /\u1080 \u1083 \u1080  \u1087 \u1088 \u1072 \u1074  \u1074  \u1089 \u1086 \u1086 \u1090 \u1074 \u1077 \u1090 \u1089 \u1090 \u1074 \u1080 \u1080  \u1089  \u1076 \u1072 \u1085 \u1085 \u1086 \u1081  \u1051 \u1080 \u1094 \u1077 \u1085 \u1079 \u1080 \u1077 \u1081 . \u1058 \u1077 \u1084  \u1085 \u1077  \u1084 \u1077 \u1085 \u1077 \u1077 , \u1087 \u1088 \u1080 \u1085 \u1080 \u1084 \u1072 \u1103  \u1085 \u1072  \u1089 \u1077 \u1073 \u1103  \u1087 \u1086 \u1076 \u1086 \u1073 \u1085 \u1099 \u1077  \u1086 \u1073 \u1103 \u1079 \u1072 \u1090 \u1077 \u1083 \u1100 \u1089 \u1090 \u1074 \u1072 , \u1042 \u1099  \u1084 \u1086 \u1078 \u1077 \u1090 \u1077  \u1076 \u1077 \u1081 \u1089 \u1090 \u1074 \u1086 \u1074 \u1072 \u1090 \u1100  \u1090 \u1086 \u1083 \u1100 \u1082 \u1086  \u1086 \u1090  \u1089 \u1074 \u1086 \u1077 \u1075 \u1086  \u1089 \u1086 \u1073 \u1089 \u1090 \u1074 \u1077 \u1085 \u1085 \u1086 \u1075 \u1086  \u1080 \u1084 \u1077 \u1085 \u1080  \u1080  \u1085 \u1072  \u1089 \u1074 \u1086 \u1102  \u1080 \u1089 \u1082 \u1083 \u1102 \u1095 \u1080 \u1090 \u1077 \u1083 \u1100 \u1085 \u1091 \u1102  \u1086 \u1090 \u1074 \u1077 \u1090 \u1089 \u1090 \u1074 \u1077 \u1085 \u1085 \u1086 \u1089 \u1090 \u1100 , \u1085 \u1077  \u1086 \u1090  \u1080 \u1084 \u1077 \u1085 \u1080  \u1083 \u1102 \u1073 \u1086 \u1075 \u1086  \u1076 \u1088 \u1091 \u1075 \u1086 \u1075 \u1086  \u1055 \u1086 \u1089 \u1083 \u1077 \u1076 \u1091 \u1102 \u1097 \u1077 \u1075 \u1086  \u1088 \u1072 \u1079 \u1088 \u1072 \u1073 \u1086 \u1090 \u1095 \u1080 \u1082 \u1072 , \u1080  \u1090 \u1086 \u1083 \u1100 \u1082 \u1086  \u1074  \u1089 \u1083 \u1091 \u1095 \u1072 \u1077 , \u1077 \u1089 \u1083 \u1080  \u1074 \u1099  \u1089 \u1086 \u1075 \u1083 \u1072 \u1089 \u1085 \u1099  \u1091 \u1088 \u1077 \u1075 \u1091 \u1083 \u1080 \u1088 \u1086 \u1074 \u1072 \u1090 \u1100 , \u1074 \u1086 \u1079 \u1084 \u1077 \u1089 \u1090 \u1080 \u1090 \u1100  \u1091 \u1073 \u1099 \u1090 \u1082 \u1080  \u1080  \u1079 \u1072 \u1097 \u1080 \u1090 \u1080 \u1090 \u1100  \u1082 \u1072 \u1078 \u1076 \u1086 \u1075 \u1086  \u1055 \u1086 \u1089 \u1083 \u1077 \u1076 \u1091 \u1102 \u1097 \u1077 \u1075 \u1086  \u1088 \u1072 \u1079 \u1088 \u1072 \u1073 \u1086 \u1090 \u1095 \u1080 \u1082 \u1072  \u1086 \u1090  \u1085 \u1072 \u1074 \u1083 \u1077 \u1095 \u1077 \u1085 \u1085 \u1086 \u1081  \u1086 \u1090 \u1074 \u1077 \u1090 \u1089 \u1090 \u1074 \u1077 \u1085 \u1085 \u1086 \u1089 \u1090 \u1080  \u1080  \u1087 \u1088 \u1077 \u1090 \u1077 \u1085 \u1079 \u1080 \u1081 , \u1087 \u1088 \u1077 \u1076 \u1098 \u1103 \u1074 \u1083 \u1077 \u1085 \u1085 \u1099 \u1093  \u1055 \u1086 \u1089 \u1083 \u1077 \u1076 \u1091 \u1102 \u1097 \u1077 \u1084 \u1091  \u1088 \u1072 \u1079 \u1088 \u1072 \u1073 \u1086 \u1090 \u1095 \u1080 \u1082 \u1091 , \u1085 \u1072  \u1086 \u1089 \u1085 \u1086 \u1074 \u1072 \u1085 \u1080 \u1080  \u1087 \u1088 \u1080 \u1085 \u1103 \u1090 \u1080 \u1103  \u1074 \u1072 \u1084 \u1080  \u1075 \u1072 \u1088 \u1072 \u1085 \u1090 \u1080 \u1081 \u1085 \u1099 \u1093  \u1086 \u1073 \u1103 \u1079 \u1072 \u1090 \u1077 \u1083 \u1100 \u1089 \u1090 \u1074  \u1080 \u1083 \u1080  \u1076 \u1086 \u1087 \u1086 \u1083 \u1085 \u1080 \u1090 \u1077 \u1083 \u1100 \u1085 \u1086 \u1081  \u1086 \u1090 \u1074 \u1077 \u1090 \u1089 \u1090 \u1074 \u1077 \u1085 \u1085 \u1086 \u1089 \u1090 \u1080 .}
+
+## Alamofire
+
+Copyright (c) 2014-2018 Alamofire Software Foundation (http://alamofire.org/)
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
+
+
+## BEMCheckBox
+
+The MIT License (MIT)
+
+Copyright (c) 2015 Boris Emorine.
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
+
+
+## CardIO
+
+All files are released under the MIT License:
+
+    The MIT License (MIT)
+
+    Copyright (c) 2013-2016 PayPal Holdings, Inc.
+
+    Permission is hereby granted, free of charge, to any person obtaining a copy
+    of this software and associated documentation files (the "Software"), to deal
+    in the Software without restriction, including without limitation the rights
+    to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+    copies of the Software, and to permit persons to whom the Software is
+    furnished to do so, subject to the following conditions:
+
+    The above copyright notice and this permission notice shall be included in
+    all copies or substantial portions of the Software.
+
+    THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+    IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+    FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+    AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+    LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+    OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+    THE SOFTWARE.
+
+
+## Cosmos
+
+The MIT License
+
+Copyright (c) 2015 Evgenii Neumerzhitckii
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
+
+## DSGradientProgressView
+
+                                 Apache License
+                           Version 2.0, January 2004
+                        http://www.apache.org/licenses/
+
+   TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION
+
+   1. Definitions.
+
+      "License" shall mean the terms and conditions for use, reproduction,
+      and distribution as defined by Sections 1 through 9 of this document.
+
+      "Licensor" shall mean the copyright owner or entity authorized by
+      the copyright owner that is granting the License.
+
+      "Legal Entity" shall mean the union of the acting entity and all
+      other entities that control, are controlled by, or are under common
+      control with that entity. For the purposes of this definition,
+      "control" means (i) the power, direct or indirect, to cause the
+      direction or management of such entity, whether by contract or
+      otherwise, or (ii) ownership of fifty percent (50%) or more of the
+      outstanding shares, or (iii) beneficial ownership of such entity.
+
+      "You" (or "Your") shall mean an individual or Legal Entity
+      exercising permissions granted by this License.
+
+      "Source" form shall mean the preferred form for making modifications,
+      including but not limited to software source code, documentation
+      source, and configuration files.
+
+      "Object" form shall mean any form resulting from mechanical
+      transformation or translation of a Source form, including but
+      not limited to compiled object code, generated documentation,
+      and conversions to other media types.
+
+      "Work" shall mean the work of authorship, whether in Source or
+      Object form, made available under the License, as indicated by a
+      copyright notice that is included in or attached to the work
+      (an example is provided in the Appendix below).
+
+      "Derivative Works" shall mean any work, whether in Source or Object
+      form, that is based on (or derived from) the Work and for which the
+      editorial revisions, annotations, elaborations, or other modifications
+      represent, as a whole, an original work of authorship. For the purposes
+      of this License, Derivative Works shall not include works that remain
+      separable from, or merely link (or bind by name) to the interfaces of,
+      the Work and Derivative Works thereof.
+
+      "Contribution" shall mean any work of authorship, including
+      the original version of the Work and any modifications or additions
+      to that Work or Derivative Works thereof, that is intentionally
+      submitted to Licensor for inclusion in the Work by the copyright owner
+      or by an individual or Legal Entity authorized to submit on behalf of
+      the copyright owner. For the purposes of this definition, "submitted"
+      means any form of electronic, verbal, or written communication sent
+      to the Licensor or its representatives, including but not limited to
+      communication on electronic mailing lists, source code control systems,
+      and issue tracking systems that are managed by, or on behalf of, the
+      Licensor for the purpose of discussing and improving the Work, but
+      excluding communication that is conspicuously marked or otherwise
+      designated in writing by the copyright owner as "Not a Contribution."
+
+      "Contributor" shall mean Licensor and any individual or Legal Entity
+      on behalf of whom a Contribution has been received by Licensor and
+      subsequently incorporated within the Work.
+
+   2. Grant of Copyright License. Subject to the terms and conditions of
+      this License, each Contributor hereby grants to You a perpetual,
+      worldwide, non-exclusive, no-charge, royalty-free, irrevocable
+      copyright license to reproduce, prepare Derivative Works of,
+      publicly display, publicly perform, sublicense, and distribute the
+      Work and such Derivative Works in Source or Object form.
+
+   3. Grant of Patent License. Subject to the terms and conditions of
+      this License, each Contributor hereby grants to You a perpetual,
+      worldwide, non-exclusive, no-charge, royalty-free, irrevocable
+      (except as stated in this section) patent license to make, have made,
+      use, offer to sell, sell, import, and otherwise transfer the Work,
+      where such license applies only to those patent claims licensable
+      by such Contributor that are necessarily infringed by their
+      Contribution(s) alone or by combination of their Contribution(s)
+      with the Work to which such Contribution(s) was submitted. If You
+      institute patent litigation against any entity (including a
+      cross-claim or counterclaim in a lawsuit) alleging that the Work
+      or a Contribution incorporated within the Work constitutes direct
+      or contributory patent infringement, then any patent licenses
+      granted to You under this License for that Work shall terminate
+      as of the date such litigation is filed.
+
+   4. Redistribution. You may reproduce and distribute copies of the
+      Work or Derivative Works thereof in any medium, with or without
+      modifications, and in Source or Object form, provided that You
+      meet the following conditions:
+
+      (a) You must give any other recipients of the Work or
+          Derivative Works a copy of this License; and
+
+      (b) You must cause any modified files to carry prominent notices
+          stating that You changed the files; and
+
+      (c) You must retain, in the Source form of any Derivative Works
+          that You distribute, all copyright, patent, trademark, and
+          attribution notices from the Source form of the Work,
+          excluding those notices that do not pertain to any part of
+          the Derivative Works; and
+
+      (d) If the Work includes a "NOTICE" text file as part of its
+          distribution, then any Derivative Works that You distribute must
+          include a readable copy of the attribution notices contained
+          within such NOTICE file, excluding those notices that do not
+          pertain to any part of the Derivative Works, in at least one
+          of the following places: within a NOTICE text file distributed
+          as part of the Derivative Works; within the Source form or
+          documentation, if provided along with the Derivative Works; or,
+          within a display generated by the Derivative Works, if and
+          wherever such third-party notices normally appear. The contents
+          of the NOTICE file are for informational purposes only and
+          do not modify the License. You may add Your own attribution
+          notices within Derivative Works that You distribute, alongside
+          or as an addendum to the NOTICE text from the Work, provided
+          that such additional attribution notices cannot be construed
+          as modifying the License.
+
+      You may add Your own copyright statement to Your modifications and
+      may provide additional or different license terms and conditions
+      for use, reproduction, or distribution of Your modifications, or
+      for any such Derivative Works as a whole, provided Your use,
+      reproduction, and distribution of the Work otherwise complies with
+      the conditions stated in this License.
+
+   5. Submission of Contributions. Unless You explicitly state otherwise,
+      any Contribution intentionally submitted for inclusion in the Work
+      by You to the Licensor shall be under the terms and conditions of
+      this License, without any additional terms or conditions.
+      Notwithstanding the above, nothing herein shall supersede or modify
+      the terms of any separate license agreement you may have executed
+      with Licensor regarding such Contributions.
+
+   6. Trademarks. This License does not grant permission to use the trade
+      names, trademarks, service marks, or product names of the Licensor,
+      except as required for reasonable and customary use in describing the
+      origin of the Work and reproducing the content of the NOTICE file.
+
+   7. Disclaimer of Warranty. Unless required by applicable law or
+      agreed to in writing, Licensor provides the Work (and each
+      Contributor provides its Contributions) on an "AS IS" BASIS,
+      WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or
+      implied, including, without limitation, any warranties or conditions
+      of TITLE, NON-INFRINGEMENT, MERCHANTABILITY, or FITNESS FOR A
+      PARTICULAR PURPOSE. You are solely responsible for determining the
+      appropriateness of using or redistributing the Work and assume any
+      risks associated with Your exercise of permissions under this License.
+
+   8. Limitation of Liability. In no event and under no legal theory,
+      whether in tort (including negligence), contract, or otherwise,
+      unless required by applicable law (such as deliberate and grossly
+      negligent acts) or agreed to in writing, shall any Contributor be
+      liable to You for damages, including any direct, indirect, special,
+      incidental, or consequential damages of any character arising as a
+      result of this License or out of the use or inability to use the
+      Work (including but not limited to damages for loss of goodwill,
+      work stoppage, computer failure or malfunction, or any and all
+      other commercial damages or losses), even if such Contributor
+      has been advised of the possibility of such damages.
+
+   9. Accepting Warranty or Additional Liability. While redistributing
+      the Work or Derivative Works thereof, You may choose to offer,
+      and charge a fee for, acceptance of support, warranty, indemnity,
+      or other liability obligations and/or rights consistent with this
+      License. However, in accepting such obligations, You may act only
+      on Your own behalf and on Your sole responsibility, not on behalf
+      of any other Contributor, and only if You agree to indemnify,
+      defend, and hold each Contributor harmless for any liability
+      incurred by, or claims asserted against, such Contributor by reason
+      of your accepting any such warranty or additional liability.
+
+   END OF TERMS AND CONDITIONS
+
+   APPENDIX: How to apply the Apache License to your work.
+
+      To apply the Apache License to your work, attach the following
+      boilerplate notice, with the fields enclosed by brackets "{}"
+      replaced with your own identifying information. (Don't include
+      the brackets!)  The text should be enclosed in the appropriate
+      comment syntax for the file format. We also recommend that a
+      file or class name and description of purpose be included on the
+      same "printed page" as the copyright notice for easier
+      identification within third-party archives.
+
+   Copyright {yyyy} {name of copyright owner}
+
+   Licensed under the Apache License, Version 2.0 (the "License");
+   you may not use this file except in compliance with the License.
+   You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+   Unless required by applicable law or agreed to in writing, software
+   distributed under the License is distributed on an "AS IS" BASIS,
+   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+   See the License for the specific language governing permissions and
+   limitations under the License.
+
+
+## Firebase
+
+
+                                 Apache License
+                           Version 2.0, January 2004
+                        http://www.apache.org/licenses/
+
+   TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION
+
+   1. Definitions.
+
+      "License" shall mean the terms and conditions for use, reproduction,
+      and distribution as defined by Sections 1 through 9 of this document.
+
+      "Licensor" shall mean the copyright owner or entity authorized by
+      the copyright owner that is granting the License.
+
+      "Legal Entity" shall mean the union of the acting entity and all
+      other entities that control, are controlled by, or are under common
+      control with that entity. For the purposes of this definition,
+      "control" means (i) the power, direct or indirect, to cause the
+      direction or management of such entity, whether by contract or
+      otherwise, or (ii) ownership of fifty percent (50%) or more of the
+      outstanding shares, or (iii) beneficial ownership of such entity.
+
+      "You" (or "Your") shall mean an individual or Legal Entity
+      exercising permissions granted by this License.
+
+      "Source" form shall mean the preferred form for making modifications,
+      including but not limited to software source code, documentation
+      source, and configuration files.
+
+      "Object" form shall mean any form resulting from mechanical
+      transformation or translation of a Source form, including but
+      not limited to compiled object code, generated documentation,
+      and conversions to other media types.
+
+      "Work" shall mean the work of authorship, whether in Source or
+      Object form, made available under the License, as indicated by a
+      copyright notice that is included in or attached to the work
+      (an example is provided in the Appendix below).
+
+      "Derivative Works" shall mean any work, whether in Source or Object
+      form, that is based on (or derived from) the Work and for which the
+      editorial revisions, annotations, elaborations, or other modifications
+      represent, as a whole, an original work of authorship. For the purposes
+      of this License, Derivative Works shall not include works that remain
+      separable from, or merely link (or bind by name) to the interfaces of,
+      the Work and Derivative Works thereof.
+
+      "Contribution" shall mean any work of authorship, including
+      the original version of the Work and any modifications or additions
+      to that Work or Derivative Works thereof, that is intentionally
+      submitted to Licensor for inclusion in the Work by the copyright owner
+      or by an individual or Legal Entity authorized to submit on behalf of
+      the copyright owner. For the purposes of this definition, "submitted"
+      means any form of electronic, verbal, or written communication sent
+      to the Licensor or its representatives, including but not limited to
+      communication on electronic mailing lists, source code control systems,
+      and issue tracking systems that are managed by, or on behalf of, the
+      Licensor for the purpose of discussing and improving the Work, but
+      excluding communication that is conspicuously marked or otherwise
+      designated in writing by the copyright owner as "Not a Contribution."
+
+      "Contributor" shall mean Licensor and any individual or Legal Entity
+      on behalf of whom a Contribution has been received by Licensor and
+      subsequently incorporated within the Work.
+
+   2. Grant of Copyright License. Subject to the terms and conditions of
+      this License, each Contributor hereby grants to You a perpetual,
+      worldwide, non-exclusive, no-charge, royalty-free, irrevocable
+      copyright license to reproduce, prepare Derivative Works of,
+      publicly display, publicly perform, sublicense, and distribute the
+      Work and such Derivative Works in Source or Object form.
+
+   3. Grant of Patent License. Subject to the terms and conditions of
+      this License, each Contributor hereby grants to You a perpetual,
+      worldwide, non-exclusive, no-charge, royalty-free, irrevocable
+      (except as stated in this section) patent license to make, have made,
+      use, offer to sell, sell, import, and otherwise transfer the Work,
+      where such license applies only to those patent claims licensable
+      by such Contributor that are necessarily infringed by their
+      Contribution(s) alone or by combination of their Contribution(s)
+      with the Work to which such Contribution(s) was submitted. If You
+      institute patent litigation against any entity (including a
+      cross-claim or counterclaim in a lawsuit) alleging that the Work
+      or a Contribution incorporated within the Work constitutes direct
+      or contributory patent infringement, then any patent licenses
+      granted to You under this License for that Work shall terminate
+      as of the date such litigation is filed.
+
+   4. Redistribution. You may reproduce and distribute copies of the
+      Work or Derivative Works thereof in any medium, with or without
+      modifications, and in Source or Object form, provided that You
+      meet the following conditions:
+
+      (a) You must give any other recipients of the Work or
+          Derivative Works a copy of this License; and
+
+      (b) You must cause any modified files to carry prominent notices
+          stating that You changed the files; and
+
+      (c) You must retain, in the Source form of any Derivative Works
+          that You distribute, all copyright, patent, trademark, and
+          attribution notices from the Source form of the Work,
+          excluding those notices that do not pertain to any part of
+          the Derivative Works; and
+
+      (d) If the Work includes a "NOTICE" text file as part of its
+          distribution, then any Derivative Works that You distribute must
+          include a readable copy of the attribution notices contained
+          within such NOTICE file, excluding those notices that do not
+          pertain to any part of the Derivative Works, in at least one
+          of the following places: within a NOTICE text file distributed
+          as part of the Derivative Works; within the Source form or
+          documentation, if provided along with the Derivative Works; or,
+          within a display generated by the Derivative Works, if and
+          wherever such third-party notices normally appear. The contents
+          of the NOTICE file are for informational purposes only and
+          do not modify the License. You may add Your own attribution
+          notices within Derivative Works that You distribute, alongside
+          or as an addendum to the NOTICE text from the Work, provided
+          that such additional attribution notices cannot be construed
+          as modifying the License.
+
+      You may add Your own copyright statement to Your modifications and
+      may provide additional or different license terms and conditions
+      for use, reproduction, or distribution of Your modifications, or
+      for any such Derivative Works as a whole, provided Your use,
+      reproduction, and distribution of the Work otherwise complies with
+      the conditions stated in this License.
+
+   5. Submission of Contributions. Unless You explicitly state otherwise,
+      any Contribution intentionally submitted for inclusion in the Work
+      by You to the Licensor shall be under the terms and conditions of
+      this License, without any additional terms or conditions.
+      Notwithstanding the above, nothing herein shall supersede or modify
+      the terms of any separate license agreement you may have executed
+      with Licensor regarding such Contributions.
+
+   6. Trademarks. This License does not grant permission to use the trade
+      names, trademarks, service marks, or product names of the Licensor,
+      except as required for reasonable and customary use in describing the
+      origin of the Work and reproducing the content of the NOTICE file.
+
+   7. Disclaimer of Warranty. Unless required by applicable law or
+      agreed to in writing, Licensor provides the Work (and each
+      Contributor provides its Contributions) on an "AS IS" BASIS,
+      WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or
+      implied, including, without limitation, any warranties or conditions
+      of TITLE, NON-INFRINGEMENT, MERCHANTABILITY, or FITNESS FOR A
+      PARTICULAR PURPOSE. You are solely responsible for determining the
+      appropriateness of using or redistributing the Work and assume any
+      risks associated with Your exercise of permissions under this License.
+
+   8. Limitation of Liability. In no event and under no legal theory,
+      whether in tort (including negligence), contract, or otherwise,
+      unless required by applicable law (such as deliberate and grossly
+      negligent acts) or agreed to in writing, shall any Contributor be
+      liable to You for damages, including any direct, indirect, special,
+      incidental, or consequential damages of any character arising as a
+      result of this License or out of the use or inability to use the
+      Work (including but not limited to damages for loss of goodwill,
+      work stoppage, computer failure or malfunction, or any and all
+      other commercial damages or losses), even if such Contributor
+      has been advised of the possibility of such damages.
+
+   9. Accepting Warranty or Additional Liability. While redistributing
+      the Work or Derivative Works thereof, You may choose to offer,
+      and charge a fee for, acceptance of support, warranty, indemnity,
+      or other liability obligations and/or rights consistent with this
+      License. However, in accepting such obligations, You may act only
+      on Your own behalf and on Your sole responsibility, not on behalf
+      of any other Contributor, and only if You agree to indemnify,
+      defend, and hold each Contributor harmless for any liability
+      incurred by, or claims asserted against, such Contributor by reason
+      of your accepting any such warranty or additional liability.
+
+   END OF TERMS AND CONDITIONS
+
+   APPENDIX: How to apply the Apache License to your work.
+
+      To apply the Apache License to your work, attach the following
+      boilerplate notice, with the fields enclosed by brackets "[]"
+      replaced with your own identifying information. (Don't include
+      the brackets!)  The text should be enclosed in the appropriate
+      comment syntax for the file format. We also recommend that a
+      file or class name and description of purpose be included on the
+      same "printed page" as the copyright notice for easier
+      identification within third-party archives.
+
+   Copyright [yyyy] [name of copyright owner]
+
+   Licensed under the Apache License, Version 2.0 (the "License");
+   you may not use this file except in compliance with the License.
+   You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+   Unless required by applicable law or agreed to in writing, software
+   distributed under the License is distributed on an "AS IS" BASIS,
+   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+   See the License for the specific language governing permissions and
+   limitations under the License.
+
+
+## FirebaseAnalytics
+
+Copyright 2022 Google
+
+## FirebaseCore
+
+
+                                 Apache License
+                           Version 2.0, January 2004
+                        http://www.apache.org/licenses/
+
+   TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION
+
+   1. Definitions.
+
+      "License" shall mean the terms and conditions for use, reproduction,
+      and distribution as defined by Sections 1 through 9 of this document.
+
+      "Licensor" shall mean the copyright owner or entity authorized by
+      the copyright owner that is granting the License.
+
+      "Legal Entity" shall mean the union of the acting entity and all
+      other entities that control, are controlled by, or are under common
+      control with that entity. For the purposes of this definition,
+      "control" means (i) the power, direct or indirect, to cause the
+      direction or management of such entity, whether by contract or
+      otherwise, or (ii) ownership of fifty percent (50%) or more of the
+      outstanding shares, or (iii) beneficial ownership of such entity.
+
+      "You" (or "Your") shall mean an individual or Legal Entity
+      exercising permissions granted by this License.
+
+      "Source" form shall mean the preferred form for making modifications,
+      including but not limited to software source code, documentation
+      source, and configuration files.
+
+      "Object" form shall mean any form resulting from mechanical
+      transformation or translation of a Source form, including but
+      not limited to compiled object code, generated documentation,
+      and conversions to other media types.
+
+      "Work" shall mean the work of authorship, whether in Source or
+      Object form, made available under the License, as indicated by a
+      copyright notice that is included in or attached to the work
+      (an example is provided in the Appendix below).
+
+      "Derivative Works" shall mean any work, whether in Source or Object
+      form, that is based on (or derived from) the Work and for which the
+      editorial revisions, annotations, elaborations, or other modifications
+      represent, as a whole, an original work of authorship. For the purposes
+      of this License, Derivative Works shall not include works that remain
+      separable from, or merely link (or bind by name) to the interfaces of,
+      the Work and Derivative Works thereof.
+
+      "Contribution" shall mean any work of authorship, including
+      the original version of the Work and any modifications or additions
+      to that Work or Derivative Works thereof, that is intentionally
+      submitted to Licensor for inclusion in the Work by the copyright owner
+      or by an individual or Legal Entity authorized to submit on behalf of
+      the copyright owner. For the purposes of this definition, "submitted"
+      means any form of electronic, verbal, or written communication sent
+      to the Licensor or its representatives, including but not limited to
+      communication on electronic mailing lists, source code control systems,
+      and issue tracking systems that are managed by, or on behalf of, the
+      Licensor for the purpose of discussing and improving the Work, but
+      excluding communication that is conspicuously marked or otherwise
+      designated in writing by the copyright owner as "Not a Contribution."
+
+      "Contributor" shall mean Licensor and any individual or Legal Entity
+      on behalf of whom a Contribution has been received by Licensor and
+      subsequently incorporated within the Work.
+
+   2. Grant of Copyright License. Subject to the terms and conditions of
+      this License, each Contributor hereby grants to You a perpetual,
+      worldwide, non-exclusive, no-charge, royalty-free, irrevocable
+      copyright license to reproduce, prepare Derivative Works of,
+      publicly display, publicly perform, sublicense, and distribute the
+      Work and such Derivative Works in Source or Object form.
+
+   3. Grant of Patent License. Subject to the terms and conditions of
+      this License, each Contributor hereby grants to You a perpetual,
+      worldwide, non-exclusive, no-charge, royalty-free, irrevocable
+      (except as stated in this section) patent license to make, have made,
+      use, offer to sell, sell, import, and otherwise transfer the Work,
+      where such license applies only to those patent claims licensable
+      by such Contributor that are necessarily infringed by their
+      Contribution(s) alone or by combination of their Contribution(s)
+      with the Work to which such Contribution(s) was submitted. If You
+      institute patent litigation against any entity (including a
+      cross-claim or counterclaim in a lawsuit) alleging that the Work
+      or a Contribution incorporated within the Work constitutes direct
+      or contributory patent infringement, then any patent licenses
+      granted to You under this License for that Work shall terminate
+      as of the date such litigation is filed.
+
+   4. Redistribution. You may reproduce and distribute copies of the
+      Work or Derivative Works thereof in any medium, with or without
+      modifications, and in Source or Object form, provided that You
+      meet the following conditions:
+
+      (a) You must give any other recipients of the Work or
+          Derivative Works a copy of this License; and
+
+      (b) You must cause any modified files to carry prominent notices
+          stating that You changed the files; and
+
+      (c) You must retain, in the Source form of any Derivative Works
+          that You distribute, all copyright, patent, trademark, and
+          attribution notices from the Source form of the Work,
+          excluding those notices that do not pertain to any part of
+          the Derivative Works; and
+
+      (d) If the Work includes a "NOTICE" text file as part of its
+          distribution, then any Derivative Works that You distribute must
+          include a readable copy of the attribution notices contained
+          within such NOTICE file, excluding those notices that do not
+          pertain to any part of the Derivative Works, in at least one
+          of the following places: within a NOTICE text file distributed
+          as part of the Derivative Works; within the Source form or
+          documentation, if provided along with the Derivative Works; or,
+          within a display generated by the Derivative Works, if and
+          wherever such third-party notices normally appear. The contents
+          of the NOTICE file are for informational purposes only and
+          do not modify the License. You may add Your own attribution
+          notices within Derivative Works that You distribute, alongside
+          or as an addendum to the NOTICE text from the Work, provided
+          that such additional attribution notices cannot be construed
+          as modifying the License.
+
+      You may add Your own copyright statement to Your modifications and
+      may provide additional or different license terms and conditions
+      for use, reproduction, or distribution of Your modifications, or
+      for any such Derivative Works as a whole, provided Your use,
+      reproduction, and distribution of the Work otherwise complies with
+      the conditions stated in this License.
+
+   5. Submission of Contributions. Unless You explicitly state otherwise,
+      any Contribution intentionally submitted for inclusion in the Work
+      by You to the Licensor shall be under the terms and conditions of
+      this License, without any additional terms or conditions.
+      Notwithstanding the above, nothing herein shall supersede or modify
+      the terms of any separate license agreement you may have executed
+      with Licensor regarding such Contributions.
+
+   6. Trademarks. This License does not grant permission to use the trade
+      names, trademarks, service marks, or product names of the Licensor,
+      except as required for reasonable and customary use in describing the
+      origin of the Work and reproducing the content of the NOTICE file.
+
+   7. Disclaimer of Warranty. Unless required by applicable law or
+      agreed to in writing, Licensor provides the Work (and each
+      Contributor provides its Contributions) on an "AS IS" BASIS,
+      WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or
+      implied, including, without limitation, any warranties or conditions
+      of TITLE, NON-INFRINGEMENT, MERCHANTABILITY, or FITNESS FOR A
+      PARTICULAR PURPOSE. You are solely responsible for determining the
+      appropriateness of using or redistributing the Work and assume any
+      risks associated with Your exercise of permissions under this License.
+
+   8. Limitation of Liability. In no event and under no legal theory,
+      whether in tort (including negligence), contract, or otherwise,
+      unless required by applicable law (such as deliberate and grossly
+      negligent acts) or agreed to in writing, shall any Contributor be
+      liable to You for damages, including any direct, indirect, special,
+      incidental, or consequential damages of any character arising as a
+      result of this License or out of the use or inability to use the
+      Work (including but not limited to damages for loss of goodwill,
+      work stoppage, computer failure or malfunction, or any and all
+      other commercial damages or losses), even if such Contributor
+      has been advised of the possibility of such damages.
+
+   9. Accepting Warranty or Additional Liability. While redistributing
+      the Work or Derivative Works thereof, You may choose to offer,
+      and charge a fee for, acceptance of support, warranty, indemnity,
+      or other liability obligations and/or rights consistent with this
+      License. However, in accepting such obligations, You may act only
+      on Your own behalf and on Your sole responsibility, not on behalf
+      of any other Contributor, and only if You agree to indemnify,
+      defend, and hold each Contributor harmless for any liability
+      incurred by, or claims asserted against, such Contributor by reason
+      of your accepting any such warranty or additional liability.
+
+   END OF TERMS AND CONDITIONS
+
+   APPENDIX: How to apply the Apache License to your work.
+
+      To apply the Apache License to your work, attach the following
+      boilerplate notice, with the fields enclosed by brackets "[]"
+      replaced with your own identifying information. (Don't include
+      the brackets!)  The text should be enclosed in the appropriate
+      comment syntax for the file format. We also recommend that a
+      file or class name and description of purpose be included on the
+      same "printed page" as the copyright notice for easier
+      identification within third-party archives.
+
+   Copyright [yyyy] [name of copyright owner]
+
+   Licensed under the Apache License, Version 2.0 (the "License");
+   you may not use this file except in compliance with the License.
+   You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+   Unless required by applicable law or agreed to in writing, software
+   distributed under the License is distributed on an "AS IS" BASIS,
+   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+   See the License for the specific language governing permissions and
+   limitations under the License.
+
+
+## FirebaseCoreInternal
+
+
+                                 Apache License
+                           Version 2.0, January 2004
+                        http://www.apache.org/licenses/
+
+   TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION
+
+   1. Definitions.
+
+      "License" shall mean the terms and conditions for use, reproduction,
+      and distribution as defined by Sections 1 through 9 of this document.
+
+      "Licensor" shall mean the copyright owner or entity authorized by
+      the copyright owner that is granting the License.
+
+      "Legal Entity" shall mean the union of the acting entity and all
+      other entities that control, are controlled by, or are under common
+      control with that entity. For the purposes of this definition,
+      "control" means (i) the power, direct or indirect, to cause the
+      direction or management of such entity, whether by contract or
+      otherwise, or (ii) ownership of fifty percent (50%) or more of the
+      outstanding shares, or (iii) beneficial ownership of such entity.
+
+      "You" (or "Your") shall mean an individual or Legal Entity
+      exercising permissions granted by this License.
+
+      "Source" form shall mean the preferred form for making modifications,
+      including but not limited to software source code, documentation
+      source, and configuration files.
+
+      "Object" form shall mean any form resulting from mechanical
+      transformation or translation of a Source form, including but
+      not limited to compiled object code, generated documentation,
+      and conversions to other media types.
+
+      "Work" shall mean the work of authorship, whether in Source or
+      Object form, made available under the License, as indicated by a
+      copyright notice that is included in or attached to the work
+      (an example is provided in the Appendix below).
+
+      "Derivative Works" shall mean any work, whether in Source or Object
+      form, that is based on (or derived from) the Work and for which the
+      editorial revisions, annotations, elaborations, or other modifications
+      represent, as a whole, an original work of authorship. For the purposes
+      of this License, Derivative Works shall not include works that remain
+      separable from, or merely link (or bind by name) to the interfaces of,
+      the Work and Derivative Works thereof.
+
+      "Contribution" shall mean any work of authorship, including
+      the original version of the Work and any modifications or additions
+      to that Work or Derivative Works thereof, that is intentionally
+      submitted to Licensor for inclusion in the Work by the copyright owner
+      or by an individual or Legal Entity authorized to submit on behalf of
+      the copyright owner. For the purposes of this definition, "submitted"
+      means any form of electronic, verbal, or written communication sent
+      to the Licensor or its representatives, including but not limited to
+      communication on electronic mailing lists, source code control systems,
+      and issue tracking systems that are managed by, or on behalf of, the
+      Licensor for the purpose of discussing and improving the Work, but
+      excluding communication that is conspicuously marked or otherwise
+      designated in writing by the copyright owner as "Not a Contribution."
+
+      "Contributor" shall mean Licensor and any individual or Legal Entity
+      on behalf of whom a Contribution has been received by Licensor and
+      subsequently incorporated within the Work.
+
+   2. Grant of Copyright License. Subject to the terms and conditions of
+      this License, each Contributor hereby grants to You a perpetual,
+      worldwide, non-exclusive, no-charge, royalty-free, irrevocable
+      copyright license to reproduce, prepare Derivative Works of,
+      publicly display, publicly perform, sublicense, and distribute the
+      Work and such Derivative Works in Source or Object form.
+
+   3. Grant of Patent License. Subject to the terms and conditions of
+      this License, each Contributor hereby grants to You a perpetual,
+      worldwide, non-exclusive, no-charge, royalty-free, irrevocable
+      (except as stated in this section) patent license to make, have made,
+      use, offer to sell, sell, import, and otherwise transfer the Work,
+      where such license applies only to those patent claims licensable
+      by such Contributor that are necessarily infringed by their
+      Contribution(s) alone or by combination of their Contribution(s)
+      with the Work to which such Contribution(s) was submitted. If You
+      institute patent litigation against any entity (including a
+      cross-claim or counterclaim in a lawsuit) alleging that the Work
+      or a Contribution incorporated within the Work constitutes direct
+      or contributory patent infringement, then any patent licenses
+      granted to You under this License for that Work shall terminate
+      as of the date such litigation is filed.
+
+   4. Redistribution. You may reproduce and distribute copies of the
+      Work or Derivative Works thereof in any medium, with or without
+      modifications, and in Source or Object form, provided that You
+      meet the following conditions:
+
+      (a) You must give any other recipients of the Work or
+          Derivative Works a copy of this License; and
+
+      (b) You must cause any modified files to carry prominent notices
+          stating that You changed the files; and
+
+      (c) You must retain, in the Source form of any Derivative Works
+          that You distribute, all copyright, patent, trademark, and
+          attribution notices from the Source form of the Work,
+          excluding those notices that do not pertain to any part of
+          the Derivative Works; and
+
+      (d) If the Work includes a "NOTICE" text file as part of its
+          distribution, then any Derivative Works that You distribute must
+          include a readable copy of the attribution notices contained
+          within such NOTICE file, excluding those notices that do not
+          pertain to any part of the Derivative Works, in at least one
+          of the following places: within a NOTICE text file distributed
+          as part of the Derivative Works; within the Source form or
+          documentation, if provided along with the Derivative Works; or,
+          within a display generated by the Derivative Works, if and
+          wherever such third-party notices normally appear. The contents
+          of the NOTICE file are for informational purposes only and
+          do not modify the License. You may add Your own attribution
+          notices within Derivative Works that You distribute, alongside
+          or as an addendum to the NOTICE text from the Work, provided
+          that such additional attribution notices cannot be construed
+          as modifying the License.
+
+      You may add Your own copyright statement to Your modifications and
+      may provide additional or different license terms and conditions
+      for use, reproduction, or distribution of Your modifications, or
+      for any such Derivative Works as a whole, provided Your use,
+      reproduction, and distribution of the Work otherwise complies with
+      the conditions stated in this License.
+
+   5. Submission of Contributions. Unless You explicitly state otherwise,
+      any Contribution intentionally submitted for inclusion in the Work
+      by You to the Licensor shall be under the terms and conditions of
+      this License, without any additional terms or conditions.
+      Notwithstanding the above, nothing herein shall supersede or modify
+      the terms of any separate license agreement you may have executed
+      with Licensor regarding such Contributions.
+
+   6. Trademarks. This License does not grant permission to use the trade
+      names, trademarks, service marks, or product names of the Licensor,
+      except as required for reasonable and customary use in describing the
+      origin of the Work and reproducing the content of the NOTICE file.
+
+   7. Disclaimer of Warranty. Unless required by applicable law or
+      agreed to in writing, Licensor provides the Work (and each
+      Contributor provides its Contributions) on an "AS IS" BASIS,
+      WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or
+      implied, including, without limitation, any warranties or conditions
+      of TITLE, NON-INFRINGEMENT, MERCHANTABILITY, or FITNESS FOR A
+      PARTICULAR PURPOSE. You are solely responsible for determining the
+      appropriateness of using or redistributing the Work and assume any
+      risks associated with Your exercise of permissions under this License.
+
+   8. Limitation of Liability. In no event and under no legal theory,
+      whether in tort (including negligence), contract, or otherwise,
+      unless required by applicable law (such as deliberate and grossly
+      negligent acts) or agreed to in writing, shall any Contributor be
+      liable to You for damages, including any direct, indirect, special,
+      incidental, or consequential damages of any character arising as a
+      result of this License or out of the use or inability to use the
+      Work (including but not limited to damages for loss of goodwill,
+      work stoppage, computer failure or malfunction, or any and all
+      other commercial damages or losses), even if such Contributor
+      has been advised of the possibility of such damages.
+
+   9. Accepting Warranty or Additional Liability. While redistributing
+      the Work or Derivative Works thereof, You may choose to offer,
+      and charge a fee for, acceptance of support, warranty, indemnity,
+      or other liability obligations and/or rights consistent with this
+      License. However, in accepting such obligations, You may act only
+      on Your own behalf and on Your sole responsibility, not on behalf
+      of any other Contributor, and only if You agree to indemnify,
+      defend, and hold each Contributor harmless for any liability
+      incurred by, or claims asserted against, such Contributor by reason
+      of your accepting any such warranty or additional liability.
+
+   END OF TERMS AND CONDITIONS
+
+   APPENDIX: How to apply the Apache License to your work.
+
+      To apply the Apache License to your work, attach the following
+      boilerplate notice, with the fields enclosed by brackets "[]"
+      replaced with your own identifying information. (Don't include
+      the brackets!)  The text should be enclosed in the appropriate
+      comment syntax for the file format. We also recommend that a
+      file or class name and description of purpose be included on the
+      same "printed page" as the copyright notice for easier
+      identification within third-party archives.
+
+   Copyright [yyyy] [name of copyright owner]
+
+   Licensed under the Apache License, Version 2.0 (the "License");
+   you may not use this file except in compliance with the License.
+   You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+   Unless required by applicable law or agreed to in writing, software
+   distributed under the License is distributed on an "AS IS" BASIS,
+   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+   See the License for the specific language governing permissions and
+   limitations under the License.
+
+
+## FirebaseInstallations
+
+
+                                 Apache License
+                           Version 2.0, January 2004
+                        http://www.apache.org/licenses/
+
+   TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION
+
+   1. Definitions.
+
+      "License" shall mean the terms and conditions for use, reproduction,
+      and distribution as defined by Sections 1 through 9 of this document.
+
+      "Licensor" shall mean the copyright owner or entity authorized by
+      the copyright owner that is granting the License.
+
+      "Legal Entity" shall mean the union of the acting entity and all
+      other entities that control, are controlled by, or are under common
+      control with that entity. For the purposes of this definition,
+      "control" means (i) the power, direct or indirect, to cause the
+      direction or management of such entity, whether by contract or
+      otherwise, or (ii) ownership of fifty percent (50%) or more of the
+      outstanding shares, or (iii) beneficial ownership of such entity.
+
+      "You" (or "Your") shall mean an individual or Legal Entity
+      exercising permissions granted by this License.
+
+      "Source" form shall mean the preferred form for making modifications,
+      including but not limited to software source code, documentation
+      source, and configuration files.
+
+      "Object" form shall mean any form resulting from mechanical
+      transformation or translation of a Source form, including but
+      not limited to compiled object code, generated documentation,
+      and conversions to other media types.
+
+      "Work" shall mean the work of authorship, whether in Source or
+      Object form, made available under the License, as indicated by a
+      copyright notice that is included in or attached to the work
+      (an example is provided in the Appendix below).
+
+      "Derivative Works" shall mean any work, whether in Source or Object
+      form, that is based on (or derived from) the Work and for which the
+      editorial revisions, annotations, elaborations, or other modifications
+      represent, as a whole, an original work of authorship. For the purposes
+      of this License, Derivative Works shall not include works that remain
+      separable from, or merely link (or bind by name) to the interfaces of,
+      the Work and Derivative Works thereof.
+
+      "Contribution" shall mean any work of authorship, including
+      the original version of the Work and any modifications or additions
+      to that Work or Derivative Works thereof, that is intentionally
+      submitted to Licensor for inclusion in the Work by the copyright owner
+      or by an individual or Legal Entity authorized to submit on behalf of
+      the copyright owner. For the purposes of this definition, "submitted"
+      means any form of electronic, verbal, or written communication sent
+      to the Licensor or its representatives, including but not limited to
+      communication on electronic mailing lists, source code control systems,
+      and issue tracking systems that are managed by, or on behalf of, the
+      Licensor for the purpose of discussing and improving the Work, but
+      excluding communication that is conspicuously marked or otherwise
+      designated in writing by the copyright owner as "Not a Contribution."
+
+      "Contributor" shall mean Licensor and any individual or Legal Entity
+      on behalf of whom a Contribution has been received by Licensor and
+      subsequently incorporated within the Work.
+
+   2. Grant of Copyright License. Subject to the terms and conditions of
+      this License, each Contributor hereby grants to You a perpetual,
+      worldwide, non-exclusive, no-charge, royalty-free, irrevocable
+      copyright license to reproduce, prepare Derivative Works of,
+      publicly display, publicly perform, sublicense, and distribute the
+      Work and such Derivative Works in Source or Object form.
+
+   3. Grant of Patent License. Subject to the terms and conditions of
+      this License, each Contributor hereby grants to You a perpetual,
+      worldwide, non-exclusive, no-charge, royalty-free, irrevocable
+      (except as stated in this section) patent license to make, have made,
+      use, offer to sell, sell, import, and otherwise transfer the Work,
+      where such license applies only to those patent claims licensable
+      by such Contributor that are necessarily infringed by their
+      Contribution(s) alone or by combination of their Contribution(s)
+      with the Work to which such Contribution(s) was submitted. If You
+      institute patent litigation against any entity (including a
+      cross-claim or counterclaim in a lawsuit) alleging that the Work
+      or a Contribution incorporated within the Work constitutes direct
+      or contributory patent infringement, then any patent licenses
+      granted to You under this License for that Work shall terminate
+      as of the date such litigation is filed.
+
+   4. Redistribution. You may reproduce and distribute copies of the
+      Work or Derivative Works thereof in any medium, with or without
+      modifications, and in Source or Object form, provided that You
+      meet the following conditions:
+
+      (a) You must give any other recipients of the Work or
+          Derivative Works a copy of this License; and
+
+      (b) You must cause any modified files to carry prominent notices
+          stating that You changed the files; and
+
+      (c) You must retain, in the Source form of any Derivative Works
+          that You distribute, all copyright, patent, trademark, and
+          attribution notices from the Source form of the Work,
+          excluding those notices that do not pertain to any part of
+          the Derivative Works; and
+
+      (d) If the Work includes a "NOTICE" text file as part of its
+          distribution, then any Derivative Works that You distribute must
+          include a readable copy of the attribution notices contained
+          within such NOTICE file, excluding those notices that do not
+          pertain to any part of the Derivative Works, in at least one
+          of the following places: within a NOTICE text file distributed
+          as part of the Derivative Works; within the Source form or
+          documentation, if provided along with the Derivative Works; or,
+          within a display generated by the Derivative Works, if and
+          wherever such third-party notices normally appear. The contents
+          of the NOTICE file are for informational purposes only and
+          do not modify the License. You may add Your own attribution
+          notices within Derivative Works that You distribute, alongside
+          or as an addendum to the NOTICE text from the Work, provided
+          that such additional attribution notices cannot be construed
+          as modifying the License.
+
+      You may add Your own copyright statement to Your modifications and
+      may provide additional or different license terms and conditions
+      for use, reproduction, or distribution of Your modifications, or
+      for any such Derivative Works as a whole, provided Your use,
+      reproduction, and distribution of the Work otherwise complies with
+      the conditions stated in this License.
+
+   5. Submission of Contributions. Unless You explicitly state otherwise,
+      any Contribution intentionally submitted for inclusion in the Work
+      by You to the Licensor shall be under the terms and conditions of
+      this License, without any additional terms or conditions.
+      Notwithstanding the above, nothing herein shall supersede or modify
+      the terms of any separate license agreement you may have executed
+      with Licensor regarding such Contributions.
+
+   6. Trademarks. This License does not grant permission to use the trade
+      names, trademarks, service marks, or product names of the Licensor,
+      except as required for reasonable and customary use in describing the
+      origin of the Work and reproducing the content of the NOTICE file.
+
+   7. Disclaimer of Warranty. Unless required by applicable law or
+      agreed to in writing, Licensor provides the Work (and each
+      Contributor provides its Contributions) on an "AS IS" BASIS,
+      WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or
+      implied, including, without limitation, any warranties or conditions
+      of TITLE, NON-INFRINGEMENT, MERCHANTABILITY, or FITNESS FOR A
+      PARTICULAR PURPOSE. You are solely responsible for determining the
+      appropriateness of using or redistributing the Work and assume any
+      risks associated with Your exercise of permissions under this License.
+
+   8. Limitation of Liability. In no event and under no legal theory,
+      whether in tort (including negligence), contract, or otherwise,
+      unless required by applicable law (such as deliberate and grossly
+      negligent acts) or agreed to in writing, shall any Contributor be
+      liable to You for damages, including any direct, indirect, special,
+      incidental, or consequential damages of any character arising as a
+      result of this License or out of the use or inability to use the
+      Work (including but not limited to damages for loss of goodwill,
+      work stoppage, computer failure or malfunction, or any and all
+      other commercial damages or losses), even if such Contributor
+      has been advised of the possibility of such damages.
+
+   9. Accepting Warranty or Additional Liability. While redistributing
+      the Work or Derivative Works thereof, You may choose to offer,
+      and charge a fee for, acceptance of support, warranty, indemnity,
+      or other liability obligations and/or rights consistent with this
+      License. However, in accepting such obligations, You may act only
+      on Your own behalf and on Your sole responsibility, not on behalf
+      of any other Contributor, and only if You agree to indemnify,
+      defend, and hold each Contributor harmless for any liability
+      incurred by, or claims asserted against, such Contributor by reason
+      of your accepting any such warranty or additional liability.
+
+   END OF TERMS AND CONDITIONS
+
+   APPENDIX: How to apply the Apache License to your work.
+
+      To apply the Apache License to your work, attach the following
+      boilerplate notice, with the fields enclosed by brackets "[]"
+      replaced with your own identifying information. (Don't include
+      the brackets!)  The text should be enclosed in the appropriate
+      comment syntax for the file format. We also recommend that a
+      file or class name and description of purpose be included on the
+      same "printed page" as the copyright notice for easier
+      identification within third-party archives.
+
+   Copyright [yyyy] [name of copyright owner]
+
+   Licensed under the Apache License, Version 2.0 (the "License");
+   you may not use this file except in compliance with the License.
+   You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+   Unless required by applicable law or agreed to in writing, software
+   distributed under the License is distributed on an "AS IS" BASIS,
+   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+   See the License for the specific language governing permissions and
+   limitations under the License.
+
+
+## FirebaseMessaging
+
+
+                                 Apache License
+                           Version 2.0, January 2004
+                        http://www.apache.org/licenses/
+
+   TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION
+
+   1. Definitions.
+
+      "License" shall mean the terms and conditions for use, reproduction,
+      and distribution as defined by Sections 1 through 9 of this document.
+
+      "Licensor" shall mean the copyright owner or entity authorized by
+      the copyright owner that is granting the License.
+
+      "Legal Entity" shall mean the union of the acting entity and all
+      other entities that control, are controlled by, or are under common
+      control with that entity. For the purposes of this definition,
+      "control" means (i) the power, direct or indirect, to cause the
+      direction or management of such entity, whether by contract or
+      otherwise, or (ii) ownership of fifty percent (50%) or more of the
+      outstanding shares, or (iii) beneficial ownership of such entity.
+
+      "You" (or "Your") shall mean an individual or Legal Entity
+      exercising permissions granted by this License.
+
+      "Source" form shall mean the preferred form for making modifications,
+      including but not limited to software source code, documentation
+      source, and configuration files.
+
+      "Object" form shall mean any form resulting from mechanical
+      transformation or translation of a Source form, including but
+      not limited to compiled object code, generated documentation,
+      and conversions to other media types.
+
+      "Work" shall mean the work of authorship, whether in Source or
+      Object form, made available under the License, as indicated by a
+      copyright notice that is included in or attached to the work
+      (an example is provided in the Appendix below).
+
+      "Derivative Works" shall mean any work, whether in Source or Object
+      form, that is based on (or derived from) the Work and for which the
+      editorial revisions, annotations, elaborations, or other modifications
+      represent, as a whole, an original work of authorship. For the purposes
+      of this License, Derivative Works shall not include works that remain
+      separable from, or merely link (or bind by name) to the interfaces of,
+      the Work and Derivative Works thereof.
+
+      "Contribution" shall mean any work of authorship, including
+      the original version of the Work and any modifications or additions
+      to that Work or Derivative Works thereof, that is intentionally
+      submitted to Licensor for inclusion in the Work by the copyright owner
+      or by an individual or Legal Entity authorized to submit on behalf of
+      the copyright owner. For the purposes of this definition, "submitted"
+      means any form of electronic, verbal, or written communication sent
+      to the Licensor or its representatives, including but not limited to
+      communication on electronic mailing lists, source code control systems,
+      and issue tracking systems that are managed by, or on behalf of, the
+      Licensor for the purpose of discussing and improving the Work, but
+      excluding communication that is conspicuously marked or otherwise
+      designated in writing by the copyright owner as "Not a Contribution."
+
+      "Contributor" shall mean Licensor and any individual or Legal Entity
+      on behalf of whom a Contribution has been received by Licensor and
+      subsequently incorporated within the Work.
+
+   2. Grant of Copyright License. Subject to the terms and conditions of
+      this License, each Contributor hereby grants to You a perpetual,
+      worldwide, non-exclusive, no-charge, royalty-free, irrevocable
+      copyright license to reproduce, prepare Derivative Works of,
+      publicly display, publicly perform, sublicense, and distribute the
+      Work and such Derivative Works in Source or Object form.
+
+   3. Grant of Patent License. Subject to the terms and conditions of
+      this License, each Contributor hereby grants to You a perpetual,
+      worldwide, non-exclusive, no-charge, royalty-free, irrevocable
+      (except as stated in this section) patent license to make, have made,
+      use, offer to sell, sell, import, and otherwise transfer the Work,
+      where such license applies only to those patent claims licensable
+      by such Contributor that are necessarily infringed by their
+      Contribution(s) alone or by combination of their Contribution(s)
+      with the Work to which such Contribution(s) was submitted. If You
+      institute patent litigation against any entity (including a
+      cross-claim or counterclaim in a lawsuit) alleging that the Work
+      or a Contribution incorporated within the Work constitutes direct
+      or contributory patent infringement, then any patent licenses
+      granted to You under this License for that Work shall terminate
+      as of the date such litigation is filed.
+
+   4. Redistribution. You may reproduce and distribute copies of the
+      Work or Derivative Works thereof in any medium, with or without
+      modifications, and in Source or Object form, provided that You
+      meet the following conditions:
+
+      (a) You must give any other recipients of the Work or
+          Derivative Works a copy of this License; and
+
+      (b) You must cause any modified files to carry prominent notices
+          stating that You changed the files; and
+
+      (c) You must retain, in the Source form of any Derivative Works
+          that You distribute, all copyright, patent, trademark, and
+          attribution notices from the Source form of the Work,
+          excluding those notices that do not pertain to any part of
+          the Derivative Works; and
+
+      (d) If the Work includes a "NOTICE" text file as part of its
+          distribution, then any Derivative Works that You distribute must
+          include a readable copy of the attribution notices contained
+          within such NOTICE file, excluding those notices that do not
+          pertain to any part of the Derivative Works, in at least one
+          of the following places: within a NOTICE text file distributed
+          as part of the Derivative Works; within the Source form or
+          documentation, if provided along with the Derivative Works; or,
+          within a display generated by the Derivative Works, if and
+          wherever such third-party notices normally appear. The contents
+          of the NOTICE file are for informational purposes only and
+          do not modify the License. You may add Your own attribution
+          notices within Derivative Works that You distribute, alongside
+          or as an addendum to the NOTICE text from the Work, provided
+          that such additional attribution notices cannot be construed
+          as modifying the License.
+
+      You may add Your own copyright statement to Your modifications and
+      may provide additional or different license terms and conditions
+      for use, reproduction, or distribution of Your modifications, or
+      for any such Derivative Works as a whole, provided Your use,
+      reproduction, and distribution of the Work otherwise complies with
+      the conditions stated in this License.
+
+   5. Submission of Contributions. Unless You explicitly state otherwise,
+      any Contribution intentionally submitted for inclusion in the Work
+      by You to the Licensor shall be under the terms and conditions of
+      this License, without any additional terms or conditions.
+      Notwithstanding the above, nothing herein shall supersede or modify
+      the terms of any separate license agreement you may have executed
+      with Licensor regarding such Contributions.
+
+   6. Trademarks. This License does not grant permission to use the trade
+      names, trademarks, service marks, or product names of the Licensor,
+      except as required for reasonable and customary use in describing the
+      origin of the Work and reproducing the content of the NOTICE file.
+
+   7. Disclaimer of Warranty. Unless required by applicable law or
+      agreed to in writing, Licensor provides the Work (and each
+      Contributor provides its Contributions) on an "AS IS" BASIS,
+      WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or
+      implied, including, without limitation, any warranties or conditions
+      of TITLE, NON-INFRINGEMENT, MERCHANTABILITY, or FITNESS FOR A
+      PARTICULAR PURPOSE. You are solely responsible for determining the
+      appropriateness of using or redistributing the Work and assume any
+      risks associated with Your exercise of permissions under this License.
+
+   8. Limitation of Liability. In no event and under no legal theory,
+      whether in tort (including negligence), contract, or otherwise,
+      unless required by applicable law (such as deliberate and grossly
+      negligent acts) or agreed to in writing, shall any Contributor be
+      liable to You for damages, including any direct, indirect, special,
+      incidental, or consequential damages of any character arising as a
+      result of this License or out of the use or inability to use the
+      Work (including but not limited to damages for loss of goodwill,
+      work stoppage, computer failure or malfunction, or any and all
+      other commercial damages or losses), even if such Contributor
+      has been advised of the possibility of such damages.
+
+   9. Accepting Warranty or Additional Liability. While redistributing
+      the Work or Derivative Works thereof, You may choose to offer,
+      and charge a fee for, acceptance of support, warranty, indemnity,
+      or other liability obligations and/or rights consistent with this
+      License. However, in accepting such obligations, You may act only
+      on Your own behalf and on Your sole responsibility, not on behalf
+      of any other Contributor, and only if You agree to indemnify,
+      defend, and hold each Contributor harmless for any liability
+      incurred by, or claims asserted against, such Contributor by reason
+      of your accepting any such warranty or additional liability.
+
+   END OF TERMS AND CONDITIONS
+
+   APPENDIX: How to apply the Apache License to your work.
+
+      To apply the Apache License to your work, attach the following
+      boilerplate notice, with the fields enclosed by brackets "[]"
+      replaced with your own identifying information. (Don't include
+      the brackets!)  The text should be enclosed in the appropriate
+      comment syntax for the file format. We also recommend that a
+      file or class name and description of purpose be included on the
+      same "printed page" as the copyright notice for easier
+      identification within third-party archives.
+
+   Copyright [yyyy] [name of copyright owner]
+
+   Licensed under the Apache License, Version 2.0 (the "License");
+   you may not use this file except in compliance with the License.
+   You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+   Unless required by applicable law or agreed to in writing, software
+   distributed under the License is distributed on an "AS IS" BASIS,
+   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+   See the License for the specific language governing permissions and
+   limitations under the License.
+
+
+## FunctionalSwift
+
+The MIT License
+
+Copyright © 2021 NBCO YooMoney LLC
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
+
+
+## GTMSessionFetcher
+
+
+                                 Apache License
+                           Version 2.0, January 2004
+                        http://www.apache.org/licenses/
+
+   TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION
+
+   1. Definitions.
+
+      "License" shall mean the terms and conditions for use, reproduction,
+      and distribution as defined by Sections 1 through 9 of this document.
+
+      "Licensor" shall mean the copyright owner or entity authorized by
+      the copyright owner that is granting the License.
+
+      "Legal Entity" shall mean the union of the acting entity and all
+      other entities that control, are controlled by, or are under common
+      control with that entity. For the purposes of this definition,
+      "control" means (i) the power, direct or indirect, to cause the
+      direction or management of such entity, whether by contract or
+      otherwise, or (ii) ownership of fifty percent (50%) or more of the
+      outstanding shares, or (iii) beneficial ownership of such entity.
+
+      "You" (or "Your") shall mean an individual or Legal Entity
+      exercising permissions granted by this License.
+
+      "Source" form shall mean the preferred form for making modifications,
+      including but not limited to software source code, documentation
+      source, and configuration files.
+
+      "Object" form shall mean any form resulting from mechanical
+      transformation or translation of a Source form, including but
+      not limited to compiled object code, generated documentation,
+      and conversions to other media types.
+
+      "Work" shall mean the work of authorship, whether in Source or
+      Object form, made available under the License, as indicated by a
+      copyright notice that is included in or attached to the work
+      (an example is provided in the Appendix below).
+
+      "Derivative Works" shall mean any work, whether in Source or Object
+      form, that is based on (or derived from) the Work and for which the
+      editorial revisions, annotations, elaborations, or other modifications
+      represent, as a whole, an original work of authorship. For the purposes
+      of this License, Derivative Works shall not include works that remain
+      separable from, or merely link (or bind by name) to the interfaces of,
+      the Work and Derivative Works thereof.
+
+      "Contribution" shall mean any work of authorship, including
+      the original version of the Work and any modifications or additions
+      to that Work or Derivative Works thereof, that is intentionally
+      submitted to Licensor for inclusion in the Work by the copyright owner
+      or by an individual or Legal Entity authorized to submit on behalf of
+      the copyright owner. For the purposes of this definition, "submitted"
+      means any form of electronic, verbal, or written communication sent
+      to the Licensor or its representatives, including but not limited to
+      communication on electronic mailing lists, source code control systems,
+      and issue tracking systems that are managed by, or on behalf of, the
+      Licensor for the purpose of discussing and improving the Work, but
+      excluding communication that is conspicuously marked or otherwise
+      designated in writing by the copyright owner as "Not a Contribution."
+
+      "Contributor" shall mean Licensor and any individual or Legal Entity
+      on behalf of whom a Contribution has been received by Licensor and
+      subsequently incorporated within the Work.
+
+   2. Grant of Copyright License. Subject to the terms and conditions of
+      this License, each Contributor hereby grants to You a perpetual,
+      worldwide, non-exclusive, no-charge, royalty-free, irrevocable
+      copyright license to reproduce, prepare Derivative Works of,
+      publicly display, publicly perform, sublicense, and distribute the
+      Work and such Derivative Works in Source or Object form.
+
+   3. Grant of Patent License. Subject to the terms and conditions of
+      this License, each Contributor hereby grants to You a perpetual,
+      worldwide, non-exclusive, no-charge, royalty-free, irrevocable
+      (except as stated in this section) patent license to make, have made,
+      use, offer to sell, sell, import, and otherwise transfer the Work,
+      where such license applies only to those patent claims licensable
+      by such Contributor that are necessarily infringed by their
+      Contribution(s) alone or by combination of their Contribution(s)
+      with the Work to which such Contribution(s) was submitted. If You
+      institute patent litigation against any entity (including a
+      cross-claim or counterclaim in a lawsuit) alleging that the Work
+      or a Contribution incorporated within the Work constitutes direct
+      or contributory patent infringement, then any patent licenses
+      granted to You under this License for that Work shall terminate
+      as of the date such litigation is filed.
+
+   4. Redistribution. You may reproduce and distribute copies of the
+      Work or Derivative Works thereof in any medium, with or without
+      modifications, and in Source or Object form, provided that You
+      meet the following conditions:
+
+      (a) You must give any other recipients of the Work or
+          Derivative Works a copy of this License; and
+
+      (b) You must cause any modified files to carry prominent notices
+          stating that You changed the files; and
+
+      (c) You must retain, in the Source form of any Derivative Works
+          that You distribute, all copyright, patent, trademark, and
+          attribution notices from the Source form of the Work,
+          excluding those notices that do not pertain to any part of
+          the Derivative Works; and
+
+      (d) If the Work includes a "NOTICE" text file as part of its
+          distribution, then any Derivative Works that You distribute must
+          include a readable copy of the attribution notices contained
+          within such NOTICE file, excluding those notices that do not
+          pertain to any part of the Derivative Works, in at least one
+          of the following places: within a NOTICE text file distributed
+          as part of the Derivative Works; within the Source form or
+          documentation, if provided along with the Derivative Works; or,
+          within a display generated by the Derivative Works, if and
+          wherever such third-party notices normally appear. The contents
+          of the NOTICE file are for informational purposes only and
+          do not modify the License. You may add Your own attribution
+          notices within Derivative Works that You distribute, alongside
+          or as an addendum to the NOTICE text from the Work, provided
+          that such additional attribution notices cannot be construed
+          as modifying the License.
+
+      You may add Your own copyright statement to Your modifications and
+      may provide additional or different license terms and conditions
+      for use, reproduction, or distribution of Your modifications, or
+      for any such Derivative Works as a whole, provided Your use,
+      reproduction, and distribution of the Work otherwise complies with
+      the conditions stated in this License.
+
+   5. Submission of Contributions. Unless You explicitly state otherwise,
+      any Contribution intentionally submitted for inclusion in the Work
+      by You to the Licensor shall be under the terms and conditions of
+      this License, without any additional terms or conditions.
+      Notwithstanding the above, nothing herein shall supersede or modify
+      the terms of any separate license agreement you may have executed
+      with Licensor regarding such Contributions.
+
+   6. Trademarks. This License does not grant permission to use the trade
+      names, trademarks, service marks, or product names of the Licensor,
+      except as required for reasonable and customary use in describing the
+      origin of the Work and reproducing the content of the NOTICE file.
+
+   7. Disclaimer of Warranty. Unless required by applicable law or
+      agreed to in writing, Licensor provides the Work (and each
+      Contributor provides its Contributions) on an "AS IS" BASIS,
+      WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or
+      implied, including, without limitation, any warranties or conditions
+      of TITLE, NON-INFRINGEMENT, MERCHANTABILITY, or FITNESS FOR A
+      PARTICULAR PURPOSE. You are solely responsible for determining the
+      appropriateness of using or redistributing the Work and assume any
+      risks associated with Your exercise of permissions under this License.
+
+   8. Limitation of Liability. In no event and under no legal theory,
+      whether in tort (including negligence), contract, or otherwise,
+      unless required by applicable law (such as deliberate and grossly
+      negligent acts) or agreed to in writing, shall any Contributor be
+      liable to You for damages, including any direct, indirect, special,
+      incidental, or consequential damages of any character arising as a
+      result of this License or out of the use or inability to use the
+      Work (including but not limited to damages for loss of goodwill,
+      work stoppage, computer failure or malfunction, or any and all
+      other commercial damages or losses), even if such Contributor
+      has been advised of the possibility of such damages.
+
+   9. Accepting Warranty or Additional Liability. While redistributing
+      the Work or Derivative Works thereof, You may choose to offer,
+      and charge a fee for, acceptance of support, warranty, indemnity,
+      or other liability obligations and/or rights consistent with this
+      License. However, in accepting such obligations, You may act only
+      on Your own behalf and on Your sole responsibility, not on behalf
+      of any other Contributor, and only if You agree to indemnify,
+      defend, and hold each Contributor harmless for any liability
+      incurred by, or claims asserted against, such Contributor by reason
+      of your accepting any such warranty or additional liability.
+
+   END OF TERMS AND CONDITIONS
+
+   APPENDIX: How to apply the Apache License to your work.
+
+      To apply the Apache License to your work, attach the following
+      boilerplate notice, with the fields enclosed by brackets "[]"
+      replaced with your own identifying information. (Don't include
+      the brackets!)  The text should be enclosed in the appropriate
+      comment syntax for the file format. We also recommend that a
+      file or class name and description of purpose be included on the
+      same "printed page" as the copyright notice for easier
+      identification within third-party archives.
+
+   Copyright [yyyy] [name of copyright owner]
+
+   Licensed under the Apache License, Version 2.0 (the "License");
+   you may not use this file except in compliance with the License.
+   You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+   Unless required by applicable law or agreed to in writing, software
+   distributed under the License is distributed on an "AS IS" BASIS,
+   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+   See the License for the specific language governing permissions and
+   limitations under the License.
+
+
+## GoogleAppMeasurement
+
+Copyright 2022 Google
+
+## GoogleDataTransport
+
+
+                                 Apache License
+                           Version 2.0, January 2004
+                        http://www.apache.org/licenses/
+
+   TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION
+
+   1. Definitions.
+
+      "License" shall mean the terms and conditions for use, reproduction,
+      and distribution as defined by Sections 1 through 9 of this document.
+
+      "Licensor" shall mean the copyright owner or entity authorized by
+      the copyright owner that is granting the License.
+
+      "Legal Entity" shall mean the union of the acting entity and all
+      other entities that control, are controlled by, or are under common
+      control with that entity. For the purposes of this definition,
+      "control" means (i) the power, direct or indirect, to cause the
+      direction or management of such entity, whether by contract or
+      otherwise, or (ii) ownership of fifty percent (50%) or more of the
+      outstanding shares, or (iii) beneficial ownership of such entity.
+
+      "You" (or "Your") shall mean an individual or Legal Entity
+      exercising permissions granted by this License.
+
+      "Source" form shall mean the preferred form for making modifications,
+      including but not limited to software source code, documentation
+      source, and configuration files.
+
+      "Object" form shall mean any form resulting from mechanical
+      transformation or translation of a Source form, including but
+      not limited to compiled object code, generated documentation,
+      and conversions to other media types.
+
+      "Work" shall mean the work of authorship, whether in Source or
+      Object form, made available under the License, as indicated by a
+      copyright notice that is included in or attached to the work
+      (an example is provided in the Appendix below).
+
+      "Derivative Works" shall mean any work, whether in Source or Object
+      form, that is based on (or derived from) the Work and for which the
+      editorial revisions, annotations, elaborations, or other modifications
+      represent, as a whole, an original work of authorship. For the purposes
+      of this License, Derivative Works shall not include works that remain
+      separable from, or merely link (or bind by name) to the interfaces of,
+      the Work and Derivative Works thereof.
+
+      "Contribution" shall mean any work of authorship, including
+      the original version of the Work and any modifications or additions
+      to that Work or Derivative Works thereof, that is intentionally
+      submitted to Licensor for inclusion in the Work by the copyright owner
+      or by an individual or Legal Entity authorized to submit on behalf of
+      the copyright owner. For the purposes of this definition, "submitted"
+      means any form of electronic, verbal, or written communication sent
+      to the Licensor or its representatives, including but not limited to
+      communication on electronic mailing lists, source code control systems,
+      and issue tracking systems that are managed by, or on behalf of, the
+      Licensor for the purpose of discussing and improving the Work, but
+      excluding communication that is conspicuously marked or otherwise
+      designated in writing by the copyright owner as "Not a Contribution."
+
+      "Contributor" shall mean Licensor and any individual or Legal Entity
+      on behalf of whom a Contribution has been received by Licensor and
+      subsequently incorporated within the Work.
+
+   2. Grant of Copyright License. Subject to the terms and conditions of
+      this License, each Contributor hereby grants to You a perpetual,
+      worldwide, non-exclusive, no-charge, royalty-free, irrevocable
+      copyright license to reproduce, prepare Derivative Works of,
+      publicly display, publicly perform, sublicense, and distribute the
+      Work and such Derivative Works in Source or Object form.
+
+   3. Grant of Patent License. Subject to the terms and conditions of
+      this License, each Contributor hereby grants to You a perpetual,
+      worldwide, non-exclusive, no-charge, royalty-free, irrevocable
+      (except as stated in this section) patent license to make, have made,
+      use, offer to sell, sell, import, and otherwise transfer the Work,
+      where such license applies only to those patent claims licensable
+      by such Contributor that are necessarily infringed by their
+      Contribution(s) alone or by combination of their Contribution(s)
+      with the Work to which such Contribution(s) was submitted. If You
+      institute patent litigation against any entity (including a
+      cross-claim or counterclaim in a lawsuit) alleging that the Work
+      or a Contribution incorporated within the Work constitutes direct
+      or contributory patent infringement, then any patent licenses
+      granted to You under this License for that Work shall terminate
+      as of the date such litigation is filed.
+
+   4. Redistribution. You may reproduce and distribute copies of the
+      Work or Derivative Works thereof in any medium, with or without
+      modifications, and in Source or Object form, provided that You
+      meet the following conditions:
+
+      (a) You must give any other recipients of the Work or
+          Derivative Works a copy of this License; and
+
+      (b) You must cause any modified files to carry prominent notices
+          stating that You changed the files; and
+
+      (c) You must retain, in the Source form of any Derivative Works
+          that You distribute, all copyright, patent, trademark, and
+          attribution notices from the Source form of the Work,
+          excluding those notices that do not pertain to any part of
+          the Derivative Works; and
+
+      (d) If the Work includes a "NOTICE" text file as part of its
+          distribution, then any Derivative Works that You distribute must
+          include a readable copy of the attribution notices contained
+          within such NOTICE file, excluding those notices that do not
+          pertain to any part of the Derivative Works, in at least one
+          of the following places: within a NOTICE text file distributed
+          as part of the Derivative Works; within the Source form or
+          documentation, if provided along with the Derivative Works; or,
+          within a display generated by the Derivative Works, if and
+          wherever such third-party notices normally appear. The contents
+          of the NOTICE file are for informational purposes only and
+          do not modify the License. You may add Your own attribution
+          notices within Derivative Works that You distribute, alongside
+          or as an addendum to the NOTICE text from the Work, provided
+          that such additional attribution notices cannot be construed
+          as modifying the License.
+
+      You may add Your own copyright statement to Your modifications and
+      may provide additional or different license terms and conditions
+      for use, reproduction, or distribution of Your modifications, or
+      for any such Derivative Works as a whole, provided Your use,
+      reproduction, and distribution of the Work otherwise complies with
+      the conditions stated in this License.
+
+   5. Submission of Contributions. Unless You explicitly state otherwise,
+      any Contribution intentionally submitted for inclusion in the Work
+      by You to the Licensor shall be under the terms and conditions of
+      this License, without any additional terms or conditions.
+      Notwithstanding the above, nothing herein shall supersede or modify
+      the terms of any separate license agreement you may have executed
+      with Licensor regarding such Contributions.
+
+   6. Trademarks. This License does not grant permission to use the trade
+      names, trademarks, service marks, or product names of the Licensor,
+      except as required for reasonable and customary use in describing the
+      origin of the Work and reproducing the content of the NOTICE file.
+
+   7. Disclaimer of Warranty. Unless required by applicable law or
+      agreed to in writing, Licensor provides the Work (and each
+      Contributor provides its Contributions) on an "AS IS" BASIS,
+      WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or
+      implied, including, without limitation, any warranties or conditions
+      of TITLE, NON-INFRINGEMENT, MERCHANTABILITY, or FITNESS FOR A
+      PARTICULAR PURPOSE. You are solely responsible for determining the
+      appropriateness of using or redistributing the Work and assume any
+      risks associated with Your exercise of permissions under this License.
+
+   8. Limitation of Liability. In no event and under no legal theory,
+      whether in tort (including negligence), contract, or otherwise,
+      unless required by applicable law (such as deliberate and grossly
+      negligent acts) or agreed to in writing, shall any Contributor be
+      liable to You for damages, including any direct, indirect, special,
+      incidental, or consequential damages of any character arising as a
+      result of this License or out of the use or inability to use the
+      Work (including but not limited to damages for loss of goodwill,
+      work stoppage, computer failure or malfunction, or any and all
+      other commercial damages or losses), even if such Contributor
+      has been advised of the possibility of such damages.
+
+   9. Accepting Warranty or Additional Liability. While redistributing
+      the Work or Derivative Works thereof, You may choose to offer,
+      and charge a fee for, acceptance of support, warranty, indemnity,
+      or other liability obligations and/or rights consistent with this
+      License. However, in accepting such obligations, You may act only
+      on Your own behalf and on Your sole responsibility, not on behalf
+      of any other Contributor, and only if You agree to indemnify,
+      defend, and hold each Contributor harmless for any liability
+      incurred by, or claims asserted against, such Contributor by reason
+      of your accepting any such warranty or additional liability.
+
+   END OF TERMS AND CONDITIONS
+
+   APPENDIX: How to apply the Apache License to your work.
+
+      To apply the Apache License to your work, attach the following
+      boilerplate notice, with the fields enclosed by brackets "[]"
+      replaced with your own identifying information. (Don't include
+      the brackets!)  The text should be enclosed in the appropriate
+      comment syntax for the file format. We also recommend that a
+      file or class name and description of purpose be included on the
+      same "printed page" as the copyright notice for easier
+      identification within third-party archives.
+
+   Copyright [yyyy] [name of copyright owner]
+
+   Licensed under the Apache License, Version 2.0 (the "License");
+   you may not use this file except in compliance with the License.
+   You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+   Unless required by applicable law or agreed to in writing, software
+   distributed under the License is distributed on an "AS IS" BASIS,
+   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+   See the License for the specific language governing permissions and
+   limitations under the License.
+
+
+## GoogleMaps
+
+Copyright 2022 Google
+
+## GooglePlaces
+
+Copyright 2022 Google
+
+## GoogleUtilities
+
+
+                                 Apache License
+                           Version 2.0, January 2004
+                        http://www.apache.org/licenses/
+
+   TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION
+
+   1. Definitions.
+
+      "License" shall mean the terms and conditions for use, reproduction,
+      and distribution as defined by Sections 1 through 9 of this document.
+
+      "Licensor" shall mean the copyright owner or entity authorized by
+      the copyright owner that is granting the License.
+
+      "Legal Entity" shall mean the union of the acting entity and all
+      other entities that control, are controlled by, or are under common
+      control with that entity. For the purposes of this definition,
+      "control" means (i) the power, direct or indirect, to cause the
+      direction or management of such entity, whether by contract or
+      otherwise, or (ii) ownership of fifty percent (50%) or more of the
+      outstanding shares, or (iii) beneficial ownership of such entity.
+
+      "You" (or "Your") shall mean an individual or Legal Entity
+      exercising permissions granted by this License.
+
+      "Source" form shall mean the preferred form for making modifications,
+      including but not limited to software source code, documentation
+      source, and configuration files.
+
+      "Object" form shall mean any form resulting from mechanical
+      transformation or translation of a Source form, including but
+      not limited to compiled object code, generated documentation,
+      and conversions to other media types.
+
+      "Work" shall mean the work of authorship, whether in Source or
+      Object form, made available under the License, as indicated by a
+      copyright notice that is included in or attached to the work
+      (an example is provided in the Appendix below).
+
+      "Derivative Works" shall mean any work, whether in Source or Object
+      form, that is based on (or derived from) the Work and for which the
+      editorial revisions, annotations, elaborations, or other modifications
+      represent, as a whole, an original work of authorship. For the purposes
+      of this License, Derivative Works shall not include works that remain
+      separable from, or merely link (or bind by name) to the interfaces of,
+      the Work and Derivative Works thereof.
+
+      "Contribution" shall mean any work of authorship, including
+      the original version of the Work and any modifications or additions
+      to that Work or Derivative Works thereof, that is intentionally
+      submitted to Licensor for inclusion in the Work by the copyright owner
+      or by an individual or Legal Entity authorized to submit on behalf of
+      the copyright owner. For the purposes of this definition, "submitted"
+      means any form of electronic, verbal, or written communication sent
+      to the Licensor or its representatives, including but not limited to
+      communication on electronic mailing lists, source code control systems,
+      and issue tracking systems that are managed by, or on behalf of, the
+      Licensor for the purpose of discussing and improving the Work, but
+      excluding communication that is conspicuously marked or otherwise
+      designated in writing by the copyright owner as "Not a Contribution."
+
+      "Contributor" shall mean Licensor and any individual or Legal Entity
+      on behalf of whom a Contribution has been received by Licensor and
+      subsequently incorporated within the Work.
+
+   2. Grant of Copyright License. Subject to the terms and conditions of
+      this License, each Contributor hereby grants to You a perpetual,
+      worldwide, non-exclusive, no-charge, royalty-free, irrevocable
+      copyright license to reproduce, prepare Derivative Works of,
+      publicly display, publicly perform, sublicense, and distribute the
+      Work and such Derivative Works in Source or Object form.
+
+   3. Grant of Patent License. Subject to the terms and conditions of
+      this License, each Contributor hereby grants to You a perpetual,
+      worldwide, non-exclusive, no-charge, royalty-free, irrevocable
+      (except as stated in this section) patent license to make, have made,
+      use, offer to sell, sell, import, and otherwise transfer the Work,
+      where such license applies only to those patent claims licensable
+      by such Contributor that are necessarily infringed by their
+      Contribution(s) alone or by combination of their Contribution(s)
+      with the Work to which such Contribution(s) was submitted. If You
+      institute patent litigation against any entity (including a
+      cross-claim or counterclaim in a lawsuit) alleging that the Work
+      or a Contribution incorporated within the Work constitutes direct
+      or contributory patent infringement, then any patent licenses
+      granted to You under this License for that Work shall terminate
+      as of the date such litigation is filed.
+
+   4. Redistribution. You may reproduce and distribute copies of the
+      Work or Derivative Works thereof in any medium, with or without
+      modifications, and in Source or Object form, provided that You
+      meet the following conditions:
+
+      (a) You must give any other recipients of the Work or
+          Derivative Works a copy of this License; and
+
+      (b) You must cause any modified files to carry prominent notices
+          stating that You changed the files; and
+
+      (c) You must retain, in the Source form of any Derivative Works
+          that You distribute, all copyright, patent, trademark, and
+          attribution notices from the Source form of the Work,
+          excluding those notices that do not pertain to any part of
+          the Derivative Works; and
+
+      (d) If the Work includes a "NOTICE" text file as part of its
+          distribution, then any Derivative Works that You distribute must
+          include a readable copy of the attribution notices contained
+          within such NOTICE file, excluding those notices that do not
+          pertain to any part of the Derivative Works, in at least one
+          of the following places: within a NOTICE text file distributed
+          as part of the Derivative Works; within the Source form or
+          documentation, if provided along with the Derivative Works; or,
+          within a display generated by the Derivative Works, if and
+          wherever such third-party notices normally appear. The contents
+          of the NOTICE file are for informational purposes only and
+          do not modify the License. You may add Your own attribution
+          notices within Derivative Works that You distribute, alongside
+          or as an addendum to the NOTICE text from the Work, provided
+          that such additional attribution notices cannot be construed
+          as modifying the License.
+
+      You may add Your own copyright statement to Your modifications and
+      may provide additional or different license terms and conditions
+      for use, reproduction, or distribution of Your modifications, or
+      for any such Derivative Works as a whole, provided Your use,
+      reproduction, and distribution of the Work otherwise complies with
+      the conditions stated in this License.
+
+   5. Submission of Contributions. Unless You explicitly state otherwise,
+      any Contribution intentionally submitted for inclusion in the Work
+      by You to the Licensor shall be under the terms and conditions of
+      this License, without any additional terms or conditions.
+      Notwithstanding the above, nothing herein shall supersede or modify
+      the terms of any separate license agreement you may have executed
+      with Licensor regarding such Contributions.
+
+   6. Trademarks. This License does not grant permission to use the trade
+      names, trademarks, service marks, or product names of the Licensor,
+      except as required for reasonable and customary use in describing the
+      origin of the Work and reproducing the content of the NOTICE file.
+
+   7. Disclaimer of Warranty. Unless required by applicable law or
+      agreed to in writing, Licensor provides the Work (and each
+      Contributor provides its Contributions) on an "AS IS" BASIS,
+      WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or
+      implied, including, without limitation, any warranties or conditions
+      of TITLE, NON-INFRINGEMENT, MERCHANTABILITY, or FITNESS FOR A
+      PARTICULAR PURPOSE. You are solely responsible for determining the
+      appropriateness of using or redistributing the Work and assume any
+      risks associated with Your exercise of permissions under this License.
+
+   8. Limitation of Liability. In no event and under no legal theory,
+      whether in tort (including negligence), contract, or otherwise,
+      unless required by applicable law (such as deliberate and grossly
+      negligent acts) or agreed to in writing, shall any Contributor be
+      liable to You for damages, including any direct, indirect, special,
+      incidental, or consequential damages of any character arising as a
+      result of this License or out of the use or inability to use the
+      Work (including but not limited to damages for loss of goodwill,
+      work stoppage, computer failure or malfunction, or any and all
+      other commercial damages or losses), even if such Contributor
+      has been advised of the possibility of such damages.
+
+   9. Accepting Warranty or Additional Liability. While redistributing
+      the Work or Derivative Works thereof, You may choose to offer,
+      and charge a fee for, acceptance of support, warranty, indemnity,
+      or other liability obligations and/or rights consistent with this
+      License. However, in accepting such obligations, You may act only
+      on Your own behalf and on Your sole responsibility, not on behalf
+      of any other Contributor, and only if You agree to indemnify,
+      defend, and hold each Contributor harmless for any liability
+      incurred by, or claims asserted against, such Contributor by reason
+      of your accepting any such warranty or additional liability.
+
+   END OF TERMS AND CONDITIONS
+
+   APPENDIX: How to apply the Apache License to your work.
+
+      To apply the Apache License to your work, attach the following
+      boilerplate notice, with the fields enclosed by brackets "[]"
+      replaced with your own identifying information. (Don't include
+      the brackets!)  The text should be enclosed in the appropriate
+      comment syntax for the file format. We also recommend that a
+      file or class name and description of purpose be included on the
+      same "printed page" as the copyright notice for easier
+      identification within third-party archives.
+
+   Copyright [yyyy] [name of copyright owner]
+
+   Licensed under the Apache License, Version 2.0 (the "License");
+   you may not use this file except in compliance with the License.
+   You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+   Unless required by applicable law or agreed to in writing, software
+   distributed under the License is distributed on an "AS IS" BASIS,
+   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+   See the License for the specific language governing permissions and
+   limitations under the License.
+
+================================================================================
+
+The following copyright from Landon J. Fuller applies to the isAppEncrypted
+function in Environment/third_party/GULAppEnvironmentUtil.m.
+
+Copyright (c) 2017 Landon J. Fuller <landon@landonf.org>
+All rights reserved.
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of
+this software and associated documentation files (the "Software"), to deal in
+the Software without restriction, including without limitation the rights to
+use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of
+the Software, and to permit persons to whom the Software is furnished to do so,
+subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS
+FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR
+COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER
+IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
+CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+Comment from
+<a href="http://iphonedevwiki.net/index.php/Crack_prevention">iPhone Dev Wiki
+Crack Prevention</a>: App Store binaries are signed by both their developer
+and Apple. This encrypts the binary so that decryption keys are needed in order
+to make the binary readable. When iOS executes the binary, the decryption keys
+are used to decrypt the binary into a readable state where it is then loaded
+into memory and executed. iOS can tell the encryption status of a binary via the
+cryptid structure member of LC_ENCRYPTION_INFO MachO load command. If cryptid is
+a non-zero value then the binary is encrypted.
+
+'Cracking' works by letting the kernel decrypt the binary then siphoning the
+decrypted data into a new binary file, resigning, and repackaging. This will
+only work on jailbroken devices as codesignature validation has been removed.
+Resigning takes place because while the codesignature doesn't have to be valid
+thanks to the jailbreak, it does have to be in place unless you have AppSync or
+similar to disable codesignature checks.
+
+More information at <a href="http://landonf.org/2009/02/index.html">Landon
+Fuller's blog</a>
+
+
+## INSNibLoading
+
+The MIT License (MIT)
+
+Copyright © 2013 Nicolas Bouilleaud
+UIView+NibLoading.h
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+Copyright (c) 2015 inspace.io
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+
+
+## INSPhotoGallery
+
+                                 Apache License
+                           Version 2.0, January 2004
+                        http://www.apache.org/licenses/
+
+   TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION
+
+   1. Definitions.
+
+      "License" shall mean the terms and conditions for use, reproduction,
+      and distribution as defined by Sections 1 through 9 of this document.
+
+      "Licensor" shall mean the copyright owner or entity authorized by
+      the copyright owner that is granting the License.
+
+      "Legal Entity" shall mean the union of the acting entity and all
+      other entities that control, are controlled by, or are under common
+      control with that entity. For the purposes of this definition,
+      "control" means (i) the power, direct or indirect, to cause the
+      direction or management of such entity, whether by contract or
+      otherwise, or (ii) ownership of fifty percent (50%) or more of the
+      outstanding shares, or (iii) beneficial ownership of such entity.
+
+      "You" (or "Your") shall mean an individual or Legal Entity
+      exercising permissions granted by this License.
+
+      "Source" form shall mean the preferred form for making modifications,
+      including but not limited to software source code, documentation
+      source, and configuration files.
+
+      "Object" form shall mean any form resulting from mechanical
+      transformation or translation of a Source form, including but
+      not limited to compiled object code, generated documentation,
+      and conversions to other media types.
+
+      "Work" shall mean the work of authorship, whether in Source or
+      Object form, made available under the License, as indicated by a
+      copyright notice that is included in or attached to the work
+      (an example is provided in the Appendix below).
+
+      "Derivative Works" shall mean any work, whether in Source or Object
+      form, that is based on (or derived from) the Work and for which the
+      editorial revisions, annotations, elaborations, or other modifications
+      represent, as a whole, an original work of authorship. For the purposes
+      of this License, Derivative Works shall not include works that remain
+      separable from, or merely link (or bind by name) to the interfaces of,
+      the Work and Derivative Works thereof.
+
+      "Contribution" shall mean any work of authorship, including
+      the original version of the Work and any modifications or additions
+      to that Work or Derivative Works thereof, that is intentionally
+      submitted to Licensor for inclusion in the Work by the copyright owner
+      or by an individual or Legal Entity authorized to submit on behalf of
+      the copyright owner. For the purposes of this definition, "submitted"
+      means any form of electronic, verbal, or written communication sent
+      to the Licensor or its representatives, including but not limited to
+      communication on electronic mailing lists, source code control systems,
+      and issue tracking systems that are managed by, or on behalf of, the
+      Licensor for the purpose of discussing and improving the Work, but
+      excluding communication that is conspicuously marked or otherwise
+      designated in writing by the copyright owner as "Not a Contribution."
+
+      "Contributor" shall mean Licensor and any individual or Legal Entity
+      on behalf of whom a Contribution has been received by Licensor and
+      subsequently incorporated within the Work.
+
+   2. Grant of Copyright License. Subject to the terms and conditions of
+      this License, each Contributor hereby grants to You a perpetual,
+      worldwide, non-exclusive, no-charge, royalty-free, irrevocable
+      copyright license to reproduce, prepare Derivative Works of,
+      publicly display, publicly perform, sublicense, and distribute the
+      Work and such Derivative Works in Source or Object form.
+
+   3. Grant of Patent License. Subject to the terms and conditions of
+      this License, each Contributor hereby grants to You a perpetual,
+      worldwide, non-exclusive, no-charge, royalty-free, irrevocable
+      (except as stated in this section) patent license to make, have made,
+      use, offer to sell, sell, import, and otherwise transfer the Work,
+      where such license applies only to those patent claims licensable
+      by such Contributor that are necessarily infringed by their
+      Contribution(s) alone or by combination of their Contribution(s)
+      with the Work to which such Contribution(s) was submitted. If You
+      institute patent litigation against any entity (including a
+      cross-claim or counterclaim in a lawsuit) alleging that the Work
+      or a Contribution incorporated within the Work constitutes direct
+      or contributory patent infringement, then any patent licenses
+      granted to You under this License for that Work shall terminate
+      as of the date such litigation is filed.
+
+   4. Redistribution. You may reproduce and distribute copies of the
+      Work or Derivative Works thereof in any medium, with or without
+      modifications, and in Source or Object form, provided that You
+      meet the following conditions:
+
+      (a) You must give any other recipients of the Work or
+          Derivative Works a copy of this License; and
+
+      (b) You must cause any modified files to carry prominent notices
+          stating that You changed the files; and
+
+      (c) You must retain, in the Source form of any Derivative Works
+          that You distribute, all copyright, patent, trademark, and
+          attribution notices from the Source form of the Work,
+          excluding those notices that do not pertain to any part of
+          the Derivative Works; and
+
+      (d) If the Work includes a "NOTICE" text file as part of its
+          distribution, then any Derivative Works that You distribute must
+          include a readable copy of the attribution notices contained
+          within such NOTICE file, excluding those notices that do not
+          pertain to any part of the Derivative Works, in at least one
+          of the following places: within a NOTICE text file distributed
+          as part of the Derivative Works; within the Source form or
+          documentation, if provided along with the Derivative Works; or,
+          within a display generated by the Derivative Works, if and
+          wherever such third-party notices normally appear. The contents
+          of the NOTICE file are for informational purposes only and
+          do not modify the License. You may add Your own attribution
+          notices within Derivative Works that You distribute, alongside
+          or as an addendum to the NOTICE text from the Work, provided
+          that such additional attribution notices cannot be construed
+          as modifying the License.
+
+      You may add Your own copyright statement to Your modifications and
+      may provide additional or different license terms and conditions
+      for use, reproduction, or distribution of Your modifications, or
+      for any such Derivative Works as a whole, provided Your use,
+      reproduction, and distribution of the Work otherwise complies with
+      the conditions stated in this License.
+
+   5. Submission of Contributions. Unless You explicitly state otherwise,
+      any Contribution intentionally submitted for inclusion in the Work
+      by You to the Licensor shall be under the terms and conditions of
+      this License, without any additional terms or conditions.
+      Notwithstanding the above, nothing herein shall supersede or modify
+      the terms of any separate license agreement you may have executed
+      with Licensor regarding such Contributions.
+
+   6. Trademarks. This License does not grant permission to use the trade
+      names, trademarks, service marks, or product names of the Licensor,
+      except as required for reasonable and customary use in describing the
+      origin of the Work and reproducing the content of the NOTICE file.
+
+   7. Disclaimer of Warranty. Unless required by applicable law or
+      agreed to in writing, Licensor provides the Work (and each
+      Contributor provides its Contributions) on an "AS IS" BASIS,
+      WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or
+      implied, including, without limitation, any warranties or conditions
+      of TITLE, NON-INFRINGEMENT, MERCHANTABILITY, or FITNESS FOR A
+      PARTICULAR PURPOSE. You are solely responsible for determining the
+      appropriateness of using or redistributing the Work and assume any
+      risks associated with Your exercise of permissions under this License.
+
+   8. Limitation of Liability. In no event and under no legal theory,
+      whether in tort (including negligence), contract, or otherwise,
+      unless required by applicable law (such as deliberate and grossly
+      negligent acts) or agreed to in writing, shall any Contributor be
+      liable to You for damages, including any direct, indirect, special,
+      incidental, or consequential damages of any character arising as a
+      result of this License or out of the use or inability to use the
+      Work (including but not limited to damages for loss of goodwill,
+      work stoppage, computer failure or malfunction, or any and all
+      other commercial damages or losses), even if such Contributor
+      has been advised of the possibility of such damages.
+
+   9. Accepting Warranty or Additional Liability. While redistributing
+      the Work or Derivative Works thereof, You may choose to offer,
+      and charge a fee for, acceptance of support, warranty, indemnity,
+      or other liability obligations and/or rights consistent with this
+      License. However, in accepting such obligations, You may act only
+      on Your own behalf and on Your sole responsibility, not on behalf
+      of any other Contributor, and only if You agree to indemnify,
+      defend, and hold each Contributor harmless for any liability
+      incurred by, or claims asserted against, such Contributor by reason
+      of your accepting any such warranty or additional liability.
+
+   END OF TERMS AND CONDITIONS
+
+   APPENDIX: How to apply the Apache License to your work.
+
+      To apply the Apache License to your work, attach the following
+      boilerplate notice, with the fields enclosed by brackets "{}"
+      replaced with your own identifying information. (Don't include
+      the brackets!)  The text should be enclosed in the appropriate
+      comment syntax for the file format. We also recommend that a
+      file or class name and description of purpose be included on the
+      same "printed page" as the copyright notice for easier
+      identification within third-party archives.
+
+   Copyright {yyyy} {name of copyright owner}
+
+   Licensed under the Apache License, Version 2.0 (the "License");
+   you may not use this file except in compliance with the License.
+   You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+   Unless required by applicable law or agreed to in writing, software
+   distributed under the License is distributed on an "AS IS" BASIS,
+   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+   See the License for the specific language governing permissions and
+   limitations under the License.
+
+
+## IQKeyboardManager
+
+MIT License
+
+Copyright (c) 2013-2017 Iftekhar Qurashi
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+
+## JWTDecode
+
+The MIT License (MIT)
+ 
+Copyright (c) 2014 Auth0, Inc. <support@auth0.com> (http://auth0.com)
+ 
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+ 
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+ 
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+
+## MoneyAuth
+
+The MIT License
+
+Copyright (c) 2007—2019 NBCO Yandex.Money LLC
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
+
+
+## PhoneNumberKit
+
+The MIT License (MIT)
+
+Copyright (c) 2018 Roy Marmelstein
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+
+## Polyline
+
+The MIT License (MIT)
+
+Copyright (c) 2015 Raphaël Mor
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+## PromisesObjC
+
+
+                                 Apache License
+                           Version 2.0, January 2004
+                        http://www.apache.org/licenses/
+
+   TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION
+
+   1. Definitions.
+
+      "License" shall mean the terms and conditions for use, reproduction,
+      and distribution as defined by Sections 1 through 9 of this document.
+
+      "Licensor" shall mean the copyright owner or entity authorized by
+      the copyright owner that is granting the License.
+
+      "Legal Entity" shall mean the union of the acting entity and all
+      other entities that control, are controlled by, or are under common
+      control with that entity. For the purposes of this definition,
+      "control" means (i) the power, direct or indirect, to cause the
+      direction or management of such entity, whether by contract or
+      otherwise, or (ii) ownership of fifty percent (50%) or more of the
+      outstanding shares, or (iii) beneficial ownership of such entity.
+
+      "You" (or "Your") shall mean an individual or Legal Entity
+      exercising permissions granted by this License.
+
+      "Source" form shall mean the preferred form for making modifications,
+      including but not limited to software source code, documentation
+      source, and configuration files.
+
+      "Object" form shall mean any form resulting from mechanical
+      transformation or translation of a Source form, including but
+      not limited to compiled object code, generated documentation,
+      and conversions to other media types.
+
+      "Work" shall mean the work of authorship, whether in Source or
+      Object form, made available under the License, as indicated by a
+      copyright notice that is included in or attached to the work
+      (an example is provided in the Appendix below).
+
+      "Derivative Works" shall mean any work, whether in Source or Object
+      form, that is based on (or derived from) the Work and for which the
+      editorial revisions, annotations, elaborations, or other modifications
+      represent, as a whole, an original work of authorship. For the purposes
+      of this License, Derivative Works shall not include works that remain
+      separable from, or merely link (or bind by name) to the interfaces of,
+      the Work and Derivative Works thereof.
+
+      "Contribution" shall mean any work of authorship, including
+      the original version of the Work and any modifications or additions
+      to that Work or Derivative Works thereof, that is intentionally
+      submitted to Licensor for inclusion in the Work by the copyright owner
+      or by an individual or Legal Entity authorized to submit on behalf of
+      the copyright owner. For the purposes of this definition, "submitted"
+      means any form of electronic, verbal, or written communication sent
+      to the Licensor or its representatives, including but not limited to
+      communication on electronic mailing lists, source code control systems,
+      and issue tracking systems that are managed by, or on behalf of, the
+      Licensor for the purpose of discussing and improving the Work, but
+      excluding communication that is conspicuously marked or otherwise
+      designated in writing by the copyright owner as "Not a Contribution."
+
+      "Contributor" shall mean Licensor and any individual or Legal Entity
+      on behalf of whom a Contribution has been received by Licensor and
+      subsequently incorporated within the Work.
+
+   2. Grant of Copyright License. Subject to the terms and conditions of
+      this License, each Contributor hereby grants to You a perpetual,
+      worldwide, non-exclusive, no-charge, royalty-free, irrevocable
+      copyright license to reproduce, prepare Derivative Works of,
+      publicly display, publicly perform, sublicense, and distribute the
+      Work and such Derivative Works in Source or Object form.
+
+   3. Grant of Patent License. Subject to the terms and conditions of
+      this License, each Contributor hereby grants to You a perpetual,
+      worldwide, non-exclusive, no-charge, royalty-free, irrevocable
+      (except as stated in this section) patent license to make, have made,
+      use, offer to sell, sell, import, and otherwise transfer the Work,
+      where such license applies only to those patent claims licensable
+      by such Contributor that are necessarily infringed by their
+      Contribution(s) alone or by combination of their Contribution(s)
+      with the Work to which such Contribution(s) was submitted. If You
+      institute patent litigation against any entity (including a
+      cross-claim or counterclaim in a lawsuit) alleging that the Work
+      or a Contribution incorporated within the Work constitutes direct
+      or contributory patent infringement, then any patent licenses
+      granted to You under this License for that Work shall terminate
+      as of the date such litigation is filed.
+
+   4. Redistribution. You may reproduce and distribute copies of the
+      Work or Derivative Works thereof in any medium, with or without
+      modifications, and in Source or Object form, provided that You
+      meet the following conditions:
+
+      (a) You must give any other recipients of the Work or
+          Derivative Works a copy of this License; and
+
+      (b) You must cause any modified files to carry prominent notices
+          stating that You changed the files; and
+
+      (c) You must retain, in the Source form of any Derivative Works
+          that You distribute, all copyright, patent, trademark, and
+          attribution notices from the Source form of the Work,
+          excluding those notices that do not pertain to any part of
+          the Derivative Works; and
+
+      (d) If the Work includes a "NOTICE" text file as part of its
+          distribution, then any Derivative Works that You distribute must
+          include a readable copy of the attribution notices contained
+          within such NOTICE file, excluding those notices that do not
+          pertain to any part of the Derivative Works, in at least one
+          of the following places: within a NOTICE text file distributed
+          as part of the Derivative Works; within the Source form or
+          documentation, if provided along with the Derivative Works; or,
+          within a display generated by the Derivative Works, if and
+          wherever such third-party notices normally appear. The contents
+          of the NOTICE file are for informational purposes only and
+          do not modify the License. You may add Your own attribution
+          notices within Derivative Works that You distribute, alongside
+          or as an addendum to the NOTICE text from the Work, provided
+          that such additional attribution notices cannot be construed
+          as modifying the License.
+
+      You may add Your own copyright statement to Your modifications and
+      may provide additional or different license terms and conditions
+      for use, reproduction, or distribution of Your modifications, or
+      for any such Derivative Works as a whole, provided Your use,
+      reproduction, and distribution of the Work otherwise complies with
+      the conditions stated in this License.
+
+   5. Submission of Contributions. Unless You explicitly state otherwise,
+      any Contribution intentionally submitted for inclusion in the Work
+      by You to the Licensor shall be under the terms and conditions of
+      this License, without any additional terms or conditions.
+      Notwithstanding the above, nothing herein shall supersede or modify
+      the terms of any separate license agreement you may have executed
+      with Licensor regarding such Contributions.
+
+   6. Trademarks. This License does not grant permission to use the trade
+      names, trademarks, service marks, or product names of the Licensor,
+      except as required for reasonable and customary use in describing the
+      origin of the Work and reproducing the content of the NOTICE file.
+
+   7. Disclaimer of Warranty. Unless required by applicable law or
+      agreed to in writing, Licensor provides the Work (and each
+      Contributor provides its Contributions) on an "AS IS" BASIS,
+      WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or
+      implied, including, without limitation, any warranties or conditions
+      of TITLE, NON-INFRINGEMENT, MERCHANTABILITY, or FITNESS FOR A
+      PARTICULAR PURPOSE. You are solely responsible for determining the
+      appropriateness of using or redistributing the Work and assume any
+      risks associated with Your exercise of permissions under this License.
+
+   8. Limitation of Liability. In no event and under no legal theory,
+      whether in tort (including negligence), contract, or otherwise,
+      unless required by applicable law (such as deliberate and grossly
+      negligent acts) or agreed to in writing, shall any Contributor be
+      liable to You for damages, including any direct, indirect, special,
+      incidental, or consequential damages of any character arising as a
+      result of this License or out of the use or inability to use the
+      Work (including but not limited to damages for loss of goodwill,
+      work stoppage, computer failure or malfunction, or any and all
+      other commercial damages or losses), even if such Contributor
+      has been advised of the possibility of such damages.
+
+   9. Accepting Warranty or Additional Liability. While redistributing
+      the Work or Derivative Works thereof, You may choose to offer,
+      and charge a fee for, acceptance of support, warranty, indemnity,
+      or other liability obligations and/or rights consistent with this
+      License. However, in accepting such obligations, You may act only
+      on Your own behalf and on Your sole responsibility, not on behalf
+      of any other Contributor, and only if You agree to indemnify,
+      defend, and hold each Contributor harmless for any liability
+      incurred by, or claims asserted against, such Contributor by reason
+      of your accepting any such warranty or additional liability.
+
+   END OF TERMS AND CONDITIONS
+
+   APPENDIX: How to apply the Apache License to your work.
+
+      To apply the Apache License to your work, attach the following
+      boilerplate notice, with the fields enclosed by brackets "[]"
+      replaced with your own identifying information. (Don't include
+      the brackets!)  The text should be enclosed in the appropriate
+      comment syntax for the file format. We also recommend that a
+      file or class name and description of purpose be included on the
+      same "printed page" as the copyright notice for easier
+      identification within third-party archives.
+
+   Copyright [yyyy] [name of copyright owner]
+
+   Licensed under the Apache License, Version 2.0 (the "License");
+   you may not use this file except in compliance with the License.
+   You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+   Unless required by applicable law or agreed to in writing, software
+   distributed under the License is distributed on an "AS IS" BASIS,
+   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+   See the License for the specific language governing permissions and
+   limitations under the License.
+
+
+## SDWebImage
+
+Copyright (c) 2009-2020 Olivier Poitrey rs@dailymotion.com
+ 
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is furnished
+to do so, subject to the following conditions:
+ 
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+ 
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
+
+
+
+## Siren
+
+The MIT License (MIT)
+
+Copyright (c) 2015 Arthur Ariel Sabintsev
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+
+
+## SwiftyJSON
+
+The MIT License (MIT)
+
+Copyright (c) 2017 Ruoyu Fu
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
+
+
+## TMXProfiling
+
+Copyright © 2020 ThreatMetrix. All rights reserved.
+
+
+## TMXProfilingConnections
+
+Copyright © 2020 ThreatMetrix. All rights reserved.
+
+
+## ThreatMetrixAdapter
+
+The MIT License
+
+Copyright (c) 2007—2019 NBCO Yandex.Money LLC
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
+
+
+## Toast-Swift
+
+Copyright (c) 2015-2017 Charles Scalesse.
+
+Permission is hereby granted, free of charge, to any person obtaining a
+copy of this software and associated documentation files (the
+"Software"), to deal in the Software without restriction, including
+without limitation the rights to use, copy, modify, merge, publish,
+distribute, sublicense, and/or sell copies of the Software, and to
+permit persons to whom the Software is furnished to do so, subject to
+the following conditions:
+
+The above copyright notice and this permission notice shall be included
+in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS
+OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY
+CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
+TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
+SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+
+## YandexMobileMetrica
+
+# Yandex AppMetrica SDK License Agreement
+
+*This document is a translation of the Yandex AppMetrica SDK License Agreement in English. In case of conflict between the Russian version of the Yandex AppMetrica SDK License Agreement and this translation - only the Russian version of the Yandex AppMetrica SDK License Agreement is legally binding. The Russian version of the Yandex AppMetrica SDK License Agreement can be found here: https://yandex.ru/legal/appmetrica_sdk_agreement/?lang=ru.*
+
+This License Agreement (the "License") is made by and between any person using Yandex AppMetrica SDK (the "User") and Yandex LLC with its registered office at 16, Lva Tolstogo St., Moscow 119021, Russia (the "Rightholder") as a holder of the exclusive right to Yandex AppMetrica SDK.
+
+## 1. General Provisions
+
+1.1. Yandex AppMetrica SDK ("Yandex AppMetrica SDK") may be used by the User to review technical specifications for the interaction of certain AppMetrica elements with software developed by the User.
+
+1.2. By using Yandex AppMetrica SDK or any parts or functions thereof in any way, the User shall expressly accept this License terms and conditions in full, without any reservations or exceptions. If the User does not accept this License terms and conditions in full, the User may not use Yandex AppMetrica SDK. Using AppMetrica SDK in violation of (failing to fulfill) any of this License terms and conditions shall be prohibited. If the User does not agree to the terms and conditions of this License, the User shall refrain from using Yandex AppMetrica SDK.
+
+1.3. Yandex AppMetrica SDK may be used on conditions and in a manner other than those set forth in this License based on a separate agreement to be made with the Rightholder.
+
+1.4. This License and the relations governing the use of Yandex AppMetrica SDK shall be subject to law of the Russian Federation, and any claims or actions arising out of or in connection with this License or related to the use of Yandex AppMetrica SDK shall be submitted for consideration to a court at the Rightholder’s location.
+
+1.5. The Rightholder may provide the User with a translation of this License from Russian into other languages, but in case of any conflict between the provisions of this License in Russian and its translation, only the Russian version shall have legal effect.
+
+1.6. In addition to the License, the following documents shall apply to the relations between the Rightholder and the User governing the use of Yandex AppMetrica SDK:
+
+1.6.1. User Agreement for Yandex Services permanently available at: https://yandex.com/legal/rules/.
+
+1.6.2. Privacy Policy permanently available at: https://yandex.com/legal/confidential/.
+
+1.6.3. If the User uses AppMetrica: Terms of Use of Yandex.Metriсa for Applications Service permanently available at: https://yandex.com/legal/metrica_termsofuse/.
+
+## 2. Exclusive Rights
+
+2.1. The exclusive rights to Yandex AppMetrica SDK are vested in the Rightholder. This License implies no alienation of such rights.
+
+2.2. The exclusive rights to software developed with the use of Yandex AppMetrica SDK are vested in the respective creators thereof. The Rightholder shall not acquire any rights to such software and/or works, except for the right to require that the data defined in cl. 3.3 hereof be specified.
+
+## 3. License
+
+3.1. The Rightholder shall, free of charge and under an ordinary (non-exclusive) license, grant to the User a non-transferable right to use Yandex AppMetrica SDK in all countries of the world in the following ways:
+
+3.1.1. To apply Yandex AppMetrica SDK for the intended functional purpose specified in cl. 1.1 hereof, by downloading (copying) and reproducing it on the User's devices. The User may use Yandex AppMetrica SDK on an unlimited number of devices.
+
+3.2. The User may not distribute Yandex AppMetrica SDK. The User may not change the name of Yandex AppMetrica SDK, change and/or delete copyright marks or any other references to the Rightholder, if they are included in Yandex AppMetrica SDK.
+
+3.3. Paid or free distribution of the software developed with the use of Yandex AppMetrica SDK shall be allowed subject to mentioning of the fact that such software is developed with the use of Yandex AppMetrica SDK by inclusion of the words "Developed with the use of Yandex AppMetrica SDK" in the About section of the program interface, in the text description of the program on the download page thereof and in the program description file included in the installation package (if such file is created).
+
+## 4. Limitations of Use and Liability of the Parties
+
+4.1. The User is hereby notified and agrees that the Rightholder can change the form, structure, development and operation of Yandex AppMetrica SDK without any prior notice to the User. The User acknowledges that later versions of Yandex AppMetrica SDK can differ from earlier ones and that results obtained by the User with the use of an earlier version of Yandex AppMetrica SDK may be incompatible with the subsequent versions of Yandex AppMetrica SDK.
+
+4.2. The User is hereby notified and agrees that the Rightholder may suspend or terminate the creation of new versions of Yandex AppMetrica SDK and also suspend or terminate its support provided in relation to the issued versions without any prior notice to the User.
+
+4.3. This License shall not grant to the User any rights to use the intellectual property owned by the Rightholder, including, but not limited to, the right to use trademarks, logos, domain names and corporate identity elements of the Rightholder.
+
+4.4. It is hereby prohibited to mislead consumers of items developed with the use of Yandex AppMetrica SDK, including, but not limited to, by way of declarations of the User concerning any guarantees made by the Rightholder as to the properties of an item developed with the use of Yandex AppMetrica SDK, the review and approval of such items by the Rightholder and the shared liability of the User and the Rightholder for the quality of the relevant item.
+
+4.5. It is not allowed to use Yandex AppMetrica SDK to develop any malicious software capable of making harm to devices and networks, committing illegal acts or performing functions prohibited by current laws and contradicting cl. 5 of the User Agreement for Yandex Services.
+
+4.6. An item developed in violation of provisions of this License may be, at the discretion of the Rightholder and without any notice to the User, prevented from interaction with the equipment and/or software of the Rightholder and services of the Rightholder.
+
+4.7. The User shall be solely responsible for the compliance of any software developed with the use of the Yandex AppMetrica SDK with the requirements of current laws including those related to protection of personal data owners’ rights. The Rightholder shall not be liable to the User or any third parties for any defects in the software developed with the use of AppMetrica SDK and for violation of any third party rights and legal interests and current laws by such software.
+
+4.8. Yandex AppMetrica SDK is provided on an "as is" basis. The Rightholder shall not guarantee that operation of the software developed with the use of Yandex AppMetrica SDK will be error- free and uninterrupted and that Yandex AppMetrica SDK will meet the particular purposes and expectations of the User, the Rightholder makes no other warranties not expressly stated in this License.
+
+4.9. To the maximum extent permitted by the current laws, the Rightholder shall not be liable for any direct or indirect consequences of any use of, or inability to use, Yandex AppMetrica SDK and/or damages caused to the User and/or third parties as a result of use, or inability to use, Yandex AppMetrica SDK including due to possible malfunction or faulty operation of the software developed with the use of Yandex AppMetrica SDK.
+
+4.10. The User hereby agrees to provide the Rightholder with the following statistics on the use of Yandex AppMetrica SDK, including, but not limited to, IDs, the User's IP address, device producer and/or model, connection type, Yandex AppMetrica SDK version number used by the User, app package name, details of what Yandex AppMetrica SDK components the User uses and how. Such data are processed to improve and optimize Yandex AppMetrica SDK subject to the Privacy Policy. If the User does not agree to provide the data specified herein, the User may not use Yandex AppMetrica SDK.
+
+4.11. The Rightholder may send Yandex AppMetrica SDK-related messages to the User.
+
+## 5. Updates and New Versions
+
+5.1. The Rightholder may offer updates to the User aimed to improve features of Yandex AppMetrica SDK in the form of patches, additional modules, data sets or all-new versions. The User is hereby notified and agrees to receive the Rightholder's messages of any new components or new versions of Yandex AppMetrica SDK available.
+
+5.2. This License covers all future updates/new versions of Yandex AppMetrica SDK. Receiving an update/new version means that the User accepts the terms of this License for corresponding updates/new versions of Yandex AppMetrica SDK, unless Yandex AppMetrica SDK is updated under another license agreement.
+
+## 6. Change of the License Terms and Conditions
+
+6.1. The Rightholder can unilaterally change this License without any prior notice to the User. The current version of this License is permanently available at: https://yandex.com/legal/appmetrica_sdk_agreement/. Any changes made to this License terms and conditions as set forth above shall come into effect from the date of their publication at the address specified above, unless otherwise specified in a corresponding publication.
+
+*Date of publication: November 3, 2017*
+
+## YandexMobileMetricaPush
+
+Terms of Use of Yandex.Metrica service
+This document is a translation of Terms of use of Yandex.Metrica service in English. In case of conflict between the Russian version of Terms of use of Yandex.Metrica service and this translation - only the Russian version of Terms of use of Yandex.Metrica service is legally binding. The Russian version of Terms of use of Yandex.Metrica service can be found here: http://www.legal.yandex.ru/metrica_termsofuse/?lang=ru.
+
+This document, Terms of Use of Yandex.Metrica Service (hereinafter - Agreement) is an offer of YANDEX, LLC (hereinafter - Yandex) to an Internet user (hereinafter - User) to conclude an agreement on the use of the service Yandex.Metrica (hereinafter - Service) on the conditions stated below.
+
+1. The use of the Service by the User is regulated by this Agreement, as well as:
+
+the User Agreement for Yandex services, available at: http://legal.yandex.com/rules/,
+
+Privacy Policy, available at: http://legal.yandex.com/confidential/,
+
+(Hereinafter collectively referred to as - Regulatory Documents).
+
+The User undertakes to acquaint himself with all Regulatory Documents, and shall bear the risk of failure of such acquaintance.
+
+2. This Agreement and the relations between Yandex and the User arisen in connection to use of the Service, are subject to the applicable laws of the Russian Federation. Throughout the text of this Agreement, unless directly stated otherwise, the term legislation means legislation of the Russian Federation as well as legislation of the User?s place of residence.
+
+3. Having registered at the Service, received a counter code, placed the counter code on the User's site or used any other function of the Service, the User expresses its unconditional consent with all terms of this Agreement and undertakes to comply with them or stop using the Service, by removing the related code from the User's site.
+
+4. When using the Service, the User must comply with the following conditions and limitations:
+
+to have a login on Yandex and place the counter code on his website. Yandex has a right to deny access to the Service without explanation;
+
+not to remove or alter hyperlinks to the resources of Yandex contained in the counter code;
+
+not to install the counter code on sites that do not meet the requirements of paragraph 5 of the User Agreement for Yandex services;
+
+not to alter or in any way modify the program counter code, obtained through the Service, except for the change of the User's website settings;
+
+not to use any automatic programs or devices to register on Yandex and/or to receive a counter code, except for programs working with the API Yandex.Metrica;
+
+comply with all requirements of this Agreement and the current legislation on the protection of personal data and correspondence of the User?s website visitors, as well as other information, access to which is limited according to the legislation, and that can be recorded while using the Service.
+
+5. The User shall be responsible for safekeeping of his login and password and may not transfer or disclose it to third parties. All the actions taken by the Service under the User?s login and password, are considered as accomplished by the User.
+
+6. The Service (including the information obtained with its help) is provided by Yandex ?as is?. Yandex does not warrant the fitness of the Service for the purposes and expectations of Users, uninterruptable and error-free operation of the Service in general and the counter installed on the User?s website, in particular, and does not warrant the accuracy of the information obtained through the Service. Yandex shall not be liable for any damage, direct or indirect, caused to the User or any third party by use or inability to use the Service and/or counters installed on the User's website, as well as by use or inability to use the information obtained through the Service. Yandex shall not reimburse the User or any third party for such damages.
+
+7. The User is solely responsible before third parties for his actions when using the Service, including the fact that they meet the requirements of the legislation and do not violate the rights and legitimate interests of third parties. The User shall settle all claims of third parties associated with the actions of the User when using the Service at his own expense.
+
+8. The User is hereby notified and agrees that once the function WebVisor is switched on since the installation of the counter to the pages of the User, the Service provides the User with functional ability to automatically record sessions of visits by the visitors of the pages on the User?s website (hereinafter ?Visit Sessions). Yandex does not place such records of Visit Sessions on open access and does not provide such records of Visit Sessions to third parties, except for those records the access to which were provided by the User himself.
+
+9. The User shall at his own risk and discretion switch on the function of the Service WebVisor, define the amount of information on the User?s website, being recorded by the counter. The User can mark specific fields of pages of the User?s web site with a special CSS-class http://help.yandex.com/metrica/qanda/webvisor-qanda.xml#skip-fields (in the HTML-code of pages of the website) for the input of data in such fields by third parties (visitors of the User?s website) not to be recorded during recording of Visit Sessions by the counter and at his own discretion and risk make a decision on the choice of fields for such marks and is solely responsible for recording data in the fields which do not have such a mark.
+
+10. The User acknowledges and agrees that the counter installed on the User?s website collects anonymous (without binding to the personal data of visitors of the web site) data on visits of the User?s web site and automatically forwards them to Yandex for generalized statistical information available for the further use of the Service by the User and by Yandex as well. If the User did not include a restriction to send pages of the web site for indexing (http://help.yandex.com/metrica/code/stop-indexing.xml), the addresses (URL) of pages with the installed counter can be forwarded for indexing by Yandex. Nevertheless, Yandex does not ensure that pages, information of which is obtained in this manner, will be necessarily indexed and included in search results.
+
+11. The User is hereby notified and agrees that Yandex does not know or can not know what information is contained in the data recorded by the counter on the site pages of the User, as well as what information is recorded while recording Visit Sessions and saved in a temporary record of such Visit Sessions, and can not determine whether there is any personal data, correspondence and other limited to receiving, processing and distribution information of third parties in such records (hereafter - Secured information) or not. The Service operates in fully automatic mode, and does not analyse the content and meaning of information published on the pages or entered by visitors in the fields on the page, and records it completely, regardless of its content. Yandex does not make any modifications to the data recorded by the counter, including the recordings of Visit Sessions, and does not perform any actions focused on the collection, receipt, processing and distribution of personal data, correspondence and other Secured information of visitors of the User's website as a result of the User's use of the Service. With this in mind, the User understands that by using the Service, he might gain access to Secured information, and therefore the User undertakes not to take focused actions to obtain such Secured information, and shall to the maximum extent comply with all requirements of applicable law for collection, processing and protection of personal data and other Secured information obtained during using the Service, and shall bear all risks associated with obtaining such Secured information, and the liability for failure to comply with the legislation.
+
+12. All data collected and stored by the Service shall be treated by Yandex as a confidential information of the User, and to the extent permitted by applicable law ? as a trade secret of the User. Yandex shall keep that data in secret and shall not transfer that data to any third parties (except for the affiliate entities that are in the same group with Yandex), except where the User has authorized such transfer or has given an access to that data for third parties at his own discretion.
+
+13. Yandex does not guarantee that the installation of the counter, collection, processing and transmission of this information to Yandex does not violate the legislation of the User?s place of residence. The User performs the installation of the counter and uses the Service at his own risk and is solely responsible for all actions related to the use of the Service, including the installation of a counter, the collection and use of information specified by the User.
+
+14. Yandex has the right without notice and at its sole discretion terminate or suspend the User's access to the Service without explanation, in particular, in case of violation of requirements of this Agreement by such the User.
+
+15. All claims arising from the use / inability to use the Service should be directed using the feedback form at http://feedback.yandex.com/?from=metrica.
+
+16. Yandex may at any time without notice to the User amend the text of this Agreement and/or any other conditions of use of Service. The actual text of this Agreement is located at: http://legal.yandex.com/metrica_termsofuse/.
+
+Date: 04.06.2013
+
+Previous version of the document: http://legal.yandex.com/metrica_termsofuse/20092011/
+
+
+## YooKassaPayments
+
+The MIT License
+
+Copyright © 2020 NBCO YooMoney LLC
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
+
+## YooKassaPaymentsApi
+
+The MIT License
+
+Copyright © 2020 NBCO YooMoney LLC
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
+
+## YooKassaWalletApi
+
+The MIT License
+
+Copyright © 2020 NBCO YooMoney LLC
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
+
+## YooMoneyCoreApi
+
+The MIT License
+
+Copyright © 2020 NBCO YooMoney LLC
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
+
+
+## nanopb
+
+Copyright (c) 2011 Petteri Aimonen <jpa at nanopb.mail.kapsi.fi>
+
+This software is provided 'as-is', without any express or 
+implied warranty. In no event will the authors be held liable 
+for any damages arising from the use of this software.
+
+Permission is granted to anyone to use this software for any 
+purpose, including commercial applications, and to alter it and 
+redistribute it freely, subject to the following restrictions:
+
+1. The origin of this software must not be misrepresented; you 
+   must not claim that you wrote the original software. If you use 
+   this software in a product, an acknowledgment in the product 
+   documentation would be appreciated but is not required.
+
+2. Altered source versions must be plainly marked as such, and 
+   must not be misrepresented as being the original software.
+
+3. This notice may not be removed or altered from any source 
+   distribution.
+
+Generated by CocoaPods - https://cocoapods.org

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" restorationIdentifier="UsedTariffItem" id="iN0-l3-epB" customClass="UsedTariffItem" customModule="Hoba_Fitness" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="352" height="101"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JMc-EU-Unw">
+                    <rect key="frame" x="0.0" y="0.0" width="352" height="85"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Название тарифа" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kb4-sI-O4b">
+                            <rect key="frame" x="4" y="4" width="344" height="21"/>
+                            <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Описание тарифа" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HhN-ty-jxs">
+                            <rect key="frame" x="8" y="33" width="336" height="18"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                            <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dCV-Xu-DTd">
+                            <rect key="frame" x="32" y="47" width="288" height="30"/>
+                            <color key="backgroundColor" red="0.57378596069999999" green="0.72514015440000001" blue="0.02839136682" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="30" id="xov-0d-1yq"/>
+                            </constraints>
+                            <state key="normal" title="Продлить">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </state>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                    <real key="value" value="4"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" red="0.1215686275" green="0.12941176469999999" blue="0.14117647059999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstItem="Kb4-sI-O4b" firstAttribute="top" secondItem="JMc-EU-Unw" secondAttribute="top" constant="4" id="1xF-IP-dds"/>
+                        <constraint firstAttribute="bottom" secondItem="dCV-Xu-DTd" secondAttribute="bottom" constant="8" id="4lr-a9-irL"/>
+                        <constraint firstItem="HhN-ty-jxs" firstAttribute="leading" secondItem="JMc-EU-Unw" secondAttribute="leading" constant="8" id="Acf-cA-mYJ"/>
+                        <constraint firstAttribute="trailing" secondItem="Kb4-sI-O4b" secondAttribute="trailing" constant="4" id="HfD-dx-Zhl"/>
+                        <constraint firstItem="dCV-Xu-DTd" firstAttribute="leading" secondItem="JMc-EU-Unw" secondAttribute="leading" constant="32" id="OE6-q6-xvd"/>
+                        <constraint firstItem="HhN-ty-jxs" firstAttribute="top" secondItem="Kb4-sI-O4b" secondAttribute="bottom" constant="8" id="anU-N3-YM2"/>
+                        <constraint firstItem="Kb4-sI-O4b" firstAttribute="leading" secondItem="JMc-EU-Unw" secondAttribute="leading" constant="4" id="b6f-Tt-YpL"/>
+                        <constraint firstAttribute="trailing" secondItem="dCV-Xu-DTd" secondAttribute="trailing" constant="32" id="ewg-0E-3TX"/>
+                        <constraint firstAttribute="trailing" secondItem="HhN-ty-jxs" secondAttribute="trailing" constant="8" id="gGd-hh-Aun"/>
+                        <constraint firstItem="dCV-Xu-DTd" firstAttribute="top" secondItem="HhN-ty-jxs" secondAttribute="bottom" constant="8" id="xoW-sg-Ofe"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                            <real key="value" value="1"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                            <color key="value" red="0.70196078429999997" green="0.82745098039999998" blue="0.26274509800000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                            <real key="value" value="0.0"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="JMc-EU-Unw" secondAttribute="bottom" constant="16" id="He8-72-GGs"/>
+                <constraint firstItem="JMc-EU-Unw" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="T0f-pV-JYO"/>
+                <constraint firstAttribute="trailing" secondItem="JMc-EU-Unw" secondAttribute="trailing" id="mR6-uo-hc7"/>
+                <constraint firstItem="JMc-EU-Unw" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="tlc-TS-R0z"/>
+            </constraints>
+            <nil key="simulatedTopBarMetrics"/>
+            <nil key="simulatedBottomBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="contentView" destination="JMc-EU-Unw" id="3uX-Cu-ViH"/>
+                <outlet property="tariffDesc" destination="HhN-ty-jxs" id="dHz-65-fZ8"/>
+                <outlet property="tariffProlong" destination="dCV-Xu-DTd" id="9wq-2t-4x1"/>
+                <outlet property="tariffProlongHC" destination="xov-0d-1yq" id="hHS-Yu-G42"/>
+                <outlet property="tariffTitle" destination="Kb4-sI-O4b" id="bqN-t7-zsn"/>
+            </connections>
+            <point key="canvasLocation" x="79.710144927536234" y="80.022321428571431"/>
+        </view>
+    </objects>
+</document>

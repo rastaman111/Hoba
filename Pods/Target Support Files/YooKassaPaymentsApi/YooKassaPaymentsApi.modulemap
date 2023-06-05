@@ -1,0 +1,6 @@
+framework module YooKassaPaymentsApi {
+  umbrella header "YooKassaPaymentsApi-umbrella.h"
+
+  export *
+  module * { export * }
+}

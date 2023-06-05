@@ -1,0 +1,11 @@
+framework module ThreatMetrixAdapter {
+  umbrella header "ThreatMetrixAdapter.h"
+
+  export *
+  module * { export * }
+}
+
+module ThreatMetrixAdapter.Swift {
+    header "ThreatMetrixAdapter-Swift.h"
+    requires objc
+}

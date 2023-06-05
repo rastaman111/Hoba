@@ -1,0 +1,59 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.5.2 (swiftlang-1300.0.47.5 clang-1300.0.29.30)
+// swift-module-flags: -target x86_64-apple-ios10.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name ThreatMetrixAdapter
+import Foundation
+import Swift
+@_exported import ThreatMetrixAdapter
+import _Concurrency
+public enum ThreatMetrixKey : Swift.String {
+  case orgId
+  case profileTimeout
+  case locationServices
+  case fingerprintServer
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public enum Configuration {
+  case `default`
+  case custom([Swift.String : Any])
+}
+public enum DefaultConfiguration {
+}
+public struct ThreatMetrixAdapterError : Swift.Error {
+  public let description: Swift.String
+  public init(_ description: Swift.String)
+}
+public protocol ThreatMetrixService : AnyObject {
+  func profileApp(sessionId: Swift.String)
+  func profileApp(completion: @escaping (Swift.Result<ThreatMetrixAdapter.ProfileResult, Swift.Error>) -> Swift.Void)
+  func cancelProfiling()
+}
+public enum ProfileError : Swift.Error {
+  case connectionFail
+  case invalidConfiguration
+  case internalError
+  case interrupted
+  public static func == (a: ThreatMetrixAdapter.ProfileError, b: ThreatMetrixAdapter.ProfileError) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public enum ProfileResult {
+  case success(Swift.String)
+  case failed(Swift.String)
+  public var value: Swift.String {
+    get
+  }
+}
+public enum ThreatMetrixServiceFactory {
+  public static func makeService(configuration: ThreatMetrixAdapter.Configuration) throws -> ThreatMetrixAdapter.ThreatMetrixService
+}
+extension ThreatMetrixAdapter.ThreatMetrixKey : Swift.Equatable {}
+extension ThreatMetrixAdapter.ThreatMetrixKey : Swift.Hashable {}
+extension ThreatMetrixAdapter.ThreatMetrixKey : Swift.RawRepresentable {}
+extension ThreatMetrixAdapter.ProfileError : Swift.Equatable {}
+extension ThreatMetrixAdapter.ProfileError : Swift.Hashable {}

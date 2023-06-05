@@ -1,0 +1,6 @@
+framework module Pods_Hoba_Fitness {
+  umbrella header "Pods-Hoba-Fitness-umbrella.h"
+
+  export *
+  module * { export * }
+}

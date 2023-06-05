@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15400" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15404"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Select Starter TrainVC-->
+        <scene sceneID="Vf0-9f-ScJ">
+            <objects>
+                <viewController storyboardIdentifier="SelectStarterTrain" id="sUC-1e-Syv" customClass="SelectStarterTrainVC" customModule="hoba" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="PJd-tU-fXm">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="фитнес рядом с домом" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Alu-gn-D9C">
+                                <rect key="frame" x="66.5" y="93.5" width="187" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Logo" translatesAutoresizingMaskIntoConstraints="NO" id="WYK-Fl-gLl">
+                                <rect key="frame" x="60" y="32" width="200" height="53.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="nuM-oa-Zd2"/>
+                                </constraints>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" spacing="32" translatesAutoresizingMaskIntoConstraints="NO" id="J9Z-nk-ofI">
+                                <rect key="frame" x="48" y="146" width="224" height="256"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uQO-mE-gxl">
+                                        <rect key="frame" x="0.0" y="0.0" width="224" height="40"/>
+                                        <color key="backgroundColor" red="0.57254901960000004" green="0.72549019609999998" blue="0.035294117649999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="C0e-jw-RhI"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="14"/>
+                                        <state key="normal" title="Пойти на пробную тренировку">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="4"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="openTariffSelector:" destination="sUC-1e-Syv" eventType="touchUpInside" id="XJm-gz-60f"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="dgu-1h-ukk">
+                                        <rect key="frame" x="0.0" y="72" width="224" height="40"/>
+                                        <color key="backgroundColor" red="0.57254901960000004" green="0.72549019609999998" blue="0.035294117649999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="y2b-oZ-bA4"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="14"/>
+                                        <state key="normal" title="Купить\использовать абонемент">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="4"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="openTariffSelector:" destination="sUC-1e-Syv" eventType="touchUpInside" id="9ik-Ab-xW9"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="yHm-26-3s9">
+                                        <rect key="frame" x="0.0" y="144" width="224" height="40"/>
+                                        <color key="backgroundColor" red="0.57254901960000004" green="0.72549019609999998" blue="0.035294117649999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="wTd-KF-YOH"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="14"/>
+                                        <state key="normal" title="Пойти на тренировку с тренером">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="4"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="openTariffSelector:" destination="sUC-1e-Syv" eventType="touchUpInside" id="gc3-Pl-aJ9"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="LeM-DC-5ZA">
+                                        <rect key="frame" x="0.0" y="216" width="224" height="40"/>
+                                        <color key="backgroundColor" red="0.57254901960000004" green="0.72549019609999998" blue="0.035294117649999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="8OK-Jc-1ef"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="14"/>
+                                        <state key="normal" title="Пойти на разовую тренировку">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="4"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="openTariffSelector:" destination="sUC-1e-Syv" eventType="touchUpInside" id="9F6-ab-qcQ"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Stu-bi-6Nh">
+                                <rect key="frame" x="123" y="521" width="74" height="27"/>
+                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="12"/>
+                                <state key="normal" title="www.hoba.fit">
+                                    <color key="titleColor" red="0.57254901960000004" green="0.72549019609999998" blue="0.035294117649999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="openChat:" destination="sUC-1e-Syv" eventType="touchUpInside" id="zMs-Wh-hK6"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Есть вопросы? Напишите нам в чате на сайте" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6Nc-Jm-u83">
+                                <rect key="frame" x="32" y="492" width="256" height="29"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.094117647060000004" green="0.08235294118" blue="0.086274509799999996" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="Alu-gn-D9C" firstAttribute="top" secondItem="WYK-Fl-gLl" secondAttribute="bottom" constant="8" id="1Ql-Vy-BYQ"/>
+                            <constraint firstItem="WYK-Fl-gLl" firstAttribute="centerX" secondItem="PJd-tU-fXm" secondAttribute="centerX" id="1YA-5c-ttM"/>
+                            <constraint firstItem="bho-09-HfP" firstAttribute="trailing" secondItem="6Nc-Jm-u83" secondAttribute="trailing" constant="32" id="9dT-uh-Xqn"/>
+                            <constraint firstItem="6Nc-Jm-u83" firstAttribute="leading" secondItem="bho-09-HfP" secondAttribute="leading" constant="32" id="ABt-R2-1wQ"/>
+                            <constraint firstItem="Stu-bi-6Nh" firstAttribute="centerX" secondItem="PJd-tU-fXm" secondAttribute="centerX" id="BEz-ZD-89h"/>
+                            <constraint firstItem="Alu-gn-D9C" firstAttribute="centerX" secondItem="WYK-Fl-gLl" secondAttribute="centerX" id="H6k-NE-NNB"/>
+                            <constraint firstItem="Stu-bi-6Nh" firstAttribute="top" secondItem="6Nc-Jm-u83" secondAttribute="bottom" id="PUh-FH-P0O"/>
+                            <constraint firstItem="bho-09-HfP" firstAttribute="bottom" secondItem="Stu-bi-6Nh" secondAttribute="bottom" constant="20" id="ZC9-Wc-CfT"/>
+                            <constraint firstItem="J9Z-nk-ofI" firstAttribute="top" secondItem="Alu-gn-D9C" secondAttribute="bottom" constant="32" id="ce6-1o-E8s"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="J9Z-nk-ofI" secondAttribute="trailing" constant="32" id="d5N-1W-yFk"/>
+                            <constraint firstItem="J9Z-nk-ofI" firstAttribute="leading" secondItem="PJd-tU-fXm" secondAttribute="leadingMargin" constant="32" id="mXV-3G-Rlb"/>
+                            <constraint firstItem="WYK-Fl-gLl" firstAttribute="top" secondItem="bho-09-HfP" secondAttribute="top" constant="32" id="oxE-Kf-89M"/>
+                            <constraint firstItem="WYK-Fl-gLl" firstAttribute="width" secondItem="WYK-Fl-gLl" secondAttribute="height" multiplier="15:4" id="tff-n0-gBL"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="bho-09-HfP"/>
+                    </view>
+                    <connections>
+                        <outlet property="freeTrainBtn" destination="uQO-mE-gxl" id="YEn-Ln-0QO"/>
+                        <outlet property="freeTrainBtnHC" destination="C0e-jw-RhI" id="cej-wv-EQE"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Wsz-XZ-jcU" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-114.40000000000001" y="148.52216748768473"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Logo" width="240" height="64"/>
+    </resources>
+</document>

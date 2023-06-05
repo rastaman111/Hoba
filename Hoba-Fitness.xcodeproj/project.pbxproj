@@ -1,0 +1,1240 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 53;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		130D31762253A25200E3C5F3 /* Feedback.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 130D31752253A25200E3C5F3 /* Feedback.storyboard */; };
+		130D31782253A2C800E3C5F3 /* Feedback.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 130D31772253A2C800E3C5F3 /* Feedback.xcassets */; };
+		130D317A2253A59700E3C5F3 /* FeedbackVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 130D31792253A59700E3C5F3 /* FeedbackVC.swift */; };
+		131EFA08223B9873005EEF5A /* BookedTrains.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 131EFA07223B9873005EEF5A /* BookedTrains.storyboard */; };
+		131EFA0A223B9887005EEF5A /* BookedTrainsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 131EFA09223B9887005EEF5A /* BookedTrainsVC.swift */; };
+		131EFA0C223BB33D005EEF5A /* BookedTrains.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 131EFA0B223BB33C005EEF5A /* BookedTrains.xcassets */; };
+		131EFA0E223BC135005EEF5A /* UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 131EFA0D223BC135005EEF5A /* UIImage.swift */; };
+		131EFA11223BCEC9005EEF5A /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 131EFA10223BCEC9005EEF5A /* ProfileVC.swift */; };
+		131EFA13223BCED6005EEF5A /* EditProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 131EFA12223BCED6005EEF5A /* EditProfileVC.swift */; };
+		131EFA15223BCF09005EEF5A /* PersonalInfo.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 131EFA14223BCF09005EEF5A /* PersonalInfo.storyboard */; };
+		132F9788223D088C0040AA6C /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 132F9787223D088C0040AA6C /* Constants.swift */; };
+		132F978A223D10F50040AA6C /* TrainState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 132F9789223D10F50040AA6C /* TrainState.swift */; };
+		13305C5323770D5300BB8ACC /* SelectStarterTrainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13305C5223770D5300BB8ACC /* SelectStarterTrainVC.swift */; };
+		13305C56237713B000BB8ACC /* TariffSelector.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13305C55237713B000BB8ACC /* TariffSelector.storyboard */; };
+		13305C582377184000BB8ACC /* TariffSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13305C572377184000BB8ACC /* TariffSelector.swift */; };
+		133C2C9C2238B7AB0025BBF5 /* Tariffs.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 133C2C9B2238B7AB0025BBF5 /* Tariffs.xcassets */; };
+		1340C5992226B63600D9721A /* UISegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1340C5982226B63600D9721A /* UISegmentedControl.swift */; };
+		1340C59D2226B6B400D9721A /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1340C59C2226B6B400D9721A /* UIColor.swift */; };
+		13414BFE2237E109005C274C /* Tariffs.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13414BFD2237E109005C274C /* Tariffs.storyboard */; };
+		13414C002237E116005C274C /* Tariffs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13414BFF2237E116005C274C /* Tariffs.swift */; };
+		135D279B2232445B006CFF92 /* Init_2_PersonalInfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 135D279A2232445B006CFF92 /* Init_2_PersonalInfoVC.swift */; };
+		135D279D22324EF2006CFF92 /* Init_3_LinkCardVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 135D279C22324EF2006CFF92 /* Init_3_LinkCardVC.swift */; };
+		135F0CFB28252916005A93C9 /* Pods_Hoba_Fitness.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F49C064A396A2F40DE4766E0 /* Pods_Hoba_Fitness.framework */; };
+		135F9979222633A7005A6B57 /* GenderSelectorVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 135F9978222633A7005A6B57 /* GenderSelectorVC.swift */; };
+		135F997B22263441005A6B57 /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 135F997A22263441005A6B57 /* App.swift */; };
+		135F997E22263C11005A6B57 /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 135F997D22263C11005A6B57 /* UIViewController.swift */; };
+		135F99852226451C005A6B57 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 135F99842226451C005A6B57 /* UIView.swift */; };
+		13612CFE24D7F6B200E95DDA /* TMXProfiling.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13612CFD24D7F6B200E95DDA /* TMXProfiling.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		13612D0224D7F6BC00E95DDA /* TMXProfilingConnections.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13612D0124D7F6BC00E95DDA /* TMXProfilingConnections.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		137AEAC1222B93D1002DBA3F /* RoomsMapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 137AEAC0222B93D1002DBA3F /* RoomsMapVC.swift */; };
+		137B3E53228709AC0058FC63 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 137B3E52228709AC0058FC63 /* GoogleService-Info.plist */; };
+		137E88052359AEBA005A7FA0 /* Arcs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 137E88042359AEBA005A7FA0 /* Arcs.swift */; };
+		138246BA22E1B7F000128587 /* UsedTariffItem.xib in Resources */ = {isa = PBXBuildFile; fileRef = 138246B922E1B7F000128587 /* UsedTariffItem.xib */; };
+		138246BC22E1BA7E00128587 /* UsedTariffItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 138246BB22E1BA7E00128587 /* UsedTariffItem.swift */; };
+		138874FF22608ACE009B8DF2 /* AboutVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 138874FE22608ACE009B8DF2 /* AboutVC.swift */; };
+		13913D4A226FFBBE00B8221E /* ContentFittingWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13913D49226FFBBE00B8221E /* ContentFittingWebView.swift */; };
+		13957EC1222AB6D100454DE1 /* Rooms.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13957EC0222AB6D100454DE1 /* Rooms.xcassets */; };
+		13957EC3222AB80A00454DE1 /* SelectRoomVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13957EC2222AB80A00454DE1 /* SelectRoomVC.swift */; };
+		13957EC5222AB8FB00454DE1 /* RoomsListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13957EC4222AB8FB00454DE1 /* RoomsListVC.swift */; };
+		1397E0E723770A4A0084359B /* SelectStarterTrain.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1397E0E623770A4A0084359B /* SelectStarterTrain.storyboard */; };
+		139F865C23812521007D1B3B /* UIDatePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 139F865B23812521007D1B3B /* UIDatePicker.swift */; };
+		139FD2052235349C00C024A0 /* Workout.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 139FD2042235349C00C024A0 /* Workout.xcassets */; };
+		13A606372376E8550018B686 /* BookTrainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13A606362376E8550018B686 /* BookTrainVC.swift */; };
+		13A606392376E8A30018B686 /* LinkCardVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13A606382376E8A30018B686 /* LinkCardVC.swift */; };
+		13A660A6228A7870004F7661 /* Net.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13A660A5228A7870004F7661 /* Net.swift */; };
+		13A8FA322223E7F000946006 /* Onboarding.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13A8FA312223E7F000946006 /* Onboarding.xcassets */; };
+		13A8FA362223F20C00946006 /* Slide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13A8FA342223F20C00946006 /* Slide.swift */; };
+		13A8FA372223F20C00946006 /* Slide.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13A8FA352223F20C00946006 /* Slide.xib */; };
+		13B43B11228C462A00DF593D /* PaddingLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13B43B10228C462A00DF593D /* PaddingLabel.swift */; };
+		13B4F830222A80B000DCFF37 /* Tools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13B4F82F222A80B000DCFF37 /* Tools.swift */; };
+		13B4F832222A851E00DCFF37 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13B4F831222A851E00DCFF37 /* String.swift */; };
+		13D1DA4D2376E6B100C1959A /* NewOrExisting.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13D1DA4B2376E6A700C1959A /* NewOrExisting.storyboard */; };
+		13D1DA4E2376E6B100C1959A /* NewOrExisting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13D1DA4C2376E6B100C1959A /* NewOrExisting.swift */; };
+		13D9CABD2237BB0100418394 /* SlideNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13D9CABA2237BB0100418394 /* SlideNavigationController.swift */; };
+		13D9CABE2237BB0100418394 /* DrawerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13D9CABB2237BB0100418394 /* DrawerVC.swift */; };
+		13D9CABF2237BB0100418394 /* ESNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13D9CABC2237BB0100418394 /* ESNavigationController.swift */; };
+		13E01513222FFB9B003E42C1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13E01512222FFB9B003E42C1 /* Main.storyboard */; };
+		13E0151922301CE2003E42C1 /* Schedule.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13E0151822301CE2003E42C1 /* Schedule.storyboard */; };
+		13E0151B22301E07003E42C1 /* ScheduleVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13E0151A22301E07003E42C1 /* ScheduleVC.swift */; };
+		13E0151D2230FC96003E42C1 /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13E0151C2230FC96003E42C1 /* Date.swift */; };
+		13E0151F22311029003E42C1 /* UIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13E0151E22311029003E42C1 /* UIButton.swift */; };
+		13E0152222323568003E42C1 /* Init_0_PhoneVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13E0152122323568003E42C1 /* Init_0_PhoneVC.swift */; };
+		13E0152422323C2F003E42C1 /* Init_1_ConfirmationCodeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13E0152322323C2F003E42C1 /* Init_1_ConfirmationCodeVC.swift */; };
+		13E50465282FC7330011BB03 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13E50461282FC7330011BB03 /* Settings.swift */; };
+		13E50466282FC7330011BB03 /* SettingsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13E50462282FC7330011BB03 /* SettingsService.swift */; };
+		13E50467282FC7330011BB03 /* TestSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13E50463282FC7330011BB03 /* TestSettings.swift */; };
+		13E50468282FC7330011BB03 /* ProcessConfirmation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13E50464282FC7330011BB03 /* ProcessConfirmation.swift */; };
+		13E5046E282FC8980011BB03 /* KeyValueStoring.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13E5046C282FC8980011BB03 /* KeyValueStoring.swift */; };
+		13E5046F282FC8980011BB03 /* UserDefaultsStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13E5046D282FC8980011BB03 /* UserDefaultsStorage.swift */; };
+		13E50471282FC8F40011BB03 /* Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13E50470282FC8F40011BB03 /* Localization.swift */; };
+		13E7AF3A2276FB78006D9B15 /* Chat.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13E7AF392276FB78006D9B15 /* Chat.storyboard */; };
+		13E7AF3C2276FC0B006D9B15 /* ChatVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13E7AF3B2276FC0B006D9B15 /* ChatVC.swift */; };
+		13E7AF3E2276FDD0006D9B15 /* Chat.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13E7AF3D2276FDD0006D9B15 /* Chat.xcassets */; };
+		13E973DF220D7BB30001D3AD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13E973DE220D7BB30001D3AD /* AppDelegate.swift */; };
+		13E973E4220D7BB30001D3AD /* Workout.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13E973E2220D7BB30001D3AD /* Workout.storyboard */; };
+		13E973E6220D7BB50001D3AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13E973E5220D7BB50001D3AD /* Assets.xcassets */; };
+		13E973E9220D7BB50001D3AD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13E973E7220D7BB50001D3AD /* LaunchScreen.storyboard */; };
+		13E973F4220D7BB50001D3AD /* Hoba_FitnessTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13E973F3220D7BB50001D3AD /* Hoba_FitnessTests.swift */; };
+		13E973FF220D7BB50001D3AD /* Hoba_FitnessUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13E973FE220D7BB50001D3AD /* Hoba_FitnessUITests.swift */; };
+		13EB9637222BE87000843DC5 /* ArcView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13EB9636222BE87000843DC5 /* ArcView.swift */; };
+		13EB9639222BE89600843DC5 /* WorkoutVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13EB9638222BE89600843DC5 /* WorkoutVC.swift */; };
+		13EB9642222CD09200843DC5 /* Booking.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13EB9641222CD09200843DC5 /* Booking.storyboard */; };
+		13F51ACC22238141006C3E60 /* Onboarding.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13F51ACB22238141006C3E60 /* Onboarding.storyboard */; };
+		13F51ACE22238159006C3E60 /* OnboardingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13F51ACD22238159006C3E60 /* OnboardingVC.swift */; };
+		13F9037B223A4B870000DC79 /* Trains.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13F9037A223A4B870000DC79 /* Trains.swift */; };
+		13FDF0232838EBA8007937F6 /* ScheduledNotificationsViewController in Frameworks */ = {isa = PBXBuildFile; productRef = 13FDF0222838EBA8007937F6 /* ScheduledNotificationsViewController */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		13E973F0220D7BB50001D3AD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 13E973D3220D7BB30001D3AD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13E973DA220D7BB30001D3AD;
+			remoteInfo = "Hoba-Fitness";
+		};
+		13E973FB220D7BB50001D3AD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 13E973D3220D7BB30001D3AD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13E973DA220D7BB30001D3AD;
+			remoteInfo = "Hoba-Fitness";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0776AD0B99ACF4321192C3FF /* Pods-Hoba-Fitness.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hoba-Fitness.debug.xcconfig"; path = "Target Support Files/Pods-Hoba-Fitness/Pods-Hoba-Fitness.debug.xcconfig"; sourceTree = "<group>"; };
+		130D31752253A25200E3C5F3 /* Feedback.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Feedback.storyboard; sourceTree = "<group>"; };
+		130D31772253A2C800E3C5F3 /* Feedback.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Feedback.xcassets; sourceTree = "<group>"; };
+		130D31792253A59700E3C5F3 /* FeedbackVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedbackVC.swift; sourceTree = "<group>"; };
+		131EFA07223B9873005EEF5A /* BookedTrains.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = BookedTrains.storyboard; sourceTree = "<group>"; };
+		131EFA09223B9887005EEF5A /* BookedTrainsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookedTrainsVC.swift; sourceTree = "<group>"; };
+		131EFA0B223BB33C005EEF5A /* BookedTrains.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = BookedTrains.xcassets; sourceTree = "<group>"; };
+		131EFA0D223BC135005EEF5A /* UIImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImage.swift; sourceTree = "<group>"; };
+		131EFA10223BCEC9005EEF5A /* ProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
+		131EFA12223BCED6005EEF5A /* EditProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileVC.swift; sourceTree = "<group>"; };
+		131EFA14223BCF09005EEF5A /* PersonalInfo.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PersonalInfo.storyboard; sourceTree = "<group>"; };
+		132F9787223D088C0040AA6C /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		132F9789223D10F50040AA6C /* TrainState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainState.swift; sourceTree = "<group>"; };
+		13305C5223770D5300BB8ACC /* SelectStarterTrainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectStarterTrainVC.swift; sourceTree = "<group>"; };
+		13305C55237713B000BB8ACC /* TariffSelector.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = TariffSelector.storyboard; path = "Hoba-Fitness/SelectStarterTrain/TariffSelector.storyboard"; sourceTree = SOURCE_ROOT; };
+		13305C572377184000BB8ACC /* TariffSelector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TariffSelector.swift; sourceTree = "<group>"; };
+		133C2C9B2238B7AB0025BBF5 /* Tariffs.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Tariffs.xcassets; sourceTree = "<group>"; };
+		1340C5982226B63600D9721A /* UISegmentedControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UISegmentedControl.swift; sourceTree = "<group>"; };
+		1340C59C2226B6B400D9721A /* UIColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		13414BFD2237E109005C274C /* Tariffs.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Tariffs.storyboard; sourceTree = "<group>"; };
+		13414BFF2237E116005C274C /* Tariffs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tariffs.swift; sourceTree = "<group>"; };
+		135D279A2232445B006CFF92 /* Init_2_PersonalInfoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Init_2_PersonalInfoVC.swift; sourceTree = "<group>"; };
+		135D279C22324EF2006CFF92 /* Init_3_LinkCardVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Init_3_LinkCardVC.swift; sourceTree = "<group>"; };
+		135F9978222633A7005A6B57 /* GenderSelectorVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenderSelectorVC.swift; sourceTree = "<group>"; };
+		135F997A22263441005A6B57 /* App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
+		135F997D22263C11005A6B57 /* UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
+		135F99842226451C005A6B57 /* UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
+		13612CFD24D7F6B200E95DDA /* TMXProfiling.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TMXProfiling.framework; path = Frameworks/TMXProfiling.framework; sourceTree = "<group>"; };
+		13612D0124D7F6BC00E95DDA /* TMXProfilingConnections.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TMXProfilingConnections.framework; path = Frameworks/TMXProfilingConnections.framework; sourceTree = "<group>"; };
+		137AEAC0222B93D1002DBA3F /* RoomsMapVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomsMapVC.swift; sourceTree = "<group>"; };
+		137B3E52228709AC0058FC63 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		137E88042359AEBA005A7FA0 /* Arcs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Arcs.swift; sourceTree = "<group>"; };
+		138246B922E1B7F000128587 /* UsedTariffItem.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UsedTariffItem.xib; sourceTree = "<group>"; };
+		138246BB22E1BA7E00128587 /* UsedTariffItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsedTariffItem.swift; sourceTree = "<group>"; };
+		138874FE22608ACE009B8DF2 /* AboutVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutVC.swift; sourceTree = "<group>"; };
+		138B250E22368C0700F12ABC /* Hoba-Fitness.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Hoba-Fitness.entitlements"; sourceTree = "<group>"; };
+		13913D49226FFBBE00B8221E /* ContentFittingWebView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentFittingWebView.swift; sourceTree = "<group>"; };
+		13957EC0222AB6D100454DE1 /* Rooms.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Rooms.xcassets; sourceTree = "<group>"; };
+		13957EC2222AB80A00454DE1 /* SelectRoomVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectRoomVC.swift; sourceTree = "<group>"; };
+		13957EC4222AB8FB00454DE1 /* RoomsListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomsListVC.swift; sourceTree = "<group>"; };
+		1397E0E623770A4A0084359B /* SelectStarterTrain.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SelectStarterTrain.storyboard; sourceTree = "<group>"; };
+		139F865B23812521007D1B3B /* UIDatePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIDatePicker.swift; sourceTree = "<group>"; };
+		139FD2042235349C00C024A0 /* Workout.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Workout.xcassets; sourceTree = "<group>"; };
+		13A606362376E8550018B686 /* BookTrainVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookTrainVC.swift; sourceTree = "<group>"; };
+		13A606382376E8A30018B686 /* LinkCardVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LinkCardVC.swift; sourceTree = "<group>"; };
+		13A660A5228A7870004F7661 /* Net.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Net.swift; sourceTree = "<group>"; };
+		13A8FA312223E7F000946006 /* Onboarding.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Onboarding.xcassets; sourceTree = "<group>"; };
+		13A8FA342223F20C00946006 /* Slide.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Slide.swift; sourceTree = "<group>"; };
+		13A8FA352223F20C00946006 /* Slide.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Slide.xib; sourceTree = "<group>"; };
+		13B43B10228C462A00DF593D /* PaddingLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaddingLabel.swift; sourceTree = "<group>"; };
+		13B4F82F222A80B000DCFF37 /* Tools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tools.swift; sourceTree = "<group>"; };
+		13B4F831222A851E00DCFF37 /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		13D1DA4B2376E6A700C1959A /* NewOrExisting.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = NewOrExisting.storyboard; sourceTree = "<group>"; };
+		13D1DA4C2376E6B100C1959A /* NewOrExisting.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewOrExisting.swift; sourceTree = "<group>"; };
+		13D9CABA2237BB0100418394 /* SlideNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlideNavigationController.swift; sourceTree = "<group>"; };
+		13D9CABB2237BB0100418394 /* DrawerVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawerVC.swift; sourceTree = "<group>"; };
+		13D9CABC2237BB0100418394 /* ESNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ESNavigationController.swift; sourceTree = "<group>"; };
+		13E01512222FFB9B003E42C1 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		13E0151822301CE2003E42C1 /* Schedule.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Schedule.storyboard; sourceTree = "<group>"; };
+		13E0151A22301E07003E42C1 /* ScheduleVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleVC.swift; sourceTree = "<group>"; };
+		13E0151C2230FC96003E42C1 /* Date.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
+		13E0151E22311029003E42C1 /* UIButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButton.swift; sourceTree = "<group>"; };
+		13E0152122323568003E42C1 /* Init_0_PhoneVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Init_0_PhoneVC.swift; sourceTree = "<group>"; };
+		13E0152322323C2F003E42C1 /* Init_1_ConfirmationCodeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Init_1_ConfirmationCodeVC.swift; sourceTree = "<group>"; };
+		13E50461282FC7330011BB03 /* Settings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		13E50462282FC7330011BB03 /* SettingsService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsService.swift; sourceTree = "<group>"; };
+		13E50463282FC7330011BB03 /* TestSettings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestSettings.swift; sourceTree = "<group>"; };
+		13E50464282FC7330011BB03 /* ProcessConfirmation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProcessConfirmation.swift; sourceTree = "<group>"; };
+		13E5046C282FC8980011BB03 /* KeyValueStoring.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyValueStoring.swift; sourceTree = "<group>"; };
+		13E5046D282FC8980011BB03 /* UserDefaultsStorage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDefaultsStorage.swift; sourceTree = "<group>"; };
+		13E50470282FC8F40011BB03 /* Localization.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Localization.swift; path = "Hoba-Fitness/Localization.swift"; sourceTree = SOURCE_ROOT; };
+		13E7AF392276FB78006D9B15 /* Chat.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Chat.storyboard; sourceTree = "<group>"; };
+		13E7AF3B2276FC0B006D9B15 /* ChatVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatVC.swift; sourceTree = "<group>"; };
+		13E7AF3D2276FDD0006D9B15 /* Chat.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Chat.xcassets; sourceTree = "<group>"; };
+		13E973DB220D7BB30001D3AD /* hoba.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hoba.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13E973DE220D7BB30001D3AD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		13E973E3220D7BB30001D3AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Workout.storyboard; sourceTree = "<group>"; };
+		13E973E5220D7BB50001D3AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		13E973E8220D7BB50001D3AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		13E973EA220D7BB50001D3AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		13E973EF220D7BB50001D3AD /* Hoba-FitnessTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Hoba-FitnessTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		13E973F3220D7BB50001D3AD /* Hoba_FitnessTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hoba_FitnessTests.swift; sourceTree = "<group>"; };
+		13E973F5220D7BB50001D3AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		13E973FA220D7BB50001D3AD /* Hoba-FitnessUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Hoba-FitnessUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		13E973FE220D7BB50001D3AD /* Hoba_FitnessUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hoba_FitnessUITests.swift; sourceTree = "<group>"; };
+		13E97400220D7BB50001D3AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		13EB9636222BE87000843DC5 /* ArcView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArcView.swift; sourceTree = "<group>"; };
+		13EB9638222BE89600843DC5 /* WorkoutVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutVC.swift; sourceTree = "<group>"; };
+		13EB9641222CD09200843DC5 /* Booking.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Booking.storyboard; sourceTree = "<group>"; };
+		13F51ACB22238141006C3E60 /* Onboarding.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Onboarding.storyboard; sourceTree = "<group>"; };
+		13F51ACD22238159006C3E60 /* OnboardingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingVC.swift; sourceTree = "<group>"; };
+		13F9037A223A4B870000DC79 /* Trains.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trains.swift; sourceTree = "<group>"; };
+		52C7486585EDA2E058A6D36B /* Pods-Hoba-Fitness.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hoba-Fitness.release.xcconfig"; path = "Target Support Files/Pods-Hoba-Fitness/Pods-Hoba-Fitness.release.xcconfig"; sourceTree = "<group>"; };
+		F49C064A396A2F40DE4766E0 /* Pods_Hoba_Fitness.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Hoba_Fitness.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		13E973D8220D7BB30001D3AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13612D0224D7F6BC00E95DDA /* TMXProfilingConnections.framework in Frameworks */,
+				13612CFE24D7F6B200E95DDA /* TMXProfiling.framework in Frameworks */,
+				13FDF0232838EBA8007937F6 /* ScheduledNotificationsViewController in Frameworks */,
+				135F0CFB28252916005A93C9 /* Pods_Hoba_Fitness.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13E973EC220D7BB50001D3AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13E973F7220D7BB50001D3AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		130D31742253A24000E3C5F3 /* Feedback */ = {
+			isa = PBXGroup;
+			children = (
+				130D31752253A25200E3C5F3 /* Feedback.storyboard */,
+				130D31772253A2C800E3C5F3 /* Feedback.xcassets */,
+				130D31792253A59700E3C5F3 /* FeedbackVC.swift */,
+			);
+			path = Feedback;
+			sourceTree = "<group>";
+		};
+		131EFA06223B9863005EEF5A /* BookedTrains */ = {
+			isa = PBXGroup;
+			children = (
+				131EFA07223B9873005EEF5A /* BookedTrains.storyboard */,
+				131EFA09223B9887005EEF5A /* BookedTrainsVC.swift */,
+				131EFA0B223BB33C005EEF5A /* BookedTrains.xcassets */,
+			);
+			path = BookedTrains;
+			sourceTree = "<group>";
+		};
+		131EFA0F223BCEB5005EEF5A /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				131EFA10223BCEC9005EEF5A /* ProfileVC.swift */,
+				131EFA12223BCED6005EEF5A /* EditProfileVC.swift */,
+				131EFA14223BCF09005EEF5A /* PersonalInfo.storyboard */,
+				138246B922E1B7F000128587 /* UsedTariffItem.xib */,
+				138246BB22E1BA7E00128587 /* UsedTariffItem.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		13305C542377139300BB8ACC /* TariffSelector */ = {
+			isa = PBXGroup;
+			children = (
+				13305C55237713B000BB8ACC /* TariffSelector.storyboard */,
+				13305C572377184000BB8ACC /* TariffSelector.swift */,
+			);
+			path = TariffSelector;
+			sourceTree = "<group>";
+		};
+		13414BFC2237E0F9005C274C /* Tariffs */ = {
+			isa = PBXGroup;
+			children = (
+				13414BFD2237E109005C274C /* Tariffs.storyboard */,
+				13414BFF2237E116005C274C /* Tariffs.swift */,
+				133C2C9B2238B7AB0025BBF5 /* Tariffs.xcassets */,
+			);
+			path = Tariffs;
+			sourceTree = "<group>";
+		};
+		135F997C22263C02005A6B57 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				1340C59C2226B6B400D9721A /* UIColor.swift */,
+				1340C5982226B63600D9721A /* UISegmentedControl.swift */,
+				135F997D22263C11005A6B57 /* UIViewController.swift */,
+				135F99842226451C005A6B57 /* UIView.swift */,
+				13B4F831222A851E00DCFF37 /* String.swift */,
+				13E0151C2230FC96003E42C1 /* Date.swift */,
+				13E0151E22311029003E42C1 /* UIButton.swift */,
+				131EFA0D223BC135005EEF5A /* UIImage.swift */,
+				139F865B23812521007D1B3B /* UIDatePicker.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		13906D212234EE4A00C37070 /* Workout */ = {
+			isa = PBXGroup;
+			children = (
+				13E973E2220D7BB30001D3AD /* Workout.storyboard */,
+				13EB9638222BE89600843DC5 /* WorkoutVC.swift */,
+				139FD2042235349C00C024A0 /* Workout.xcassets */,
+			);
+			path = Workout;
+			sourceTree = "<group>";
+		};
+		13957EBB222AB3AE00454DE1 /* Rooms */ = {
+			isa = PBXGroup;
+			children = (
+				13957EC0222AB6D100454DE1 /* Rooms.xcassets */,
+				13957EC4222AB8FB00454DE1 /* RoomsListVC.swift */,
+				137AEAC0222B93D1002DBA3F /* RoomsMapVC.swift */,
+			);
+			path = Rooms;
+			sourceTree = "<group>";
+		};
+		1397E0E5237709C30084359B /* SelectStarterTrain */ = {
+			isa = PBXGroup;
+			children = (
+				1397E0E623770A4A0084359B /* SelectStarterTrain.storyboard */,
+				13305C5223770D5300BB8ACC /* SelectStarterTrainVC.swift */,
+			);
+			path = SelectStarterTrain;
+			sourceTree = "<group>";
+		};
+		13A8FA332223F20200946006 /* Slide */ = {
+			isa = PBXGroup;
+			children = (
+				135F9978222633A7005A6B57 /* GenderSelectorVC.swift */,
+				13A8FA342223F20C00946006 /* Slide.swift */,
+				13A8FA352223F20C00946006 /* Slide.xib */,
+			);
+			path = Slide;
+			sourceTree = "<group>";
+		};
+		13D1DA4A2376E67500C1959A /* NewOrExisting */ = {
+			isa = PBXGroup;
+			children = (
+				13D1DA4B2376E6A700C1959A /* NewOrExisting.storyboard */,
+				13D1DA4C2376E6B100C1959A /* NewOrExisting.swift */,
+			);
+			path = NewOrExisting;
+			sourceTree = "<group>";
+		};
+		13D9CAB52237BAB200418394 /* Drawer */ = {
+			isa = PBXGroup;
+			children = (
+				13D9CABB2237BB0100418394 /* DrawerVC.swift */,
+				13D9CABC2237BB0100418394 /* ESNavigationController.swift */,
+			);
+			path = Drawer;
+			sourceTree = "<group>";
+		};
+		13E0151722301CCE003E42C1 /* Schedule */ = {
+			isa = PBXGroup;
+			children = (
+				13E0151822301CE2003E42C1 /* Schedule.storyboard */,
+				13E0151A22301E07003E42C1 /* ScheduleVC.swift */,
+			);
+			path = Schedule;
+			sourceTree = "<group>";
+		};
+		13E015202232354F003E42C1 /* Booking */ = {
+			isa = PBXGroup;
+			children = (
+				13EB9641222CD09200843DC5 /* Booking.storyboard */,
+				13E0152122323568003E42C1 /* Init_0_PhoneVC.swift */,
+				13E0152322323C2F003E42C1 /* Init_1_ConfirmationCodeVC.swift */,
+				135D279A2232445B006CFF92 /* Init_2_PersonalInfoVC.swift */,
+				135D279C22324EF2006CFF92 /* Init_3_LinkCardVC.swift */,
+			);
+			path = Booking;
+			sourceTree = "<group>";
+		};
+		13E5046B282FC87D0011BB03 /* KeyValue */ = {
+			isa = PBXGroup;
+			children = (
+				13E50470282FC8F40011BB03 /* Localization.swift */,
+				13E5046C282FC8980011BB03 /* KeyValueStoring.swift */,
+				13E5046D282FC8980011BB03 /* UserDefaultsStorage.swift */,
+			);
+			path = KeyValue;
+			sourceTree = "<group>";
+		};
+		13E7AF382276FB67006D9B15 /* Chat */ = {
+			isa = PBXGroup;
+			children = (
+				13E7AF392276FB78006D9B15 /* Chat.storyboard */,
+				13E7AF3B2276FC0B006D9B15 /* ChatVC.swift */,
+				13E7AF3D2276FDD0006D9B15 /* Chat.xcassets */,
+			);
+			path = Chat;
+			sourceTree = "<group>";
+		};
+		13E973D2220D7BB30001D3AD = {
+			isa = PBXGroup;
+			children = (
+				13E973DD220D7BB30001D3AD /* Hoba-Fitness */,
+				13E973F2220D7BB50001D3AD /* Hoba-FitnessTests */,
+				13E973FD220D7BB50001D3AD /* Hoba-FitnessUITests */,
+				13E973DC220D7BB30001D3AD /* Products */,
+				6D21C80F5F97BB8BECE5AB0F /* Frameworks */,
+				7E4641DB78CF956D67C6EBE6 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		13E973DC220D7BB30001D3AD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13E973DB220D7BB30001D3AD /* hoba.app */,
+				13E973EF220D7BB50001D3AD /* Hoba-FitnessTests.xctest */,
+				13E973FA220D7BB50001D3AD /* Hoba-FitnessUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		13E973DD220D7BB30001D3AD /* Hoba-Fitness */ = {
+			isa = PBXGroup;
+			children = (
+				13E5046B282FC87D0011BB03 /* KeyValue */,
+				13E50464282FC7330011BB03 /* ProcessConfirmation.swift */,
+				13E50461282FC7330011BB03 /* Settings.swift */,
+				13E50462282FC7330011BB03 /* SettingsService.swift */,
+				13E50463282FC7330011BB03 /* TestSettings.swift */,
+				13305C542377139300BB8ACC /* TariffSelector */,
+				1397E0E5237709C30084359B /* SelectStarterTrain */,
+				13D1DA4A2376E67500C1959A /* NewOrExisting */,
+				13E7AF382276FB67006D9B15 /* Chat */,
+				130D31742253A24000E3C5F3 /* Feedback */,
+				131EFA0F223BCEB5005EEF5A /* Profile */,
+				131EFA06223B9863005EEF5A /* BookedTrains */,
+				13F90379223A4B750000DC79 /* Data */,
+				13414BFC2237E0F9005C274C /* Tariffs */,
+				13D9CAB52237BAB200418394 /* Drawer */,
+				13906D212234EE4A00C37070 /* Workout */,
+				13EB963A222BF26900843DC5 /* Views */,
+				13F51ACA22238130006C3E60 /* Onboarding */,
+				13957EBB222AB3AE00454DE1 /* Rooms */,
+				13E0151722301CCE003E42C1 /* Schedule */,
+				13E015202232354F003E42C1 /* Booking */,
+				135F997C22263C02005A6B57 /* Extensions */,
+				135F997A22263441005A6B57 /* App.swift */,
+				13A660A5228A7870004F7661 /* Net.swift */,
+				13A606362376E8550018B686 /* BookTrainVC.swift */,
+				13A606382376E8A30018B686 /* LinkCardVC.swift */,
+				13D9CABA2237BB0100418394 /* SlideNavigationController.swift */,
+				13957EC2222AB80A00454DE1 /* SelectRoomVC.swift */,
+				13E973DE220D7BB30001D3AD /* AppDelegate.swift */,
+				138874FE22608ACE009B8DF2 /* AboutVC.swift */,
+				13E973E5220D7BB50001D3AD /* Assets.xcassets */,
+				13E973E7220D7BB50001D3AD /* LaunchScreen.storyboard */,
+				13B4F82F222A80B000DCFF37 /* Tools.swift */,
+				13E01512222FFB9B003E42C1 /* Main.storyboard */,
+				13E973EA220D7BB50001D3AD /* Info.plist */,
+				138B250E22368C0700F12ABC /* Hoba-Fitness.entitlements */,
+				137B3E52228709AC0058FC63 /* GoogleService-Info.plist */,
+			);
+			path = "Hoba-Fitness";
+			sourceTree = "<group>";
+		};
+		13E973F2220D7BB50001D3AD /* Hoba-FitnessTests */ = {
+			isa = PBXGroup;
+			children = (
+				13E973F3220D7BB50001D3AD /* Hoba_FitnessTests.swift */,
+				13E973F5220D7BB50001D3AD /* Info.plist */,
+			);
+			path = "Hoba-FitnessTests";
+			sourceTree = "<group>";
+		};
+		13E973FD220D7BB50001D3AD /* Hoba-FitnessUITests */ = {
+			isa = PBXGroup;
+			children = (
+				13E973FE220D7BB50001D3AD /* Hoba_FitnessUITests.swift */,
+				13E97400220D7BB50001D3AD /* Info.plist */,
+			);
+			path = "Hoba-FitnessUITests";
+			sourceTree = "<group>";
+		};
+		13EB963A222BF26900843DC5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				13913D49226FFBBE00B8221E /* ContentFittingWebView.swift */,
+				13EB9636222BE87000843DC5 /* ArcView.swift */,
+				13B43B10228C462A00DF593D /* PaddingLabel.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		13F51ACA22238130006C3E60 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				13A8FA332223F20200946006 /* Slide */,
+				13F51ACB22238141006C3E60 /* Onboarding.storyboard */,
+				13F51ACD22238159006C3E60 /* OnboardingVC.swift */,
+				13A8FA312223E7F000946006 /* Onboarding.xcassets */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		13F90379223A4B750000DC79 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				137E88042359AEBA005A7FA0 /* Arcs.swift */,
+				132F9787223D088C0040AA6C /* Constants.swift */,
+				13F9037A223A4B870000DC79 /* Trains.swift */,
+				132F9789223D10F50040AA6C /* TrainState.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		6D21C80F5F97BB8BECE5AB0F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				13612D0124D7F6BC00E95DDA /* TMXProfilingConnections.framework */,
+				13612CFD24D7F6B200E95DDA /* TMXProfiling.framework */,
+				F49C064A396A2F40DE4766E0 /* Pods_Hoba_Fitness.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7E4641DB78CF956D67C6EBE6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0776AD0B99ACF4321192C3FF /* Pods-Hoba-Fitness.debug.xcconfig */,
+				52C7486585EDA2E058A6D36B /* Pods-Hoba-Fitness.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		13E973DA220D7BB30001D3AD /* Hoba-Fitness */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13E97403220D7BB50001D3AD /* Build configuration list for PBXNativeTarget "Hoba-Fitness" */;
+			buildPhases = (
+				A1C7AC531041408C7B9CDF5E /* [CP] Check Pods Manifest.lock */,
+				13E973D7220D7BB30001D3AD /* Sources */,
+				13E973D8220D7BB30001D3AD /* Frameworks */,
+				13E973D9220D7BB30001D3AD /* Resources */,
+				1353BCD823247C2700B9A63C /* ShellScript */,
+				13612D0424D81A6A00E95DDA /* ShellScript */,
+				A4CBFC031B4927BB3D0DE5F5 /* [CP] Embed Pods Frameworks */,
+				529676ABD4EC10B992B5BC94 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Hoba-Fitness";
+			packageProductDependencies = (
+				13FDF0222838EBA8007937F6 /* ScheduledNotificationsViewController */,
+			);
+			productName = "Hoba-Fitness";
+			productReference = 13E973DB220D7BB30001D3AD /* hoba.app */;
+			productType = "com.apple.product-type.application";
+		};
+		13E973EE220D7BB50001D3AD /* Hoba-FitnessTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13E97406220D7BB50001D3AD /* Build configuration list for PBXNativeTarget "Hoba-FitnessTests" */;
+			buildPhases = (
+				13E973EB220D7BB50001D3AD /* Sources */,
+				13E973EC220D7BB50001D3AD /* Frameworks */,
+				13E973ED220D7BB50001D3AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				13E973F1220D7BB50001D3AD /* PBXTargetDependency */,
+			);
+			name = "Hoba-FitnessTests";
+			productName = "Hoba-FitnessTests";
+			productReference = 13E973EF220D7BB50001D3AD /* Hoba-FitnessTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		13E973F9220D7BB50001D3AD /* Hoba-FitnessUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13E97409220D7BB50001D3AD /* Build configuration list for PBXNativeTarget "Hoba-FitnessUITests" */;
+			buildPhases = (
+				13E973F6220D7BB50001D3AD /* Sources */,
+				13E973F7220D7BB50001D3AD /* Frameworks */,
+				13E973F8220D7BB50001D3AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				13E973FC220D7BB50001D3AD /* PBXTargetDependency */,
+			);
+			name = "Hoba-FitnessUITests";
+			productName = "Hoba-FitnessUITests";
+			productReference = 13E973FA220D7BB50001D3AD /* Hoba-FitnessUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		13E973D3220D7BB30001D3AD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1430;
+				ORGANIZATIONNAME = "Yaroslav Gilmullin";
+				TargetAttributes = {
+					13E973DA220D7BB30001D3AD = {
+						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1030;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 0;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+					13E973EE220D7BB50001D3AD = {
+						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1030;
+						TestTargetID = 13E973DA220D7BB30001D3AD;
+					};
+					13E973F9220D7BB50001D3AD = {
+						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1030;
+						TestTargetID = 13E973DA220D7BB30001D3AD;
+					};
+				};
+			};
+			buildConfigurationList = 13E973D6220D7BB30001D3AD /* Build configuration list for PBXProject "Hoba-Fitness" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 13E973D2220D7BB30001D3AD;
+			packageReferences = (
+				13FDF0212838EBA8007937F6 /* XCRemoteSwiftPackageReference "ScheduledNotificationsViewController" */,
+			);
+			productRefGroup = 13E973DC220D7BB30001D3AD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13E973DA220D7BB30001D3AD /* Hoba-Fitness */,
+				13E973EE220D7BB50001D3AD /* Hoba-FitnessTests */,
+				13E973F9220D7BB50001D3AD /* Hoba-FitnessUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		13E973D9220D7BB30001D3AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				131EFA0C223BB33D005EEF5A /* BookedTrains.xcassets in Resources */,
+				130D31782253A2C800E3C5F3 /* Feedback.xcassets in Resources */,
+				13305C56237713B000BB8ACC /* TariffSelector.storyboard in Resources */,
+				131EFA15223BCF09005EEF5A /* PersonalInfo.storyboard in Resources */,
+				133C2C9C2238B7AB0025BBF5 /* Tariffs.xcassets in Resources */,
+				13414BFE2237E109005C274C /* Tariffs.storyboard in Resources */,
+				131EFA08223B9873005EEF5A /* BookedTrains.storyboard in Resources */,
+				13E973E9220D7BB50001D3AD /* LaunchScreen.storyboard in Resources */,
+				1397E0E723770A4A0084359B /* SelectStarterTrain.storyboard in Resources */,
+				13957EC1222AB6D100454DE1 /* Rooms.xcassets in Resources */,
+				138246BA22E1B7F000128587 /* UsedTariffItem.xib in Resources */,
+				13E973E6220D7BB50001D3AD /* Assets.xcassets in Resources */,
+				13E7AF3E2276FDD0006D9B15 /* Chat.xcassets in Resources */,
+				13A8FA322223E7F000946006 /* Onboarding.xcassets in Resources */,
+				13E0151922301CE2003E42C1 /* Schedule.storyboard in Resources */,
+				13E01513222FFB9B003E42C1 /* Main.storyboard in Resources */,
+				13E973E4220D7BB30001D3AD /* Workout.storyboard in Resources */,
+				13E7AF3A2276FB78006D9B15 /* Chat.storyboard in Resources */,
+				139FD2052235349C00C024A0 /* Workout.xcassets in Resources */,
+				13D1DA4D2376E6B100C1959A /* NewOrExisting.storyboard in Resources */,
+				13F51ACC22238141006C3E60 /* Onboarding.storyboard in Resources */,
+				13A8FA372223F20C00946006 /* Slide.xib in Resources */,
+				130D31762253A25200E3C5F3 /* Feedback.storyboard in Resources */,
+				13EB9642222CD09200843DC5 /* Booking.storyboard in Resources */,
+				137B3E53228709AC0058FC63 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13E973ED220D7BB50001D3AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13E973F8220D7BB50001D3AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1353BCD823247C2700B9A63C /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/$(BUILT_PRODUCTS_DIR)/$(INFOPLIST_PATH)",
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "
+";
+		};
+		13612D0424D81A6A00E95DDA /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#!/bin/sh\n\n#  Created by Samin Pour on 18/6/18.\n#  Copyright © 2018 ThreatMetrix. All rights reserved.\n#\n# ThreatMetrix iOS SDK contains multiple architectures, armv7, armv7s, arm64, x86_64. The arm\n# architectures are for devices, x86_64 is for simulators. When preparing application for publishing\n# Xcode removes simulator architectures from your application, but due to a bug / design flaw it\n# doesn't strip these slices from dynamic frameworks.\n#\n# If these architectures are not removed Apple will reject the binary.\n# http://www.openradar.me/radar?id=6409498411401216#ag9zfm9wZW5yYWRhci1ocmRyFAsSB0NvbW1lbnQYgICAuO-k9QgM\n# Possible error  messages in Xcode are\n# 1. “iTunes Store Operation Failed: Unsupported Architectures. The executable YourApp contains unsupported architectures '[(x86_64, i386)]'”\n# 2. “LC_ENCRYPTION_INFO”\n# 3. “Invalid Segment Alignment”\n# 4. “The binary is invalid.”\n# Removing simulator slices will resolve these issues.\n#\n# This script automatically strips unused architectures from ThreatMetrix framework, to use it please\n# add a new \"Run Script Phase\" to the build phase and add the content of this file there.\n#\n# IMPORTANT NOTE: Please make sure to add this script after \"Embed Frameworks\" / \"Copy File(s)\"  phase\n\n\nAPP_PATH=\"${TARGET_BUILD_DIR}/${WRAPPER_NAME}\"\n\nfind \"$APP_PATH\" -name 'TMX*.framework' -type d | while read -r FRAMEWORK; do\n    FRAMEWORK_EXECUTABLE_NAME=$(defaults read \"$FRAMEWORK/Info.plist\" CFBundleExecutable)\n    FRAMEWORK_EXECUTABLE_PATH=\"$FRAMEWORK/$FRAMEWORK_EXECUTABLE_NAME\"\n\n    EXTRACTED_ARCHS=()\n\n    for ARCH in $ARCHS; do\n        lipo -extract \"$ARCH\" \"$FRAMEWORK_EXECUTABLE_PATH\" -o \"$FRAMEWORK_EXECUTABLE_PATH-$ARCH\"\n        EXTRACTED_ARCHS+=(\"$FRAMEWORK_EXECUTABLE_PATH-$ARCH\")\n    done\n\n    lipo -o \"$FRAMEWORK_EXECUTABLE_PATH-merged\" -create \"${EXTRACTED_ARCHS[@]}\"\n    rm \"${EXTRACTED_ARCHS[@]}\"\n\n    rm \"$FRAMEWORK_EXECUTABLE_PATH\"\n    mv \"$FRAMEWORK_EXECUTABLE_PATH-merged\" \"$FRAMEWORK_EXECUTABLE_PATH\"\n\ndone\n";
+		};
+		529676ABD4EC10B992B5BC94 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Hoba-Fitness/Pods-Hoba-Fitness-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Hoba-Fitness/Pods-Hoba-Fitness-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Hoba-Fitness/Pods-Hoba-Fitness-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A1C7AC531041408C7B9CDF5E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Hoba-Fitness-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A4CBFC031B4927BB3D0DE5F5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Hoba-Fitness/Pods-Hoba-Fitness-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Hoba-Fitness/Pods-Hoba-Fitness-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Hoba-Fitness/Pods-Hoba-Fitness-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		13E973D7220D7BB30001D3AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13A660A6228A7870004F7661 /* Net.swift in Sources */,
+				13E50471282FC8F40011BB03 /* Localization.swift in Sources */,
+				131EFA13223BCED6005EEF5A /* EditProfileVC.swift in Sources */,
+				13A606392376E8A30018B686 /* LinkCardVC.swift in Sources */,
+				137E88052359AEBA005A7FA0 /* Arcs.swift in Sources */,
+				1340C59D2226B6B400D9721A /* UIColor.swift in Sources */,
+				135F997E22263C11005A6B57 /* UIViewController.swift in Sources */,
+				13E0151B22301E07003E42C1 /* ScheduleVC.swift in Sources */,
+				13EB9639222BE89600843DC5 /* WorkoutVC.swift in Sources */,
+				13E50468282FC7330011BB03 /* ProcessConfirmation.swift in Sources */,
+				13957EC3222AB80A00454DE1 /* SelectRoomVC.swift in Sources */,
+				13D9CABF2237BB0100418394 /* ESNavigationController.swift in Sources */,
+				13F51ACE22238159006C3E60 /* OnboardingVC.swift in Sources */,
+				13E973DF220D7BB30001D3AD /* AppDelegate.swift in Sources */,
+				130D317A2253A59700E3C5F3 /* FeedbackVC.swift in Sources */,
+				13D1DA4E2376E6B100C1959A /* NewOrExisting.swift in Sources */,
+				13E0151D2230FC96003E42C1 /* Date.swift in Sources */,
+				13E5046F282FC8980011BB03 /* UserDefaultsStorage.swift in Sources */,
+				13E50467282FC7330011BB03 /* TestSettings.swift in Sources */,
+				13A606372376E8550018B686 /* BookTrainVC.swift in Sources */,
+				135F997B22263441005A6B57 /* App.swift in Sources */,
+				135F9979222633A7005A6B57 /* GenderSelectorVC.swift in Sources */,
+				131EFA0A223B9887005EEF5A /* BookedTrainsVC.swift in Sources */,
+				132F9788223D088C0040AA6C /* Constants.swift in Sources */,
+				13E50466282FC7330011BB03 /* SettingsService.swift in Sources */,
+				138246BC22E1BA7E00128587 /* UsedTariffItem.swift in Sources */,
+				131EFA11223BCEC9005EEF5A /* ProfileVC.swift in Sources */,
+				135F99852226451C005A6B57 /* UIView.swift in Sources */,
+				135D279D22324EF2006CFF92 /* Init_3_LinkCardVC.swift in Sources */,
+				13F9037B223A4B870000DC79 /* Trains.swift in Sources */,
+				13D9CABE2237BB0100418394 /* DrawerVC.swift in Sources */,
+				13414C002237E116005C274C /* Tariffs.swift in Sources */,
+				13957EC5222AB8FB00454DE1 /* RoomsListVC.swift in Sources */,
+				13D9CABD2237BB0100418394 /* SlideNavigationController.swift in Sources */,
+				13E7AF3C2276FC0B006D9B15 /* ChatVC.swift in Sources */,
+				13305C582377184000BB8ACC /* TariffSelector.swift in Sources */,
+				132F978A223D10F50040AA6C /* TrainState.swift in Sources */,
+				135D279B2232445B006CFF92 /* Init_2_PersonalInfoVC.swift in Sources */,
+				13913D4A226FFBBE00B8221E /* ContentFittingWebView.swift in Sources */,
+				13EB9637222BE87000843DC5 /* ArcView.swift in Sources */,
+				1340C5992226B63600D9721A /* UISegmentedControl.swift in Sources */,
+				13B4F830222A80B000DCFF37 /* Tools.swift in Sources */,
+				13B4F832222A851E00DCFF37 /* String.swift in Sources */,
+				13E0152422323C2F003E42C1 /* Init_1_ConfirmationCodeVC.swift in Sources */,
+				13E5046E282FC8980011BB03 /* KeyValueStoring.swift in Sources */,
+				139F865C23812521007D1B3B /* UIDatePicker.swift in Sources */,
+				13A8FA362223F20C00946006 /* Slide.swift in Sources */,
+				131EFA0E223BC135005EEF5A /* UIImage.swift in Sources */,
+				13B43B11228C462A00DF593D /* PaddingLabel.swift in Sources */,
+				138874FF22608ACE009B8DF2 /* AboutVC.swift in Sources */,
+				13305C5323770D5300BB8ACC /* SelectStarterTrainVC.swift in Sources */,
+				137AEAC1222B93D1002DBA3F /* RoomsMapVC.swift in Sources */,
+				13E50465282FC7330011BB03 /* Settings.swift in Sources */,
+				13E0151F22311029003E42C1 /* UIButton.swift in Sources */,
+				13E0152222323568003E42C1 /* Init_0_PhoneVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13E973EB220D7BB50001D3AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13E973F4220D7BB50001D3AD /* Hoba_FitnessTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13E973F6220D7BB50001D3AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13E973FF220D7BB50001D3AD /* Hoba_FitnessUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		13E973F1220D7BB50001D3AD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13E973DA220D7BB30001D3AD /* Hoba-Fitness */;
+			targetProxy = 13E973F0220D7BB50001D3AD /* PBXContainerItemProxy */;
+		};
+		13E973FC220D7BB50001D3AD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13E973DA220D7BB30001D3AD /* Hoba-Fitness */;
+			targetProxy = 13E973FB220D7BB50001D3AD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		13E973E2220D7BB30001D3AD /* Workout.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				13E973E3220D7BB30001D3AD /* Base */,
+			);
+			name = Workout.storyboard;
+			sourceTree = "<group>";
+		};
+		13E973E7220D7BB50001D3AD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				13E973E8220D7BB50001D3AD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		13E97401220D7BB50001D3AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_BITCODE = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		13E97402220D7BB50001D3AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		13E97404220D7BB50001D3AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0776AD0B99ACF4321192C3FF /* Pods-Hoba-Fitness.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Hoba-Fitness/Hoba-Fitness.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 5;
+				DEVELOPMENT_TEAM = GMQ8P83Z92;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks",
+				);
+				INFOPLIST_FILE = "Hoba-Fitness/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 3.3.6;
+				PRODUCT_BUNDLE_IDENTIFIER = pro.amst.Hoba1;
+				PRODUCT_NAME = hoba;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
+				VALIDATE_WORKSPACE = YES;
+			};
+			name = Debug;
+		};
+		13E97405220D7BB50001D3AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52C7486585EDA2E058A6D36B /* Pods-Hoba-Fitness.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Hoba-Fitness/Hoba-Fitness.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 5;
+				DEVELOPMENT_TEAM = GMQ8P83Z92;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks",
+				);
+				INFOPLIST_FILE = "Hoba-Fitness/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 3.3.6;
+				PRODUCT_BUNDLE_IDENTIFIER = pro.amst.Hoba1;
+				PRODUCT_NAME = hoba;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
+				VALIDATE_WORKSPACE = YES;
+			};
+			name = Release;
+		};
+		13E97407220D7BB50001D3AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "Hoba-FitnessTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "pro.amst.Hoba-FitnessTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hoba-Fitness.app/Hoba-Fitness";
+			};
+			name = Debug;
+		};
+		13E97408220D7BB50001D3AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "Hoba-FitnessTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "pro.amst.Hoba-FitnessTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hoba-Fitness.app/Hoba-Fitness";
+			};
+			name = Release;
+		};
+		13E9740A220D7BB50001D3AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "Hoba-FitnessUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "pro.amst.Hoba-FitnessUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Hoba-Fitness";
+			};
+			name = Debug;
+		};
+		13E9740B220D7BB50001D3AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "Hoba-FitnessUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "pro.amst.Hoba-FitnessUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Hoba-Fitness";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		13E973D6220D7BB30001D3AD /* Build configuration list for PBXProject "Hoba-Fitness" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13E97401220D7BB50001D3AD /* Debug */,
+				13E97402220D7BB50001D3AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13E97403220D7BB50001D3AD /* Build configuration list for PBXNativeTarget "Hoba-Fitness" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13E97404220D7BB50001D3AD /* Debug */,
+				13E97405220D7BB50001D3AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13E97406220D7BB50001D3AD /* Build configuration list for PBXNativeTarget "Hoba-FitnessTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13E97407220D7BB50001D3AD /* Debug */,
+				13E97408220D7BB50001D3AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13E97409220D7BB50001D3AD /* Build configuration list for PBXNativeTarget "Hoba-FitnessUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13E9740A220D7BB50001D3AD /* Debug */,
+				13E9740B220D7BB50001D3AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		13FDF0212838EBA8007937F6 /* XCRemoteSwiftPackageReference "ScheduledNotificationsViewController" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "http://github.com/nicephoton/ScheduledNotificationsViewController.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.0.4;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		13FDF0222838EBA8007937F6 /* ScheduledNotificationsViewController */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 13FDF0212838EBA8007937F6 /* XCRemoteSwiftPackageReference "ScheduledNotificationsViewController" */;
+			productName = ScheduledNotificationsViewController;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 13E973D3220D7BB30001D3AD /* Project object */;
+}

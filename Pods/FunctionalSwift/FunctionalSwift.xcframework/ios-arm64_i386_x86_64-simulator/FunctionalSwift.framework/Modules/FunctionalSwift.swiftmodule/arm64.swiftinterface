@@ -1,0 +1,302 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.5.2 (swiftlang-1300.0.47.5 clang-1300.0.29.30)
+// swift-module-flags: -target arm64-apple-ios9.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name FunctionalSwift
+import Darwin
+import Dispatch
+import Foundation
+@_exported import FunctionalSwift
+import Swift
+import _Concurrency
+@frozen public enum Either<L, R> {
+  case left(L)
+  case right(R)
+}
+extension FunctionalSwift.Either {
+  @discardableResult
+  public func map<T>(_ transform: (R) -> T) -> FunctionalSwift.Either<L, T>
+}
+extension FunctionalSwift.Either {
+  @discardableResult
+  public func flatMap<T>(_ transform: (R) -> FunctionalSwift.Either<L, T>) -> FunctionalSwift.Either<L, T>
+}
+extension FunctionalSwift.Either {
+  @discardableResult
+  public func first<T>(_ transform: (L) -> T) -> FunctionalSwift.Either<T, R>
+  @discardableResult
+  public func second<T>(_ f: (R) -> T) -> FunctionalSwift.Either<L, T>
+  @discardableResult
+  public func bimap<T, Z>(_ f: (L) -> T, _ s: (R) -> Z) -> FunctionalSwift.Either<T, Z>
+}
+extension FunctionalSwift.Either {
+  @discardableResult
+  public func mapLeft<T>(_ transform: (L) -> T) -> FunctionalSwift.Either<T, R>
+}
+@discardableResult
+public func <^> <T, L, U>(transform: (T) -> U, arg: FunctionalSwift.Either<L, T>) -> FunctionalSwift.Either<L, U>
+public func <^ <T, U, V>(transform: T, arg: FunctionalSwift.Either<U, V>) -> FunctionalSwift.Either<U, T>
+public func ^> <T, U, V>(arg: FunctionalSwift.Either<T, U>, transform: V) -> FunctionalSwift.Either<T, V>
+public func >>- <T, U, V>(arg: FunctionalSwift.Either<T, U>, transform: (U) -> FunctionalSwift.Either<T, V>) -> FunctionalSwift.Either<T, V>
+public func -<< <T, U, V>(transform: (T) -> FunctionalSwift.Either<U, V>, arg: FunctionalSwift.Either<U, T>) -> FunctionalSwift.Either<U, V>
+public func <*> <T, U, V>(transform: FunctionalSwift.Either<T, (U) -> V>, arg: FunctionalSwift.Either<T, U>) -> FunctionalSwift.Either<T, V>
+public func liftA2<T, U, V, W>(_ transform: (T, U) -> V, _ arg1: FunctionalSwift.Either<W, T>, _ arg2: FunctionalSwift.Either<W, U>) -> FunctionalSwift.Either<W, V>
+public func liftA3<T, U, V, W, X>(_ transform: (T, U, V) -> W, _ arg1: FunctionalSwift.Either<X, T>, _ arg2: FunctionalSwift.Either<X, U>, _ arg3: FunctionalSwift.Either<X, V>) -> FunctionalSwift.Either<X, W>
+extension FunctionalSwift.Either {
+  public var left: L? {
+    get
+  }
+  public var right: R? {
+    get
+  }
+}
+extension FunctionalSwift.Either {
+  public func either<T>(_ f: (L) -> T, _ s: (R) -> T) -> T
+}
+public func zip2<L, R1, R2>(_ p1: FunctionalSwift.Promise<L, R1>, _ p2: FunctionalSwift.Promise<L, R2>) -> FunctionalSwift.Promise<L, (R1, R2)>
+public func zip3<L, R1, R2, R3>(_ p1: FunctionalSwift.Promise<L, R1>, _ p2: FunctionalSwift.Promise<L, R2>, _ p3: FunctionalSwift.Promise<L, R3>) -> FunctionalSwift.Promise<L, (R1, R2, R3)>
+public func zip<L, R>(_ promises: [FunctionalSwift.Promise<L, R>]) -> FunctionalSwift.Promise<L, [R]>
+@discardableResult
+public func await<T>(_ promise: FunctionalSwift.Promise<Swift.Error, T>) throws -> T
+@discardableResult
+public func async<T>(block: @escaping () throws -> T) -> FunctionalSwift.Promise<Swift.Error, T>
+public func after<L, T>(_ interval: Dispatch.DispatchTimeInterval, _ promise: @escaping () -> FunctionalSwift.Promise<L, T>?) -> FunctionalSwift.Promise<L, T>
+public typealias Result<T> = FunctionalSwift.Either<Swift.Error, T>
+public enum PromiseState<L, R> : Swift.Equatable {
+  case pending
+  case left(L)
+  case right(R)
+}
+public func == <L, R>(lhs: FunctionalSwift.PromiseState<L, R>, rhs: FunctionalSwift.PromiseState<L, R>) -> Swift.Bool
+precedencegroup CompositionPrecedence {
+  associativity: right
+  higherThan: BitwiseShiftPrecedence
+}
+infix operator • : CompositionPrecedence
+precedencegroup RightApplyPrecedence {
+  associativity: right
+  higherThan: AssignmentPrecedence
+  lowerThan: TernaryPrecedence
+}
+precedencegroup LeftApplyPrecedence {
+  associativity: left
+  higherThan: AssignmentPrecedence
+  lowerThan: TernaryPrecedence
+}
+infix operator § : RightApplyPrecedence
+infix operator <| : RightApplyPrecedence
+infix operator |> : LeftApplyPrecedence
+precedencegroup RightAssociativeCombinatorPrecedence {
+  associativity: right
+  lowerThan: DefaultPrecedence
+}
+precedencegroup LeftAssociativeCombinatorPrecedence {
+  associativity: left
+  lowerThan: DefaultPrecedence
+}
+infix operator |*| : LeftAssociativeCombinatorPrecedence
+precedencegroup FunctorPrecedence {
+  associativity: left
+  higherThan: DefaultPrecedence
+}
+precedencegroup FunctorSequencePrecedence {
+  associativity: left
+  higherThan: FunctorPrecedence
+}
+precedencegroup MonadPrecedenceLeft {
+  associativity: left
+  higherThan: FunctorSequencePrecedence
+}
+precedencegroup MonadPrecedenceRight {
+  associativity: right
+  higherThan: FunctorSequencePrecedence
+}
+infix operator <^> : FunctorPrecedence
+infix operator <^ : FunctorSequencePrecedence
+infix operator ^> : FunctorSequencePrecedence
+infix operator <*> : FunctorPrecedence
+infix operator *> : FunctorSequencePrecedence
+infix operator <* : FunctorSequencePrecedence
+infix operator >>- : MonadPrecedenceLeft
+infix operator -<< : MonadPrecedenceRight
+infix operator >>->> : MonadPrecedenceRight
+infix operator <<-<< : MonadPrecedenceRight
+infix operator ->> : MonadPrecedenceLeft
+precedencegroup FunctorExtrasPrecedence {
+  associativity: left
+  higherThan: FunctorSequencePrecedence
+}
+infix operator <^^> : FunctorExtrasPrecedence
+infix operator <!> : FunctorExtrasPrecedence
+precedencegroup ResultPrecedence {
+  associativity: none
+  higherThan: FunctorPrecedence
+}
+infix operator !! : ResultPrecedence
+infix operator <> : AdditionPrecedence
+precedencegroup CategoryPrecedence {
+  associativity: right
+  higherThan: MonadPrecedenceRight
+}
+infix operator <<< : CategoryPrecedence
+infix operator >>> : CategoryPrecedence
+precedencegroup ArrowPrecedence {
+  associativity: right
+  higherThan: CategoryPrecedence
+}
+infix operator *** : ArrowPrecedence
+infix operator &&& : ArrowPrecedence
+precedencegroup ArrowChoicePrecedence {
+  associativity: right
+  higherThan: ArrowPrecedence
+}
+infix operator +++ : ArrowChoicePrecedence
+infix operator ||| : ArrowChoicePrecedence
+precedencegroup ArrowPlusPrecedence {
+  associativity: right
+  higherThan: ArrowChoicePrecedence
+}
+infix operator <+> : ArrowPlusPrecedence
+precedencegroup JSONPrecedence {
+  associativity: right
+  higherThan: ArrowPlusPrecedence
+}
+infix operator <? : JSONPrecedence
+infix operator <! : JSONPrecedence
+infix operator ∩ : DefaultPrecedence
+infix operator ∪ : DefaultPrecedence
+@discardableResult
+public func <^> <T, U>(transform: (T) -> U, arg: T?) -> U?
+public func <^ <T, U>(transform: T, arg: U?) -> T?
+public func ^> <T, U>(arg: T?, transform: U) -> U?
+public func >>- <T, U>(arg: T?, transform: (T) -> U?) -> U?
+public func -<< <T, U>(transform: (T) -> U?, arg: T?) -> U?
+public func <*> <T, U>(transform: ((T) -> U)?, arg: T?) -> U?
+public func liftA2<T, U, V>(_ transform: (T, U) -> V, _ arg1: T?, _ arg2: U?) -> V?
+public func liftA3<T, U, V, W>(_ transform: (T, U, V) -> W, _ arg1: T?, _ arg2: U?, _ arg3: V?) -> W?
+@discardableResult
+public func <^> <T, U>(transform: (T) -> U, arg: [T]) -> [U]
+public func <^ <T, U>(transform: T, arg: [U]) -> [T]
+public func ^> <T, U>(arg: [T], transform: U) -> [U]
+public func >>- <T, U>(arg: [T], transform: (T) -> [U]) -> [U]
+public func -<< <T, U>(transform: (T) -> [U], arg: [T]) -> [U]
+public func <*> <T, U>(transform: [(T) -> U], arg: [T]) -> [U]
+public func liftA2<T, U, V>(_ transform: (T, U) -> V, _ arg1: [T], _ arg2: [U]) -> [V]
+public func liftA3<T, U, V, W>(_ transform: (T, U, V) -> W, _ arg1: [T], _ arg2: [U], _ arg3: [V]) -> [W]
+public func <^> <T, U, Key>(transform: (T) -> U, arg: [Key : T]) -> [Key : U] where Key : Swift.Hashable
+public func <^ <T, U, V>(transform: T, arg: [U : V]) -> [U : T] where U : Swift.Hashable
+public func ^> <T, U, V>(arg: [T : U], transform: V) -> [T : V] where T : Swift.Hashable
+public enum PromiseError : Swift.Error {
+  case cancel
+  public static func == (a: FunctionalSwift.PromiseError, b: FunctionalSwift.PromiseError) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+extension FunctionalSwift.Promise where L == Swift.Error {
+  public static var canceling: Self {
+    get
+  }
+}
+final public class Promise<L, R> {
+  public typealias LeftHandler = (L) -> Swift.Void
+  public typealias RightHandler = (R) -> Swift.Void
+  public typealias CompletionHandler = (FunctionalSwift.Either<L, R>) -> Swift.Void
+  public init(queue: Dispatch.DispatchQueue = .global(), state: FunctionalSwift.PromiseState<L, R> = .pending)
+  convenience public init(queue: Dispatch.DispatchQueue = .global(), _ body: @escaping (@escaping (FunctionalSwift.Either<L, R>) -> Swift.Void) -> Swift.Void)
+  convenience public init(queue: Dispatch.DispatchQueue = .global(), _ body: @escaping (@escaping (R) -> Swift.Void) -> Swift.Void)
+  public static func left(_ value: L) -> Self
+  public static func right(_ value: R) -> Self
+  final public func resolve(_ result: FunctionalSwift.Either<L, R>)
+  final public func resolveLeft(_ value: L)
+  final public func resolveRight(_ value: R)
+  @discardableResult
+  final public func right(_ handler: @escaping FunctionalSwift.Promise<L, R>.RightHandler) -> Self
+  @discardableResult
+  final public func left(_ handler: @escaping FunctionalSwift.Promise<L, R>.LeftHandler) -> Self
+  @discardableResult
+  final public func always(_ handler: @escaping FunctionalSwift.Promise<L, R>.CompletionHandler) -> Self
+  @objc deinit
+}
+extension FunctionalSwift.Promise {
+  @discardableResult
+  final public func map<A>(on queue: Dispatch.DispatchQueue = .global(), _ body: @escaping (R) -> A) -> FunctionalSwift.Promise<L, A>
+  final public func asVoid(on queue: Dispatch.DispatchQueue = .global()) -> FunctionalSwift.Promise<L, Swift.Void>
+  @discardableResult
+  final public func mapLeft<A>(on queue: Dispatch.DispatchQueue = .global(), _ body: @escaping (L) -> A) -> FunctionalSwift.Promise<A, R>
+}
+@discardableResult
+public func <^> <L, R, A>(f: @escaping (R) -> A, promise: FunctionalSwift.Promise<L, R>) -> FunctionalSwift.Promise<L, A>
+@discardableResult
+public func <^ <L, R, A>(transform: A, arg: FunctionalSwift.Promise<L, R>) -> FunctionalSwift.Promise<L, A>
+@discardableResult
+public func ^> <L, R, A>(arg: FunctionalSwift.Promise<L, R>, transform: A) -> FunctionalSwift.Promise<L, A>
+extension FunctionalSwift.Promise {
+  @discardableResult
+  final public func flatMap<A>(on queue: Dispatch.DispatchQueue = .global(), _ body: @escaping (R) -> FunctionalSwift.Promise<L, A>) -> FunctionalSwift.Promise<L, A>
+  final public func flatMapLeft<A>(on queue: Dispatch.DispatchQueue = .global(), _ body: @escaping (L) -> FunctionalSwift.Promise<A, R>) -> FunctionalSwift.Promise<A, R>
+  final public func flatMapLeft(on queue: Dispatch.DispatchQueue = .global(), _ body: @escaping (L) -> FunctionalSwift.Promise<L, R>) -> FunctionalSwift.Promise<L, R>
+}
+@discardableResult
+public func >>- <L, R, A>(arg: FunctionalSwift.Promise<L, R>, transform: @escaping (R) -> FunctionalSwift.Promise<L, A>) -> FunctionalSwift.Promise<L, A>
+@discardableResult
+public func -<< <L, R, A>(transform: @escaping (R) -> FunctionalSwift.Promise<L, A>, arg: FunctionalSwift.Promise<L, R>) -> FunctionalSwift.Promise<L, A>
+public protocol Monoid {
+  static var mempty: Self { get }
+  func mappend(_ monoid: Self) -> Self
+}
+extension Swift.Sequence where Self.Element : FunctionalSwift.Monoid {
+  public func mconcat() -> Self.Iterator.Element
+}
+extension Swift.Collection where Self.Element : Swift.Equatable {
+  public func split(on element: Self.Iterator.Element) -> [Self.SubSequence]
+  public func split<C>(oneOf elements: C) -> [Self.SubSequence] where C : Swift.Collection, Self.Element == C.Element
+}
+extension Swift.Collection {
+  public func chunks(of size: Swift.Int) -> [Self.SubSequence]
+  public func split(places: [Swift.Int]) -> [Self.SubSequence]
+}
+public func id<T>(_ identity: T) -> T
+public func const<T, V>(_ const: T) -> (V) -> T
+public func • <A, B, C>(lhs: @escaping (B) -> C, rhs: @escaping (A) -> B) -> (A) -> C
+public func <| <A, B>(lhs: (A) -> B, rhs: A) -> B
+public func |> <A, B>(lhs: A, rhs: (A) -> B) -> B
+public func curry<A, B>(_ function: @escaping (A) -> B) -> (A) -> B
+public func curry<A, B, C>(_ function: @escaping ((A, B)) -> C) -> (A) -> (B) -> C
+public func curry<A, B, C, D>(_ function: @escaping ((A, B, C)) -> D) -> (A) -> (B) -> (C) -> D
+public func curry<A, B, C, D, E>(_ function: @escaping ((A, B, C, D)) -> E) -> (A) -> (B) -> (C) -> (D) -> E
+public func curry<A, B, C, D, E, F>(_ function: @escaping ((A, B, C, D, E)) -> F) -> (A) -> (B) -> (C) -> (D) -> (E) -> F
+public func curry<A, B, C, D, E, F, G>(_ function: @escaping ((A, B, C, D, E, F)) -> G) -> (A) -> (B) -> (C) -> (D) -> (E) -> (F) -> G
+public func curry<A, B, C, D, E, F, G, H>(_ function: @escaping ((A, B, C, D, E, F, G)) -> H) -> (A) -> (B) -> (C) -> (D) -> (E) -> (F) -> (G) -> H
+public func curry<A, B, C, D, E, F, G, H, I>(_ function: @escaping ((A, B, C, D, E, F, G, H)) -> I) -> (A) -> (B) -> (C) -> (D) -> (E) -> (F) -> (G) -> (H) -> I
+public func curry<A, B, C, D, E, F, G, H, I, J>(_ function: @escaping ((A, B, C, D, E, F, G, H, I)) -> J) -> (A) -> (B) -> (C) -> (D) -> (E) -> (F) -> (G) -> (H) -> (I) -> J
+public func curry<A, B, C, D, E, F, G, H, I, J, K>(_ function: @escaping ((A, B, C, D, E, F, G, H, I, J)) -> K) -> (A) -> (B) -> (C) -> (D) -> (E) -> (F) -> (G) -> (H) -> (I) -> (J) -> K
+public func curry<A, B, C, D, E, F, G, H, I, J, K, L>(_ function: @escaping ((A, B, C, D, E, F, G, H, I, J, K)) -> L) -> (A) -> (B) -> (C) -> (D) -> (E) -> (F) -> (G) -> (H) -> (I) -> (J) -> (K) -> L
+public func curry<A, B, C, D, E, F, G, H, I, J, K, L, M>(_ function: @escaping ((A, B, C, D, E, F, G, H, I, J, K, L)) -> M) -> (A) -> (B) -> (C) -> (D) -> (E) -> (F) -> (G) -> (H) -> (I) -> (J) -> (K) -> (L) -> M
+public func curry<A, B, C, D, E, F, G, H, I, J, K, L, M, N>(_ function: @escaping ((A, B, C, D, E, F, G, H, I, J, K, L, M)) -> N) -> (A) -> (B) -> (C) -> (D) -> (E) -> (F) -> (G) -> (H) -> (I) -> (J) -> (K) -> (L) -> (M) -> N
+public func curry<A, B, C, D, E, F, G, H, I, J, K, L, M, N, O>(_ function: @escaping ((A, B, C, D, E, F, G, H, I, J, K, L, M, N)) -> O) -> (A) -> (B) -> (C) -> (D) -> (E) -> (F) -> (G) -> (H) -> (I) -> (J) -> (K) -> (L) -> (M) -> (N) -> O
+public func curry<A, B, C, D, E, F, G, H, I, J, K, L, M, N, O, P>(_ function: @escaping ((A, B, C, D, E, F, G, H, I, J, K, L, M, N, O)) -> P) -> (A) -> (B) -> (C) -> (D) -> (E) -> (F) -> (G) -> (H) -> (I) -> (J) -> (K) -> (L) -> (M) -> (N) -> (O) -> P
+public func curry<A, B, C, D, E, F, G, H, I, J, K, L, M, N, O, P, Q>(_ function: @escaping ((A, B, C, D, E, F, G, H, I, J, K, L, M, N, O, P)) -> Q) -> (A) -> (B) -> (C) -> (D) -> (E) -> (F) -> (G) -> (H) -> (I) -> (J) -> (K) -> (L) -> (M) -> (N) -> (O) -> (P) -> Q
+public func curry<A, B, C, D, E, F, G, H, I, J, K, L, M, N, O, P, Q, R>(_ function: @escaping ((A, B, C, D, E, F, G, H, I, J, K, L, M, N, O, P, Q)) -> R) -> (A) -> (B) -> (C) -> (D) -> (E) -> (F) -> (G) -> (H) -> (I) -> (J) -> (K) -> (L) -> (M) -> (N) -> (O) -> (P) -> (Q) -> R
+public func curry<A, B, C, D, E, F, G, H, I, J, K, L, M, N, O, P, Q, R, S>(_ function: @escaping ((A, B, C, D, E, F, G, H, I, J, K, L, M, N, O, P, Q, R)) -> S) -> (A) -> (B) -> (C) -> (D) -> (E) -> (F) -> (G) -> (H) -> (I) -> (J) -> (K) -> (L) -> (M) -> (N) -> (O) -> (P) -> (Q) -> (R) -> S
+public func curry<A, B, C, D, E, F, G, H, I, J, K, L, M, N, O, P, Q, R, S, T>(_ function: @escaping ((A, B, C, D, E, F, G, H, I, J, K, L, M, N, O, P, Q, R, S)) -> T) -> (A) -> (B) -> (C) -> (D) -> (E) -> (F) -> (G) -> (H) -> (I) -> (J) -> (K) -> (L) -> (M) -> (N) -> (O) -> (P) -> (Q) -> (R) -> (S) -> T
+public func curry<A, B, C, D, E, F, G, H, I, J, K, L, M, N, O, P, Q, R, S, T, U>(_ function: @escaping ((A, B, C, D, E, F, G, H, I, J, K, L, M, N, O, P, Q, R, S, T)) -> U) -> (A) -> (B) -> (C) -> (D) -> (E) -> (F) -> (G) -> (H) -> (I) -> (J) -> (K) -> (L) -> (M) -> (N) -> (O) -> (P) -> (Q) -> (R) -> (S) -> (T) -> U
+final public class MVar<A> {
+  public init()
+  convenience public init(value: A)
+  final public func take() -> A
+  final public func put(_ value: A)
+  final public func read() -> A
+  final public func swap(_ value: A) -> A
+  final public func tryTake() -> A?
+  final public func tryPut(_ value: A) -> Swift.Bool
+  final public var isEmpty: Swift.Bool {
+    get
+  }
+  final public func with<B>(_ f: (A) throws -> B) rethrows -> B
+  final public func modify_(_ f: (A) throws -> A) rethrows
+  final public func modify<B>(_ f: (A) throws -> (A, B)) rethrows -> B
+  final public func tryRead() -> A?
+  @objc deinit
+}
+extension FunctionalSwift.PromiseError : Swift.Equatable {}
+extension FunctionalSwift.PromiseError : Swift.Hashable {}

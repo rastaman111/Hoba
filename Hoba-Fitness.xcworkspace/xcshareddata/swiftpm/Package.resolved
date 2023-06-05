@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "schedulednotificationsviewcontroller",
+      "kind" : "remoteSourceControl",
+      "location" : "http://github.com/nicephoton/ScheduledNotificationsViewController.git",
+      "state" : {
+        "revision" : "a65c087fd91a66bc7b677f8b1168c368a60f42f2",
+        "version" : "0.0.4"
+      }
+    }
+  ],
+  "version" : 2
+}

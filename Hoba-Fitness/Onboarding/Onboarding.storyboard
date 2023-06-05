@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="21V-8y-qI2">
+    <device id="retina5_5" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21678"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Onboarding Screen-->
+        <scene sceneID="gNz-uV-Mws">
+            <objects>
+                <viewController storyboardIdentifier="Onboarding" modalTransitionStyle="crossDissolve" modalPresentationStyle="overFullScreen" id="w0E-dU-ZJ7" userLabel="Onboarding Screen" customClass="OnboardingVC" customModule="hoba" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="w80-dW-bxq">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="4" translatesAutoresizingMaskIntoConstraints="NO" id="hxn-Dw-y7S">
+                                <rect key="frame" x="140.33333333333337" y="654" width="133.66666666666663" height="26"/>
+                                <color key="pageIndicatorTintColor" systemColor="scrollViewTexturedBackgroundColor"/>
+                                <color key="currentPageIndicatorTintColor" red="0.61983060840000004" green="0.73320037130000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </pageControl>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" directionalLockEnabled="YES" bounces="NO" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" bouncesZoom="NO" translatesAutoresizingMaskIntoConstraints="NO" id="C7y-pE-v3B">
+                                <rect key="frame" x="0.0" y="98" width="414" height="638"/>
+                                <connections>
+                                    <outlet property="delegate" destination="w0E-dU-ZJ7" id="YcH-Yv-d6s"/>
+                                </connections>
+                            </scrollView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Yls-Cd-OGx"/>
+                        <color key="backgroundColor" red="0.094117647058823528" green="0.082352941176470587" blue="0.086274509803921567" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Yls-Cd-OGx" firstAttribute="bottom" secondItem="hxn-Dw-y7S" secondAttribute="bottom" constant="56" id="1sb-yK-j9A"/>
+                            <constraint firstItem="C7y-pE-v3B" firstAttribute="top" secondItem="Yls-Cd-OGx" secondAttribute="top" id="3H0-dq-QeV"/>
+                            <constraint firstItem="C7y-pE-v3B" firstAttribute="leading" secondItem="w80-dW-bxq" secondAttribute="leading" id="5Bz-n8-tND"/>
+                            <constraint firstItem="hxn-Dw-y7S" firstAttribute="centerX" secondItem="w80-dW-bxq" secondAttribute="centerX" id="Kof-Iz-56Q"/>
+                            <constraint firstItem="C7y-pE-v3B" firstAttribute="bottom" secondItem="Yls-Cd-OGx" secondAttribute="bottom" id="fop-z7-tFk"/>
+                            <constraint firstAttribute="trailing" secondItem="C7y-pE-v3B" secondAttribute="trailing" id="ihh-41-l3a"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" prompt=" " id="Kil-Yt-sVI">
+                        <barButtonItem key="backBarButtonItem" title=" " id="hyb-zm-gNg"/>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="pageControl" destination="hxn-Dw-y7S" id="QUN-GT-Tf6"/>
+                        <outlet property="scrollView" destination="C7y-pE-v3B" id="Sa0-rk-pyd"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qKe-r9-f4H" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="169.56521739130437" y="-52.173913043478265"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="on3-Wm-guD">
+            <objects>
+                <navigationController storyboardIdentifier="OnboardingNavi" id="21V-8y-qI2" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" hidden="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="6rb-nO-31v">
+                        <rect key="frame" x="0.0" y="20" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="w0E-dU-ZJ7" kind="relationship" relationship="rootViewController" id="mYR-WP-9y2"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="I1Y-zg-cMs" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1652" y="-52"/>
+        </scene>
+        <!--Gender SelectorVC-->
+        <scene sceneID="Pe3-ty-L5X">
+            <objects>
+                <viewController storyboardIdentifier="GenderSelector" modalTransitionStyle="crossDissolve" modalPresentationStyle="overFullScreen" id="pqH-kC-2C3" customClass="GenderSelectorVC" customModule="hoba" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="DTc-Q4-lgw">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="welcomeBg" translatesAutoresizingMaskIntoConstraints="NO" id="HYb-dF-90j">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="536"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="J9v-zA-z3k">
+                                <rect key="frame" x="8" y="457.66666666666669" width="195" height="214.33333333333331"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="J9v-zA-z3k" secondAttribute="height" multiplier="1:1.1" id="9xX-h5-tne"/>
+                                </constraints>
+                                <state key="normal" image="buttonMale"/>
+                                <connections>
+                                    <action selector="genderSelected:" destination="pqH-kC-2C3" eventType="touchUpInside" id="hut-pF-XJ7"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="1" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cvi-t8-hZV">
+                                <rect key="frame" x="211" y="457.66666666666669" width="195" height="214.33333333333331"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="cvi-t8-hZV" secondAttribute="height" multiplier="1:1.1" id="wyx-DG-r6m"/>
+                                </constraints>
+                                <state key="normal" image="buttonFemale"/>
+                                <connections>
+                                    <action selector="genderSelected:" destination="pqH-kC-2C3" eventType="touchUpInside" id="kUV-xZ-YdD"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Logo" translatesAutoresizingMaskIntoConstraints="NO" id="wfG-Zd-mqJ">
+                                <rect key="frame" x="107" y="68" width="200" height="53.333333333333343"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="wfG-Zd-mqJ" secondAttribute="height" multiplier="15:4" id="0Dw-YE-L4F"/>
+                                    <constraint firstAttribute="width" constant="200" id="2cE-kf-MIG"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="фитнес рядом с домом" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hWb-9i-Dnr">
+                                <rect key="frame" x="114" y="129.33333333333334" width="186" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Укажите ваш пол" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HmK-2V-KRR">
+                                <rect key="frame" x="141.66666666666666" y="359" width="130.99999999999997" height="18"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9k3-BW-a7Z">
+                                <rect key="frame" x="366" y="28" width="32" height="32"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="32" id="Ob1-Ru-O1C"/>
+                                    <constraint firstAttribute="height" constant="32" id="ebx-XI-kfb"/>
+                                </constraints>
+                                <state key="normal" image="iconCancelWhite"/>
+                                <connections>
+                                    <action selector="goBackToRoot:" destination="pqH-kC-2C3" eventType="touchUpInside" id="Yvn-5R-hCP"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="F8s-6b-q4u"/>
+                        <color key="backgroundColor" red="0.094117647060000004" green="0.08235294118" blue="0.086274509799999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="HYb-dF-90j" firstAttribute="top" secondItem="DTc-Q4-lgw" secondAttribute="top" id="1Mw-iU-wOv"/>
+                            <constraint firstItem="F8s-6b-q4u" firstAttribute="bottom" secondItem="HYb-dF-90j" secondAttribute="bottom" constant="200" id="8HK-bb-JEh"/>
+                            <constraint firstItem="HYb-dF-90j" firstAttribute="leading" secondItem="DTc-Q4-lgw" secondAttribute="leading" id="8rh-HQ-2sI"/>
+                            <constraint firstAttribute="trailing" secondItem="HYb-dF-90j" secondAttribute="trailing" id="HEq-bl-FYH"/>
+                            <constraint firstAttribute="trailing" secondItem="9k3-BW-a7Z" secondAttribute="trailing" constant="16" id="Mzy-sM-GGI"/>
+                            <constraint firstItem="J9v-zA-z3k" firstAttribute="leading" secondItem="DTc-Q4-lgw" secondAttribute="leading" constant="8" id="OT3-v9-v6m"/>
+                            <constraint firstItem="9k3-BW-a7Z" firstAttribute="top" secondItem="F8s-6b-q4u" secondAttribute="top" constant="8" id="UOe-ij-HHS"/>
+                            <constraint firstAttribute="trailing" secondItem="cvi-t8-hZV" secondAttribute="trailing" constant="8" id="VZT-5X-GhV"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="cvi-t8-hZV" secondAttribute="bottom" constant="64" id="Wtp-NN-aHQ"/>
+                            <constraint firstItem="cvi-t8-hZV" firstAttribute="width" secondItem="J9v-zA-z3k" secondAttribute="width" id="XCG-Ta-Jyv"/>
+                            <constraint firstItem="hWb-9i-Dnr" firstAttribute="centerX" secondItem="DTc-Q4-lgw" secondAttribute="centerX" id="k4F-yJ-uzM"/>
+                            <constraint firstItem="wfG-Zd-mqJ" firstAttribute="centerX" secondItem="DTc-Q4-lgw" secondAttribute="centerX" id="lUu-pW-kAs"/>
+                            <constraint firstItem="wfG-Zd-mqJ" firstAttribute="top" secondItem="DTc-Q4-lgw" secondAttribute="topMargin" constant="48" id="nYv-YP-mgd"/>
+                            <constraint firstItem="HmK-2V-KRR" firstAttribute="centerY" secondItem="DTc-Q4-lgw" secondAttribute="centerY" id="oYc-QJ-WiC"/>
+                            <constraint firstItem="hWb-9i-Dnr" firstAttribute="top" secondItem="wfG-Zd-mqJ" secondAttribute="bottom" constant="8" id="p6c-t6-TKf"/>
+                            <constraint firstItem="cvi-t8-hZV" firstAttribute="leading" secondItem="J9v-zA-z3k" secondAttribute="trailing" constant="8" id="rTz-Dx-zcr"/>
+                            <constraint firstItem="HmK-2V-KRR" firstAttribute="centerX" secondItem="DTc-Q4-lgw" secondAttribute="centerX" id="vlf-WW-mjK"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="J9v-zA-z3k" secondAttribute="bottom" constant="64" id="zgh-1Q-oiR"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="9U3-mN-Jdg"/>
+                    <nil key="simulatedTopBarMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1NW-C6-O0P" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-697" y="342"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Logo" width="240" height="64"/>
+        <image name="buttonFemale" width="204" height="224"/>
+        <image name="buttonMale" width="204" height="224"/>
+        <image name="iconCancelWhite" width="160" height="160"/>
+        <image name="welcomeBg" width="106.66666412353516" height="118.33333587646484"/>
+        <systemColor name="scrollViewTexturedBackgroundColor">
+            <color red="0.43529411764705878" green="0.44313725490196082" blue="0.47450980392156861" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
