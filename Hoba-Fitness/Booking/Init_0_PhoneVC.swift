@@ -20,6 +20,11 @@ final class Init_0_PhoneVC: UIViewController {
         /// UI
         self.setBackButton()
         self.title = "Укажите номер телефона"
+        
+        self.phoneNumber.withExamplePlaceholder = true
+        self.phoneNumber.withPrefix = true
+        self.phoneNumber.numberPlaceholderColor = UIColor.white.withAlphaComponent(0.34)
+        self.phoneNumber.countryCodePlaceholderColor = UIColor.white.withAlphaComponent(0.35)
 //        self.phoneNumber.becomeFirstResponder()
         
         let attributedStringColor: [NSAttributedString.Key : Any] = [.foregroundColor: UIColor.white,

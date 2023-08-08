@@ -122,7 +122,7 @@ final class App {
 
     var storedTrains: [SingleTrain] {
         get {
-            if let decoded  = UserDefaults.standard.object(forKey: "storedSlots") as? Data {
+            if let decoded = UserDefaults.standard.object(forKey: "storedSlots") as? Data {
                 return (NSKeyedUnarchiver.unarchiveObject(with: decoded) as? [SingleTrain])?.sorted(by: { $0.startsAt < $1.startsAt }) ?? []
             } else {
                 return []

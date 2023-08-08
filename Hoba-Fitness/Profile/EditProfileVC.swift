@@ -22,7 +22,7 @@ final class EditProfileVC: UIViewController {
         datePicker.setValue(UIColor.white, forKeyPath: "textColor")
         
         /// Data
-        datePicker.set18YearValidation()
+        datePicker.set16YearValidation()
         datePicker.date = App.this.userBirthDate
         pickerSubmit(dateButton)
         

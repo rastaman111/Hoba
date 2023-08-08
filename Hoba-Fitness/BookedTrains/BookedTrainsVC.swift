@@ -8,7 +8,7 @@ final class BookedTrainsVC: UIViewController, UITableViewDelegate, UITableViewDa
     // MARK: - Properties
     let appDelegate = UIApplication.shared.delegate as! AppDelegate
     var easySlideNavigationController: ESNavigationController?
-
+    
     var labelDays: UILabel?
     var labelHours: UILabel?
     var labelMins: UILabel?
@@ -29,20 +29,20 @@ final class BookedTrainsVC: UIViewController, UITableViewDelegate, UITableViewDa
     var updatePeriod = 10
     var updateCounter = 0
     var canUpdate = true
-
+    
     let center = UNUserNotificationCenter.current()
-
+    
     // MARK: - IBOutlets
     @IBOutlet weak var tableView: UITableView!
     @IBOutlet weak var emptyLabel: UIView!
-
+    
     // MARK: - Life cycle
     override func viewDidLoad() {
         super.viewDidLoad()
         
         tableView.delegate = self
         tableView.dataSource = self
-
+        
         NotificationCenter.default.addObserver(self, selector: #selector(appMovedToBackground),
                                                name: UIApplication.willResignActiveNotification,
                                                object: nil)
@@ -59,7 +59,7 @@ final class BookedTrainsVC: UIViewController, UITableViewDelegate, UITableViewDa
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
-
+        
         reportEvent("Мои тренировки", [:])
         
         NotificationCenter.default.addObserver(self, selector: #selector(updateTable), name: UIApplication.willEnterForegroundNotification, object: nil)
@@ -73,18 +73,18 @@ final class BookedTrainsVC: UIViewController, UITableViewDelegate, UITableViewDa
         ///
         timeScaleStep = App.DEBUG ? App.this.TIMESTEP : 1
         localTime = Int(Date().localSeconds())
-
+        
         if App.this.storedTrains.count > 0 {
             selectedTimeStamp = TimeInterval(App.this.storedTrains[0].startsAt)
         }
         fireTimer()
-
+        
         selectedIndex = selectedIndex >= App.this.storedTrains.count ? 0 : selectedIndex
         trainState = .waitForTrain
         tableView.reloadData()
-
+        
         ///
-
+        
         center.getPendingNotificationRequests { (notifications) in
             print("~~~ Count: \(notifications.count)")
             for item in notifications {
@@ -92,49 +92,49 @@ final class BookedTrainsVC: UIViewController, UITableViewDelegate, UITableViewDa
             }
         }
     }
-
+    
     override func viewWillDisappear(_ animated: Bool) {
         super.viewWillDisappear(animated)
         stopTimer()
     }
-
-        // MARK: - Foreground \ Background
+    
+    // MARK: - Foreground \ Background
     @objc func appMovedToBackground() {
         stopTimer()
     }
-
+    
     @objc func appMovedToForeground() {
         fireTimer()
     }
-
+    
     
     // MARK: - IBActions
     @IBAction func openRooms(_ sender: Any) {
         
         /*let vc = App.this.userInfoWasSet
-        ? UIStoryboard(name: "SelectStarterTrain", bundle: nil).instantiateViewController(withIdentifier: "SelectStarterTrain")
-        : UIStoryboard(name: "NewOrExisting", bundle: nil).instantiateViewController(withIdentifier: "NewOrExisting")
-        self.navigationController?.viewControllers[0] = vc
-        self.navigationController?.popToRootViewController(animated: true)*/
-
+         ? UIStoryboard(name: "SelectStarterTrain", bundle: nil).instantiateViewController(withIdentifier: "SelectStarterTrain")
+         : UIStoryboard(name: "NewOrExisting", bundle: nil).instantiateViewController(withIdentifier: "NewOrExisting")
+         self.navigationController?.viewControllers[0] = vc
+         self.navigationController?.popToRootViewController(animated: true)*/
+        
         /*if App.this.userInfoWasSet {
-            let vc = UIStoryboard(name: "SelectStarterTrain", bundle: nil).instantiateViewController(withIdentifier: "SelectStarterTrain")
-            if let slideController = self.easySlideNavigationController {
-                slideController.setBodyViewController(vc, closeOpenMenu: true, ignoreClassMatch: false)
-            }
-        }
-        else {
-            let vc = UIStoryboard(name: "NewOrExisting", bundle: nil).instantiateViewController(withIdentifier: "NewOrExisting")
-            if let slideController = self.easySlideNavigationController {
-                slideController.setBodyViewController(vc, closeOpenMenu: true, ignoreClassMatch: false)
-            }
-        }*/
+         let vc = UIStoryboard(name: "SelectStarterTrain", bundle: nil).instantiateViewController(withIdentifier: "SelectStarterTrain")
+         if let slideController = self.easySlideNavigationController {
+         slideController.setBodyViewController(vc, closeOpenMenu: true, ignoreClassMatch: false)
+         }
+         }
+         else {
+         let vc = UIStoryboard(name: "NewOrExisting", bundle: nil).instantiateViewController(withIdentifier: "NewOrExisting")
+         if let slideController = self.easySlideNavigationController {
+         slideController.setBodyViewController(vc, closeOpenMenu: true, ignoreClassMatch: false)
+         }
+         }*/
         
         let vc = UIStoryboard(name: "SelectStarterTrain", bundle: nil).instantiateViewController(withIdentifier: "SelectStarterTrain")
         self.navigationController?.viewControllers[0] = vc
         self.navigationController?.popToRootViewController(animated: true)
     }
-
+    
     // MARK: - Data processing
     @objc func updateTable() {
         self.tableView.reloadData()
@@ -196,107 +196,106 @@ final class BookedTrainsVC: UIViewController, UITableViewDelegate, UITableViewDa
         }
         
         if App.this.storedTrains.count > 0 {
-                    /*
-                    if App.this.storedTrains.count == 0 {
-                        stopTimer()
-                        return
-                    }
-                    */
+            /*
+             if App.this.storedTrains.count == 0 {
+             stopTimer()
+             return
+             }
+             */
+            
+            if selectedIndex >= App.this.storedTrains.count {
+                selectedIndex = 0
+                tableView.reloadData()
+            }
+            
+            let thisTrain = App.this.storedTrains[selectedIndex]
+            
+            if thisTrain.startsAt == 0 {
+                showCounter(diff: 0)
+                trainState = .trainFinished
+                labelTitle?.text = "Тренировка завершена"
+                labelContainer?.backgroundColor = .gray
+            } else {
+                let timeDiff: Int = (thisTrain.startsAt - MIN_10) - Int(Date().localSeconds())
+                
+                /// ДО тренировки
+                if timeDiff > 0 {
+                    showCounter(diff: timeDiff + MIN_10)
+                    trainState = .waitForTrain
+                    labelTitle?.text = "До тренировки осталось"
+                    labelContainer?.backgroundColor = colorTrainWaiting
+                }
+                
+                /// время ВНУТРИ сессии: 10 мин переодевание, 60 мин треня, 10 мин переодевание
+                if timeDiff <= 0 && timeDiff >= -MIN_80 {
+                    // ставим заголовки-картинки в зависимости от стадии сессии
+                    let stage: Int = -timeDiff / MIN_10
                     
-                    if selectedIndex >= App.this.storedTrains.count {
-                        selectedIndex = 0
-                        tableView.reloadData()
-                    }
-                    
-                    let thisTrain = App.this.storedTrains[selectedIndex]
-
-
-
-                    let timeToTrain: Int = thisTrain.startsAt - MIN_10 // за 10 мин до старта трени начинается переодевание
-            let timeDiff: Int = (thisTrain.startsAt - MIN_10) - Int(Date().localSeconds())
-            //timeToTrain - localTime
-                    
-                    /// ДО тренировки
-                    if timeDiff > 0 {
-                        showCounter(diff: timeDiff + MIN_10)
-                        trainState = .waitForTrain
+                    switch stage {
+                    case 0:
                         labelTitle?.text = "До тренировки осталось"
-                        labelContainer?.backgroundColor = colorTrainWaiting
+                        showCounter(diff: MIN_10 + timeDiff)
+                        labelContainer?.backgroundColor = colorTrainFirstChange
+                        if trainState != .firstChangeClothes {
+                            trainState = .firstChangeClothes
+                            //appDelegate.fireNotification(title: "Начало тренировки", msg: "Вы можете войти в зал.")
+                        }
+                    case 1, 2, 3, 4:
+                        trainState = .trainTime
+                        labelTitle?.text = "До конца осталось"
+                        showCounter(diff: MIN_60 + MIN_10 + timeDiff)
+                        labelContainer?.backgroundColor = colorTrainTime
+                    case 5, 6:
+                        labelTitle?.text = "Скоро завершение"
+                        showCounter(diff: MIN_60 + MIN_10 + timeDiff)
+                        labelContainer?.backgroundColor = colorTrainCloseToEnd
+                        if trainState != .trainToEnd {
+                            trainState = .trainToEnd
+                            //appDelegate.fireNotification(title: "Скоро завершение", msg: "Скоро тренировка закончится.")
+                        }
+                    case 7:
+                        labelTitle?.text = "Время для выхода"
+                        showCounter(diff: MIN_60 + MIN_10 + MIN_10 + timeDiff)
+                        labelContainer?.backgroundColor = colorTrainFirstChange
+                        if trainState != .secondChangeClothes {
+                            trainState = .secondChangeClothes
+                            //appDelegate.fireNotification(title: "Тренировка закончена", msg: "Время для выхода")
+                        }
+                    default:
+                        break
                     }
+                }
+                
+                /// время ВЫШЛО и треня НЕ завершена
+                if timeDiff < -MIN_80 && thisTrain.isNotFinished() {
+                    showCounter(diff: 0)
+                    labelTitle?.text = "ВЫЙТИ ИЗ ЗАЛА"
+                    labelContainer?.backgroundColor = colorTrainNotFinished
                     
-                    /// время ВНУТРИ сессии: 10 мин переодевание, 60 мин треня, 10 мин переодевание
-                    if timeDiff <= 0 && timeDiff >= -MIN_80 {
-                        // ставим заголовки-картинки в зависимости от стадии сессии
-                        let stage: Int = -timeDiff / MIN_10
-                        
-                        switch stage {
-                        case 0:
-                            labelTitle?.text = "До тренировки осталось"
-                            showCounter(diff: MIN_10 + timeDiff)
-                            labelContainer?.backgroundColor = colorTrainFirstChange
-                            if trainState != .firstChangeClothes {
-                                trainState = .firstChangeClothes
-                                //appDelegate.fireNotification(title: "Начало тренировки", msg: "Вы можете войти в зал.")
-                            }
-                        case 1, 2, 3, 4:
-                            trainState = .trainTime
-                            labelTitle?.text = "До конца осталось"
-                            showCounter(diff: MIN_60 + MIN_10 + timeDiff)
-                            labelContainer?.backgroundColor = colorTrainTime
-                        case 5, 6:
-                            labelTitle?.text = "Скоро завершение"
-                            showCounter(diff: MIN_60 + MIN_10 + timeDiff)
-                            labelContainer?.backgroundColor = colorTrainCloseToEnd
-                            if trainState != .trainToEnd {
-                                trainState = .trainToEnd
-                                //appDelegate.fireNotification(title: "Скоро завершение", msg: "Скоро тренировка закончится.")
-                            }
-                        case 7:
-                            labelTitle?.text = "Время для выхода"
-                            showCounter(diff: MIN_60 + MIN_10 + MIN_10 + timeDiff)
-                            labelContainer?.backgroundColor = colorTrainFirstChange
-                            if trainState != .secondChangeClothes {
-                                trainState = .secondChangeClothes
-                                //appDelegate.fireNotification(title: "Тренировка закончена", msg: "Время для выхода")
-                            }
-                        default:
-                            break
+                    if trainState != .trainNotFinished {
+                        trainState = .trainNotFinished
+                        raiseAlert("Оплаченное время тренировки вышло", "За каждые полчаса сверх времени тренировки списывается сумма по тарифу. Зайдите в тренировку и завершите ее.", "Понятно")
+                    }
+                }
+                
+                /// время ВЫШЛО и треня завершена
+                if timeDiff < -MIN_80 && !thisTrain.isNotFinished() {
+                    showCounter(diff: 0)
+                    labelTitle?.text = "Тренировка ЗАВЕРШЕНА"
+                    labelContainer?.backgroundColor = .gray
+                    /// clear finished trains
+                    ///            if !App.this.DEBUG {
+                    var buf: [SingleTrain] = []
+                    for train in App.this.storedTrains {
+                        if !train.isFinished(local: localTime) {
+                            buf.append(train)
                         }
                     }
-                    
-                    /// время ВЫШЛО и треня НЕ завершена
-                    if timeDiff < -MIN_80 && thisTrain.isNotFinished() {
-                        showCounter(diff: 0)
-                        labelTitle?.text = "ВЫЙТИ ИЗ ЗАЛА"
-                        labelContainer?.backgroundColor = colorTrainNotFinished
-                        
-                        if trainState != .trainNotFinished {
-                            trainState = .trainNotFinished
-                            raiseAlert("Оплаченное время тренировки вышло", "За каждые полчаса сверх времени тренировки списывается сумма по тарифу. Зайдите в тренировку и завершите ее.", "Понятно")
-                        }
-                    }
-                    
-                    /// время ВЫШЛО и треня завершена
-                    if timeDiff < -MIN_80 && !thisTrain.isNotFinished() {
-                        showCounter(diff: 0)
-                        labelTitle?.text = "Тренировка ЗАВЕРШЕНА"
-                        labelContainer?.backgroundColor = .gray
-                        /// clear finished trains
-            ///            if !App.this.DEBUG {
-                            var buf: [SingleTrain] = []
-                            for train in App.this.storedTrains {
-                                if !train.isFinished(local: localTime) {
-                                    buf.append(train)
-                                }
-                            }
-                            App.this.storedTrains = buf
-                            tableView.reloadData()
-            ///            }
-                    }
-                    
-                    
-                    ///
-
+                    App.this.storedTrains = buf
+                    tableView.reloadData()
+                    ///            }
+                }
+            }
         }
         
         localTime += timeScaleStep
@@ -334,16 +333,16 @@ final class BookedTrainsVC: UIViewController, UITableViewDelegate, UITableViewDa
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "TrainItem", for: indexPath as IndexPath) as! TrainItem
-
+        
         /// set selected bg color
         let bgColorView = UIView()
         bgColorView.backgroundColor = UIColor(argb: 0xff383536)
         cell.selectedBackgroundView = bgColorView
-
+        
         cell.placeAddress.text = App.this.storedTrains[indexPath.row].address
         cell.trainDateTime.text = App.this.storedTrains[indexPath.row].trainTime
         cell.textDescription.text = App.this.storedTrains[indexPath.row].textDescription
-        cell.openWorkoutButton.tag = indexPath.row        
+        cell.openWorkoutButton.tag = indexPath.row
         
         if selectedIndex == indexPath.row {
             // assign visible counts
@@ -354,7 +353,7 @@ final class BookedTrainsVC: UIViewController, UITableViewDelegate, UITableViewDa
             labelTitle = cell.countTitle
             labelContainer = cell.contentContainer
             // show initial vals
-
+            
             tickTimer(timer: timer!)
             cell.counterContainerHC.constant = 80
         }
@@ -362,7 +361,7 @@ final class BookedTrainsVC: UIViewController, UITableViewDelegate, UITableViewDa
             cell.contentContainer.backgroundColor = .clear
             cell.counterContainerHC.constant = 0
         }
-
+        
         return cell
     }
     
@@ -443,7 +442,7 @@ final class BookedTrainsVC: UIViewController, UITableViewDelegate, UITableViewDa
                 action in
                 
                 reportEvent("Отмена", [:])
-
+                
                 ///
                 let body: [String : Any] = [ "action": "refund", "uuid": tappedTrain.uid, "email": App.this.userMail]
                 APESuperHUD.show(style: .loadingIndicator(type: .standard), title: nil, message: "Отменяем...")
@@ -481,7 +480,7 @@ final class BookedTrainsVC: UIViewController, UITableViewDelegate, UITableViewDa
         })
         editAction.image = UIImage(named: "iconChangeSchedule")
         editAction.backgroundColor = colorActiveGreen
-
+        
         return UISwipeActionsConfiguration(actions: [deleteAction, editAction])
     }
 }

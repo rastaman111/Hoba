@@ -25,7 +25,10 @@ extension Date {
     }
     
     func localSeconds() -> TimeInterval {
-        return Double(TimeZone.current.secondsFromGMT(for: self)) + self.timeIntervalSince1970
+        // OLD
+        // return Double(TimeZone.current.secondsFromGMT(for: self)) + self.timeIntervalSince1970
+        // NEW
+         return self.timeIntervalSince1970
     }
     
     func secondsOfDay() -> TimeInterval {

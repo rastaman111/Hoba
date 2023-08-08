@@ -29,7 +29,7 @@ final class Init_2_PersonalInfoVC: UIViewController {
         if #available(iOS 13.4, *) {
             datePicker.preferredDatePickerStyle = .wheels
         } 
-        datePicker.set18YearValidation()
+        datePicker.set16YearValidation()
         datePicker.date = App.this.userBirthDate
         lastName.text = App.this.userLastName
         firstName.text = App.this.userFirstName

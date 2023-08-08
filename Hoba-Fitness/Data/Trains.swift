@@ -38,7 +38,25 @@ import SwiftyJSON
     var date: Date = Date()                         // day of train at 00:00
     var startsAt: Int {                           // seconds from day beginning
         get {
-            return slots.count > 0 ? Int(date.timeIntervalSince1970 + TimeInterval(slots[0].starttime)) : 0
+            let dateFormatter = DateFormatter()
+            dateFormatter.dateFormat = "yyyy-MM-dd"
+            guard !slots.isEmpty else { return 0 }
+            guard let date = dateFormatter.date(from: slots[0].date) else { return 0 }
+            
+            let newDate = date.addingTimeInterval(TimeInterval(slots[0].starttime))
+          
+            if newDate.isGreaterThan(Date()) {
+                // Если дата тренировки из будущего
+                print(1111)
+                return slots.count > 0 ? Int(date.timeIntervalSince1970 + TimeInterval(slots[0].starttime)) : 0
+            } else if date.isSmallerThan(Date()) {
+                // Если дата тренировки из прошлого
+                print(2222)
+                return 0
+            } else {
+                print(3333)
+                return slots.count > 0 ? Int(Date().timeIntervalSince1970 + TimeInterval(slots[0].starttime)) : 0
+            }
         }
     }
     var trainTime: String = ""                      // "с 8:00 до 09:00"
@@ -168,4 +186,20 @@ import SwiftyJSON
         aCoder.encode(starttime, forKey: "starttime")
         aCoder.encode(date, forKey: "date")
     }
+}
+
+
+extension Date {
+
+  func isEqualTo(_ date: Date) -> Bool {
+    return self == date
+  }
+  
+  func isGreaterThan(_ date: Date) -> Bool {
+     return self > date
+  }
+  
+  func isSmallerThan(_ date: Date) -> Bool {
+     return self < date
+  }
 }
