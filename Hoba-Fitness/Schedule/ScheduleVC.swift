@@ -441,12 +441,11 @@ final class ScheduleVC: UIViewController, UITableViewDelegate, UITableViewDataSo
             if weChangeSchedule {
                 ifTimeIsAvail(idx: indexPath.row, slots: trainToChange.slots.count, completion: {
                     App.this.selectedTimeSlot = indexPath.row
-                    
-                    //                    self.selectedTrain.slots.append(self.getSlot(indexPath.row))
-                    //                    self.selectedTrain.slots.append(self.getSlot(indexPath.row + 1))
+                   
+                    self.selectedTrain.slots = []
                     
                     var index = indexPath.row
-                    
+                   
                     for _ in self.trainToChange.slots {
                         self.selectedTrain.slots.append(self.getSlot(index))
                         index += 1
@@ -539,6 +538,7 @@ final class ScheduleVC: UIViewController, UITableViewDelegate, UITableViewDataSo
                                 else {
                                     self.ifTimeIsAvail(idx: self.selectedTrain.slots[0].idx, slots: delta, completion: {
                                         let startIdx = self.selectedTrain.slots[0].idx + 1
+                                     
                                         for i in startIdx ... indexPath.row {
                                             self.selectedTrain.slots.append(self.getSlot(i))
                                         }

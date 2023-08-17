@@ -46,19 +46,19 @@ final class BookTrainVC: UIViewController, MenuDelegate {
         self.updateView(price: App.this.userTariff["coast"].floatValue, response: JSON())
 
         APESuperHUD.show(style: .loadingIndicator(type: .standard), title: nil, message: "Проверяем цену...")
-        reserve(isFirst: (trainType == TRAIN_FREE), writeOff: (trainType ==
-            TRAIN_ALREADY_PAID || trainType == TRAIN_FREE), completion: {
-                json, response in
-                APESuperHUD.dismissAll(animated: true)
-
-                if let code = response.response?.statusCode {
-                    self.responseStatusCode = code
-                }
-                if let data = response.result.value {
-                    self.jsonResponse = JSON(data)
-                }
-                parseReserve(response: self.jsonResponse)
-        })
+       
+        reserve(isFirst: (trainType == TRAIN_FREE),
+                writeOff: (trainType == TRAIN_ALREADY_PAID || trainType == TRAIN_FREE)) { json, response in
+            APESuperHUD.dismissAll(animated: true)
+           
+            if let code = response.response?.statusCode {
+                self.responseStatusCode = code
+            }
+            if let data = response.result.value {
+                self.jsonResponse = JSON(data)
+            }
+            parseReserve(response: self.jsonResponse)
+        }
 
         if (App.this.userCardDigits.isEmpty && App.this.userTariffType == TARIFF_FREE)
             || App.this.activeAbonement
@@ -71,11 +71,24 @@ final class BookTrainVC: UIViewController, MenuDelegate {
 
     }
 
+    override func viewWillDisappear(_ animated: Bool) {
+        super.viewWillDisappear(animated)
+       
+        if trainType == TRAIN_FREE && self.isMovingFromParent {
+            
+            ///
+            let body: [String : Any] = [ "action": "refund", "uuid": App.this.bookedTrain.uid, "email": App.this.userMail]
+            cancelTrain(body, completion: { json, response in
+                
+            })
+        }
+    }
+
     func showHoursCountSelector(completion: @escaping (_ count: Int) -> Void) {
         let message = "\n\n\n\n\n\n"
-        let alert = UIAlertController(title: "Выберите количество часов с тренером.", message: message,
-                                      preferredStyle: UIAlertController.Style.actionSheet)
-        alert.isModalInPopover = true
+        let alert = UIAlertController(title: "Выберите количество часов с тренером.",
+                                      message: message,
+                                      preferredStyle: .actionSheet)
 
         let pickerFrame = UIPickerView(frame: CGRect(x: 0, y: 60, width: self.view.bounds.width - 20, height: 140))
         pickerFrame.tag = 555
@@ -94,7 +107,7 @@ final class BookTrainVC: UIViewController, MenuDelegate {
         let cancelAction = UIAlertAction(title: "Отмена", style: .destructive, handler: nil)
         alert.addAction(cancelAction)
 
-        self.present(alert, animated: true, completion: nil)
+        self.present(alert, animated: true)
     }
 
     // MARK: - Data processing

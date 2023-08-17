@@ -178,17 +178,22 @@ func cancelTrain(_ body: [String : Any], completion: @escaping (_ json: JSON, _ 
 func reserve(isFirst: Bool, writeOff: Bool, completion: @escaping (_ json: JSON, _ response: DataResponse<Any>) -> Void) {
     
     let reserveJson = getBookingJson(first: isFirst, writeOff: writeOff)
+    print(reserveJson)
     
-    Alamofire.request("\(App.BASEURL)/reserve", method: .post, parameters: [:], encoding: reserveJson, headers: hdrs())
-        .responseJSON { response in
-            if let data = response.result.value {
-                print("--- /reserve: ", response)
-                completion(JSON(data), response)
-            }
-            else {
-                completion(JSON(), response)
-            }
+    Alamofire.request("\(App.BASEURL)/reserve",
+                      method: .post,
+                      parameters: [:],
+                      encoding: reserveJson,
+                      headers: hdrs())
+    .responseJSON { response in
+        if let data = response.result.value {
+            print("--- /reserve: ", response)
+            completion(JSON(data), response)
         }
+        else {
+            completion(JSON(), response)
+        }
+    }
 }
 
 func getSchedule(date: String, roomId: Int, completion: @escaping (_ json: [JSON]) -> Void) {
