@@ -6,7 +6,7 @@ import APESuperHUD
 import PhoneNumberKit
 import YandexMobileMetrica
 
-final class Init_0_PhoneVC: UIViewController {
+final class Init_0_PhoneVC: UIViewController, UITextFieldDelegate {
 
     // MARK: - IBOutlets
     @IBOutlet weak var phoneNumber: PhoneNumberTextField!
@@ -23,6 +23,7 @@ final class Init_0_PhoneVC: UIViewController {
         
         //self.phoneNumber.attributedPlaceholder = NSAttributedString(string: "+7 (___)___-____",
 //                                                                    attributes: [NSAttributedString.Key.foregroundColor: UIColor.red])
+        self.phoneNumber.delegate = self
         self.phoneNumber.withExamplePlaceholder = true
         self.phoneNumber.withPrefix = true
         self.phoneNumber.numberPlaceholderColor = UIColor.white.withAlphaComponent(0.34)
@@ -41,8 +42,48 @@ final class Init_0_PhoneVC: UIViewController {
         linkTextView.linkTextAttributes = linkAttributes
         linkTextView.attributedText = attributedString
     }
+    
+    // MARK: - UITextFieldDelegate
+    
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        self.view.endEditing(true)
 
-    // MARK: - IBActions
+        return false
+    }
+    
+    func textFieldShouldBeginEditing(_ textField: UITextField) -> Bool {
+        if textField == self.phoneNumber && self.phoneNumber.text!.count == 0 {
+            self.phoneNumber.text = "+7"
+        }
+
+        return true
+    }
+    
+    func textField(_ textField: UITextField, shouldChangeCharactersIn range: NSRange, replacementString string: String) -> Bool {
+        if textField == self.phoneNumber {
+            let isNumber = CharacterSet.decimalDigits.isSuperset(of: CharacterSet(charactersIn: string))
+            let withDecimal = (string == NumberFormatter().decimalSeparator &&
+                textField.text?.contains(string) == false)
+           
+            guard isNumber || withDecimal else {
+                return false
+            }
+            
+            if string == "." {
+                return false
+            }
+            
+            let fullString = (textField.text ?? "") + string
+            textField.text = PhoneFormatter.shared.formatTwo(phoneNumber: fullString, shouldRemoveLastDigit: range.length == 1)
+
+            return false
+        }
+        
+        return true
+    }
+
+    // MARK: - Actions
+    
     @IBAction func sendSMS(_ sender: Any) {
         if !agreementCheckBox.on {
             raiseAlert("Увы!", "Необходимо ваше согласие на обработку персональных данных.", "Понятно")

@@ -93,6 +93,7 @@
 		13F51ACE22238159006C3E60 /* OnboardingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13F51ACD22238159006C3E60 /* OnboardingVC.swift */; };
 		13F9037B223A4B870000DC79 /* Trains.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13F9037A223A4B870000DC79 /* Trains.swift */; };
 		13FDF0232838EBA8007937F6 /* ScheduledNotificationsViewController in Frameworks */ = {isa = PBXBuildFile; productRef = 13FDF0222838EBA8007937F6 /* ScheduledNotificationsViewController */; };
+		A8BE4EF52A94985000123CFB /* PhoneFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8BE4EF42A94985000123CFB /* PhoneFormatter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -206,6 +207,7 @@
 		13F51ACD22238159006C3E60 /* OnboardingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingVC.swift; sourceTree = "<group>"; };
 		13F9037A223A4B870000DC79 /* Trains.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trains.swift; sourceTree = "<group>"; };
 		52C7486585EDA2E058A6D36B /* Pods-Hoba-Fitness.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hoba-Fitness.release.xcconfig"; path = "Target Support Files/Pods-Hoba-Fitness/Pods-Hoba-Fitness.release.xcconfig"; sourceTree = "<group>"; };
+		A8BE4EF42A94985000123CFB /* PhoneFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneFormatter.swift; sourceTree = "<group>"; };
 		F49C064A396A2F40DE4766E0 /* Pods_Hoba_Fitness.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Hoba_Fitness.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -458,6 +460,7 @@
 				13957EC2222AB80A00454DE1 /* SelectRoomVC.swift */,
 				13E973DE220D7BB30001D3AD /* AppDelegate.swift */,
 				138874FE22608ACE009B8DF2 /* AboutVC.swift */,
+				A8BE4EF42A94985000123CFB /* PhoneFormatter.swift */,
 				13E973E5220D7BB50001D3AD /* Assets.xcassets */,
 				13E973E7220D7BB50001D3AD /* LaunchScreen.storyboard */,
 				13B4F82F222A80B000DCFF37 /* Tools.swift */,
@@ -814,6 +817,7 @@
 				131EFA13223BCED6005EEF5A /* EditProfileVC.swift in Sources */,
 				13A606392376E8A30018B686 /* LinkCardVC.swift in Sources */,
 				137E88052359AEBA005A7FA0 /* Arcs.swift in Sources */,
+				A8BE4EF52A94985000123CFB /* PhoneFormatter.swift in Sources */,
 				1340C59D2226B6B400D9721A /* UIColor.swift in Sources */,
 				135F997E22263C11005A6B57 /* UIViewController.swift in Sources */,
 				13E0151B22301E07003E42C1 /* ScheduleVC.swift in Sources */,
@@ -1045,7 +1049,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = "Hoba-Fitness/Hoba-Fitness.entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 3;
+				CURRENT_PROJECT_VERSION = 4;
 				DEVELOPMENT_TEAM = GMQ8P83Z92;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1073,7 +1077,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = "Hoba-Fitness/Hoba-Fitness.entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 3;
+				CURRENT_PROJECT_VERSION = 4;
 				DEVELOPMENT_TEAM = GMQ8P83Z92;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
